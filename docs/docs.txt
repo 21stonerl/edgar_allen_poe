@@ -1,0 +1,1 @@
+docs   (all web assets, including your html, css, and javascript must live here, plus your images folder)
