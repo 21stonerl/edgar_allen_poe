@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<story>
+<?xml-model href="../documentation/schemaLS.rnc" type="application/relax-ng-compact-syntax"?>
+<story n="10">
     <info>
         <title>Manuscript Found in a Bottle</title>
         <author>by Edgar Allan Poe</author>
         <year>(published 1833)</year>
-        <tone type="mysterious"/>
-        <theme type="The Terrifying Power of Nature"/>
+        <theme type="regret"/>
     </info>
-    <paragraph>OF my country and of my family I have little to say. Ill usage and length of years
+    <paragraph n="1">OF my country and of my family I have little to say. Ill usage and length of years
         have driven me from the one, and estranged me from the other. Hereditary wealth afforded me
         an education of no common order, and a contemplative turn of mind enabled me to methodize
         the stores which early study very diligently garnered up. Beyond all things the works of the
@@ -24,17 +24,17 @@
         considered rather the raving of a crude imagination, than the positive experience of a mind
         to which the reveries of fancy have been a dead letter and a nullity.</paragraph>
 
-    <paragraph>After many years spent in foreign travel, I sailed in the year 18-- , from the port
+    <paragraph n="2">After many years spent in foreign travel, I sailed in the year 18-- , from the port
         of Batavia, in the rich and populous island of Java, on a voyage to the Archipelago of the
         Sunda islands. I went as passenger --having no other inducement than a kind of nervous
         restlessness which haunted me like a fiend.</paragraph>
 
-    <paragraph>Our vessel was a beautiful ship of about four hundred tons, copper-fastened, and
+    <paragraph n="3">Our vessel was a beautiful ship of about four hundred tons, copper-fastened, and
         built at Bombay of Malabar teak. She was freighted with cotton-wool and oil, from the
         Lachadive islands. We had also on board coir, jaggeree, ghee, cocoa-nuts, and a few cases of
         opium. The stowage was clumsily done, and the vessel consequently crank.</paragraph>
 
-    <paragraph>We got under way with a mere breath of wind, and for many days stood along the
+    <paragraph n="4">We got under way with a mere breath of wind, and for many days stood along the
         eastern coast of Java, without any other incident to beguile the monotony of our course than
         the occasional meeting with some of the small grabs of the Archipelago to which we were
         bound. One evening, leaning over the taffrail, I observed a very singular, isolated cloud,
@@ -64,12 +64,12 @@
         beam-ends, and, rushing over us fore and aft, swept the entire decks from stem to
         stern.</paragraph>
 
-    <paragraph>The extreme fury of the blast proved in a great measure the salvation of the ship.
+    <paragraph n="5">The extreme fury of the blast proved in a great measure the salvation of the ship.
         Although completely water-logged, yet, as all her masts had gone by the board, she rose,
         after a minute, heavily from the sea, and, staggering awhile beneath the immense pressure of
         the tempest, finally righted.</paragraph>
 
-    <paragraph>By what miracle I escaped destruction, it is impossible to say. Stunned by the shock
+    <paragraph n="6">By what miracle I escaped destruction, it is impossible to say. Stunned by the shock
         of the water, I found myself, upon recovery, jammed in between the stern-post and rudder.
         With great difficulty I gained my feet, and looking dizzily around, was, at first, struck
         with the idea of our being among breakers, so terrific beyond the wildest imagination was
@@ -106,7 +106,7 @@
         suddenly went out, as if hurriedly extinguished by some unaccountable power. It was a dim,
         silver-like rim, alone, as it rushed down the unfathomable ocean.</paragraph>
 
-    <paragraph>We waited in vain for the arrival of the sixth day --that day to me has not arrived
+    <paragraph n="7">We waited in vain for the arrival of the sixth day --that day to me has not arrived
         --to the Swede, never did arrive. Thenceforward we were enshrouded in pitchy darkness, so
         that we could not have seen an object at twenty paces from the ship. Eternal night continued
         to envelop us, all unrelieved by the phosphoric sea-brilliancy to which we had been
@@ -131,7 +131,7 @@
         some watery hell, where the air grew stagnant, and no sound disturbed the slumbers of the
         Kraken.</paragraph>
 
-    <paragraph>We were at the bottom of one of these abysses, when a quick scream from my companion
+    <paragraph n="8">We were at the bottom of one of these abysses, when a quick scream from my companion
         broke fearfully upon the night. <quote>"See! see!"</quote> --cried he, shrieking in my ears,
         -- <quote>"Almighty God! see! see!"</quote> As he spoke, I became aware of a dull, sullen
         glare of red light which streamed down the sides of the vast chasm where we lay, and threw a
@@ -150,14 +150,14 @@
         moment of intense terror she paused upon the giddy pinnacle, as if in contemplation of her
         own sublimity, then trembled and tottered, and --came down.</paragraph>
 
-    <paragraph>At this instant, I know not what sudden self-possession came over my spirit.
+    <paragraph n="9">At this instant, I know not what sudden self-possession came over my spirit.
         Staggering as far aft as I could, I awaited fearlessly the ruin that was to overwhelm. Our
         own vessel was at length ceasing from her struggles, and sinking with her head to the sea.
         The shock of the descending mass struck her, consequently, in that portion of her frame
         which was already under water, and the inevitable result was to hurl me with irresistible
         violence upon the rigging of the stranger.</paragraph>
 
-    <paragraph>As I fell, the ship hove in stays, and went about, and to the confusion ensuing I
+    <paragraph n="10">As I fell, the ship hove in stays, and went about, and to the confusion ensuing I
         attributed my escape from the notice of the <character>crew</character>. With little
         difficulty I made my way unperceived to the main hatchway, which was partially open, and
         soon found an opportunity of secreting myself in the hold. Why I did so I can hardly tell. A
@@ -169,7 +169,7 @@
         such a manner as to afford me a convenient retreat between the huge timbers of the
         ship.</paragraph>
 
-    <paragraph>I had scarcely completed my work, when a footstep in the hold forced me to make use
+    <paragraph n="11">I had scarcely completed my work, when a footstep in the hold forced me to make use
         of it. A man passed by my place of concealment with a feeble and unsteady gait. I could not
         see his face, but had an opportunity of observing his general appearance. There was about it
         an evidence of great age and infirmity. His knees tottered beneath a load of years, and his
@@ -179,9 +179,9 @@
         mixture of the peevishness of second childhood, and the solemn dignity of a god. He at
         length went on deck, and I saw him no more.</paragraph>
 
-    <paragraph>* * * * * *</paragraph>
+    
 
-    <paragraph>A feeling, for which I have no name, has taken possession of my soul -- a sensation
+    <paragraph n="12">A feeling, for which I have no name, has taken possession of my soul -- a sensation
         which will admit of no analysis, to which the lessons of by-gone time are inadequate, and
         for which I fear futurity itself will offer me no key. To a mind constituted like my own the
         latter consideration is an evil. I shall never, -- I know that I shall never -- be satisfied
@@ -189,7 +189,7 @@
         are indefinite, since they have their origin in sources so utterly novel. A new sense, a new
         entity is added to my soul.</paragraph>
 
-    <paragraph>It is long since I first trod the deck of this terrible ship, and the rays of my
+    <paragraph n="13">It is long since I first trod the deck of this terrible ship, and the rays of my
         destiny are, I think, gathering to a focus. Incomprehensible men! Wrapped up in meditations
         of a kind which I cannot divine, they pass me by unnoticed. Concealment is utter folly on my
         part, for the people will not see. It was but just now that I passed directly before the
@@ -199,7 +199,7 @@
         opportunity of transmitting it to the world, but I will not fail to make the endeavor. At
         the last moment I will enclose the MS. in a bottle, and cast it within the sea.</paragraph>
 
-    <paragraph>An incident has occurred which has given me new room for meditation. Are such things
+    <paragraph n="14">An incident has occurred which has given me new room for meditation. Are such things
         the operations of ungoverned Chance? I had ventured upon deck and thrown myself down,
         without attracting any notice, among a pile of ratlin-stuff and old sails in the bottom of
         the yawl. While musing upon the singularity of my fate, I unwittingly daubed with a
@@ -207,7 +207,7 @@
         studding-sail is now bent upon the ship, and the thoughtless touches of the brush are spread
         out into the word DISCOVERY.</paragraph>
 
-    <paragraph>I have made many observations lately upon the structure of the vessel. Although well
+    <paragraph n="15">I have made many observations lately upon the structure of the vessel. Although well
         armed, she is not, I think, a ship of war. Her rigging, build, and general equipment, all
         negative a supposition of this kind. What she is not I can easily perceive, what she is I
         fear it is impossible to say. I know not how it is, but in scrutinizing her strange model
@@ -216,7 +216,7 @@
         familiar things, and there is always mixed up with such indistinct shadows of recollection,
         an unaccountable memory of old foreign chronicles and ages long ago.</paragraph>
 
-    <paragraph>I have been looking at the timbers of the ship. She is built of a material to which I
+    <paragraph n="16">I have been looking at the timbers of the ship. She is built of a material to which I
         am a stranger. There is a peculiar character about the wood which strikes me as rendering it
         unfit for the purpose to which it has been applied. I mean its extreme porousness,
         considered independently of the wormeaten condition which is a consequence of navigation in
@@ -224,13 +224,13 @@
         observation somewhat over-curious, but this wood has every characteristic of Spanish oak, if
         Spanish oak were distended or swelled by any unnatural means.</paragraph>
 
-    <paragraph>In reading the above sentence a curious apothegm of an old weather-beaten Dutch
+    <paragraph n="17">In reading the above sentence a curious apothegm of an old weather-beaten Dutch
         navigator comes full upon my recollection.<quote> "It is as sure,"</quote> he was wont to
         say, when any doubt was entertained of his veracity, <quote>"as sure as there is a sea where
             the ship itself will grow in bulk like the living body of the
         seaman."</quote></paragraph>
 
-    <paragraph>About an hour ago, I made bold to thrust myself among a group of the
+    <paragraph n="18">About an hour ago, I made bold to thrust myself among a group of the
             <character>crew</character>. They paid me no manner of attention, and, although I stood
         in the very midst of them all, seemed utterly unconscious of my presence. Like the one I had
         at first seen in the hold, they all bore about them the marks of a hoary old age. Their
@@ -240,7 +240,7 @@
         tempest. Around them on every part of the deck lay scattered mathematical instruments of the
         most quaint and obsolete construction.</paragraph>
 
-    <paragraph>I mentioned some time ago the bending of a studding-sail. From that period the ship,
+    <paragraph n="19">I mentioned some time ago the bending of a studding-sail. From that period the ship,
         being thrown dead off the wind, has held her terrific course due south, with every rag of
         canvass packed upon her from her trucks to her lower-studding-sail booms, and rolling every
         moment her top-gallant yard-arms into the most appalling hell of water which it can enter
@@ -256,7 +256,7 @@
         the ship to be within the influence of some strong current, or impetuous
         under-tow.</paragraph>
 
-    <paragraph>I have seen the <character>captain</character> face to face, and in his own cabin --
+    <paragraph n="20">I have seen the <character>captain</character> face to face, and in his own cabin --
         but, as I expected, he paid me no attention. Although in his appearance there is, to a
         casual observer, nothing which might bespeak him more or less than man --still a feeling of
         irrepressible reverence and awe mingled with the sensation of wonder with which I regarded
@@ -274,14 +274,14 @@
         peevish syllables of a foreign tongue, and although the speaker was close at my elbow, yet
         his voice seemed to reach my ears from the distance of a mile.</paragraph>
 
-    <paragraph>The ship and all in it are imbued with the spirit of Eld. The
+    <paragraph n="21">The ship and all in it are imbued with the spirit of Eld. The
             <character>crew</character> glide to and fro like the ghosts of buried centuries, their
         eyes have an eager and uneasy meaning, and when their figures fall athwart my path in the
         wild glare of the battle-latterns, I feel as I have never felt before, although I have been
         all my life a dealer in antiquities, and have imbibed the shadows of fallen columns at
         Balbec, and Tadmor, and Persepolis, until my very soul has become a ruin.</paragraph>
 
-    <paragraph>When I look around me I feel ashamed of my former apprehensions. If I trembled at the
+    <paragraph n="22">When I look around me I feel ashamed of my former apprehensions. If I trembled at the
         blast which has hitherto attended us, shall I not stand aghast at a warring of wind and
         ocean, to convey any idea of which the words tornado and simoom are trivial and ineffective!
         All in the immediate vicinity of the ship is the blackness of eternal night, and a chaos of
@@ -289,11 +289,11 @@
         intervals, stupendous ramparts of ice, towering away into the desolate sky, and looking like
         the walls of the universe.</paragraph>
 
-    <paragraph>As I imagined, the ship proves to be in a current; if that appellation can properly
+    <paragraph n="23">As I imagined, the ship proves to be in a current; if that appellation can properly
         be given to a tide which, howling and shrieking by the white ice, thunders on to the
         southward with a velocity like the headlong dashing of a cataract.</paragraph>
 
-    <paragraph>To conceive the horror of my sensations is, I presume, utterly impossible --yet a
+    <paragraph n="24">To conceive the horror of my sensations is, I presume, utterly impossible --yet a
         curiosity to penetrate the mysteries of these awful regions predominates even over my
         despair, and will reconcile me to the most hideous aspect of death. It is evident that we
         are hurrying onwards to some exciting knowledge --some never-to-be-imparted secret, whose
@@ -301,11 +301,11 @@
         must be confessed that a supposition apparently so wild has every probability in its
         favor.</paragraph>
 
-    <paragraph>The <character>crew</character> pace the deck with unquiet and tremulous step, but
+    <paragraph n="25">The <character>crew</character> pace the deck with unquiet and tremulous step, but
         there is upon their countenances an expression more of the eagerness of hope than of the
         apathy of despair.</paragraph>
 
-    <paragraph>In the meantime the wind is still in our poop, and as we carry a crowd of canvass,
+    <paragraph n="26">In the meantime the wind is still in our poop, and as we carry a crowd of canvass,
         the ship is at times lifted bodily from out the sea --Oh, horror upon horror! the ice opens
         suddenly to the right, and to the left, and we are whirling dizzily, in immense concentric
         circles, round and round the borders of a gigantic amphitheatre, the summit of whose walls

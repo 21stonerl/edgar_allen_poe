@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<story>
+<?xml-model href="../documentation/schemaLS.rnc" type="application/relax-ng-compact-syntax"?>
+<story n="12">
     <info><title>Never Bet the Devil Your Head</title>
         <author>by Edgar Allan Poe</author>
         <year>(published 1850)</year>
-    </info> A TALE WITH A MORAL <paragraph><quote>"CON tal que las costumbres de un autor,"</quote>
-        says Don Thomas de las Torres, in the preface to his <quote>"Amatory Poems"</quote>
+        <theme type="obsession"/>
+    </info>
+    <paragraph n="1"><quote>"CON tal que las costumbres de un autor,"</quote> says Don Thomas de las
+        Torres, in the preface to his <quote>"Amatory Poems"</quote>
         <quote>"sean puras y castas, importo muy poco que no sean igualmente severas sus
             obras"</quote> -- meaning, in plain English, that, provided the morals of an author are
         pure personally, it signifies nothing what are the morals of his books. We presume that Don
@@ -28,7 +31,7 @@
         the <quote>"Dial,</quote>" or the <quote>"Down-Easter,"</quote> together with all that he
         ought to have intended, and the rest that he clearly meant to intend: -- so that it will all
         come very straight in the end.</paragraph>
-    <paragraph>There is no just ground, therefore, for the charge brought against me by certain
+    <paragraph n="2">There is no just ground, therefore, for the charge brought against me by certain
         ignoramuses -- that I have never written a moral tale, or, in more precise words, a tale
         with a moral. They are not the critics predestined to bring me out, and develop my morals:
         -- that is the secret. By and by the <quote> "North American Quarterly Humdrum" </quote>
@@ -39,77 +42,79 @@
         this arrangement -- a far wiser one than that of La Fontaine and others, who reserve the
         impression to be conveyed until the last moment, and thus sneak it in at the fag end of
         their fables.</paragraph>
-    <paragraph>Defuncti injuria ne afficiantur was a law of the twelve tables, and De mortuis nil
+    <paragraph n="3">Defuncti injuria ne afficiantur was a law of the twelve tables, and De mortuis nil
         nisi bonum is an excellent injunction -- even if the dead in question be nothing but dead
-        small beer. It is not my design, therefore, to vituperate my deceased friend, Toby Dammit.
-        He was a sad dog, it is true, and a dog's death it was that he died; but he himself was not
-        to blame for his vices. They grew out of a personal defect in his mother. She did her best
-        in the way of flogging him while an infant -- for duties to her well -- regulated mind were
-        always pleasures, and babies, like tough steaks, or the modern Greek olive trees, are
-        invariably the better for beating -- but, poor woman! she had the misfortune to be
-        left-handed, and a child flogged left-handedly had better be left unflogged. The world
-        revolves from right to left. It will not do to whip a baby from left to right. If each blow
-        in the proper direction drives an evil propensity out, it follows that every thump in an
-        opposite one knocks its quota of wickedness in. I was often present at Toby's chastisements,
-        and, even by the way in which he kicked, I could perceive that he was getting worse and
-        worse every day. At last I saw, through the tears in my eyes, that there was no hope of the
-        villain at all, and one day when he had been cuffed until he grew so black in the face that
-        one might have mistaken him for a little African, and no effect had been produced beyond
-        that of making him wriggle himself into a fit, I could stand it no longer, but went down
-        upon my knees forthwith, and, uplifting my voice, made prophecy of his ruin.</paragraph>
-    <paragraph>The fact is that his precocity in vice was awful. At five months of age he used to
+        small beer. It is not my design, therefore, to vituperate my deceased friend,
+            <character>Toby Dammit</character>. He was a sad dog, it is true, and a dog's death it
+        was that he died; but he himself was not to blame for his vices. They grew out of a personal
+        defect in his mother. She did her best in the way of flogging him while an infant -- for
+        duties to her well -- regulated mind were always pleasures, and babies, like tough steaks,
+        or the modern Greek olive trees, are invariably the better for beating -- but, poor woman!
+        she had the misfortune to be left-handed, and a child flogged left-handedly had better be
+        left unflogged. The world revolves from right to left. It will not do to whip a baby from
+        left to right. If each blow in the proper direction drives an evil propensity out, it
+        follows that every thump in an opposite one knocks its quota of wickedness in. I was often
+        present at Toby's chastisements, and, even by the way in which he kicked, I could perceive
+        that he was getting worse and worse every day. At last I saw, through the tears in my eyes,
+        that there was no hope of the villain at all, and one day when he had been cuffed until he
+        grew so black in the face that one might have mistaken him for a little African, and no
+        effect had been produced beyond that of making him wriggle himself into a fit, I could stand
+        it no longer, but went down upon my knees forthwith, and, uplifting my voice, made prophecy
+        of his ruin.</paragraph>
+    <paragraph n="4">The fact is that his precocity in vice was awful. At five months of age he used to
         get into such passions that he was unable to articulate. At six months, I caught him gnawing
         a pack of cards. At seven months he was in the constant habit of catching and kissing the
         female babies. At eight months he peremptorily refused to put his signature to the
         Temperance pledge. Thus he went on increasing in iniquity, month after month, until, at the
         close of the first year, he not only insisted upon wearing moustaches, but had contracted a
         propensity for cursing and swearing, and for backing his assertions by bets.</paragraph>
-    <paragraph>Through this latter most ungentlemanly practice, the ruin which I had predicted to
-        Toby Dammit overtook him at last. The fashion had <quote>"grown with his growth and
-            strengthened with his strength,"</quote> so that, when he came to be a man, he could
-        scarcely utter a sentence without interlarding it with a proposition to gamble. Not that he
-        actually laid wagers -- no. I will do my friend the justice to say that he would as soon
-        have laid eggs. With him the thing was a mere formula -- nothing more. His expressions on
-        this head had no meaning attached to them whatever. They were simple if not altogether
-        innocent expletives -- imaginative phrases wherewith to round off a sentence. When he said
-            <quote>"I'll bet you so and so,"</quote> nobody ever thought of taking him up; but still
-        I could not help thinking it my duty to put him down. The habit was an immoral one, and so I
-        told him. It was a vulgar one- this I begged him to believe. It was discountenanced by
-        society -- here I said nothing but the truth. It was forbidden by act of Congress -- here I
-        had not the slightest intention of telling a lie. I remonstrated -- but to no purpose. I
-        demonstrated -- in vain. I entreated -- he smiled. I implored -- he laughed. I preached- he
-        sneered. I threatened -- he swore. I kicked him -- he called for the police. I pulled his
-        nose -- he blew it, and offered to bet the Devil his head that I would not venture to try
-        that experiment again.</paragraph>
-    <paragraph>Poverty was another vice which the peculiar physical deficiency of Dammit's mother
+    <paragraph n="5">Through this latter most ungentlemanly practice, the ruin which I had predicted to
+            <character>Toby Dammit</character> overtook him at last. The fashion had <quote>"grown
+            with his growth and strengthened with his strength,"</quote> so that, when he came to be
+        a man, he could scarcely utter a sentence without interlarding it with a proposition to
+        gamble. Not that he actually laid wagers -- no. I will do my friend the justice to say that
+        he would as soon have laid eggs. With him the thing was a mere formula -- nothing more. His
+        expressions on this head had no meaning attached to them whatever. They were simple if not
+        altogether innocent expletives -- imaginative phrases wherewith to round off a sentence.
+        When he said <quote>"I'll bet you so and so,"</quote> nobody ever thought of taking him up;
+        but still I could not help thinking it my duty to put him down. The habit was an immoral
+        one, and so I told him. It was a vulgar one- this I begged him to believe. It was
+        discountenanced by society -- here I said nothing but the truth. It was forbidden by act of
+        Congress -- here I had not the slightest intention of telling a lie. I remonstrated -- but
+        to no purpose. I demonstrated -- in vain. I entreated -- he smiled. I implored -- he
+        laughed. I preached- he sneered. I threatened -- he swore. I kicked him -- he called for the
+        police. I pulled his nose -- he blew it, and offered to bet the <character>Devil</character>
+        his head that I would not venture to try that experiment again.</paragraph>
+    <paragraph n="6">Poverty was another vice which the peculiar physical deficiency of Dammit's mother
         had entailed upon her son. He was detestably poor, and this was the reason, no doubt, that
         his expletive expressions about betting, seldom took a pecuniary turn. I will not be bound
         to say that I ever heard him make use of such a figure of speech as <quote>"I'll bet you a
             dollar."</quote> It was usually <quote>"I'll bet you what you please,"</quote> or
             <quote>"I'll bet you what you dare,"</quote> or <quote>"I'll bet you a trifle,"</quote>
-        or else, more significantly still, <quote>"I'll bet the Devil my head."</quote></paragraph>
-    <paragraph>This latter form seemed to please him best; -- perhaps because it involved the least
+        or else, more significantly still, <quote>"I'll bet the <character>Devil</character> my
+            head."</quote></paragraph>
+    <paragraph n="7">This latter form seemed to please him best; -- perhaps because it involved the least
         risk; for Dammit had become excessively parsimonious. Had any one taken him up, his head was
         small, and thus his loss would have been small too. But these are my own reflections and I
         am by no means sure that I am right in attributing them to him. At all events the phrase in
         question grew daily in favor, notwithstanding the gross impropriety of a man betting his
         brains like bank-notes: -- but this was a point which my friend's perversity of disposition
         would not permit him to comprehend. In the end, he abandoned all other forms of wager, and
-        gave himself up to <quote>"I'll bet the Devil my head,"</quote> with a pertinacity and
-        exclusiveness of devotion that displeased not less than it surprised me. I am always
-        displeased by circumstances for which I cannot account. Mysteries force a man to think, and
-        so injure his health. The truth is, there was something in the air with which Mr. Dammit was
-        wont to give utterance to his offensive expression -- something in his manner of enunciation
-        -- which at first interested, and afterwards made me very uneasy -- something which, for
-        want of a more definite term at present, I must be permitted to call queer; but which Mr.
-        Coleridge would have called mystical, Mr. Kant pantheistical, Mr. Carlyle twistical, and Mr.
-        Emerson hyperquizzitistical. I began not to like it at all. Mr. Dammits soul was in a
-        perilous state. I resolved to bring all my eloquence into play to save it. I vowed to serve
-        him as St. Patrick, in the Irish chronicle, is said to have served the toad, -- that is to
-        say, <quote>"awaken him to a sense of his situation."</quote> I addressed myself to the task
-        forthwith. Once more I betook myself to remonstrance. Again I collected my energies for a
-        final attempt at expostulation.</paragraph>
-    <paragraph>When I had made an end of my lecture, Mr. Dammit indulged himself in some very
+        gave himself up to <quote>"I'll bet the <character>Devil</character> my head,"</quote> with
+        a pertinacity and exclusiveness of devotion that displeased not less than it surprised me. I
+        am always displeased by circumstances for which I cannot account. Mysteries force a man to
+        think, and so injure his health. The truth is, there was something in the air with which Mr.
+        Dammit was wont to give utterance to his offensive expression -- something in his manner of
+        enunciation -- which at first interested, and afterwards made me very uneasy -- something
+        which, for want of a more definite term at present, I must be permitted to call queer; but
+        which Mr. Coleridge would have called mystical, Mr. Kant pantheistical, Mr. Carlyle
+        twistical, and Mr. Emerson hyperquizzitistical. I began not to like it at all. Mr. Dammits
+        soul was in a perilous state. I resolved to bring all my eloquence into play to save it. I
+        vowed to serve him as St. Patrick, in the Irish chronicle, is said to have served the toad,
+        -- that is to say, <quote>"awaken him to a sense of his situation."</quote> I addressed
+        myself to the task forthwith. Once more I betook myself to remonstrance. Again I collected
+        my energies for a final attempt at expostulation.</paragraph>
+    <paragraph n="8">When I had made an end of my lecture, Mr. Dammit indulged himself in some very
         equivocal behavior. For some moments he remained silent, merely looking me inquisitively in
         the face. But presently he threw his head to one side, and elevated his eyebrows to a great
         extent. Then he spread out the palms of his hands and shrugged up his shoulders. Then he
@@ -118,21 +123,21 @@
         for the consequences. Then, applying his thumb to his nose, he thought proper to make an
         indescribable movement with the rest of his fingers. Finally, setting his arms a-kimbo, he
         condescended to reply.</paragraph>
-    <paragraph>I can call to mind only the beads of his discourse. He would be obliged to me if I
+    <paragraph n="9">I can call to mind only the beads of his discourse. He would be obliged to me if I
         would hold my tongue. He wished none of my advice. He despised all my insinuations. He was
         old enough to take care of himself. Did I still think him baby Dammit? Did I mean to say any
         thing against his character? Did I intend to insult him? Was I a fool? Was my maternal
         parent aware, in a word, of my absence from the domiciliary residence? He would put this
         latter question to me as to a man of veracity, and he would bind himself to abide by my
         reply. Once more he would demand explicitly if my mother knew that I was out. My confusion,
-        he said, betrayed me, and he would be willing to bet the Devil his head that she did
-        not.</paragraph>
-    <paragraph>Mr. Dammit did not pause for my rejoinder. Turning upon his heel, he left my presence
+        he said, betrayed me, and he would be willing to bet the <character>Devil</character> his
+        head that she did not.</paragraph>
+    <paragraph n="10">Mr. Dammit did not pause for my rejoinder. Turning upon his heel, he left my presence
         with undignified precipitation. It was well for him that he did so. My feelings had been
         wounded. Even my anger had been aroused. For once I would have taken him up upon his
         insulting wager. I would have won for the Arch-Enemy Mr. Dammit's little head -- for the
         fact is, my mamma was very well aware of my merely temporary absence from home.</paragraph>
-    <paragraph>But Khoda shefa midehed -- Heaven gives relief -- as the Mussulmans say when you
+    <paragraph n="11">But Khoda shefa midehed -- Heaven gives relief -- as the Mussulmans say when you
         tread upon their toes. It was in pursuance of my duty that I had been insulted, and I bore
         the insult like a man. It now seemed to me, however, that I had done all that could be
         required of me, in the case of this miserable individual, and I resolved to trouble him no
@@ -140,34 +145,34 @@
         forebore to intrude with my advice, I could not bring myself to give up his society
         altogether. I even went so far as to humor some of his less reprehensible propensities; and
         there were times when I found myself lauding his wicked jokes, as epicures do mustard, with
-        tears in my eyes: -- so profoundly did it grieve me to hear his evil talk.</paragraph> * * *
-    * * * * <paragraph>One fine day, having strolled out together, arm in arm, our route led us in
+        tears in my eyes: -- so profoundly did it grieve me to hear his evil talk.</paragraph> 
+    <paragraph n="12">One fine day, having strolled out together, arm in arm, our route led us in
         the direction of a river. There was a bridge, and we resolved to cross it. It was roofed
         over, by way of protection from the weather, and the archway, having but few windows, was
         thus very uncomfortably dark. As we entered the passage, the contrast between the external
         glare and the interior gloom struck heavily upon my spirits. Not so upon those of the
-        unhappy Dammit, who offered to bet the Devil his head that I was hipped. He seemed to be in
-        an unusual good humor. He was excessively lively -- so much so that I entertained I know not
-        what of uneasy suspicion. It is not impossible that he was affected with the
-        transcendentals. I am not well enough versed, however, in the diagnosis of this disease to
-        speak with decision upon the point; and unhappily there were none of my friends of the
-            <quote> "Dial" </quote> present. I suggest the idea, nevertheless, because of a certain
-        species of austere Merry-Andrewism which seemed to beset my poor friend, and caused him to
-        make quite a Tom-Fool of himself. Nothing would serve him but wriggling and skipping about
-        under and over every thing that came in his way; now shouting out, and now lisping out, all
-        manner of odd little and big words, yet preserving the gravest face in the world all the
-        time. I really could not make up my mind whether to kick or to pity him. At length, having
-        passed nearly across the bridge, we approached the termination of the footway, when our
-        progress was impeded by a turnstile of some height. Through this I made my way quietly,
-        pushing it around as usual. But this turn would not serve the turn of Mr. Dammit. He
-        insisted upon leaping the stile, and said he could cut a pigeon-wing over it in the air. Now
-        this, conscientiously speaking, I did not think he could do. The best pigeon-winger over all
-        kinds of style was my friend Mr. Carlyle, and as I knew he could not do it, I would not
-        believe that it could be done by Toby Dammit. I therefore told him, in so many words, that
-        he was a braggadocio, and could not do what he said. For this I had reason to be sorry
-        afterward; -- for he straightway offered to bet the Devil his head that he
-        could.</paragraph>
-    <paragraph>I was about to reply, notwithstanding my previous resolutions, with some remonstrance
+        unhappy Dammit, who offered to bet the <character>Devil</character> his head that I was
+        hipped. He seemed to be in an unusual good humor. He was excessively lively -- so much so
+        that I entertained I know not what of uneasy suspicion. It is not impossible that he was
+        affected with the transcendentals. I am not well enough versed, however, in the diagnosis of
+        this disease to speak with decision upon the point; and unhappily there were none of my
+        friends of the <quote> "Dial" </quote> present. I suggest the idea, nevertheless, because of
+        a certain species of austere Merry-Andrewism which seemed to beset my poor friend, and
+        caused him to make quite a Tom-Fool of himself. Nothing would serve him but wriggling and
+        skipping about under and over every thing that came in his way; now shouting out, and now
+        lisping out, all manner of odd little and big words, yet preserving the gravest face in the
+        world all the time. I really could not make up my mind whether to kick or to pity him. At
+        length, having passed nearly across the bridge, we approached the termination of the
+        footway, when our progress was impeded by a turnstile of some height. Through this I made my
+        way quietly, pushing it around as usual. But this turn would not serve the turn of Mr.
+        Dammit. He insisted upon leaping the stile, and said he could cut a pigeon-wing over it in
+        the air. Now this, conscientiously speaking, I did not think he could do. The best
+        pigeon-winger over all kinds of style was my friend Mr. Carlyle, and as I knew he could not
+        do it, I would not believe that it could be done by <character>Toby Dammit</character>. I
+        therefore told him, in so many words, that he was a braggadocio, and could not do what he
+        said. For this I had reason to be sorry afterward; -- for he straightway offered to bet the
+            <character>Devil</character> his head that he could.</paragraph>
+    <paragraph n="13">I was about to reply, notwithstanding my previous resolutions, with some remonstrance
         against his impiety, when I heard, close at my elbow, a slight cough, which sounded very
         much like the ejaculation <quote> "ahem!" </quote> I started, and looked about me in
         surprise. My glance at length fell into a nook of the frame -- work of the bridge, and upon
@@ -176,53 +181,53 @@
         shirt was perfectly clean and the collar turned very neatly down over a white cravat, while
         his hair was parted in front like a girl's. His hands were clasped pensively together over
         his stomach, and his two eyes were carefully rolled up into the top of his head.</paragraph>
-    <paragraph>Upon observing him more closely, I perceived that he wore a black silk apron over his
+    <paragraph n="14">Upon observing him more closely, I perceived that he wore a black silk apron over his
         small-clothes; and this was a thing which I thought very odd. Before I had time to make any
         remark, however, upon so singular a circumstance, he interrupted me with a second
         "ahem!"</paragraph>
-    <paragraph>To this observation I was not immediately prepared to reply. The fact is, remarks of
+    <paragraph n="15">To this observation I was not immediately prepared to reply. The fact is, remarks of
         this laconic nature are nearly unanswerable. I have known a Quarterly Review non-plussed by
         the word <quote> "Fudge!" </quote> I am not ashamed to say, therefore, that I turned to Mr.
         Dammit for assistance.</paragraph>
-    <paragraph><quote>"Dammit,"</quote> said I,<quote> "what are you about? don't you hear? -- the
+    <paragraph n="16"><quote>"Dammit,"</quote> said I,<quote> "what are you about? don't you hear? -- the
             gentleman says 'ahem!'" </quote>I looked sternly at my friend while I thus addressed
         him; for, to say the truth, I felt particularly puzzled, and when a man is particularly
         puzzled he must knit his brows and look savage, or else he is pretty sure to look like a
         fool.</paragraph>
-    <paragraph><quote>"Dammit,"</quote> observed I -- although this sounded very much like an oath,
+    <paragraph n="17"><quote>"Dammit,"</quote> observed I -- although this sounded very much like an oath,
         than which nothing was further from my thoughts -- "Dammit," I suggested -- "the gentleman
         says 'ahem!'"</paragraph>
-    <paragraph>I do not attempt to defend my remark on the score of profundity; I did not think it
+    <paragraph n ="18">I do not attempt to defend my remark on the score of profundity; I did not think it
         profound myself; but I have noticed that the effect of our speeches is not always
         proportionate with their importance in our own eyes; and if I had shot Mr. D. through and
         through with a Paixhan bomb, or knocked him in the head with the "Poets and Poetry of
         America," he could hardly have been more discomfited than when I addressed him with those
         simple words: "Dammit, what are you about?- don't you hear? -- the gentleman says
         'ahem!'"</paragraph>
-    <paragraph>"You don't say so?" gasped he at length, after turning more colors than a pirate runs
+    <paragraph n="19">"You don't say so?" gasped he at length, after turning more colors than a pirate runs
         up, one after the other, when chased by a man-of-war. "Are you quite sure he said that?
         Well, at all events I am in for it now, and may as well put a bold face upon the matter.
         Here goes, then -- ahem!"</paragraph>
-    <paragraph>At this the little old gentleman seemed pleased -- God only knows why. He left his
+    <paragraph n="20">At this the little old gentleman seemed pleased -- God only knows why. He left his
         station at the nook of the bridge, limped forward with a gracious air, took Dammit by the
         hand and shook it cordially, looking all the while straight up in his face with an air of
         the most unadulterated benignity which it is possible for the mind of man to
         imagine.</paragraph>
-    <paragraph>"I am quite sure you will win it, Dammit," said he, with the frankest of all smiles,
+    <paragraph n="21">"I am quite sure you will win it, Dammit," said he, with the frankest of all smiles,
         "but we are obliged to have a trial, you know, for the sake of mere form."</paragraph>
-    <paragraph>"Ahem!" replied my friend, taking off his coat, with a deep sigh, tying a
+    <paragraph n="22">"Ahem!" replied my friend, taking off his coat, with a deep sigh, tying a
         pocket-handkerchief around his waist, and producing an unaccountable alteration in his
         countenance by twisting up his eyes and bringing down the corners of his mouth -- "ahem!"
         And "ahem!" said he again, after a pause; and not another word more than "ahem!" did I ever
         know him to say after that. "Aha!" thought I, without expressing myself aloud -- "this is
-        quite a remarkable silence on the part of Toby Dammit, and is no doubt a consequence of his
-        verbosity upon a previous occasion. One extreme induces another. I wonder if he has
-        forgotten the many unanswerable questions which he propounded to me so fluently on the day
-        when I gave him my last lecture? At all events, he is cured of the
+        quite a remarkable silence on the part of <character>Toby Dammit</character>, and is no
+        doubt a consequence of his verbosity upon a previous occasion. One extreme induces another.
+        I wonder if he has forgotten the many unanswerable questions which he propounded to me so
+        fluently on the day when I gave him my last lecture? At all events, he is cured of the
         transcendentals."</paragraph>
-    <paragraph>"Ahem!" here replied Toby, just as if he had been reading my thoughts, and looking
+    <paragraph n="23">"Ahem!" here replied Toby, just as if he had been reading my thoughts, and looking
         like a very old sheep in a revery.</paragraph>
-    <paragraph>The old gentleman now took him by the arm, and led him more into the shade of the
+    <paragraph n="24">The old gentleman now took him by the arm, and led him more into the shade of the
         bridge -- a few paces back from the turnstile. "My good fellow," said he, "I make it a point
         of conscience to allow you this much run. Wait here, till I take my place by the stile, so
         that I may see whether you go over it handsomely, and transcendentally, and don't omit any
@@ -231,20 +236,20 @@
         moment as if in profound reflection, then looked up and, I thought, smiled very slightly,
         then tightened the strings of his apron, then took a long look at Dammit, and finally gave
         the word as agreed upon-</paragraph>
-    <paragraph>One -- two -- three -- and -- away!</paragraph>
-    <paragraph>But what I said, or what I thought, or what I heard, occupied only an instant. In
-        less than five seconds from his starting, my poor Toby had taken the leap. I saw him run
-        nimbly, and spring grandly from the floor of the bridge, cutting the most awful flourishes
-        with his legs as he went up. I saw him high in the air, pigeon-winging it to admiration just
-        over the top of the stile; and of course I thought it an unusually singular thing that he
-        did not continue to go over. But the whole leap was the affair of a moment, and, before I
-        had a chance to make any profound reflections, down came Mr. Dammit on the flat of his back,
-        on the same side of the stile from which he had started. At the same instant I saw the old
-        gentleman limping off at the top of his speed, having caught and wrapt up in his apron
-        something that fell heavily into it from the darkness of the arch just over the turnstile.
-        At all this I was much astonished; but I had no leisure to think, for Dammit lay
-        particularly still, and I concluded that his feelings had been hurt, and that he stood in
-        need of my assistance. I hurried up to him and found that he had received what might be
+    <paragraph n="25">One -- two -- three -- and -- away!</paragraph>
+    <paragraph n="26">But what I said, or what I thought, or what I heard, occupied only an instant. In
+        less than five seconds from his starting, my poor <character>Toby </character>had taken the
+        leap. I saw him run nimbly, and spring grandly from the floor of the bridge, cutting the
+        most awful flourishes with his legs as he went up. I saw him high in the air, pigeon-winging
+        it to admiration just over the top of the stile; and of course I thought it an unusually
+        singular thing that he did not continue to go over. But the whole leap was the affair of a
+        moment, and, before I had a chance to make any profound reflections, down came Mr. Dammit on
+        the flat of his back, on the same side of the stile from which he had started. At the same
+        instant I saw the old gentleman limping off at the top of his speed, having caught and wrapt
+        up in his apron something that fell heavily into it from the darkness of the arch just over
+        the turnstile. At all this I was much astonished; but I had no leisure to think, for Dammit
+        lay particularly still, and I concluded that his feelings had been hurt, and that he stood
+        in need of my assistance. I hurried up to him and found that he had received what might be
         termed a serious injury. The truth is, he had been deprived of his head, which after a close
         search I could not find anywhere; so I determined to take him home and send for the
         homoeopathists. In the meantime a thought struck me, and I threw open an adjacent window of
@@ -254,7 +259,7 @@
         that served to strengthen the structure throughout its extent. With the edge of this brace
         it appeared evident that the neck of my unfortunate friend had come precisely in
         contact.</paragraph>
-    <paragraph>He did not long survive his terrible loss. The homoeopathists did not give him little
+    <paragraph n="27">He did not long survive his terrible loss. The homoeopathists did not give him little
         enough physic, and what little they did give him he hesitated to take. So in the end he grew
         worse, and at length died, a lesson to all riotous livers. I bedewed his grave with my
         tears, worked a bar sinister on his family escutcheon, and, for the general expenses of his
