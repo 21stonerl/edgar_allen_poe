@@ -1,0 +1,19 @@
+All inputs where done manually
+1)First i put the whole story in short story tags and put an attribute of the overall theme
+    Which looked like this <short-story theme ="loneliness"> </short story>
+2) then put the author name in author tags. 
+3) Next i put the title in of the short story in title tags.
+4)Then an element for the publication date and an attribute showing what year is it 
+    Looking like this <pub.date year = "1850"> </pub.date>
+5) before the short-story there was a start quote which i tagged and put an attribute by who is speaking the quote.
+    Looks like this  <start.quote by ="Servius"> </start.quote>
+6)Next i tagged each paragraph and put an attribute indicating the number of paragraphs 
+    Looking like this <para num="1"> </para
+7)Next i tagged anything i could regconize as fig.of.speech within the short story and put an attribute for the type of speech 
+    the way i did this: <fig.of.speech type ="alliteration,metaphor,simile,personification,hyberbole,imagery or symbolism"> </fig.of.speech>
+8)Next i tagged any character's within the short story and put their name as an attribute value. 
+    Did this manually by <character name="LA MUSIQUE">LA MUSIQUE,"</character>
+9) Lastly i tagged any characters that where referenced within the short story and put their name as an attribute value 
+         <character.ref name ="flippant Frenchman">flippant Frenchman</character.ref> 
+10)also there is quote within the short story to tag these i put an element quote and an attribute for the number of quotes.
+ did this by doing <quote num ="1"> </quote>
