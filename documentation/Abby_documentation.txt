@@ -1,0 +1,13 @@
+For all the text I manually tagged all the figures of speech I saw. 
+I also manually tagged the tilte, author, publication dates as well as any extra quotes or notes in the text. 
+Then, using regex I tagged all the speech by searching for (dot matches all off)
+"."
+which found all the people talking and replaced those results with 
+<speech>\1</speech>
+I did this for all the stories with speech in them. 
+I then tagged all the paragraphs using regex. I searched for (dot matches all does not matter)
+\n\n
+and replaced all with
+</paragraph>\n\n<paragraph>
+I then added the root element and turned the text files into xml files. 
+I then created a schema that fit all my documents. 

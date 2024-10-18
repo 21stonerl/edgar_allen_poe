@@ -1,0 +1,20 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start= story
+story = element story {n, info,(paragraph* )}
+n=attribute n {text}
+info = element info {title,author,year,theme}
+paragraph= element paragraph {n,(character|quote |text|action?|fos|conversation?|note?)*}
+note=element note {(text|character)*}
+conversation=element conversation {text| line*}
+line=element line {n,(text|quote| character)*}
+fos =element fos {kind, text*}
+kind=attribute kind {"alliteration"| "hyperbole"| "irony"| "onomatopoeia"| "personification"| "simile"| "metaphor" |"imagery" }
+action=element action {(text| character)*}
+title=element title {text}
+author= element author {text}
+year= element year {text}
+theme = element theme {(type|text)}
+type= attribute type {"obsession"| "paranoia"| "alienation"| "death"| "regret"| "lost love"}
+character = element character {text}
+quote = element quote {(quote|text|character|action)*}

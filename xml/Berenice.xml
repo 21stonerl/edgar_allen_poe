@@ -1,9 +1,10 @@
+<?xml-model href="../../../project_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <story type="love">
 <title>Berenice</title>
 
 <author>by Edgar Allan Poe</author>
 <publication_date>(published 1835)</publication_date>
-<quote speaker="Ebn_Zaiat">Dicebant mihi sodales, si sepulchrum amicae visitarem,
+<quote writer="Ebn_Zaiat">Dicebant mihi sodales, si sepulchrum amicae visitarem,
     curas meas aliquantulum fore levatas.
                                                                  --Ebn Zaiat. </quote>
 
@@ -34,8 +35,8 @@
 <paragraph>Yet let me not be misapprehended. --The undue, earnest, and morbid attention thus excited by objects in their own nature frivolous, must not be confounded in character with that ruminating propensity common to all mankind, and more especially indulged in by persons of ardent imagination. It was not even, as might be at first supposed, an extreme condition or exaggeration of such propensity, but primarily and essentially distinct and different. In the one instance, the dreamer, or enthusiast, being interested by an object usually not frivolous, imperceptibly loses sight of this object in a wilderness of deductions and suggestions issuing therefrom, until, at the conclusion of a day dream often replete with luxury, he finds the incitamentum or first cause of his musings entirely vanished and forgotten. In my case the primary object was invariably frivolous, although assuming, through the medium of my distempered vision, a refracted and unreal importance. Few deductions, if any, were made; and those few pertinaciously returning in upon the original object as a centre. The meditations were never pleasurable; and, at the termination of the reverie, the first cause, so far from being out of sight, had attained that supernaturally exaggerated interest which was the prevailing feature of the disease. In a word, the powers of mind more particularly exercised were, with me, as I have said before, the attentive, and are, with the day-dreamer, the speculative.</paragraph>
 
     <paragraph>My books, at this epoch, if they did not actually serve to irritate the disorder, partook, it will be perceived, largely, in their imaginative and inconsequential nature, of the characteristic qualities of the disorder itself. I well remember, among others, the treatise of the noble Italian Coelius Secundus Curio 
-        <quote author="Coelius_Secundus_Curio">"de Amplitudine Beati Regni dei";</quote> St. Austin's great work, the "City of God"; and Tertullian "de Carne Christi," in which the paradoxical sentence 
-        <quote author="St.Austin">"Mortuus est Dei filius; credible est quia ineptum est: et sepultus resurrexit; certum est quia impossibile est"</quote> occupied my undivided time, for many weeks of laborious and fruitless investigation.</paragraph>
+        <quote writer="Coelius_Secundus_Curio">"de Amplitudine Beati Regni dei";</quote> St. Austin's great work, the "City of God"; and Tertullian "de Carne Christi," in which the paradoxical sentence 
+        <quote writer="St.Austin">"Mortuus est Dei filius; credible est quia ineptum est: et sepultus resurrexit; certum est quia impossibile est"</quote> occupied my undivided time, for many weeks of laborious and fruitless investigation.</paragraph>
 
 <paragraph>Thus it will appear that, shaken from its balance only by trivial things, my reason bore resemblance to that ocean-crag spoken of by Ptolemy Hephestion, which steadily resisting the attacks of human violence, and the fiercer fury of the waters and the winds, trembled only to the touch of the flower called Asphodel. And although, to a careless thinker, it might appear a matter beyond doubt, that the alteration produced by her unhappy malady, in the moral condition of Berenice, would afford me many objects for the exercise of that intense and abnormal meditation whose nature I have been at some trouble in explaining, yet such was not in any degree the case. In the lucid intervals of my infirmity, her calamity, indeed, gave me pain, and, taking deeply to heart that total wreck of her fair and gentle life, I did not fall to ponder frequently and bitterly upon the wonder-working means by which so strange a revolution had been so suddenly brought to pass. But these reflections partook not of the idiosyncrasy of my disease, and were such as would have occurred, under similar circumstances, to the ordinary mass of mankind. True to its own character, my disorder revelled in the less important but more startling changes wrought in the physical frame of Berenice --in the singular and most appalling distortion of her personal identity.</paragraph>
 
@@ -62,7 +63,7 @@
     <figure_of_speech type="simile">like the spirit of a departed sound,</figure_of_speech> the shrill and piercing shriek of a female voice seemed to be ringing in my ears. I had done a deed --what was it? I asked myself the question aloud, and the whispering echoes of the chamber answered me, "what was it?"</paragraph>
 
 <paragraph>On the table beside me burned a lamp, and near it lay a little box. It was of no remarkable character, and I had seen it frequently before, for it was the property of the family physician; but how came it there, upon my table, and why did I shudder in regarding it? These things were in no manner to be accounted for, and my eyes at length dropped to the open pages of a book, and to a sentence underscored therein. The words were the singular but simple ones of the poet Ebn Zaiat, 
-    <quote speaker="Ebn_Zaiat">"Dicebant mihi sodales si sepulchrum amicae visitarem, curas meas aliquantulum fore levatas."</quote> Why then, as I perused them, did 
+    <quote writer="Ebn_Zaiat">"Dicebant mihi sodales si sepulchrum amicae visitarem, curas meas aliquantulum fore levatas."</quote> Why then, as I perused them, did 
     <figure_of_speech type="personification">the hairs of my head erect themselves on end,</figure_of_speech> and the blood of my body become congealed within my veins?</paragraph>
 
 <paragraph>There came a light tap at the library door, and 
