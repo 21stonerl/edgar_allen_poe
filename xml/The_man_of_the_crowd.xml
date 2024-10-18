@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<short-story theme = "Curiousity/Isolation">
+<?xml-model href="../documentation/Project_Schema_Mn.rnc" type="application/relax-ng-compact-syntax"?>
+<short-story theme = "Isolation">
 <title>The Man of the Crowd</title>
 
 by <author>Edgar Allan Poe</author>

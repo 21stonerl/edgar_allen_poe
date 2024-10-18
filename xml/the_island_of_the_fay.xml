@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../documentation/Project_Schema_Mn.rnc" type="application/relax-ng-compact-syntax"?>
 <short-story theme ="loneliness">
 <title>The Island of the Fay</title>
 
