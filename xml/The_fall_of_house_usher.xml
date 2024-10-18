@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="../documentation/Project_Schema_Mn.rnc" type="application/relax-ng-compact-syntax"?>
 <short-story theme="Insanity">
     <title>The Fall of the House of Usher </title> by <author>Edgar Allan Poe</author>
-    <pub_date year="1839">(published 1839)</pub_date>
+    <pub.date year="1839">(published 1839)</pub.date>
     <start.quote by="De Beranger">Son coeur est un luth suspendu; Sitot qu'on le touche il resonne.
         -De Beranger.</start.quote>
     <para num="1">DURING the whole of a <fig.of.speech type="aliteration">dull, dark, and
@@ -221,7 +222,7 @@
         had buried his face in his hands, and I could only perceive that a far more than ordinary
         wanness had overspread the emaciated fingers through which trickled many passionate
         tears.</para>
-    <para num="18">The disease of the <character.ref type="lady Madeline">lady
+    <para num="18">The disease of the <character.ref name="lady Madeline">lady
             Madeline</character.ref> had long baffled the skill of her physicians. A settled apathy,
         a gradual wasting away of the person, and frequent although transient affections of a
         partially cataleptical character, were the unusual diagnosis. Hitherto she had steadily
