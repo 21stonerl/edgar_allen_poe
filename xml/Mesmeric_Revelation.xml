@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../documentation/schemaLS.rnc" type="application/relax-ng-compact-syntax"?>
-<story n="11">
+<?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story n="11" theme="regret">
     <info>
         <title>Mesmeric Revelation</title>
         <author>by Edgar Allan Poe</author>
         <year>(published 1849)</year>
-        <theme type="regret"/>
+         
     </info>
-    <paragraph n="1"> WHATEVER doubt may still envelop the rationale of mesmerism, its startling
+    <p n="1"> WHATEVER doubt may still envelop the rationale of mesmerism, its startling
         facts are now almost universally admitted. Of these latter, those who doubt, are your mere
         doubters by profession -- an unprofitable and disreputable tribe. There can be no more
         absolute waste of time than the attempt to prove, at the present day, that man, by mere
@@ -20,24 +20,24 @@
         his intellectual faculties are wonderfully exalted and invigorated; that his sympathies with
         the person so impressing him are profound; and, finally, that his susceptibility to the
         impression increases with its frequency, while, in the same proportion, the peculiar
-        phenomena elicited are more extended and more pronounced. </paragraph>
-    <paragraph n="2">I say that these -- which are the laws of mesmerism in its general features --
+        phenomena elicited are more extended and more pronounced. </p>
+    <p n="2">I say that these -- which are the laws of mesmerism in its general features --
         it would be supererogation to demonstrate; nor shall I inflict upon my readers so needless a
         demonstration; to-day. My purpose at present is a very different one indeed. I am impelled,
         even in the teeth of a world of prejudice, to detail without comment the very remarkable
-        substance of a colloquy, occurring between a sleep-waker and myself. </paragraph>
-    <paragraph n="3">I had been long in the habit of mesmerizing the person in question, (Mr.
+        substance of a colloquy, occurring between a sleep-waker and myself. </p>
+    <p n="3">I had been long in the habit of mesmerizing the person in question, (Mr.
         Vankirk,) and the usual acute susceptibility and exaltation of the mesmeric perception had
         supervened. For many months he had been laboring under confirmed phthisis, the more
         distressing effects of which had been relieved by my manipulations; and on the night of
-        Wednesday, the fifteenth instant, I was summoned to his bedside. </paragraph>
-    <paragraph n="4">The invalid was suffering with acute pain in the region of the heart, and
+        Wednesday, the fifteenth instant, I was summoned to his bedside. </p>
+    <p n="4">The invalid was suffering with acute pain in the region of the heart, and
         breathed with great difficulty, having all the ordinary symptoms of asthma. In spasms such
         as these he had usually found relief from the application of mustard to the nervous centres,
-        but to-night this had been attempted in vain.</paragraph>
-    <paragraph n="5"> As I entered his room he greeted me with a cheerful smile, and although
-        evidently in much bodily pain, appeared to be, mentally, quite at ease. </paragraph>
-    <paragraph n="6"><quote> "I sent for you to-night," he said, " </quote>not so much to administer
+        but to-night this had been attempted in vain.</p>
+    <p n="5"> As I entered his room he greeted me with a cheerful smile, and although
+        evidently in much bodily pain, appeared to be, mentally, quite at ease. </p>
+    <p n="6"><quote> "I sent for you to-night," he said, " </quote>not so much to administer
         to my bodily ailment, as to satisfy me concerning certain psychal impressions which, of
         late, have occasioned me much anxiety and surprise. I need not tell you how sceptical I have
         hitherto been on the topic of the soul's immortality. I cannot deny that there has always
@@ -56,8 +56,8 @@
         moralists of England, of France, and of Germany. Abstractions may amuse and exercise, but
         take no hold on the mind. Here upon earth, at least, philosophy, I am persuaded, will always
         in vain call upon us to look upon qualities as things. The will may assent -- the soul --
-        the intellect, never. </paragraph>
-    <paragraph n="7">"I repeat, then, that I only half felt, and never intellectually believed. But
+        the intellect, never. </p>
+    <p n="7">"I repeat, then, that I only half felt, and never intellectually believed. But
         latterly there has been a certain deepening of the feeling, until it has come so nearly to
         resemble the acquiescence of reason, that I find it difficult to distinguish between the
         two. I am enabled, too, plainly to trace this effect to the mesmeric influence. I cannot
@@ -66,59 +66,59 @@
         full accordance with the mesmeric phenomena, does not extend, except through its effect,
         into my normal condition. In sleep-waking, the reasoning and its conclusion -- the cause and
         its effect -- are present together. In my natural state, the cause vanishing, the effect
-        only, and perhaps only partially, remains. </paragraph>
-    <paragraph n="8">
+        only, and perhaps only partially, remains. </p>
+    <p n="8">
         <quote> "These considerations have led me to think that some good results might ensue from a
             series of well-directed questions propounded to me while mesmerized. You have often
             observed the profound self-cognizance evinced by the sleep-waker -- the extensive
             knowledge he displays upon all points relating to the mesmeric condition itself; and
             from this self-cognizance may be deduced hints for the proper conduct of a catechism."
         </quote>
-    </paragraph>
-    <paragraph n="9"> I consented of course to make this experiment. A few passes threw Mr. Vankirk
+    </p>
+    <p n="9"> I consented of course to make this experiment. A few passes threw Mr. Vankirk
         into the mesmeric sleep. His breathing became immediately more easy, and he seemed to suffer
-        no physical uneasiness. The following conversation then ensued: -- <character> V. </character>in
-        the dialogue representing the patient, and <character> P. </character>myself. </paragraph>
-    <paragraph n="10">
+        no physical uneasiness. The following conversation then ensued: -- <char> V. </char>in
+        the dialogue representing the patient, and <char> P. </char>myself. </p>
+    <p n="10">
         <conversation>
-            <line n="1"><character> P. </character>Are you asleep ?</line>
-            <line n="2"><character> V. </character>Yes -- no I would rather sleep more soundly.</line>
-            <line n="3"><character> P. </character> [After a few more passes.] Do you sleep now ?</line>
-            <line n="4"><character> V. </character> Yes.</line>
-            <line n="5">
-                <character> P. </character> How do you think your present illness will result ?</line>
-            <line n="6"><character> V. </character> [After a long hesitation and speaking as if with
-                effort.] I must die. </line>
-            <line n="7"><character> P. </character> Does the idea of death afflict you ? </line>
-            <line n="8"><character> V. </character> [Very quickly.] No -- no !</line>
-            <line n="9"><character> P. </character> Are you pleased with the prospect ? </line>
-            <line n="10"><character> V. </character> If I were awake I should like to die, but now it is
-                no matter. The mesmeric condition is so near death as to content me.</line>
-            <line n="11">
-                <character> P. </character> I wish you would explain yourself, Mr. Vankirk.</line>
-            <line n="12"><character> V. </character> I am willing to do so, but it requires more effort
-                than I feel able to make. You do not question me properly.</line>
-            <line n="13"><character> P. </character> What then shall I ask ? </line>
-            <line n="14"><character> V. </character> You must begin at the beginning.</line>
-            <line n="15"><character> P. </character> The beginning ! but where is the beginning ?</line>
-            <line n="16"><character> V. </character> You know that the beginning is GOD. [This was said
+            <speaker ><char> P. </char>Are you asleep ?</speaker>
+            <speaker><char> V. </char>Yes -- no I would rather sleep more soundly.</speaker>
+            <speaker><char> P. </char> [After a few more passes.] Do you sleep now ?</speaker>
+            <speaker><char> V. </char> Yes.</speaker>
+            <speaker>
+                <char> P. </char> How do you think your present illness will result ?</speaker>
+            <speaker><char> V. </char> [After a long hesitation and speaking as if with
+                effort.] I must die. </speaker>
+            <speaker ><char> P. </char> Does the idea of death afflict you ? </speaker>
+            <speaker ><char> V. </char> [Very quickly.] No -- no !</speaker>
+            <speaker ><char> P. </char> Are you pleased with the prospect ? </speaker>
+            <speaker ><char> V. </char> If I were awake I should like to die, but now it is
+                no matter. The mesmeric condition is so near death as to content me.</speaker>
+            <speaker >
+                <char> P. </char> I wish you would explain yourself, Mr. Vankirk.</speaker>
+            <speaker ><char> V. </char> I am willing to do so, but it requires more effort
+                than I feel able to make. You do not question me properly.</speaker>
+            <speaker ><char> P. </char> What then shall I ask ? </speaker>
+            <speaker ><char> V. </char> You must begin at the beginning.</speaker>
+            <speaker ><char> P. </char> The beginning ! but where is the beginning ?</speaker>
+            <speaker ><char> V. </char> You know that the beginning is GOD. [This was said
                 in a low, fluctuating tone, and with every sign of the most profound
-                veneration.]</line>
-            <line n="17"><character> P. </character> What then is God ?</line>
-            <line n="18"><character> V. </character> [Hesitating for many minutes.] I cannot tell. </line>
-            <line n="19"><character> P. </character> Is not God spirit ? </line>
-            <line n="20"><character> V. </character> While I was awake I knew what you meant by <quote>
+                veneration.]</speaker>
+            <speaker ><char> P. </char> What then is God ?</speaker>
+            <speaker ><char> V. </char> [Hesitating for many minutes.] I cannot tell. </speaker>
+            <speaker ><char> P. </char> Is not God spirit ? </speaker>
+            <speaker ><char> V. </char> While I was awake I knew what you meant by <quote>
                     "spirit," </quote> but now it seems only a word -- such for instance as truth,
-                beauty -- a quality, I mean.</line>
-            <line n="21">
-                <character> P. </character> Is not God immaterial ?</line>
-            <line n="22">
-                <character> V. </character> There is no immateriality -- it is a mere word. That which
-                is not matter, is not at all -- unless qualities are things.</line>
-            <line n="23"><character> P. </character> Is God, then, material ? </line>
-            <line n="24"><character> V. </character> No. [This reply startled me very much.]</line>
-            <line n="25"><character> P. </character> What then is he ? </line>
-            <line n="26"><character> V. </character> [After a long pause, and mutteringly.] I see -- but
+                beauty -- a quality, I mean.</speaker>
+            <speaker >
+                <char> P. </char> Is not God immaterial ?</speaker>
+            <speaker >
+                <char> V. </char> There is no immateriality -- it is a mere word. That which
+                is not matter, is not at all -- unless qualities are things.</speaker>
+            <speaker ><char> P. </char> Is God, then, material ? </speaker>
+            <speaker ><char> V. </char> No. [This reply startled me very much.]</speaker>
+            <speaker ><char> P. </char> What then is he ? </speaker>
+            <speaker ><char> V. </char> [After a long pause, and mutteringly.] I see -- but
                 it is a thing difficult to tell. [Another long pause.] He is not spirit, for he
                 exists. Nor is he matter, as you understand it. But there are gradations of matter
                 of which man knows nothing; the grosser impelling the finer, the finer pervading the
@@ -128,21 +128,21 @@
                 indivisible -- one and here the law of impulsion and permeation is modified. The
                 ultimate, or unparticled matter, not only permeates all things but impels all things
                 -- and thus is all things within itself. This matter is God. What men attempt to
-                embody in the word <quote> "thought," </quote> is this matter in motion.</line>
-            <line n="27"><character> P. </character> The metaphysicians maintain that all action is
+                embody in the word <quote> "thought," </quote> is this matter in motion.</speaker>
+            <speaker ><char> P. </char> The metaphysicians maintain that all action is
                 reducible to motion and thinking, and that the latter is the origin of the
-                former.</line>
-            <line n="28"><character> V. </character> Yes; and I now see the confusion of idea. Motion is
+                former.</speaker>
+            <speaker ><char> V. </char> Yes; and I now see the confusion of idea. Motion is
                 the action of mind -- not of thinking. The unparticled matter, or God, in
                 quiescence, is (as nearly as we can conceive it) what men call mind. And the power
                 of self-movement (equivalent in effect to human volition) is, in the unparticled
                 matter, the result of its unity and omniprevalence; how I know not, and now clearly
                 see that I shall never know. But the unparticled matter, set in motion by a law, or
-                quality, existing within itself, is thinking. </line>
-            <line n="29"><character> P. </character> Can you give me no more precise idea of what you
-                term the unparticled matter ?</line>
-            <line n="30">
-                <character> V. </character> The matters of which man is cognizant, escape the senses in
+                quality, existing within itself, is thinking. </speaker>
+            <speaker ><char> P. </char> Can you give me no more precise idea of what you
+                term the unparticled matter ?</speaker>
+            <speaker >
+                <char> V. </char> The matters of which man is cognizant, escape the senses in
                 gradation. We have, for example, a metal, a piece of wood, a drop of water, the
                 atmosphere, a gas, caloric, electricity, the luminiferous ether. Now we call all
                 these things matter, and embrace all matter in one general definition; but in spite
@@ -166,9 +166,9 @@
                 however, that it is as fully matter as before. The truth is, it is impossible to
                 conceive spirit, since it is impossible to imagine what is not. When we flatter
                 ourselves that we have formed its conception, we have merely deceived our
-                understanding by the consideration of infinitely rarified matter.</line>
-            <line n="31">
-                <character> P. </character> There seems to me an insurmountable objection to the idea of
+                understanding by the consideration of infinitely rarified matter.</speaker>
+            <speaker >
+                <char> P. </char> There seems to me an insurmountable objection to the idea of
                 absolute coalescence; -- and that is the very slight resistance experienced by the
                 heavenly bodies in their revolutions through space -- a resistance now ascertained,
                 it is true, to exist in some degree, but which is, nevertheless, so slight as to
@@ -176,8 +176,8 @@
                 resistance of bodies is, chiefly, in proportion to their density. Absolute
                 coalescence is absolute density. Where there are no interspaces, there can be no
                 yielding. An ether, absolutely dense, would put an infinitely more effectual stop to
-                the progress of a star than would an ether of adamant or of iron.</line>
-            <line n="32"><character> V. </character> Your objection is answered with an ease which is
+                the progress of a star than would an ether of adamant or of iron.</speaker>
+            <speaker ><char> V. </char> Your objection is answered with an ease which is
                 nearly in the ratio of its apparent unanswerability. -- As regards the progress of
                 the star, it can make no difference whether the star passes through the ether or the
                 ether through it. There is no astronomical error more unaccountable than that which
@@ -188,82 +188,82 @@
                 to comprehend. The retardation actually experienced is, on the other hand, about
                 that which might be expected from the friction of the ether in the instantaneous
                 passage through the orb. In the one case, the retarding force is momentary and
-                complete within itself -- in the other it is endlessly accumulative.</line>
-            <line n="33"><character> P. </character> But in all this -- in this identification of mere
+                complete within itself -- in the other it is endlessly accumulative.</speaker>
+            <speaker ><char> P. </char> But in all this -- in this identification of mere
                 matter with God -- is there nothing of irreverence? [I was forced to repeat this
-                question before the sleep-waker fully comprehended my meaning.]</line>
-            <line n="34"><character> V. </character> Can you say why matter should be less reverenced
+                question before the sleep-waker fully comprehended my meaning.]</speaker>
+            <speaker ><char> V. </char> Can you say why matter should be less reverenced
                 than mind? But you forget that the matter of which I speak is, in all respects, the
                 very <quote> "mind" or "spirit" of the schools, so far as regards its high
                     capacities, and is, moreover, the "matter" </quote> of these schools at the same
                 time. God, with all the powers attributed to spirit, is but the perfection of
-                matter.</line>
-            <line n="36">
-                <character> P. </character> You assert, then, that the unparticled matter, in motion, is
-                thought?</line>
-            <line n="37"><character> V. </character> In general, this motion is the universal thought of
+                matter.</speaker>
+            <speaker >
+                <char> P. </char> You assert, then, that the unparticled matter, in motion, is
+                thought?</speaker>
+            <speaker ><char> V. </char> In general, this motion is the universal thought of
                 the universal mind. This thought creates. All created things are but the thoughts of
-                God.</line>
-            <line n="38"><character> P. </character> You say, <quote> "in general." </quote></line>
-            <line n="39"><character> V. </character> Yes. The universal mind is God. For new
-                individualities, matter is necessary.</line>
-            <line n="40"><character> P. </character> But you now speak of <quote> "mind" and "matter"
-                </quote> as do the metaphysicians.</line>
-            <line n="41">
-                <character> V. </character> Yes -- to avoid confusion. When I say <quote> "mind," I mean
+                God.</speaker>
+            <speaker ><char> P. </char> You say, <quote> "in general." </quote></speaker>
+            <speaker ><char> V. </char> Yes. The universal mind is God. For new
+                individualities, matter is necessary.</speaker>
+            <speaker><char> P. </char> But you now speak of <quote> "mind" and "matter"
+                </quote> as do the metaphysicians.</speaker>
+            <speaker >
+                <char> V. </char> Yes -- to avoid confusion. When I say <quote> "mind," I mean
                     the unparticled or ultimate matter; by "matter" </quote> I intend all
-                else.</line>
-            <line n="42">
-                <character> P. </character> You were saying that <quote> "for new individualities matter
-                    is necessary." </quote></line>
-            <line n="43"><character> V. </character> Yes; for mind, existing unincorporate, is merely
+                else.</speaker>
+            <speaker >
+                <char> P. </char> You were saying that <quote> "for new individualities matter
+                    is necessary." </quote></speaker>
+            <speaker ><char> V. </char> Yes; for mind, existing unincorporate, is merely
                 God. To create individual, thinking beings, it was necessary to incarnate portions
                 of the divine mind. Thus man is individualized. Divested of corporate investiture,
                 he were God. Now, the particular motion of the incarnated portions of the
                 unparticled matter is the thought of man ; as the motion of the whole is that of
-                God.</line>
-            <line n="44"><character> P. </character> You say that divested of the body man will be God? </line>
-            <line n="45"><character> V. </character> [After much hesitation.] I could not have said
-                this; it is an absurdity.</line>
-            <line n="46">
-                <character> P. </character> [Referring to my notes.] You did say that <quote> "divested
+                God.</speaker>
+            <speaker ><char> P. </char> You say that divested of the body man will be God? </speaker>
+            <speaker ><char> V. </char> [After much hesitation.] I could not have said
+                this; it is an absurdity.</speaker>
+            <speaker >
+                <char> P. </char> [Referring to my notes.] You did say that <quote> "divested
                     of corporate investiture man were God." </quote>
-            </line>
-            <line n="47">
-                <character> V. </character> And this is true. Man thus divested would be God -- would be
+            </speaker>
+            <speaker >
+                <char> V. </char> And this is true. Man thus divested would be God -- would be
                 unindividualized. But he can never be thus divested -- at least never will be --
                 else we must imagine an action of God returning upon itself -- a purposeless and
                 futile action. Man is a creature. Creatures are thoughts of God. It is the nature of
-                thought to be irrevocable. </line>
-            <line n="48">
-                <character> P. </character> I do not comprehend. You say that man will never put off the
-                body?</line>
-            <line n="49"><character> V. </character> I say that he will never be bodiless.</line>
-            <line n="50"><character> P. </character> Explain. </line>
-            <line n="51"><character> V. </character> There are two bodies -- the rudimental and the
+                thought to be irrevocable. </speaker>
+            <speaker >
+                <char> P. </char> I do not comprehend. You say that man will never put off the
+                body?</speaker>
+            <speaker ><char> V. </char> I say that he will never be bodiless.</speaker>
+            <speaker ><char> P. </char> Explain. </speaker>
+            <speaker ><char> V. </char> There are two bodies -- the rudimental and the
                 complete ; corresponding with the two conditions of the worm and the butterfly. What
                 we call <quote> "death," </quote> is but the painful metamorphosis. Our present
                 incarnation is progressive, preparatory, temporary. Our future is perfected,
-                ultimate, immortal. The ultimate life is the full design.</line>
-            <line n="52">
-                <character> P. </character> But of the worm's metamorphosis we are palpably cognizant. </line>
-            <line n="53"><character> V. </character> We, certainly -- but not the worm. The matter of
+                ultimate, immortal. The ultimate life is the full design.</speaker>
+            <speaker >
+                <char> P. </char> But of the worm's metamorphosis we are palpably cognizant. </speaker>
+            <speaker ><char> V. </char> We, certainly -- but not the worm. The matter of
                 which our rudimental body is composed, is within the ken of the organs of that body;
                 or, more distinctly, our rudimental organs are adapted to the matter of which is
                 formed the rudimental body; but not to that of which the ultimate is composed. The
                 ultimate body thus escapes our rudimental senses, and we perceive only the shell
                 which falls, in decaying, from the inner form; not that inner form itself; but this
                 inner form, as well as the shell, is appreciable by those who have already acquired
-                the ultimate life.</line>
-            <line n="54"><character> P. </character> You have often said that the mesmeric state very
-                nearly resembles death. How is this?</line>
-            <line n="55">
-                <character> V. </character> When I say that it resembles death, I mean that it resembles
+                the ultimate life.</speaker>
+            <speaker><char> P. </char> You have often said that the mesmeric state very
+                nearly resembles death. How is this?</speaker>
+            <speaker >
+                <char> V. </char> When I say that it resembles death, I mean that it resembles
                 the ultimate life; for when I am entranced the senses of my rudimental life are in
                 abeyance, and I perceive external things directly, without organs, through a medium
-                which I shall employ in the ultimate, unorganized life.</line>
-            <line n="56"><character> P. </character> Unorganized? </line>
-            <line n="57"><character> V. </character> Yes; organs are contrivances by which the
+                which I shall employ in the ultimate, unorganized life.</speaker>
+            <speaker ><char> P. </char> Unorganized? </speaker>
+            <speaker ><char> V. </char> Yes; organs are contrivances by which the
                 individual is brought into sensible relation with particular classes and forms of
                 matter, to the exclusion of other classes and forms. The organs of man are adapted
                 to his rudimental condition, and to that only; his ultimate condition, being
@@ -285,11 +285,11 @@
                 setting in motion the unparticled matter which permeates it. It is to the absence of
                 idiosyncratic organs, therefore, that we must attribute the nearly unlimited
                 perception of the ultimate life. To rudimental beings, organs are the cages
-                necessary to confine them until fledged.</line>
-            <line n="58"><character> P. </character> You speak of rudimental <quote> "beings." </quote>
-                Are there other rudimental thinking beings than man?</line>
-            <line n="59">
-                <character> V. </character> The multitudinous conglomeration of rare matter into nebul ,
+                necessary to confine them until fledged.</speaker>
+            <speaker ><char> P. </char> You speak of rudimental <quote> "beings." </quote>
+                Are there other rudimental thinking beings than man?</speaker>
+            <speaker >
+                <char> V. </char> The multitudinous conglomeration of rare matter into nebul ,
                 planets, suns, and other bodies which are neither nebul , suns, nor planets, is for
                 the sole purpose of supplying pabulum for the idiosyncrasy of the organs of an
                 infinity of rudimental beings. But for the necessity of the rudimental, prior to the
@@ -301,38 +301,38 @@
                 indwelling, not the stars, which to us seem the sole palpabilities, and for the
                 accommodation of which we blindly deem space created -- but that SPACE itself --
                 that infinity of which the truly substantive vastness swallows up the star-shadows
-                -- blotting them out as non-entities from the perception of the angels.</line>
-            <line n="60"><character> P. </character> You say that <quote> "but for the necessity of the
+                -- blotting them out as non-entities from the perception of the angels.</speaker>
+            <speaker ><char> P. </char> You say that <quote> "but for the necessity of the
                     rudimental life" </quote> there would have been no stars. But why this
-                necessity? </line>
-            <line n="61"><character> V. </character> In the inorganic life, as well as in the inorganic
+                necessity? </speaker>
+            <speaker ><char> V. </char> In the inorganic life, as well as in the inorganic
                 matter generally, there is nothing to impede the action of one simple unique law --
                 the Divine Volition. With the view of producing impediment, the organic life and
-                matter, (complex, substantial, and law-encumbered,) were contrived.</line>
-            <line n="62">
-                <character> P. </character> But again -- why need this impediment have been
-                produced?</line>
-            <line n="63"><character> V. </character> The result of law inviolate is perfection -- right
+                matter, (complex, substantial, and law-encumbered,) were contrived.</speaker>
+            <speaker >
+                <char> P. </char> But again -- why need this impediment have been
+                produced?</speaker>
+            <speaker ><char> V. </char> The result of law inviolate is perfection -- right
                 -- negative happiness. The result of law violate is imperfection, wrong, positive
                 pain. Through the impediments afforded by the number, complexity, and substantiality
                 of the laws of organic life and matter, the violation of law is rendered, to a
                 certain extent, practicable. Thus pain, which in the inorganic life is impossible,
-                is possible in the organic.</line>
-            <line n="64">
-                <character> P. </character> But to what good end is pain thus rendered possible?</line>
-            <line n="65"><character> V. </character> All things are either good or bad by comparison. A
+                is possible in the organic.</speaker>
+            <speaker >
+                <char> P. </char> But to what good end is pain thus rendered possible?</speaker>
+            <speaker ><char> V. </char> All things are either good or bad by comparison. A
                 sufficient analysis will show that pleasure, in all cases, is but the contrast of
                 pain. Positive pleasure is a mere idea. To be happy at any one point we must have
                 suffered at the same. Never to suffer would have been never to have been blessed.
                 But it has been shown that, in the inorganic life, pain cannot be thus the necessity
                 for the organic. The pain of the primitive life of Earth, is the sole basis of the
-                bliss of the ultimate life in Heaven.</line>
-            <line n="66"><character> P. </character> Still, there is one of your expressions which I
+                bliss of the ultimate life in Heaven.</speaker>
+            <speaker><char> P. </char> Still, there is one of your expressions which I
                 find it impossible to comprehend -- <quote> "the truly substantive vastness of
                     infinity." </quote>
-            </line>
-            <line n="67">
-                <character> V. </character> This, probably, is because you have no sufficiently generic
+            </speaker>
+            <speaker >
+                <char> V. </char> This, probably, is because you have no sufficiently generic
                 conception of the term <quote> "substance" itself. We must not regard it as a
                     quality, but as a sentiment: -- it is the perception, in thinking beings, of the
                     adaptation of matter to their organization. There are many things on the Earth,
@@ -343,15 +343,15 @@
                     "space" </quote> is to them the truest substantiality; -- the stars, meantime,
                 through what we consider their materiality, escaping the angelic sense, just in
                 proportion as the unparticled matter, through what we consider its immateriality,
-                eludes the organic.</line>
+                eludes the organic.</speaker>
         </conversation>
-    </paragraph>
-    <paragraph n="11"> As the sleep-waker pronounced these latter words, in a feeble tone, I
+    </p>
+    <p n="11"> As the sleep-waker pronounced these latter words, in a feeble tone, I
         observed on his countenance a singular expression, which somewhat alarmed me, and induced me
         to awake him at once. No sooner had I done this, than, with a bright smile irradiating all
         his features, he fell back upon his pillow and expired. I noticed that in less than a minute
         afterward his corpse had all the stern rigidity of stone. His brow was of the coldness of
         ice. Thus, ordinarily, should it have appeared, only after long pressure from Azrael's hand.
         Had the sleep-waker, indeed, during the latter portion of his discourse, been addressing me
-        from out the region of the shadows?</paragraph>
+        from out the region of the shadows?</p>
 </story>

@@ -1,0 +1,54 @@
+Storeis 8-13
+1.Delete all extra text
+2. Search for reserved characters & < > to escape them. (I found none)
+3.I had to manually tag most of my elements, I manually tagged title, author, year, theme, and fos (figures of speech).
+
+I added my root element called story and numbered them according to our list of stories.
+
+I tried to use regex to find characters but had to manually do those too
+	I started by googling common characters in each story
+Story8:
+Hopfrog
+Characters:
+	Find:
+	Replace:
+Story9:
+Hopfrog
+Characters:
+	Find:
+	Replace:
+Story10:
+Hopfrog
+Characters:
+	Find:
+	Replace:
+Story11:
+Hopfrog
+Characters:
+	Find:
+	Replace:
+Story12:
+Hopfrog
+Characters:
+	Find:
+	Replace:
+Story12:
+Hopfrog
+Characters:
+	Find:
+	Replace:
+
+
+After finding all characters I used Regex to find all quotes, in all stories I used:
+	Find:
+	Replace:
+For each paragraph I searched for:
+	Find:'.+'
+	Replace:
+		I then numbered each paragraph individually
+
+
+
+
+ 
+	

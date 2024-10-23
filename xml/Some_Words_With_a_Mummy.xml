@@ -1,92 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../documentation/schemaLS.rnc" type="application/relax-ng-compact-syntax"?>
-<story n="14">
-    <info>
+
+<?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story n="14" theme="regret">
+    <info> 
         <title>Some Words With a Mummy</title>
         <author>by Edgar Allan Poe</author>
         <year>(published 1850)</year>
-        <theme type="regret"/>
+        
     </info>
-    <paragraph n="1">THE symposium of the preceding evening had been a little too much for my nerves. I
+    <p n="1">THE symposium of the preceding evening had been a little too much for my nerves. I
         had a wretched headache, and was desperately drowsy. Instead of going out therefore to spend
         the evening as I had proposed, it occurred to me that I could not do a wiser thing than just
-        eat a mouthful of supper and go immediately to bed.</paragraph>
+        eat a mouthful of supper and go immediately to bed.</p>
 
-    <paragraph n="2">A light supper of course. I am exceedingly fond of Welsh rabbit. More than a pound at
+    <p n="2">A light supper of course. I am exceedingly fond of Welsh rabbit. More than a pound at
         once, however, may not at all times be advisable. Still, there can be no material objection
         to two. And really between two and three, there is merely a single unit of difference. I
         ventured, perhaps, upon four. My wife will have it five; -- but, clearly, she has confounded
         two very distinct affairs. The abstract number, five, I am willing to admit; but,
         concretely, it has reference to bottles of Brown Stout, without which, in the way of
-        condiment, Welsh rabbit is to be eschewed.</paragraph>
+        condiment, Welsh rabbit is to be eschewed.</p>
 
-    <paragraph n="3">Having thus concluded a frugal meal, and donned my night-cap, with the serene hope of
+    <p n="3">Having thus concluded a frugal meal, and donned my night-cap, with the serene hope of
         enjoying it till noon the next day, I placed my head upon the pillow, and, through the aid
-        of a capital conscience, fell into a profound slumber forthwith.</paragraph>
+        of a capital conscience, fell into a profound slumber forthwith.</p>
 
-    <paragraph n="4">But when were the hopes of humanity fulfilled? I could not have completed my third
+    <p n="4">But when were the hopes of humanity fulfilled? I could not have completed my third
         snore when there came a furious ringing at the street-door bell, and then an impatient
         thumping at the knocker, which awakened me at once. In a minute afterward, and while I was
         still rubbing my eyes, my wife thrust in my face a note, from my old friend, Doctor
-        <character>Ponnonner</character>. It ran thus:</paragraph>
+        <char>Ponnonner</char>. It ran thus:</p>
 
-    <paragraph n="5">
+    <p n="5">
         <note>Come to me, by all means, my dear good friend, as soon as you receive this. Come and
             help us to rejoice. At last, by long persevering diplomacy, I have gained the assent of
-            the Directors of the City Museum, to my examination of the <character> Mummy</character> -- you know the one I
+            the Directors of the City Museum, to my examination of the <char> Mummy</char> -- you know the one I
             mean. I have permission to unswathe it and open it, if desirable. A few friends only
-            will be present -- you, of course. The <character> Mummy</character> is now at my house, and we shall begin to
-            unroll it at eleven to-night. Yours, ever, <character>PONNONNER</character>.</note>
-    </paragraph>
+            will be present -- you, of course. The <char> Mummy</char> is now at my house, and we shall begin to
+            unroll it at eleven to-night. Yours, ever, <char>PONNONNER</char>.</note>
+    </p>
 
-    <paragraph n="6">By the time I had reached the "<character>Ponnonner</character>," it struck me that I was as wide awake as a
+    <p n="6">By the time I had reached the "<char>Ponnonner</char>," it struck me that I was as wide awake as a
         man need be. I leaped out of bed in an ecstacy, overthrowing all in my way; dressed myself
         with a rapidity truly marvellous; and set off, at the top of my speed, for the
-        <character>doctor's</character>.</paragraph>
+        <char>doctor's</char>.</p>
 
-    <paragraph n="7">There I found a very eager company assembled. They had been awaiting me with much
-        impatience; the <character> Mummy</character> was extended upon the dining-table; and the moment I entered its
-        examination was commenced.</paragraph>
+    <p n="7">There I found a very eager company assembled. They had been awaiting me with much
+        impatience; the <char> Mummy</char> was extended upon the dining-table; and the moment I entered its
+        examination was commenced.</p>
 
-    <paragraph n="8">It was one of a pair brought, several years previously, by <character>Captain Arthur Sabretash,</character>
-        a cousin of <character>Ponnonner's</character> from a tomb near Eleithias, in the Lybian mountains, a considerable
+    <p n="8">It was one of a pair brought, several years previously, by <char>Captain Arthur Sabretash,</char>
+        a cousin of <char>Ponnonner's</char> from a tomb near Eleithias, in the Lybian mountains, a considerable
         distance above Thebes on the Nile. The grottoes at this point, although less magnificent
         than the Theban sepulchres, are of higher interest, on account of affording more numerous
         illustrations of the private life of the Egyptians. The chamber from which our specimen was
         taken, was said to be very rich in such illustrations; the walls being completely covered
         with fresco paintings and bas-reliefs, while statues, vases, and Mosaic work of rich
-        patterns, indicated the vast wealth of the deceased.</paragraph>
+        patterns, indicated the vast wealth of the deceased.</p>
 
-    <paragraph n="9">The treasure had been deposited in the Museum precisely in the same condition in
-        which<character> Captain Sabretash </character>had found it; -- that is to say, the coffin had not been disturbed.
+    <p n="9">The treasure had been deposited in the Museum precisely in the same condition in
+        which<char> Captain Sabretash </char>had found it; -- that is to say, the coffin had not been disturbed.
         For eight years it had thus stood, subject only externally to public inspection. We had now,
-        therefore, the complete <character> Mummy</character> at our disposal; and to those who are aware how very rarely
+        therefore, the complete <char> Mummy</char> at our disposal; and to those who are aware how very rarely
         the unransacked antique reaches our shores, it will be evident, at once that we had great
-        reason to congratulate ourselves upon our good fortune.</paragraph>
+        reason to congratulate ourselves upon our good fortune.</p>
 
-    <paragraph n="10">Approaching the table, I saw on it a large box, or case, nearly seven feet long, and
+    <p n="10">Approaching the table, I saw on it a large box, or case, nearly seven feet long, and
         perhaps three feet wide, by two feet and a half deep. It was oblong -- not coffin-shaped.
         The material was at first supposed to be the wood of the sycamore (platanus), but, upon
         cutting into it, we found it to be pasteboard, or, more properly, papier mache, composed of
         papyrus. It was thickly ornamented with paintings, representing funeral scenes, and other
         mournful subjects -- interspersed among which, in every variety of position, were certain
-        series of hieroglyphical characters, intended, no doubt, for the name of the departed. By
-        good luck, <character> Mr. Gliddon</character> formed one of our party; and he had no difficulty in translating the
-        letters, which were simply phonetic, and represented the word <character> Allamistakeo</character>.</paragraph>
+        series of hieroglyphical chars, intended, no doubt, for the name of the departed. By
+        good luck, <char> Mr. Gliddon</char> formed one of our party; and he had no difficulty in translating the
+        letters, which were simply phonetic, and represented the word <char> Allamistakeo</char>.</p>
 
-    <paragraph n="11">We had some difficulty in getting this case open without injury; but having at length
+    <p n="11">We had some difficulty in getting this case open without injury; but having at length
         accomplished the task, we came to a second, coffin-shaped, and very considerably less in
         size than the exterior one, but resembling it precisely in every other respect. The interval
         between the two was filled with resin, which had, in some degree, defaced the colors of the
-        interior box.</paragraph>
+        interior box.</p>
 
-    <paragraph n="12">Upon opening this latter (which we did quite easily), we arrived at a third case,
+    <p n="12">Upon opening this latter (which we did quite easily), we arrived at a third case,
         also coffin-shaped, and varying from the second one in no particular, except in that of its
         material, which was cedar, and still emitted the peculiar and highly aromatic odor of that
         wood. Between the second and the third case there was no interval -- the one fitting
-        accurately within the other.</paragraph>
+        accurately within the other.</p>
 
-    <paragraph n="13">Removing the third case, we discovered and took out the body itself. We had expected
+    <p n="13">Removing the third case, we discovered and took out the body itself. We had expected
         to find it, as usual, enveloped in frequent rolls, or bandages, of linen; but, in place of
         these, we found a sort of sheath, made of papyrus, and coated with a layer of plaster,
         thickly gilt and painted. The paintings represented subjects connected with the various
@@ -94,93 +95,93 @@
         identical human figures, intended, very probably, as portraits of the persons embalmed.
         Extending from head to foot was a columnar, or perpendicular, inscription, in phonetic
         hieroglyphics, giving again his name and titles, and the names and titles of his
-        relations.</paragraph>
+        relations.</p>
 
-    <paragraph n="14">Around the neck thus ensheathed, was a collar of cylindrical glass beads, diverse in
+    <p n="14">Around the neck thus ensheathed, was a collar of cylindrical glass beads, diverse in
         color, and so arranged as to form images of deities, of the scarabaeus, etc, with the winged
-        globe. Around the small of the waist was a similar collar or belt.</paragraph>
+        globe. Around the small of the waist was a similar collar or belt.</p>
 
-    <paragraph n="15">Stripping off the papyrus, we found the flesh in excellent preservation, with no
+    <p n="15">Stripping off the papyrus, we found the flesh in excellent preservation, with no
         perceptible odor. The color was reddish. The skin was hard, smooth, and glossy. The teeth
         and hair were in good condition. The eyes (it seemed) had been removed, and glass ones
         substituted, which were very beautiful and wonderfully life-like, with the exception of
         somewhat too determined a stare. The fingers and the nails were brilliantly
-        gilded.</paragraph>
+        gilded.</p>
 
-    <paragraph n="16"><character> Mr. Gliddon</character> was of opinion, from the redness of the epidermis, that the embalmment
+    <p n="16"><char> Mr. Gliddon</char> was of opinion, from the redness of the epidermis, that the embalmment
         had been effected altogether by asphaltum; but, on scraping the surface with a steel
         instrument, and throwing into the fire some of the powder thus obtained, the flavor of
-        camphor and other sweet-scented gums became apparent.</paragraph>
+        camphor and other sweet-scented gums became apparent.</p>
 
-    <paragraph n="17">We searched the corpse very carefully for the usual openings through which the
+    <p n="17">We searched the corpse very carefully for the usual openings through which the
         entrails are extracted, but, to our surprise, we could discover none. No member of the party
         was at that period aware that entire or unopened mummies are not infrequently met. The brain
         it was customary to withdraw through the nose; the intestines through an incision in the
         side; the body was then shaved, washed, and salted; then laid aside for several weeks, when
-        the operation of embalming, properly so called, began.</paragraph>
+        the operation of embalming, properly so called, began.</p>
 
-    <paragraph n="18">As no trace of an opening could be found, <character>Doctor Ponnonner</character> was preparing his
+    <p n="18">As no trace of an opening could be found, <char>Doctor Ponnonner</char> was preparing his
         instruments for dissection, when I observed that it was then past two o'clock. Hereupon it
         was agreed to postpone the internal examination until the next evening; and we were about to
         separate for the present, when some one suggested an experiment or two with the Voltaic
-        pile.</paragraph>
+        pile.</p>
 
-    <paragraph n="19">The application of electricity to a <character> mummy</character> three or four thousand years old at the
+    <p n="19">The application of electricity to a <char> mummy</char> three or four thousand years old at the
         least, was an idea, if not very sage, still sufficiently original, and we all caught it at
         once. About one-tenth in earnest and nine-tenths in jest, we arranged a battery in the
-        <character>Doctor's</character> study, and conveyed thither the Egyptian.</paragraph>
+        <char>Doctor's</char> study, and conveyed thither the Egyptian.</p>
 
-    <paragraph n="20">It was only after much trouble that we succeeded in laying bare some portions of the
+    <p n="20">It was only after much trouble that we succeeded in laying bare some portions of the
         temporal muscle which appeared of less stony rigidity than other parts of the frame, but
         which, as we had anticipated, of course, gave no indication of galvanic susceptibility when
         brought in contact with the wire. This, the first trial, indeed, seemed decisive, and, with
         a hearty laugh at our own absurdity, we were bidding each other good night, when my eyes,
-        happening to fall upon those of the <character> Mummy</character>, were there immediately riveted in amazement. My
+        happening to fall upon those of the <char> Mummy</char>, were there immediately riveted in amazement. My
         brief glance, in fact, had sufficed to assure me that the orbs which we had all supposed to
         be glass, and which were originally noticeable for a certain wild stare, were now so far
         covered by the lids, that only a small portion of the tunica albuginea remained
-        visible.</paragraph>
+        visible.</p>
 
-    <paragraph n="21">With a shout I called attention to the fact, and it became immediately obvious to
-        all.</paragraph>
+    <p n="21">With a shout I called attention to the fact, and it became immediately obvious to
+        all.</p>
 
-    <paragraph n="22">I cannot say that I was alarmed at the phenomenon, because "alarmed" is, in my case,
+    <p n="22">I cannot say that I was alarmed at the phenomenon, because "alarmed" is, in my case,
         not exactly the word. It is possible, however, that, but for the Brown Stout, I might have
         been a little nervous. As for the rest of the company, they really made no attempt at
-        concealing the downright fright which possessed them. <character>Doctor Ponnonner</character> was a man to be
-        pitied. <character> Mr. Gliddon</character>, by some peculiar process, rendered himself invisible. <character>Mr. Silk
-        Buckingham</character>, I fancy, will scarcely be so bold as to deny that he made his way, upon all
-        fours, under the table.</paragraph>
+        concealing the downright fright which possessed them. <char>Doctor Ponnonner</char> was a man to be
+        pitied. <char> Mr. Gliddon</char>, by some peculiar process, rendered himself invisible. <char>Mr. Silk
+        Buckingham</char>, I fancy, will scarcely be so bold as to deny that he made his way, upon all
+        fours, under the table.</p>
 
-    <paragraph n="23">After the first shock of astonishment, however, we resolved, as a matter of course,
+    <p n="23">After the first shock of astonishment, however, we resolved, as a matter of course,
         upon further experiment forthwith. Our operations were now directed against the great toe of
         the right foot. We made an incision over the outside of the exterior os sesamoideum pollicis
         pedis, and thus got at the root of the abductor muscle. Readjusting the battery, we now
         applied the fluid to the bisected nerves -- when, with a movement of exceeding
-        life-likeness, the <character> Mummy</character> first drew up its right knee so as to bring it nearly in contact
+        life-likeness, the <char> Mummy</char> first drew up its right knee so as to bring it nearly in contact
         with the abdomen, and then, straightening the limb with inconceivable force, bestowed a kick
-        upon <character>Doctor Ponnonner</character>, which had the effect of discharging that gentleman, like an arrow
-        from a catapult, through a window into the street below.</paragraph>
+        upon <char>Doctor Ponnonner</char>, which had the effect of discharging that gentleman, like an arrow
+        from a catapult, through a window into the street below.</p>
 
-    <paragraph n="24">We rushed out en masse to bring in the mangled remains of the victim, but had the
+    <p n="24">We rushed out en masse to bring in the mangled remains of the victim, but had the
         happiness to meet him upon the staircase, coming up in an unaccountable hurry, brimful of
         the most ardent philosophy, and more than ever impressed with the necessity of prosecuting
-        our experiment with vigor and with zeal.</paragraph>
+        our experiment with vigor and with zeal.</p>
 
-    <paragraph n="25">It was by his advice, accordingly, that we made, upon the spot, a profound incision
-        into the tip of the subject's nose, while the <character>Doctor</character> himself, laying violent hands upon it,
-        pulled it into vehement contact with the wire.</paragraph>
+    <p n="25">It was by his advice, accordingly, that we made, upon the spot, a profound incision
+        into the tip of the subject's nose, while the <char>Doctor</char> himself, laying violent hands upon it,
+        pulled it into vehement contact with the wire.</p>
 
-    <paragraph n="26">Morally and physically -- figuratively and literally -- was the effect electric. In
+    <p n="26">Morally and physically -- figuratively and literally -- was the effect electric. In
         the first place, the corpse opened its eyes and winked very rapidly for several minutes, as
         does Mr. Barnes in the pantomime, in the second place, it sneezed; in the third, it sat upon
-        end; in the fourth, it shook its fist in <character>Doctor Ponnonner's</character> face; in the fifth, turning to
-        Messieurs<character>  Gliddon</character> and <character> Buckingham</character>, it addressed them, in very capital Egyptian,
-        thus:</paragraph>
+        end; in the fourth, it shook its fist in <char>Doctor Ponnonner's</char> face; in the fifth, turning to
+        Messieurs<char>  Gliddon</char> and <char> Buckingham</char>, it addressed them, in very capital Egyptian,
+        thus:</p>
 
-    <paragraph n="27">"I must say, gentlemen, that I am as much surprised as I am mortified at your
-        behaviour. Of <character>Doctor Ponnonner</character> nothing better was to be expected. He is a poor little fat
-        fool who knows no better. I pity and forgive him. But you, <character> Mr. Gliddon</character>- and you, Silk -- who
+    <p n="27">"I must say, gentlemen, that I am as much surprised as I am mortified at your
+        behaviour. Of <char>Doctor Ponnonner</char> nothing better was to be expected. He is a poor little fat
+        fool who knows no better. I pity and forgive him. But you, <char> Mr. Gliddon</char>- and you, Silk -- who
         have travelled and resided in Egypt until one might imagine you to the manner born -- you, I
         say who have been so much among us that you speak Egyptian fully as well, I think, as you
         write your mother tongue -- you, whom I have always been led to regard as the firm friend of
@@ -188,134 +189,134 @@
         of your standing quietly by and seeing me thus unhandsomely used? What am I to suppose by
         your permitting Tom, Dick, and Harry to strip me of my coffins, and my clothes, in this
         wretchedly cold climate? In what light (to come to the point) am I to regard your aiding and
-        abetting that miserable little villain, <character>Doctor Ponnonner</character>, in pulling me by the
-        nose?"</paragraph>
+        abetting that miserable little villain, <char>Doctor Ponnonner</char>, in pulling me by the
+        nose?"</p>
 
-    <paragraph n="28">It will be taken for granted, no doubt, that upon hearing this speech under the
+    <p n="28">It will be taken for granted, no doubt, that upon hearing this speech under the
         circumstances, we all either made for the door, or fell into violent hysterics, or went off
         in a general swoon. One of these three things was, I say, to be expected. Indeed each and
         all of these lines of conduct might have been very plausibly pursued. And, upon my word, I
         am at a loss to know how or why it was that we pursued neither the one nor the other. But,
         perhaps, the true reason is to be sought in the spirit of the age, which proceeds by the
         rule of contraries altogether, and is now usually admitted as the solution of every thing in
-        the way of paradox and impossibility. Or, perhaps, after all, it was only the <character>Mummy's</character>
+        the way of paradox and impossibility. Or, perhaps, after all, it was only the <char>Mummy's</char>
         exceedingly natural and matter-of-course air that divested his words of the terrible.
         However this may be, the facts are clear, and no member of our party betrayed any very
         particular trepidation, or seemed to consider that any thing had gone very especially
-        wrong.</paragraph>
+        wrong.</p>
 
-    <paragraph n="29">For my part I was convinced it was all right, and merely stepped aside, out of the
-        range of the Egyptian's fist. <character>Doctor Ponnonner</character> thrust his hands into his breeches' pockets,
-        looked hard at the <character> Mummy</character>, and grew excessively red in the face. Mr. Glidden stroked his
-        whiskers and drew up the collar of his shirt. <character> Mr. Buckingham</character> hung down his head, and put his
-        right thumb into the left corner of his mouth.</paragraph>
+    <p n="29">For my part I was convinced it was all right, and merely stepped aside, out of the
+        range of the Egyptian's fist. <char>Doctor Ponnonner</char> thrust his hands into his breeches' pockets,
+        looked hard at the <char> Mummy</char>, and grew excessively red in the face. Mr. Glidden stroked his
+        whiskers and drew up the collar of his shirt. <char> Mr. Buckingham</char> hung down his head, and put his
+        right thumb into the left corner of his mouth.</p>
 
-    <paragraph n="30">The Egyptian regarded him with a severe countenance for some minutes and at length,
-        with a sneer, said:</paragraph>
+    <p n="30">The Egyptian regarded him with a severe countenance for some minutes and at length,
+        with a sneer, said:</p>
 
-    <paragraph n="31">"Why don't you speak, <character> Mr. Buckingham</character>? Did you hear what I asked you, or not? Do take
-        your thumb out of your mouth!"</paragraph>
+    <p n="31">"Why don't you speak, <char> Mr. Buckingham</char>? Did you hear what I asked you, or not? Do take
+        your thumb out of your mouth!"</p>
 
-    <paragraph n="32"><character> Mr. Buckingham</character>, hereupon, gave a slight start, took his right thumb out of the left
+    <p n="32"><char> Mr. Buckingham</char>, hereupon, gave a slight start, took his right thumb out of the left
         corner of his mouth, and, by way of indemnification inserted his left thumb in the right
-        corner of the aperture above-mentioned.</paragraph>
+        corner of the aperture above-mentioned.</p>
 
-    <paragraph n="33">Not being able to get an answer from Mr. B., the figure turned peevishly to<character> Mr.
-        Gliddon, </character>and, in a peremptory tone, demanded in general terms what we all meant.</paragraph>
+    <p n="33">Not being able to get an answer from Mr. B., the figure turned peevishly to<char> Mr.
+        Gliddon, </char>and, in a peremptory tone, demanded in general terms what we all meant.</p>
 
-    <paragraph n="34"><character> Mr. Gliddon</character> replied at great length, in phonetics; and but for the deficiency of
+    <p n="34"><char> Mr. Gliddon</char> replied at great length, in phonetics; and but for the deficiency of
         American printing-offices in hieroglyphical type, it would afford me much pleasure to record
-        here, in the original, the whole of his very excellent speech.</paragraph>
+        here, in the original, the whole of his very excellent speech.</p>
 
-    <paragraph n="35">I may as well take this occasion to remark, that all the subsequent conversation in
-        which the <character> Mummy</character> took a part, was carried on in primitive Egyptian, through the medium (so
+    <p n="35">I may as well take this occasion to remark, that all the subsequent conversation in
+        which the <char> Mummy</char> took a part, was carried on in primitive Egyptian, through the medium (so
         far as concerned myself and other untravelled members of the company) -- through the medium,
-        I say, of Messieurs<character>  Gliddon</character> and <character> Buckingham</character>, as interpreters. These gentlemen spoke the
-        mother tongue of the <character> Mummy</character> with inimitable fluency and grace; but I could not help observing
+        I say, of Messieurs<char>  Gliddon</char> and <char> Buckingham</char>, as interpreters. These gentlemen spoke the
+        mother tongue of the <char> Mummy</char> with inimitable fluency and grace; but I could not help observing
         that (owing, no doubt, to the introduction of images entirely modern, and, of course,
-        entirely novel to the stranger) the two <character> travellers</character> were reduced, occasionally, to the
-        employment of sensible forms for the purpose of conveying a particular meaning. <character> Mr. Gliddon</character>,
+        entirely novel to the stranger) the two <char> travellers</char> were reduced, occasionally, to the
+        employment of sensible forms for the purpose of conveying a particular meaning. <char> Mr. Gliddon</char>,
         at one period, for example, could not make the Egyptian comprehend the term "politics,"
         until he sketched upon the wall, with a bit of charcoal a little carbuncle-nosed gentleman,
         out at elbows, standing upon a stump, with his left leg drawn back, right arm thrown
         forward, with his fist shut, the eyes rolled up toward Heaven, and the mouth open at an
-        angle of ninety degrees. Just in the same way <character> Mr. Buckingham</character> failed to convey the absolutely
-        modern idea "wig," until (at <character>Doctor Ponnonner's</character> suggestion) he grew very pale in the face,
-        and consented to take off his own.</paragraph>
+        angle of ninety degrees. Just in the same way <char> Mr. Buckingham</char> failed to convey the absolutely
+        modern idea "wig," until (at <char>Doctor Ponnonner's</char> suggestion) he grew very pale in the face,
+        and consented to take off his own.</p>
 
-    <paragraph n="36">It will be readily understood that <character> Mr. Gliddon</character>'s discourse turned chiefly upon the
+    <p n="36">It will be readily understood that <char> Mr. Gliddon</char>'s discourse turned chiefly upon the
         vast benefits accruing to science from the unrolling and disembowelling of mummies;
         apologizing, upon this score, for any disturbance that might have been occasioned him, in
-        particular, the individual <character> Mummy</character> called <character> Allamistakeo</character>; and concluding with a mere hint (for
+        particular, the individual <char> Mummy</char> called <char> Allamistakeo</char>; and concluding with a mere hint (for
         it could scarcely be considered more) that, as these little matters were now explained, it
-        might be as well to proceed with the investigation intended. Here <character>Doctor Ponnonner</character> made
-        ready his instruments.</paragraph>
+        might be as well to proceed with the investigation intended. Here <char>Doctor Ponnonner</char> made
+        ready his instruments.</p>
 
-    <paragraph n="37">In regard to the latter suggestions of the orator, it appears that <character> Allamistakeo</character> had
+    <p n="37">In regard to the latter suggestions of the orator, it appears that <char> Allamistakeo</char> had
         certain scruples of conscience, the nature of which I did not distinctly learn; but he
         expressed himself satisfied with the apologies tendered, and, getting down from the table,
-        shook hands with the company all round.</paragraph>
+        shook hands with the company all round.</p>
 
-    <paragraph n="38">When this ceremony was at an end, we immediately busied ourselves in repairing the
+    <p n="38">When this ceremony was at an end, we immediately busied ourselves in repairing the
         damages which our subject had sustained from the scalpel. We sewed up the wound in his
         temple, bandaged his foot, and applied a square inch of black plaster to the tip of his
-        nose.</paragraph>
+        nose.</p>
 
-    <paragraph n="39">It was now observed that the Count (this was the title, it seems, of <character> Allamistakeo</character>)
-        had a slight fit of shivering -- no doubt from the cold. The <character>Doctor</character> immediately repaired to
+    <p n="39">It was now observed that the Count (this was the title, it seems, of <char> Allamistakeo</char>)
+        had a slight fit of shivering -- no doubt from the cold. The <char>Doctor</char> immediately repaired to
         his wardrobe, and soon returned with a black dress coat, made in Jennings' best manner, a
         pair of sky-blue plaid pantaloons with straps, a pink gingham chemise, a flapped vest of
         brocade, a white sack overcoat, a walking cane with a hook, a hat with no brim,
         patent-leather boots, straw-colored kid gloves, an eye-glass, a pair of whiskers, and a
-        waterfall cravat. Owing to the disparity of size between the Count and the <character>doctor</character> (the
+        waterfall cravat. Owing to the disparity of size between the Count and the <char>doctor</char> (the
         proportion being as two to one), there was some little difficulty in adjusting these
         habiliments upon the person of the Egyptian; but when all was arranged, he might have been
-        said to be dressed. <character> Mr. Gliddon</character>, therefore, gave him his arm, and led him to a comfortable
-        chair by the fire, while the <character>Doctor</character> rang the bell upon the spot and ordered a supply of
-        cigars and wine.</paragraph>
+        said to be dressed. <char> Mr. Gliddon</char>, therefore, gave him his arm, and led him to a comfortable
+        chair by the fire, while the <char>Doctor</char> rang the bell upon the spot and ordered a supply of
+        cigars and wine.</p>
 
-    <paragraph n="40">The conversation soon grew animated. Much curiosity was, of course, expressed in
-        regard to the somewhat remarkable fact of <character>Allamistakeo's</character> still remaining alive.</paragraph>
+    <p n="40">The conversation soon grew animated. Much curiosity was, of course, expressed in
+        regard to the somewhat remarkable fact of <char>Allamistakeo's</char> still remaining alive.</p>
 
-    <paragraph n="41">"I should have thought," observed <character> Mr. Buckingham</character>, "that it is high time you were
-        dead."</paragraph>
+    <p n="41">"I should have thought," observed <char> Mr. Buckingham</char>, "that it is high time you were
+        dead."</p>
 
-    <paragraph n="42">"Why," replied the Count, very much astonished, "I am little more than seven hundred
+    <p n="42">"Why," replied the Count, very much astonished, "I am little more than seven hundred
         years old! My father lived a thousand, and was by no means in his dotage when he
-        died."</paragraph>
+        died."</p>
 
-    <paragraph n="43">Here ensued a brisk series of questions and computations, by means of which it became
-        evident that the antiquity of the <character> Mummy</character> had been grossly misjudged. It had been five
+    <p n="43">Here ensued a brisk series of questions and computations, by means of which it became
+        evident that the antiquity of the <char> Mummy</char> had been grossly misjudged. It had been five
         thousand and fifty years and some months since he had been consigned to the catacombs at
-        Eleithias.</paragraph>
+        Eleithias.</p>
 
-    <paragraph n="44">"But my remark," resumed <character> Mr. Buckingham</character>, "had no reference to your age at the period
+    <p n="44">"But my remark," resumed <char> Mr. Buckingham</char>, "had no reference to your age at the period
         of interment (I am willing to grant, in fact, that you are still a young man), and my
         illusion was to the immensity of time during which, by your own showing, you must have been
-        done up in asphaltum."</paragraph>
+        done up in asphaltum."</p>
 
-    <paragraph n="45">"In what?" said the Count.</paragraph>
+    <p n="45">"In what?" said the Count.</p>
 
-    <paragraph n="46">"In asphaltum," persisted Mr. B.</paragraph>
+    <p n="46">"In asphaltum," persisted Mr. B.</p>
 
-    <paragraph n="47">"Ah, yes; I have some faint notion of what you mean; it might be made to answer, no
+    <p n="47">"Ah, yes; I have some faint notion of what you mean; it might be made to answer, no
         doubt -- but in my time we employed scarcely any thing else than the Bichloride of
-        Mercury."</paragraph>
+        Mercury."</p>
 
-    <paragraph n="48">"But what we are especially at a loss to understand," said <character>Doctor Ponnonner</character>, "is how
+    <p n="48">"But what we are especially at a loss to understand," said <char>Doctor Ponnonner</char>, "is how
         it happens that, having been dead and buried in Egypt five thousand years ago, you are here
-        to-day all alive and looking so delightfully well."</paragraph>
+        to-day all alive and looking so delightfully well."</p>
 
-    <paragraph n="49">"Had I been, as you say, dead," replied the Count, "it is more than probable that
+    <p n="49">"Had I been, as you say, dead," replied the Count, "it is more than probable that
         dead, I should still be; for I perceive you are yet in the infancy of Calvanism, and cannot
         accomplish with it what was a common thing among us in the old days. But the fact is, I fell
         into catalepsy, and it was considered by my best friends that I was either dead or should
         be; they accordingly embalmed me at once -- I presume you are aware of the chief principle
-        of the embalming process?"</paragraph>
+        of the embalming process?"</p>
 
-    <paragraph n="50">"Why not altogether."</paragraph>
+    <p n="50">"Why not altogether."</p>
 
-    <paragraph n="51">"Why, I perceive -- a deplorable condition of ignorance! Well I cannot enter into
+    <p n="51">"Why, I perceive -- a deplorable condition of ignorance! Well I cannot enter into
         details just now: but it is necessary to explain that to embalm (properly speaking), in
         Egypt, was to arrest indefinitely all the animal functions subjected to the process. I use
         the word 'animal' in its widest sense, as including the physical not more than the moral and
@@ -323,58 +324,58 @@
         immediately arresting, and holding in perpetual abeyance, all the animal functions subjected
         to the process. To be brief, in whatever condition the individual was, at the period of
         embalmment, in that condition he remained. Now, as it is my good fortune to be of the blood
-        of the Scarabaeus, I was embalmed alive, as you see me at present."</paragraph>
+        of the Scarabaeus, I was embalmed alive, as you see me at present."</p>
 
-    <paragraph n="52">"The blood of the Scarabaeus!" exclaimed <character>Doctor Ponnonner</character>.</paragraph>
+    <p n="52">"The blood of the Scarabaeus!" exclaimed <char>Doctor Ponnonner</char>.</p>
 
-    <paragraph n="53">"Yes. The Scarabaeus was the insignium or the 'arms,' of a very distinguished and
+    <p n="53">"Yes. The Scarabaeus was the insignium or the 'arms,' of a very distinguished and
         very rare patrician family. To be 'of the blood of the Scarabaeus,' is merely to be one of
-        that family of which the Scarabaeus is the insignium. I speak figuratively."</paragraph>
+        that family of which the Scarabaeus is the insignium. I speak figuratively."</p>
 
-    <paragraph n="54">"But what has this to do with you being alive?"</paragraph>
+    <p n="54">"But what has this to do with you being alive?"</p>
 
-    <paragraph n="55">"Why, it is the general custom in Egypt to deprive a corpse, before embalmment, of
+    <p n="55">"Why, it is the general custom in Egypt to deprive a corpse, before embalmment, of
         its bowels and brains; the race of the Scarabaei alone did not coincide with the custom. Had
         I not been a Scarabeus, therefore, I should have been without bowels and brains; and without
-        either it is inconvenient to live."</paragraph>
+        either it is inconvenient to live."</p>
 
-    <paragraph n="56">"I perceive that," said <character> Mr. Buckingham</character>, "and I presume that all the entire mummies
-        that come to hand are of the race of Scarabaei."</paragraph>
+    <p n="56">"I perceive that," said <char> Mr. Buckingham</char>, "and I presume that all the entire mummies
+        that come to hand are of the race of Scarabaei."</p>
 
-    <paragraph n="57">"Beyond doubt."</paragraph>
+    <p n="57">"Beyond doubt."</p>
 
-    <paragraph n="58">"I thought," said <character> Mr. Gliddon</character>, very meekly, "that the Scarabaeus was one of the
-        Egyptian gods."</paragraph>
+    <p n="58">"I thought," said <char> Mr. Gliddon</char>, very meekly, "that the Scarabaeus was one of the
+        Egyptian gods."</p>
 
-    <paragraph n="59">"One of the Egyptian what?" exclaimed the <character> Mummy</character>, starting to its feet.</paragraph>
+    <p n="59">"One of the Egyptian what?" exclaimed the <char> Mummy</char>, starting to its feet.</p>
 
-    <paragraph n="60">"Gods!" repeated the <character> traveller</character>.</paragraph>
+    <p n="60">"Gods!" repeated the <char> traveller</char>.</p>
 
-    <paragraph n="61">"<character> Mr. Gliddon</character>, I really am astonished to hear you talk in this style," said the Count,
+    <p n="61">"<char> Mr. Gliddon</char>, I really am astonished to hear you talk in this style," said the Count,
         resuming his chair. "No nation upon the face of the earth has ever acknowledged more than
         one god. The Scarabaeus, the Ibis, etc., were with us (as similar creatures have been with
         others) the symbols, or media, through which we offered worship to the Creator too august to
-        be more directly approached."</paragraph>
+        be more directly approached."</p>
 
-    <paragraph n="62">There was here a pause. At length the colloquy was renewed by<character> Doctor
-        Ponnonner</character>.</paragraph>
+    <p n="62">There was here a pause. At length the colloquy was renewed by<char> Doctor
+        Ponnonner</char>.</p>
 
-    <paragraph n="63">"It is not improbable, then, from what you have explained," said he, "that among the
+    <p n="63">"It is not improbable, then, from what you have explained," said he, "that among the
         catacombs near the Nile there may exist other mummies of the Scarabaeus tribe, in a
-        condition of vitality?"</paragraph>
+        condition of vitality?"</p>
 
-    <paragraph n="64">"There can be no question of it," replied the Count; "all the Scarabaei embalmed
+    <p n="64">"There can be no question of it," replied the Count; "all the Scarabaei embalmed
         accidentally while alive, are alive now. Even some of those purposely so embalmed, may have
-        been overlooked by their executors, and still remain in the tomb."</paragraph>
+        been overlooked by their executors, and still remain in the tomb."</p>
 
-    <paragraph n="65">"Will you be kind enough to explain," I said, "what you mean by 'purposely so
-        embalmed'?"</paragraph>
+    <p n="65">"Will you be kind enough to explain," I said, "what you mean by 'purposely so
+        embalmed'?"</p>
 
-    <paragraph n="66">"With great pleasure!" answered the <character> Mummy</character>, after surveying me leisurely through his
+    <p n="66">"With great pleasure!" answered the <char> Mummy</char>, after surveying me leisurely through his
         eye-glass -- for it was the first time I had ventured to address him a direct
-        question.</paragraph>
+        question.</p>
 
-    <paragraph n="67">"With great pleasure," he said. "The usual duration of man's life, in my time, was
+    <p n="67">"With great pleasure," he said. "The usual duration of man's life, in my time, was
         about eight hundred years. Few men died, unless by most extraordinary accident, before the
         age of six hundred; few lived longer than a decade of centuries; but eight were considered
         the natural term. After the discovery of the embalming principle, as I have already
@@ -396,36 +397,36 @@
         correcting, from his own private knowledge and experience, the traditions of the day
         concerning the epoch at which he had originally lived. Now this process of re-scription and
         personal rectification, pursued by various individual sages from time to time, had the
-        effect of preventing our history from degenerating into absolute fable."</paragraph>
+        effect of preventing our history from degenerating into absolute fable."</p>
 
-    <paragraph n="68">"I beg your pardon," said <character>Doctor Ponnonner</character> at this point, laying his hand gently upon
+    <p n="68">"I beg your pardon," said <char>Doctor Ponnonner</char> at this point, laying his hand gently upon
         the arm of the Egyptian -- "I beg your pardon, sir, but may I presume to interrupt you for
-        one moment?"</paragraph>
+        one moment?"</p>
 
-    <paragraph n="69">"By all means, sir," replied the Count, drawing up.</paragraph>
+    <p n="69">"By all means, sir," replied the Count, drawing up.</p>
 
-    <paragraph n="70">"I merely wished to ask you a question," said the <character>Doctor</character>. "You mentioned the
+    <p n="70">"I merely wished to ask you a question," said the <char>Doctor</char>. "You mentioned the
         historian's personal correction of traditions respecting his own epoch. Pray, sir, upon an
-        average what proportion of these Kabbala were usually found to be right?"</paragraph>
+        average what proportion of these Kabbala were usually found to be right?"</p>
 
-    <paragraph n="71">"The Kabbala, as you properly term them, sir, were generally discovered to be
+    <p n="71">"The Kabbala, as you properly term them, sir, were generally discovered to be
         precisely on a par with the facts recorded in the un-re-written histories themselves; --
         that is to say, not one individual iota of either was ever known, under any circumstances,
-        to be not totally and radically wrong."</paragraph>
+        to be not totally and radically wrong."</p>
 
-    <paragraph n="72">"But since it is quite clear," resumed the <character>Doctor</character>, "that at least five thousand years
+    <p n="72">"But since it is quite clear," resumed the <char>Doctor</char>, "that at least five thousand years
         have elapsed since your entombment, I take it for granted that your histories at that
         period, if not your traditions were sufficiently explicit on that one topic of universal
         interest, the Creation, which took place, as I presume you are aware, only about ten
-        centuries before."</paragraph>
+        centuries before."</p>
 
-    <paragraph n="73">"Sir!" said the Count <character> Allamistakeo</character>.</paragraph>
+    <p n="73">"Sir!" said the Count <char> Allamistakeo</char>.</p>
 
-    <paragraph n="74">The <character>Doctor</character> repeated his remarks, but it was only after much additional explanation
+    <p n="74">The <char>Doctor</char> repeated his remarks, but it was only after much additional explanation
         that the foreigner could be made to comprehend them. The latter at length said,
-        hesitatingly:</paragraph>
+        hesitatingly:</p>
 
-    <paragraph n="75">"The ideas you have suggested are to me, I confess, utterly novel. During my time I
+    <p n="75">"The ideas you have suggested are to me, I confess, utterly novel. During my time I
         never knew any one to entertain so singular a fancy as that the universe (or this world if
         you will have it so) ever had a beginning at all. I remember once, and once only, hearing
         something remotely hinted, by a man of many speculations, concerning the origin of the human
@@ -434,57 +435,57 @@
         germination from rank soil (just as a thousand of the lower genera of creatures are
         germinated) -- the spontaneous germination, I say, of five vast hordes of men,
         simultaneously upspringing in five distinct and nearly equal divisions of the
-        globe."</paragraph>
+        globe."</p>
 
-    <paragraph n="76">Here, in general, the company shrugged their shoulders, and one or two of us touched
-        our foreheads with a very significant air. <character> Mr. Silk Buckingham</character>, first glancing slightly at
-        the occiput and then at the sinciput of <character> Allamistakeo</character>, spoke as follows:</paragraph>
+    <p n="76">Here, in general, the company shrugged their shoulders, and one or two of us touched
+        our foreheads with a very significant air. <char> Mr. Silk Buckingham</char>, first glancing slightly at
+        the occiput and then at the sinciput of <char> Allamistakeo</char>, spoke as follows:</p>
 
-    <paragraph n="77">"The long duration of human life in your time, together with the occasional practice
+    <p n="77">"The long duration of human life in your time, together with the occasional practice
         of passing it, as you have explained, in installments, must have had, indeed, a strong
         tendency to the general development and conglomeration of knowledge. I presume, therefore,
         that we are to attribute the marked inferiority of the old Egyptians in all particulars of
         science, when compared with the moderns, and more especially with the Yankees, altogether to
-        the superior solidity of the Egyptian skull."</paragraph>
+        the superior solidity of the Egyptian skull."</p>
 
-    <paragraph n="78">"I confess again," replied the Count, with much suavity, "that I am somewhat at a
-        loss to comprehend you; pray, to what particulars of science do you allude?"</paragraph>
+    <p n="78">"I confess again," replied the Count, with much suavity, "that I am somewhat at a
+        loss to comprehend you; pray, to what particulars of science do you allude?"</p>
 
-    <paragraph n="79">Here our whole party, joining voices, detailed, at great length, the assumptions of
-        phrenology and the marvels of animal magnetism.</paragraph>
+    <p n="79">Here our whole party, joining voices, detailed, at great length, the assumptions of
+        phrenology and the marvels of animal magnetism.</p>
 
-    <paragraph n="80">Having heard us to an end, the Count proceeded to relate a few anecdotes, which
+    <p n="80">Having heard us to an end, the Count proceeded to relate a few anecdotes, which
         rendered it evident that prototypes of Gall and Spurzheim had flourished and faded in Egypt
         so long ago as to have been nearly forgotten, and that the manoeuvres of Mesmer were really
         very contemptible tricks when put in collation with the positive miracles of the Theban
-        savans, who created lice and a great many other similar things.</paragraph>
+        savans, who created lice and a great many other similar things.</p>
 
-    <paragraph n="81">I here asked the Count if his people were able to calculate eclipses. He smiled
-        rather contemptuously, and said they were.</paragraph>
+    <p n="81">I here asked the Count if his people were able to calculate eclipses. He smiled
+        rather contemptuously, and said they were.</p>
 
-    <paragraph n="82">This put me a little out, but I began to make other inquiries in regard to his
+    <p n="82">This put me a little out, but I began to make other inquiries in regard to his
         astronomical knowledge, when a member of the company, who had never as yet opened his mouth,
         whispered in my ear, that for information on this head, I had better consult Ptolemy
-        (whoever Ptolemy is), as well as one Plutarch de facie lunae.</paragraph>
+        (whoever Ptolemy is), as well as one Plutarch de facie lunae.</p>
 
-    <paragraph n="83">I then questioned the <character> Mummy</character> about burning-glasses and lenses, and, in general, about
+    <p n="83">I then questioned the <char> Mummy</char> about burning-glasses and lenses, and, in general, about
         the manufacture of glass; but I had not made an end of my queries before the silent member
         again touched me quietly on the elbow, and begged me for God's sake to take a peep at
         Diodorus Siculus. As for the Count, he merely asked me, in the way of reply, if we moderns
         possessed any such microscopes as would enable us to cut cameos in the style of the
-        Egyptians. While I was thinking how I should answer this question, little <character>Doctor Ponnonner</character>
-        committed himself in a very extraordinary way.</paragraph>
+        Egyptians. While I was thinking how I should answer this question, little <char>Doctor Ponnonner</char>
+        committed himself in a very extraordinary way.</p>
 
-    <paragraph n="84">"Look at our architecture!" he exclaimed, greatly to the indignation of both the
-        <character> travellers</character>, who pinched him black and blue to no purpose.</paragraph>
+    <p n="84">"Look at our architecture!" he exclaimed, greatly to the indignation of both the
+        <char> travellers</char>, who pinched him black and blue to no purpose.</p>
 
-    <paragraph n="85">"Look," he cried with enthusiasm, "at the Bowling-Green Fountain in New York! or if
+    <p n="85">"Look," he cried with enthusiasm, "at the Bowling-Green Fountain in New York! or if
         this be too vast a contemplation, regard for a moment the Capitol at Washington, D. C.!" --
         and the good little medical man went on to detail very minutely, the proportions of the
         fabric to which he referred. He explained that the portico alone was adorned with no less
-        than four and twenty columns, five feet in diameter, and ten feet apart.</paragraph>
+        than four and twenty columns, five feet in diameter, and ten feet apart.</p>
 
-    <paragraph n="86">The Count said that he regretted not being able to remember, just at that moment, the
+    <p n="86">The Count said that he regretted not being able to remember, just at that moment, the
         precise dimensions of any one of the principal buildings of the city of Aznac, whose
         foundations were laid in the night of Time, but the ruins of which were still standing, at
         the epoch of his entombment, in a vast plain of sand to the westward of Thebes. He
@@ -495,96 +496,96 @@
         twenty, sixty, and a hundred feet in height. The palace itself (as well as he could
         remember) was, in one direction, two miles long, and might have been altogether about seven
         in circuit. Its walls were richly painted all over, within and without, with hieroglyphics.
-        He would not pretend to assert that even fifty or sixty of the <character>Doctor's</character> Capitols might have
+        He would not pretend to assert that even fifty or sixty of the <char>Doctor's</char> Capitols might have
         been built within these walls, but he was by no means sure that two or three hundred of them
         might not have been squeezed in with some trouble. That palace at Carnac was an
         insignificant little building after all. He (the Count), however, could not conscientiously
         refuse to admit the ingenuity, magnificence, and superiority of the Fountain at the Bowling
-        Green, as described by the <character>Doctor</character>. Nothing like it, he was forced to allow, had ever been
-        seen in Egypt or elsewhere.</paragraph>
+        Green, as described by the <char>Doctor</char>. Nothing like it, he was forced to allow, had ever been
+        seen in Egypt or elsewhere.</p>
 
-    <paragraph n="87">I here asked the Count what he had to say to our railroads.</paragraph>
+    <p n="87">I here asked the Count what he had to say to our railroads.</p>
 
-    <paragraph n="88">"Nothing," he replied, "in particular." They were rather slight, rather
+    <p n="88">"Nothing," he replied, "in particular." They were rather slight, rather
         ill-conceived, and clumsily put together. They could not be compared, of course, with the
         vast, level, direct, iron-grooved causeways upon which the Egyptians conveyed entire temples
-        and solid obelisks of a hundred and fifty feet in altitude.</paragraph>
+        and solid obelisks of a hundred and fifty feet in altitude.</p>
 
-    <paragraph n="89">I spoke of our gigantic mechanical forces.</paragraph>
+    <p n="89">I spoke of our gigantic mechanical forces.</p>
 
-    <paragraph n="90">He agreed that we knew something in that way, but inquired how I should have gone to
+    <p n="90">He agreed that we knew something in that way, but inquired how I should have gone to
         work in getting up the imposts on the lintels of even the little palace at
-        Carnac.</paragraph>
+        Carnac.</p>
 
-    <paragraph n="91">This question I concluded not to hear, and demanded if he had any idea of Artesian
-        wells; but he simply raised his eyebrows; while <character> Mr. Gliddon</character> winked at me very hard and said,
+    <p n="91">This question I concluded not to hear, and demanded if he had any idea of Artesian
+        wells; but he simply raised his eyebrows; while <char> Mr. Gliddon</char> winked at me very hard and said,
         in a low tone, that one had been recently discovered by the engineers employed to bore for
-        water in the Great Oasis.</paragraph>
+        water in the Great Oasis.</p>
 
-    <paragraph n="92">I then mentioned our steel; but the foreigner elevated his nose, and asked me if our
+    <p n="92">I then mentioned our steel; but the foreigner elevated his nose, and asked me if our
         steel could have executed the sharp carved work seen on the obelisks, and which was wrought
-        altogether by edge-tools of copper.</paragraph>
+        altogether by edge-tools of copper.</p>
 
-    <paragraph n="93">This disconcerted us so greatly that we thought it advisable to vary the attack to
+    <p n="93">This disconcerted us so greatly that we thought it advisable to vary the attack to
         Metaphysics. We sent for a copy of a book called the "Dial," and read out of it a chapter or
         two about something that is not very clear, but which the Bostonians call the Great Movement
-        of Progress.</paragraph>
+        of Progress.</p>
 
-    <paragraph n="94">The Count merely said that Great Movements were awfully common things in his day, and
-        as for Progress, it was at one time quite a nuisance, but it never progressed.</paragraph>
+    <p n="94">The Count merely said that Great Movements were awfully common things in his day, and
+        as for Progress, it was at one time quite a nuisance, but it never progressed.</p>
 
-    <paragraph n="95">We then spoke of the great beauty and importance of Democracy, and were at much
+    <p n="95">We then spoke of the great beauty and importance of Democracy, and were at much
         trouble in impressing the Count with a due sense of the advantages we enjoyed in living
-        where there was suffrage ad libitum, and no king.</paragraph>
+        where there was suffrage ad libitum, and no king.</p>
 
-    <paragraph n="96">He listened with marked interest, and in fact seemed not a little amused. When we had
+    <p n="96">He listened with marked interest, and in fact seemed not a little amused. When we had
         done, he said that, a great while ago, there had occurred something of a very similar sort.
         Thirteen Egyptian provinces determined all at once to be free, and to set a magnificent
         example to the rest of mankind. They assembled their wise men, and concocted the most
         ingenious constitution it is possible to conceive. For a while they managed remarkably well;
         only their habit of bragging was prodigious. The thing ended, however, in the consolidation
         of the thirteen states, with some fifteen or twenty others, in the most odious and
-        insupportable despotism that was ever heard of upon the face of the Earth.</paragraph>
+        insupportable despotism that was ever heard of upon the face of the Earth.</p>
 
-    <paragraph n="97">I asked what was the name of the usurping tyrant.</paragraph>
+    <p n="97">I asked what was the name of the usurping tyrant.</p>
 
-    <paragraph n="98">As well as the Count could recollect, it was Mob.</paragraph>
+    <p n="98">As well as the Count could recollect, it was Mob.</p>
 
-    <paragraph n="99">Not knowing what to say to this, I raised my voice, and deplored the Egyptian
-        ignorance of steam.</paragraph>
+    <p n="99">Not knowing what to say to this, I raised my voice, and deplored the Egyptian
+        ignorance of steam.</p>
 
-    <paragraph n="100">The Count looked at me with much astonishment, but made no answer. The silent
+    <p n="100">The Count looked at me with much astonishment, but made no answer. The silent
         gentleman, however, gave me a violent nudge in the ribs with his elbows -- told me I had
         sufficiently exposed myself for once -- and demanded if I was really such a fool as not to
         know that the modern steam-engine is derived from the invention of Hero, through Solomon de
-        Caus.</paragraph>
+        Caus.</p>
 
-    <paragraph n="101">We were now in imminent danger of being discomfited; but, as good luck would have it,
-        <character>Doctor Ponnonner</character>, having rallied, returned to our rescue, and inquired if the people of
+    <p n="101">We were now in imminent danger of being discomfited; but, as good luck would have it,
+        <char>Doctor Ponnonner</char>, having rallied, returned to our rescue, and inquired if the people of
         Egypt would seriously pretend to rival the moderns in the all- important particular of
-        dress.</paragraph>
+        dress.</p>
 
-    <paragraph n="102">The Count, at this, glanced downward to the straps of his pantaloons, and then taking
+    <p n="102">The Count, at this, glanced downward to the straps of his pantaloons, and then taking
         hold of the end of one of his coat-tails, held it up close to his eyes for some minutes.
         Letting it fall, at last, his mouth extended itself very gradually from ear to ear; but I do
-        not remember that he said any thing in the way of reply.</paragraph>
+        not remember that he said any thing in the way of reply.</p>
 
-    <paragraph n="103">Hereupon we recovered our spirits, and the <character>Doctor</character>, approaching the <character> Mummy</character> with great
+    <p n="103">Hereupon we recovered our spirits, and the <char>Doctor</char>, approaching the <char> Mummy</char> with great
         dignity, desired it to say candidly, upon its honor as a gentleman, if the Egyptians had
-        comprehended, at any period, the manufacture of either <character>Ponnonner's</character> lozenges or Brandreth's
-        pills.</paragraph>
+        comprehended, at any period, the manufacture of either <char>Ponnonner's</char> lozenges or Brandreth's
+        pills.</p>
 
-    <paragraph n="104">We looked, with profound anxiety, for an answer -- but in vain. It was not
+    <p n="104">We looked, with profound anxiety, for an answer -- but in vain. It was not
         forthcoming. The Egyptian blushed and hung down his head. Never was triumph more consummate;
         never was defeat borne with so ill a grace. Indeed, I could not endure the spectacle of the
-        poor <character>Mummy's</character> mortification. I reached my hat, bowed to him stiffly, and took
-        leave.</paragraph>
+        poor <char>Mummy's</char> mortification. I reached my hat, bowed to him stiffly, and took
+        leave.</p>
 
-    <paragraph n="105">Upon getting home I found it past four o'clock, and went immediately to bed. It is
+    <p n="105">Upon getting home I found it past four o'clock, and went immediately to bed. It is
         now ten A.M. I have been up since seven, penning these memoranda for the benefit of my
         family and of mankind. The former I shall behold no more. My wife is a shrew. The truth is,
         I am heartily sick of this life and of the nineteenth century in general. I am convinced
         that every thing is going wrong. Besides, I am anxious to know who will be President in
         2045. As soon, therefore, as I shave and swallow a cup of coffee, I shall just step over to
-        <character>Ponnonner's</character> and get embalmed for a couple of hundred years.</paragraph>
+        <char>Ponnonner's</char> and get embalmed for a couple of hundred years.</p>
 </story>
