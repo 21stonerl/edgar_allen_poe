@@ -14,6 +14,6 @@ type=attribute type {"alliteration"| "hyperbole"| "irony"| "onomatopoeia"| "pers
 title=element title {text}
 author= element author {text}
 year= element year {text}
-theme= attribute theme {"obsession"| "paranoia"| "alienation"| "death"| "regret"| "lost_love"|"fear"}
+theme= attribute theme {"obsession"| "paranoia"| "alienation"| "death"| "regret"| "lost_love"|"fear"|"terror"|"obsession"|"insanity"}
 char = element char {text} 
 quote = element quote {(quote|text|char|fos)*}
