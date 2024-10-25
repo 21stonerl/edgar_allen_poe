@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../documentation/Project_Schema_Mn.rnc" type="application/relax-ng-compact-syntax"?>
-<short-story theme="Insanity">
-    <title>The Fall of the House of Usher </title> by <author>Edgar Allan Poe</author>
-    <pub.date year="1839">(published 1839)</pub.date>
-    <start.quote by="De Beranger">Son coeur est un luth suspendu; Sitot qu'on le touche il resonne.
-        -De Beranger.</start.quote>
-    <para num="1">DURING the whole of a <fig.of.speech type="aliteration">dull, dark, and
-            soundless</fig.of.speech> day in the autumn of the year, <fig.of.speech
-            type="personification">when the clouds hung oppressively </fig.of.speech> low in the
+<?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story n="20" theme="insanity">
+    <info><title>The Fall of the House of Usher </title>  <author>Edgar Allan Poe</author>
+        <year>(published 1839)</year></info>
+
+    <p n="1">DURING the whole of a <fos type="alliteration">dull, dark, and
+            soundless</fos> day in the autumn of the year, <fos
+            type="personification">when the clouds hung oppressively </fos> low in the
         heavens, I had been passing alone, on horseback, through a singularly dreary tract of
         country; and at length found myself, as the shades of the evening drew on, within view of
-        the melancholy House of Usher. I know not how it was --<fig.of.speech type="hyperbole">but,
+        the melancholy House of Usher. I know not how it was --<fos type="hyperbole">but,
             with the first glimpse of the building, a sense of insufferable gloom pervaded my
-            spirit.</fig.of.speech> I say insufferable; for the feeling was unrelieved by any of
-        that <fig.of.speech type="irony">half-pleasurable, because poetic,
-            sentiment,</fig.of.speech> with which the mind usually receives even the sternest
+            spirit.</fos> I say insufferable; for the feeling was unrelieved by any of
+        that <fos type="irony">half-pleasurable, because poetic,
+            sentiment,</fos> with which the mind usually receives even the sternest
         natural images of the desolate or terrible. I looked upon the scene before me --upon the
         mere house, and the simple landscape features of the domain --upon the bleak walls --upon
         the vacant eye-like windows --upon a few rank sedges --and upon a few white trunks of
-        decayed trees --with an utter depression of soul which <fig.of.speech type="simile">I can
+        decayed trees --with an utter depression of soul which <fos type="simile">I can
             compare to no earthly sensation more properly than to the after-dream of the reveller
-            upon opium</fig.of.speech> --the bitter lapse into everyday life --the hideous dropping
+            upon opium</fos> --the bitter lapse into everyday life --the hideous dropping
         off of the veil. There was an iciness, a sinking, a sickening of the heart --an unredeemed
         dreariness of thought which no goading of the imagination could torture into aught of the
         sublime. What was it --I paused to think --what was it that so unnerved me in the
-        contemplation of <fig.of.speech type="metaphor"><fig.of.speech type="symbolism">the House of
-                Usher?</fig.of.speech></fig.of.speech> It was a mystery all insoluble; nor could I
+        contemplation of <fos type="metaphor"><fos type="symbolism">the House of
+                Usher?</fos></fos> It was a mystery all insoluble; nor could I
         grapple with the shadowy fancies that crowded upon me as I pondered. I was forced to fall
         back upon the unsatisfactory conclusion, that while, beyond doubt, there are combinations of
         very simple natural objects which have the power of thus affecting us, still the analysis of
@@ -35,252 +34,252 @@
         would be sufficient to modify, or perhaps to annihilate its capacity for sorrowful
         impression; and, acting upon this idea, I reined my horse to the precipitous brink of a
         black and lurid tarn that lay in unruffled lustre by the dwelling, and gazed down --but with
-        a <fig.of.speech type="onomatopoeia">shudder</fig.of.speech> even more thrilling than before
+        a <fos type="onomatopoeia">shudder</fos> even more thrilling than before
         --upon the remodelled and inverted images of the gray sedge, and the ghastly tree-stems, and
-        the vacant and eye-like windows.</para>
-    <para num="2">Nevertheless, in this <fig.of.speech type="imagery">mansion of
-            gloom</fig.of.speech> I now proposed to myself a sojourn of some weeks. Its proprietor,
-            <character type="Roderick Usher">Roderick Usher</character>, had been one of my boon
+        the vacant and eye-like windows.</p>
+    <p n="2">Nevertheless, in this <fos type="imagery">mansion of
+            gloom</fos> I now proposed to myself a sojourn of some weeks. Its proprietor,
+            <char>Roderick Usher</char>, had been one of my boon
         companions in boyhood; but many years had elapsed since our last meeting. A letter, however,
         had lately reached me in a distant part of the country --a letter from him --which, in its
         wildly importunate nature, had admitted of no other than a personal reply. The MS. gave
-        evidence of nervous agitation. The writer spoke of <fig.of.speech type="hyperbole">acute
-            bodily illness</fig.of.speech> --of a mental disorder which oppressed him --and of an
-        earnest desire to see me, <fig.of.speech type="irony">as his best, and indeed his only
-            personal friend</fig.of.speech>, with a view of attempting, by the cheerfulness of my
+        evidence of nervous agitation. The writer spoke of <fos type="hyperbole">acute
+            bodily illness</fos> --of a mental disorder which oppressed him --and of an
+        earnest desire to see me, <fos type="irony">as his best, and indeed his only
+            personal friend</fos>, with a view of attempting, by the cheerfulness of my
         society, some alleviation of his malady. It was the manner in which all this, and much more,
-        was said <fig.ofspeech type="personification">--it the apparent heart that went with his
-            request --</fig.ofspeech>which allowed me no room for hesitation; and I accordingly
-        obeyed forthwith what I still considered a very singular summons.</para>
-    <para num="3">Although, as boys, we had been even intimate associates, yet I really knew little
+        was said <fos type="personification">--it the apparent heart that went with his
+            request --</fos>which allowed me no room for hesitation; and I accordingly
+        obeyed forthwith what I still considered a very singular summons.</p>
+    <p n="3">Although, as boys, we had been even intimate associates, yet I really knew little
         of my friend. His reserve had been always excessive and habitual. I was aware, however, that
-        his very ancient family had been noted, <fig.of.speech type="hyperbole">time out of
-            mind</fig.of.speech>, for a <fig.of.speech type="aliteration">peculiar
-            sensibility</fig.of.speech> of temperament, displaying itself, through <fig.of.speech
-            type="hyperbole">long ages</fig.of.speech>, in many works of exalted art, and
-        manifested, of late, in repeated deeds of <fig.of.speech type="irony">munificent yet
-            unobtrusive charity</fig.of.speech>, as well as in a <fig.of.speech type="aliteration"
-            >passionate devotion</fig.of.speech> to the intricacies, perhaps even more than to the
+        his very ancient family had been noted, <fos type="hyperbole">time out of
+            mind</fos>, for a <fos type="alliteration">peculiar
+            sensibility</fos> of temperament, displaying itself, through <fos
+            type="hyperbole">long ages</fos>, in many works of exalted art, and
+        manifested, of late, in repeated deeds of <fos type="irony">munificent yet
+            unobtrusive charity</fos>, as well as in a <fos type="alliteration"
+            >passionate devotion</fos> to the intricacies, perhaps even more than to the
         orthodox and easily recognisable beauties, of musical science. I had learned, too, the very
         remarkable fact, that the stem of the Usher race, all time-honoured as it was, had put
         forth, at no period, any enduring branch; in other words, that the entire family lay in the
         direct line of descent, and had always, with very trifling and very temporary variation, so
         lain. It was this deficiency, I considered, while running over in thought the perfect
-        keeping of the character of <fig.ofspeech type="personification"> premises with the
-            accredited character of the people</fig.ofspeech>, and while speculating upon the
+        keeping of the char of <fos type="personification"> premises with the
+            accredited char of the people</fos>, and while speculating upon the
         possible influence which the one, in the long lapse of centuries, might have exercised upon
         the other --it was this deficiency, perhaps, of collateral issue, and the consequent
         undeviating transmission, from sire to son, of the patrimony with the name, which had, at
         length, so identified the two as to merge the original title of the estate in the quaint and
-        equivocal appellation of the <fig.of.speech type="metaphor">"House of Usher"</fig.of.speech>
+        equivocal appellation of the <fos type="metaphor">"House of Usher"</fos>
         --an appellation which seemed to include, in the minds of the peasantry who used it, both
-        the family and the family mansion.</para>
-    <para num="4">I have said that the <fig.of.speech type="hyperbole">sole effect of my somewhat
-            childish experiment</fig.of.speech> --that of looking down within the tarn --had been to
+        the family and the family mansion.</p>
+    <p n="4">I have said that the <fos type="hyperbole">sole effect of my somewhat
+            childish experiment</fos> --that of looking down within the tarn --had been to
         deepen the first singular impression. There can be no doubt that the consciousness of the
         rapid increase of my superstition --for why should I not so term it? --served mainly to
-        accelerate the increase itself. Such, I have long known, is the <fig.of.speech type="irony"
-            >paradoxical law of all sentiments having terror as a basis.</fig.of.speech> And it
+        accelerate the increase itself. Such, I have long known, is the <fos type="irony"
+            >paradoxical law of all sentiments having terror as a basis.</fos> And it
         might have been for this reason only, that, when I again uplifted my eyes to the house
         itself, from its image in the pool, there grew in my mind a strange fancy --a fancy so
         ridiculous, indeed, that I but mention it to show the vivid force of the sensations which
         oppressed me. I had so worked upon my imagination as really to believe that about
-            <fig.ofspeech type="personification">the whole mansion and domain there hung an
-            atmosphere peculiar to themselves</fig.ofspeech> and their immediate vicinity-an
-        atmosphere <fig.of.speech type="hyperbole">which had no affinity with the air of
-            heaven</fig.of.speech>, but which had reeked up from the decayed trees, and the gray
+            <fos type="personification">the whole mansion and domain there hung an
+            atmosphere peculiar to themselves</fos> and their immediate vicinity-an
+        atmosphere <fos type="hyperbole">which had no affinity with the air of
+            heaven</fos>, but which had reeked up from the decayed trees, and the gray
         wall, and the silent tarn --a pestilent and mystic vapour, dull, sluggish, faintly
-        discernible, and leaden-hued.</para>
-    <para num="5"><fig.of.speech type="hyperbole">Shaking off from my spirit what must have been a
-            dream</fig.of.speech>, I scanned more narrowly the real aspect of the building.
-            <fig.of.speech type="hyperbole">Its principal feature seemed to be that of an excessive
-            antiquity.</fig.of.speech> The discoloration of ages had been great. Minute fungi
+        discernible, and leaden-hued.</p>
+    <p n="5"><fos type="hyperbole">Shaking off from my spirit what must have been a
+            dream</fos>, I scanned more narrowly the real aspect of the building.
+            <fos type="hyperbole">Its principal feature seemed to be that of an excessive
+            antiquity.</fos> The discoloration of ages had been great. Minute fungi
         overspread the whole exterior, hanging in a fine tangled web-work from the eaves.
-            <fig.of.speech type="irony">Yet all this was apart from any extraordinary
-            dilapidation</fig.of.speech>. No portion of the masonry had fallen; and there appeared
+            <fos type="irony">Yet all this was apart from any extraordinary
+            dilapidation</fos>. No portion of the masonry had fallen; and there appeared
         to be a wild inconsistency between its still perfect adaptation of parts, and the crumbling
         condition of the individual stones. In this there was much that reminded me of the specious
-        totality of old wood-work <fig.of.speech type="simile">which has rotted for long years in
-            some neglected vault</fig.of.speech>, with no disturbance from the breath of the
-        external air. Beyond this indication of extensive decay, however, <fig.of.speech
-            type="personification">the fabric gave little token of instability.</fig.of.speech>
-        Perhaps <fig.of.speech type="metaphor">the eye of a scrutinising <character type="observer"
-                >observer</character></fig.of.speech> might have discovered a barely perceptible
+        totality of old wood-work <fos type="simile">which has rotted for long years in
+            some neglected vault</fos>, with no disturbance from the breath of the
+        external air. Beyond this indication of extensive decay, however, <fos
+            type="personification">the fabric gave little token of instability.</fos>
+        Perhaps <fos type="metaphor">the eye of a scrutinising <char
+                >observer</char></fos> might have discovered a barely perceptible
         fissure, which, extending from the roof of the building in front, made its way down the wall
-        in a zigzag direction, until it became lost in the <fig.of.speech type="onomatopoeia">sullen
-            waters of <fig.of.speech type="symbolism">the
-        tarn.</fig.of.speech></fig.of.speech></para>
-    <para num="6">Noticing these things, I rode over a short causeway to the house. A servant in
+        in a zigzag direction, until it became lost in the <fos type="onomatopoeia">sullen
+            waters of <fos type="symbolism">the
+        tarn.</fos></fos></p>
+    <p n="6">Noticing these things, I rode over a short causeway to the house. A servant in
         waiting took my horse, and I entered the Gothic archway of the hall. A valet, of stealthy
         step, thence conducted me, in silence, through many dark and intricate passages in my
         progress to the studio of his master. Much that I encountered on the way contributed, I know
         not how, to heighten the vague sentiments of which I have already spoken. While the objects
         around me --while the carvings of the ceilings, the sombre tapestries of the walls, the ebon
-        blackness of the floors, and the phantasmagoric armorial trophies which <fig.of.speech
-            type="onomatopoeia">rattled as I strode</fig.of.speech>, were but matters to which, or
+        blackness of the floors, and the phantasmagoric armorial trophies which <fos
+            type="onomatopoeia">rattled as I strode</fos>, were but matters to which, or
         to such as which, I had been accustomed from my infancy --while I hesitated not to
         acknowledge how familiar was all this --I still wondered to find how unfamiliar were the
         fancies which ordinary images were stirring up. On one of the staircases, I met the
         physician of the family. His countenance, I thought, wore a mingled expression of low
         cunning and perplexity. He accosted me with trepidation and passed on. The valet now threw
-        open a door and ushered me into the presence of his master.</para>
-    <para num="7"><fig.of.speech type="imagery">The room in which I found myself was very large and
+        open a door and ushered me into the presence of his master.</p>
+    <p n="7"><fos type="imagery">The room in which I found myself was very large and
             lofty. The windows were long, narrow, and pointed, and at so vast a distance from the
-            black oaken floor as to be altogether inaccessible from within.</fig.of.speech>
-        <fig.of.speech type="imagery">Feeble gleams of encrimsoned light</fig.of.speech> made their
+            black oaken floor as to be altogether inaccessible from within.</fos>
+        <fos type="imagery">Feeble gleams of encrimsoned light</fos> made their
         way through the trellised panes, and served to render sufficiently distinct the more
         prominent objects around; the eye, however, struggled in vain to reach the remoter angles of
-        the chamber, or the recesses of the vaulted and fretted ceiling. <fig.of.speech
+        the chamber, or the recesses of the vaulted and fretted ceiling. <fos
             type="imagery">Dark draperies hung upon the walls. The general furniture was profuse,
-            comfortless, antique, and tattered.</fig.of.speech>
-        <fig.of.speech type="imagery">Many books and musical instruments lay scattered about, but
-            failed to give any vitality to the scene.</fig.of.speech>
-        <fig.of.speech type="theme">I felt that I breathed an atmosphere of sorrow.</fig.of.speech>
-        <fig.of.speech type="symbolism">An air of stern, deep, and irredeemable gloom hung over and
-            pervaded all.</fig.of.speech></para>
-    <para num="8">Upon my entrance, <character type="Usher">Usher</character> arose from a sofa on
-        which he had been lying at full length, and greeted me with a <fig.of.speech
-            type="hyperbole">vivacious warmth</fig.of.speech> which had much in it, I at first
-        thought, of an <fig.of.speech type="irony">overdone cordiality</fig.of.speech> --of the
+            comfortless, antique, and tattered.</fos>
+        <fos type="imagery">Many books and musical instruments lay scattered about, but
+            failed to give any vitality to the scene.</fos>
+        <fos type="personification">I felt that I breathed an atmosphere of sorrow.</fos>
+        <fos type="symbolism">An air of stern, deep, and irredeemable gloom hung over and
+            pervaded all.</fos></p>
+    <p n="8">Upon my entrance, <char>Usher</char> arose from a sofa on
+        which he had been lying at full length, and greeted me with a <fos
+            type="hyperbole">vivacious warmth</fos> which had much in it, I at first
+        thought, of an <fos type="irony">overdone cordiality</fos> --of the
         constrained effort of the ennuyé man of the world. A glance, however, at his countenance,
         convinced me of his perfect sincerity. We sat down; and for some moments, while he spoke
-        not, I gazed upon him with a feeling half of pity, half of awe. <fig.of.speech
+        not, I gazed upon him with a feeling half of pity, half of awe. <fos
             type="metaphor">Surely, man had never before so terribly altered, in so brief a period,
-            as had Roderick Usher!</fig.of.speech> It was with difficulty that I could bring myself
+            as had Roderick Usher!</fos> It was with difficulty that I could bring myself
         to admit the identity of the wan being before me with the companion of my early boyhood.
-            <fig.of.speech type="imagery">Yet the character of his face had been at all times
-            remarkable.</fig.of.speech> A <fig.of.speech type="imagery">cadaverousness of
-            complexion</fig.of.speech>; an eye large, liquid, and luminous beyond comparison; lips
+            <fos type="imagery">Yet the char of his face had been at all times
+            remarkable.</fos> A <fos type="imagery">cadaverousness of
+            complexion</fos>; an eye large, liquid, and luminous beyond comparison; lips
         somewhat thin and very pallid, but of a surpassingly beautiful curve; a nose of a delicate
         Hebrew model, but with a breadth of nostril unusual in similar formations; a finely moulded
         chin, speaking, in its want of prominence, of a want of moral energy; hair of a more than
         web-like softness and tenuity; these features, with an inordinate expansion above the
-        regions of the temple, made up altogether a countenance not easily to be forgotten.</para>
-    <para num="9">In the manner of my friend I was at once struck with an <fig.of.speech
-            type="alliteration">incoherence --an inconsistency</fig.of.speech>; and I soon found
-        this to arise from a series of feeble and futile <fig.of.speech type="alliteration"
-            >struggles</fig.of.speech> to overcome an habitual trepidancy --an excessive nervous
+        regions of the temple, made up altogether a countenance not easily to be forgotten.</p>
+    <p n="9">In the manner of my friend I was at once struck with an <fos
+            type="alliteration">incoherence --an inconsistency</fos>; and I soon found
+        this to arise from a series of feeble and futile <fos type="alliteration"
+            >struggles</fos> to overcome an habitual trepidancy --an excessive nervous
         agitation. For something of this nature I had indeed been prepared, no less by his letter,
-        than by <fig.of.speech type="imagery">reminiscences of certain boyish
-        traits</fig.of.speech>, and by conclusions deduced from his peculiar physical conformation
-        and temperament. His action was alternately <fig.of.speech type="contrast">vivacious and
-            sullen</fig.of.speech>. His voice varied rapidly from a <fig.of.speech type="metaphor"
-            >tremulous indecision</fig.of.speech> (when the animal spirits seemed utterly in
+        than by <fos type="imagery">reminiscences of certain boyish
+        traits</fos>, and by conclusions deduced from his peculiar physical conformation
+        and temperament. His action was alternately vivacious and
+            sullen. His voice varied rapidly from a <fos type="metaphor"
+            >tremulous indecision</fos> (when the animal spirits seemed utterly in
         abeyance) to that species of energetic concision --that abrupt, weighty, unhurried, and
         hollow-sounding enunciation --that leaden, self-balanced and perfectly modulated guttural
         utterance, which may be observed in the lost drunkard, or the irreclaimable eater of opium,
-        during the periods of his most intense excitement.</para>
-    <para num="10">It was thus that he spoke of the object of my visit, of his earnest desire to see
+        during the periods of his most intense excitement.</p>
+    <p n="10">It was thus that he spoke of the object of my visit, of his earnest desire to see
         me, and of the solace he expected me to afford him. He entered, at some length, into what he
-        conceived to be the nature of his malady.</para>
-    <para num="11">It was, he said, a constitutional and a family evil, and one for which he
+        conceived to be the nature of his malady.</p>
+    <p n="11">It was, he said, a constitutional and a family evil, and one for which he
         despaired to find a remedy --a mere nervous affection, he immediately added, which would
-        undoubtedly soon pass off.</para>
-    <para num="12">He suffered much from a <fig.of.speech type="hyperbole">morbid acuteness of the
-            senses</fig.of.speech>; the most insipid food was alone endurable; he could wear only
+        undoubtedly soon pass off.</p>
+    <p n="12">He suffered much from a <fos type="hyperbole">morbid acuteness of the
+            senses</fos>; the most insipid food was alone endurable; he could wear only
         garments of certain texture; the odours of all flowers were oppressive; his eyes were
         tortured by even a faint light; and there were but peculiar sounds, and these from stringed
-        instruments, which did not inspire him with horror.</para>
-    <para num="13">To an anomalous species of terror I found him a bounden slave. <fig.of.speech
-            type="hyperbole">"I shall perish,"</fig.of.speech> said he, <fig.of.speech
-            type="hyperbole">"I must perish in this deplorable folly."</fig.of.speech>
-        <fig.of.speech type="metaphor">"Thus, thus, and not otherwise, shall I be
-            lost."</fig.of.speech></para>
-    <para num="14">I dread the events of the future, not in themselves, but in their results. I
+        instruments, which did not inspire him with horror.</p>
+    <p n="13">To an anomalous species of terror I found him a bounden slave. <fos
+            type="hyperbole">"I shall perish,"</fos> said he, <fos
+            type="hyperbole">"I must perish in this deplorable folly."</fos>
+        <fos type="metaphor">"Thus, thus, and not otherwise, shall I be
+            lost."</fos></p>
+    <p n="14">I dread the events of the future, not in themselves, but in their results. I
         shudder at the thought of any, even the most trivial, incident, which may operate upon this
         intolerable agitation of soul. I have, indeed, no abhorrence of danger, except in its
-        absolute effect --in terror.</para>
-    <para num="15"> In this <fig.of.speech type="personification">unnerved-in this pitiable
-            condition</fig.of.speech> --I feel that the period will sooner or later arrive when I
+        absolute effect --in terror.</p>
+    <p n="15"> In this <fos type="personification">unnerved-in this pitiable
+            condition</fos> --I feel that the period will sooner or later arrive when I
         must abandon life and reason together, in some struggle with the grim phantasm,
-            <fig.of.speech type="symbolism">FEAR.</fig.of.speech>
-    </para>
-    <para num="16">I learned, moreover, at intervals, and through broken and equivocal hints,
-        another singular feature of his mental condition. He was <metaphor type="personification"
-            >enchained</metaphor> by certain <symbolism>superstitious impressions</symbolism> in
+            <fos type="symbolism">FEAR.</fos>
+    </p>
+    <p n="16">I learned, moreover, at intervals, and through broken and equivocal hints,
+        another singular feature of his mental condition. He was <fos type="personification"
+            >enchained</fos> by certain <fos type ="symbolism">superstitious impressions</fos> in
         regard to the dwelling which he tenanted, and whence, for many years, he had never ventured
         forth --in regard to an influence whose supposititious force was conveyed in terms too
         shadowy here to be re-stated --an influence which some peculiarities in the mere form and
         substance of his family mansion, had, by dint of long sufferance, he said, obtained over his
-        spirit-an effect which the <imagery>physique of the gray walls and turrets</imagery>, and of
-        the <symbolism>dim tarn</symbolism> into which they all looked down, had, at length, brought
-        about upon the morale of his existence.</para>
-    <para num="17">He admitted, however, although with hesitation, that much of the peculiar gloom
-        which thus afflicted him could be traced to a more <hyperbole>natural and far more palpable
-            origin</hyperbole> -- to the severe and long-continued illness -- indeed to the
-        evidently approaching <hyperbole>dissolution</hyperbole> of a tenderly beloved <character
-            name="Madeline Usher">sister</character> -- his sole companion for long years -- his
-        last and only relative on earth. <quote n="1">"Her decease,"</quote> he said, with a
+        spirit-an effect which the <fos type ="imagery">physique of the gray walls and turrets</fos>, and of
+        the <fos type ="symbolism">dim tarn</fos> into which they all looked down, had, at length, brought
+        about upon the morale of his existence.</p>
+    <p n="17">He admitted, however, although with hesitation, that much of the peculiar gloom
+        which thus afflicted him could be traced to a more <fos type ="hyperbole">natural and far more palpable
+            origin</fos> -- to the severe and long-continued illness -- indeed to the
+        evidently approaching <fos type ="hyperbole">dissolution</fos> of a tenderly beloved <char
+            >sister</char> -- his sole companion for long years -- his
+        last and only relative on earth. <quote>"Her decease,"</quote> he said, with a
         bitterness which I can never forget, "would leave him (him the hopeless and the frail) the
-        last of the ancient race of the Ushers." While he spoke, the <character type="Lady Madeline"
-            >lady Madeline</character> (for so was she called) passed slowly through a remote
+        last of the ancient race of the Ushers." While he spoke, the <char
+            >lady Madeline</char> (for so was she called) passed slowly through a remote
         portion of the apartment, and, without having noticed my presence, disappeared. I regarded
-        her with an utter <imagery>astonishment not unmingled with dread</imagery> --and yet I found
-        it impossible to account for such feelings. <imagery>A sensation of stupor oppressed
-            me</imagery>, as my eyes followed her retreating steps. When a door, at length, closed
+        her with an utter <fos type ="imagery">astonishment not unmingled with dread</fos> --and yet I found
+        it impossible to account for such feelings. <fos type ="imagery">A sensation of stupor oppressed
+            me</fos>, as my eyes followed her retreating steps. When a door, at length, closed
         upon her, my glance sought instinctively and eagerly the countenance of the brother --but he
         had buried his face in his hands, and I could only perceive that a far more than ordinary
         wanness had overspread the emaciated fingers through which trickled many passionate
-        tears.</para>
-    <para num="18">The disease of the <character.ref name="lady Madeline">lady
-            Madeline</character.ref> had long baffled the skill of her physicians. A settled apathy,
+        tears.</p>
+    <p n="18">The disease of the <char>lady
+            Madeline</char> had long baffled the skill of her physicians. A settled apathy,
         a gradual wasting away of the person, and frequent although transient affections of a
-        partially cataleptical character, were the unusual diagnosis. Hitherto she had steadily
+        partially cataleptical char, were the unusual diagnosis. Hitherto she had steadily
         borne up against the pressure of her malady, and had not betaken herself finally to bed;
-        but, on the closing in of the evening of my arrival at the house, she <fig.of.speech
-            type="personification">succumbed</fig.of.speech> (as her brother told me at night with
-            <fig.of.speech type="imagery">inexpressible agitation</fig.of.speech>) to the
-            <fig.of.speech type="symbolism">prostrating power of the destroyer</fig.of.speech>; and
+        but, on the closing in of the evening of my arrival at the house, she <fos
+            type="personification">succumbed</fos> (as her brother told me at night with
+            <fos type="imagery">inexpressible agitation</fos>) to the
+            <fos type="symbolism">prostrating power of the destroyer</fos>; and
         I learned that the glimpse I had obtained of her person would thus probably be the last I
-        should obtain -- that the lady, at least while living, would be seen by me no more.</para>
-    <para num="19">For several days ensuing, her name was unmentioned by either<character
-            type="Usher">Usher</character> or myself: and during this period I was busied in earnest
-            <fig.of.speech type="imagery">endeavours to alleviate the melancholy of my
-            friend</fig.of.speech>. We painted and read together; or I listened, as if in a dream,
-        to the wild improvisations of his <fig.of.speech type="metaphor">speaking
-            guitar.</fig.of.speech> And thus, as a closer and still intimacy admitted me more
+        should obtain -- that the lady, at least while living, would be seen by me no more.</p>
+    <p n="19">For several days ensuing, her name was unmentioned by either<char
+           >Usher</char> or myself: and during this period I was busied in earnest
+            <fos type="imagery">endeavours to alleviate the melancholy of my
+            friend</fos>. We painted and read together; or I listened, as if in a dream,
+        to the wild improvisations of his <fos type="metaphor">speaking
+            guitar.</fos> And thus, as a closer and still intimacy admitted me more
         unreservedly into the recesses of his spirit, the more bitterly did I perceive the futility
         of all attempt at cheering a mind from which darkness, as if an inherent positive quality,
-        poured forth upon all objects of the moral and physical universe, in <fig.of.speech
-            type="hyperbole">one unceasing radiation of gloom.</fig.of.speech></para>
-    <para num="20"><fig.of.speech type="imagery">I shall ever bear about me a memory</fig.of.speech>
-        of the many solemn hours I thus spent alone with the master of <fig.of.speech
-            type="symbolism">the House of Usher.</fig.of.speech> Yet I should fail in any attempt to
-        convey an idea of the exact character of the studies, or of the occupations, in which he
-        involved me, or led me the way.</para>
-    <para num="21"> An <fig.of.speech type="imagery">excited and highly distempered
-            ideality</fig.of.speech> threw a <fig.of.speech type="imagery">sulphureous
-            lustre</fig.of.speech> over all. His <fig.of.speech type="imagery">long improvised
-            dirges</fig.of.speech> will <fig.of.speech type="hyperbole">ring forever in my
-            ears</fig.of.speech>. Among other things, I hold painfully in mind a certain singular
-        perversion and amplification of the wild air of the last waltz of <character
-            type="Von Weber">Von Weber.</character> From the paintings over which his elaborate
+        poured forth upon all objects of the moral and physical universe, in <fos
+            type="hyperbole">one unceasing radiation of gloom.</fos></p>
+    <p n="20"><fos type="imagery">I shall ever bear about me a memory</fos>
+        of the many solemn hours I thus spent alone with the master of <fos
+            type="symbolism">the House of Usher.</fos> Yet I should fail in any attempt to
+        convey an idea of the exact char of the studies, or of the occupations, in which he
+        involved me, or led me the way.</p>
+    <p n="21"> An <fos type="imagery">excited and highly distempered
+            ideality</fos> threw a <fos type="imagery">sulphureous
+            lustre</fos> over all. His <fos type="imagery">long improvised
+            dirges</fos> will <fos type="hyperbole">ring forever in my
+            ears</fos>. Among other things, I hold painfully in mind a certain singular
+        perversion and amplification of the wild air of the last waltz of <char
+            >Von Weber.</char> From the paintings over which his elaborate
         fancy brooded, and which grew, touch by touch, into vaguenesses at which I shuddered the
         more thrillingly, because I shuddered knowing not why; --from these paintings (vivid as
         their images now are before me) I would in vain endeavour to educe more than a small portion
         which should lie within the compass of merely written words. By the utter simplicity, by the
         nakedness of his designs, he arrested and overawed attention. If ever mortal painted an
-        idea, that mortal was <character type="Roderick Usher">Roderick Usher.</character> For me at
+        idea, that mortal was <char>Roderick Usher.</char> For me at
         least --in the circumstances then surrounding me --there arose out of the pure abstractions
         which the hypochondriac contrived to throw upon his canvas, an intensity of intolerable awe,
         no shadow of which felt I ever yet in the contemplation of the certainly glowing yet too
-        concrete reveries of Fuseli.</para>
-    <para num="22">One of the phantasmagoric conceptions of my friend, partaking not so rigidly of
-        the spirit of abstraction, may be shadowed forth, although feebly, in words. <fig.of.speech
+        concrete reveries of Fuseli.</p>
+    <p n="22">One of the phantasmagoric conceptions of my friend, partaking not so rigidly of
+        the spirit of abstraction, may be shadowed forth, although feebly, in words. <fos
             type="imagery">A small picture presented the interior of an immensely long and
             rectangular vault or tunnel, with low walls, smooth, white, and without interruption or
-            device.</fig.of.speech> Certain accessory points of the design served well to convey the
+            device.</fos> Certain accessory points of the design served well to convey the
         idea that this excavation lay at an exceeding depth below the surface of the earth. No
         outlet was observed in any portion of its vast extent, and no torch, or other artificial
         source of light was discernible; yet a flood of intense rays rolled throughout, and
-            <fig.of.speech type="imagery">bathed the whole in a ghastly and inappropriate
-            splendour.</fig.of.speech></para>
-    <para num="23">I have just spoken of that <fig.of.speech type="hyperbole">morbid
-            condition</fig.of.speech> of the auditory nerve which rendered all music intolerable to
-            <character type="Roderick Usher">the sufferer,</character> with the exception of certain
+            <fos type="imagery">bathed the whole in a ghastly and inappropriate
+            splendour.</fos></p>
+    <p n="23">I have just spoken of that <fos type="hyperbole">morbid
+            condition</fos> of the auditory nerve which rendered all music intolerable to
+            <char>the sufferer,</char> with the exception of certain
         effects of stringed instruments. It was, perhaps, the narrow limits to which he thus
-        confined himself upon the guitar, which gave birth, in great measure, to the <fig.of.speech
-            type="symbolism">fantastic character of his performances</fig.of.speech>. But the fervid
+        confined himself upon the guitar, which gave birth, in great measure, to the <fos
+            type="symbolism">fantastic char of his performances</fos>. But the fervid
         facility of his impromptus could not be so accounted for. They must have been, and were, in
         the notes, as well as in the words of his wild fantasias (for he not unfrequently
         accompanied himself with rhymed verbal improvisations), the result of that intense mental
@@ -290,15 +289,15 @@
         he gave it, because, in the under or mystic current of its meaning, I fancied that I
         perceived, and for the first time, a full consciousness on the part of Usher, of the
         tottering of his lofty reason upon her throne. The verses, which were entitled "The Haunted
-        Palace," ran very nearly, if not accurately, thus:</para>
+        Palace," ran very nearly, if not accurately, thus:</p>
     <rhapsodie> I. In the greenest of our valleys, By good angels tenanted, Once fair and stately
-        palace -- <fig.of.speech type="imagery">Radiant palace</fig.of.speech> --reared its head. In
+        palace -- <fos type="imagery">Radiant palace</fos> --reared its head. In
         the monarch Thought's dominion -- It stood there! Never seraph spread a opinion Over fabric
         half so fair. II. Banners yellow, glorious, golden, On its roof did float and flow; (This
-        --all this --was in the olden Time long ago) And every <fig.of.speech type="personification"
-            >gentle air that dallied,</fig.of.speech> In that sweet day, Along the ramparts plumed
-        and pallid, A winged odour went away. III. Wanderers in that <fig.of.speech
-            type="personification">happy valley</fig.of.speech> Through two luminous windows saw
+        --all this --was in the olden Time long ago) And every <fos type="personification"
+            >gentle air that dallied,</fos> In that sweet day, Along the ramparts plumed
+        and pallid, A winged odour went away. III. Wanderers in that <fos
+            type="personification">happy valley</fos> Through two luminous windows saw
         Spirits moving musically To a lute's well-tuned law, Round about a throne, where sitting
         (Porphyrogene!) In state his glory well befitting, The ruler of the realm was seen. IV. And
         all with pearl and ruby glowing Was the fair palace door, Through which came flowing,
@@ -310,114 +309,114 @@
         within that valley, Through the red-litten windows, see Vast forms that move fantastically
         To a discordant melody; While, like a rapid ghastly river, Through the pale door, A hideous
         throng rush out forever, And laugh --but smile no more. </rhapsodie>
-    <para num="24"> I well remember that suggestions arising from this ballad led us into a train of
-        thought wherein there became manifest an opinion of <character.ref name="Usher"
-            >Usher's</character.ref> which I mention not so much on account of its novelty, (for
+    <p n="24"> I well remember that suggestions arising from this ballad led us into a train of
+        thought wherein there became manifest an opinion of <char
+            >Usher's</char> which I mention not so much on account of its novelty, (for
         other men have thought thus,) as on account of the pertinacity with which he maintained it.
         This opinion, in its general form, was that of the sentience of all vegetable things. But,
-        in his disordered fancy, the idea had assumed a more daring character, and trespassed, under
-        certain conditions, upon the <fig.of.speech type="symbolism">kingdom of
-            inorganization.</fig.of.speech> I lack words to express the full extent, or the
-            <fig.of.speech type="hypberbole">earnest abandon of his persuasion.</fig.of.speech> The
+        in his disordered fancy, the idea had assumed a more daring char, and trespassed, under
+        certain conditions, upon the <fos type="symbolism">kingdom of
+            inorganization.</fos> I lack words to express the full extent, or the
+            <fos type="hyperbole">earnest abandon of his persuasion.</fos> The
         belief, however, was connected (as I have previously hinted) with the gray stones of the
         home of his forefathers. The conditions of the sentience had been here, he imagined,
-        fulfilled in the method of <fig.of.speech type="imagery">collocation of these stones --in
+        fulfilled in the method of <fos type="imagery">collocation of these stones --in
             the order of their arrangement, as well as in that of the many fungi which overspread
             them, and of the decayed trees which stood around --above all, in the long undisturbed
             endurance of this arrangement, and in its reduplication in the still waters of the
-            tarn.</fig.of.speech>
-        <quote n="2">Its evidence --the evidence of the sentience --was to be seen,he said, (and I
+            tarn.</fos>
+        <quote>Its evidence --the evidence of the sentience --was to be seen,he said, (and I
             here started as he spoke,) in the gradual yet certain condensation of an atmosphere of
             their own about the waters and the walls. The result was discoverable,</quote> he added,
         in that silent, yet importunate and terrible influence which for centuries had moulded the
         destinies of his family, and which made him what I now saw him --what he was. Such opinions
-        need no comment, and I will make none.</para>
-    <para num="25">Our books --the books which, for years, had formed no small portion of the mental
+        need no comment, and I will make none.</p>
+    <p n="25">Our books --the books which, for years, had formed no small portion of the mental
         existence of the invalid --were, as might be supposed, in strict keeping with this
-            <fig.of.speech type="metaphor">character of phantasm.</fig.of.speech> We pored together
+            <fos type="metaphor">char of phantasm.</fos> We pored together
         over such works as the Ververt et Chartreuse of Gresset; the Belphegor of Machiavelli; the
         Heaven and Hell of Swedenborg; the Subterranean Voyage of Nicholas Klimm by Holberg; the
         Chiromancy of Robert Flud, of Jean D'Indagine, and of De la Chambre; the Journey into the
         Blue Distance of Tieck; and the City of the Sun of Campanella. One favourite volume was a
         small octavo edition of the Directorium Inquisitorum, by the Dominican Eymeric de Gironne;
         and there were passages in Pomponius Mela, about the old African Satyrs and AEgipans, over
-        which <fig.of.speech type="hyperbole">Usher would sit dreaming for hours.</fig.of.speech>
+        which <fos type="hyperbole">Usher would sit dreaming for hours.</fos>
         His chief delight, however, was found in the perusal of an exceedingly rare and curious book
         in quarto Gothic --the manual of a forgotten church --the Vigilae Mortuorum secundum Chorum
-        Ecclesiae Maguntinae.</para>
-    <para num="26">I could not help thinking of the wild ritual of this work, and of its probable
+        Ecclesiae Maguntinae.</p>
+    <p n="26">I could not help thinking of the wild ritual of this work, and of its probable
         influence upon the hypochondriac, when, one evening, having informed me abruptly that the
-            <character.ref name="lady Madeline">lady Madeline</character.ref> was no more, he stated
+            <char>lady Madeline</char> was no more, he stated
         his intention of preserving her corpse for a fortnight, (previously to its final interment,)
         in one of the numerous vaults within the main walls of the building. The worldly reason,
         however, assigned for this singular proceeding, was one which I did not feel at liberty to
         dispute. The brother had been led to his resolution (so he told me) by consideration of the
-        unusual character of the malady of the deceased, of certain obtrusive and eager inquiries on
+        unusual char of the malady of the deceased, of certain obtrusive and eager inquiries on
         the part of her medical men, and of the remote and exposed situation of the burial-ground of
         the family. I will not deny that when I called to mind the sinister countenance of the
-        person whom I met upon the stair case, on the day of my arrival at the house, <fig.of.speech
+        person whom I met upon the stair case, on the day of my arrival at the house, <fos
             type="irony">I had no desire to oppose what I regarded as at best but a harmless, and by
-            no means an unnatural, precaution.</fig.of.speech></para>
-    <para num="27">At the request of <character name="Usher">Usher</character>, I personally aided
+            no means an unnatural, precaution.</fos></p>
+    <p n="27">At the request of <char>Usher</char>, I personally aided
         him in the arrangements for the temporary entombment. The body having been encoffined, we
         two alone bore it to its rest. The vault in which we placed it (and which had been so long
-        unopened that our torches, half smothered in its <fig.of.speech type="personification"
-            >oppressive atmosphere,</fig.of.speech> gave us little opportunity for investigation)
-        was <fig.of.speech type="imagery">small, damp, and entirely without means of admission for
+        unopened that our torches, half smothered in its <fos type="personification"
+            >oppressive atmosphere,</fos> gave us little opportunity for investigation)
+        was <fos type="imagery">small, damp, and entirely without means of admission for
             light; lying, at great depth, immediately beneath that portion of the building in which
-            was my own sleeping apartment.</fig.of.speech> It had been used, apparently, in remote
+            was my own sleeping apartment.</fos> It had been used, apparently, in remote
         feudal times, for the worst purposes of a donjon-keep, and, in later days, as a place of
         deposit for powder, or some other highly combustible substance, as a portion of its floor,
         and the whole interior of a long archway through which we reached it, were carefully
-        sheathed with copper. <fig.of.speech type="imagery">The door, of massive iron, had been,
+        sheathed with copper. <fos type="imagery">The door, of massive iron, had been,
             also, similarly protected. Its immense weight caused an unusually sharp grating sound,
-            as it moved upon its hinges.</fig.of.speech></para>
-    <para num="28">
-        <fig.of.speech type="metaphor"><fig.of.speech type="personification">Having deposited our
+            as it moved upon its hinges.</fos></p>
+    <p n="28">
+        <fos type="metaphor"><fos type="personification">Having deposited our
                 mournful burden upon tressels within this region of
-            horror,</fig.of.speech></fig.of.speech> we partially turned aside the yet unscrewed lid
+            horror,</fos></fos> we partially turned aside the yet unscrewed lid
         of the coffin, and looked upon the face of the tenant. A striking similitude between the
-        brother and sister now first <fig.of.speech type="metaphor">arrested my
-            attention</fig.of.speech>; and Usher, divining, perhaps, my thoughts, murmured out some
+        brother and sister now first <fos type="metaphor">arrested my
+            attention</fos>; and Usher, divining, perhaps, my thoughts, murmured out some
         few words from which I learned that the deceased and himself had been twins, and that
         sympathies of a scarcely intelligible nature had always existed between them. Our glances,
-        however, rested not long upon the dead --for we could not regard her unawed. <fig.of.speech
+        however, rested not long upon the dead --for we could not regard her unawed. <fos
             type="metaphor">The disease which had thus entombed the lady in the maturity of youth,
-            had left, as usual in all maladies of a strictly cataleptical character,</fig.of.speech>
-        <fig.of.speech type="personification">the mockery of a faint blush upon the bosom and the
-            face</fig.of.speech>, and that <fig.of.speech type="hypberbole">suspiciously lingering
-            smile</fig.of.speech> upon the lip which is so terrible in death. <fig.of.speech
+            had left, as usual in all maladies of a strictly cataleptical char,</fos>
+        <fos type="personification">the mockery of a faint blush upon the bosom and the
+            face</fos>, and that <fos type="hyperbole">suspiciously lingering
+            smile</fos> upon the lip which is so terrible in death. <fos
             type="imagery">We replaced and screwed down the lid, and, having secured the door of
             iron, made our way, with toll, into the scarcely less gloomy apartments of the upper
-            portion of the house. </fig.of.speech></para>
-    <para num="29">And now, some days of bitter grief having elapsed, an observable change came over
+            portion of the house. </fos></p>
+    <p n="29">And now, some days of bitter grief having elapsed, an observable change came over
         the features of the mental disorder of my friend. His ordinary manner had vanished. His
-        ordinary occupations were neglected or forgotten. <fig.of.speech type="hyperbole">He roamed
-            from chamber to chamber with hurried, unequal, and objectless step.</fig.of.speech> The
+        ordinary occupations were neglected or forgotten. <fos type="hyperbole">He roamed
+            from chamber to chamber with hurried, unequal, and objectless step.</fos> The
         pallor of his countenance had assumed, if possible, a more ghastly hue --but the
-        luminousness of his eye had utterly gone out. <fig.of.speech type="imagery">The once
+        luminousness of his eye had utterly gone out. <fos type="imagery">The once
             occasional huskiness of his tone was heard no more; and a tremulous quaver, as if of
-            extreme terror, habitually characterized his utterance.</fig.of.speech> There were
+            extreme terror, habitually charized his utterance.</fos> There were
         times, indeed, when I thought his unceasingly agitated mind was labouring with some
-        oppressive secret, to divulge which he struggled for the necessary courage. <fig.of.speech
+        oppressive secret, to divulge which he struggled for the necessary courage. <fos
             type="hyperbole">At times, again, I was obliged to resolve all into the mere
-            inexplicable vagaries of madness,</fig.of.speech> for I beheld him gazing upon vacancy
+            inexplicable vagaries of madness,</fos> for I beheld him gazing upon vacancy
         for long hours, in an attitude of the profoundest attention, as if listening to some
         imaginary sound. It was no wonder that his condition terrified-that it infected me. I felt
         creeping upon me, by slow yet certain degrees, the wild influences of his own fantastic yet
-        impressive superstitions.</para>
-    <para num="30">It was, especially, upon retiring to bed late in the night of the seventh or
+        impressive superstitions.</p>
+    <p n="30">It was, especially, upon retiring to bed late in the night of the seventh or
         eighth day after the placing of the lady Madeline within the donjon, that I experienced the
-        full power of such feelings. <fig.ofspeech type="personification">Sleep came not near my
-            couch --while the hours waned and waned away.</fig.ofspeech> I struggled to reason off
-        the <fig.ofspeech type="personification">nervousness which had dominion over
-            me.</fig.ofspeech> I endeavoured to believe that much, if not all of what I felt, was
-        due to the bewildering influence of the <fig.ofspeech type="personification">gloomy
-            furniture</fig.ofspeech> of the room --of the dark and tattered draperies, which,
-            <fig.ofspeech type="personification">tortured into motion</fig.ofspeech> by the breath
+        full power of such feelings. <fos type="personification">Sleep came not near my
+            couch --while the hours waned and waned away.</fos> I struggled to reason off
+        the <fos type="personification">nervousness which had dominion over
+            me.</fos> I endeavoured to believe that much, if not all of what I felt, was
+        due to the bewildering influence of the <fos type="personification">gloomy
+            furniture</fos> of the room --of the dark and tattered draperies, which,
+        <fos type="personification">tortured into motion</fos> by the breath
         of a rising tempest, swayed fitfully to and fro upon the walls, and rustled uneasily about
-        the decorations of the bed. But my efforts were fruitless. <fig.of.speech type="metaphor">An
-            irrepressible tremour gradually pervaded my frame;</fig.of.speech> and, at length, there
+        the decorations of the bed. But my efforts were fruitless. <fos type="metaphor">An
+            irrepressible tremour gradually pervaded my frame;</fos> and, at length, there
         sat upon my very heart an incubus of utterly causeless alarm. Shaking this off with a gasp
         and a struggle, I uplifted myself upon the pillows, and, peering earnestly within the
         intense darkness of the chamber, hearkened --I know not why, except that an instinctive
@@ -426,105 +425,103 @@
         horror, unaccountable yet unendurable, I threw on my clothes with haste (for I felt that I
         should sleep no more during the night), and endeavoured to arouse myself from the pitiable
         condition into which I had fallen, by pacing rapidly to and fro through the
-        apartment.</para>
-    <para num="31">I had taken but few turns in this manner, when a light step on an adjoining
-        staircase arrested my attention. I presently recognised it as that of <character
-            name="Usher">Usher.</character><fig.of.speech type="imagery"> In an instant afterward he
-            rapped, with a gentle touch, at my door, and entered, bearing a lamp.</fig.of.speech>
-        His countenance was, as usual, cadaverously wan --but, moreover, <fig.of.speech
+        apartment.</p>
+    <p n="31">I had taken but few turns in this manner, when a light step on an adjoining
+        staircase arrested my attention. I presently recognised it as that of <char
+           >Usher.</char><fos type="imagery"> In an instant afterward he
+            rapped, with a gentle touch, at my door, and entered, bearing a lamp.</fos>
+        His countenance was, as usual, cadaverously wan --but, moreover, <fos
             type="hyperbole">there was a species of mad hilarity in his eyes --an evidently
-            restrained hysteria in his whole demeanour.</fig.of.speech> His air appalled me --but
+            restrained hysteria in his whole demeanour.</fos> His air appalled me --but
         anything was preferable to the solitude which I had so long endured, and I even welcomed his
-        presence as a relief.</para>
-    <para num="32"><quote num="3">And you have not seen it?" he said abruptly, after having stared
+        presence as a relief.</p>
+    <p n="32"><quote>And you have not seen it?" he said abruptly, after having stared
             about him for some moments in silence --"you have not then seen it? --but, stay! you
             shall." Thus speaking, and having carefully shaded his lamp, he hurried to one of the
-            casements, and threw it freely open to the storm.</quote></para>
-    <para num="33">The <fig.of.speech type="hyperbole">impetuous furyof the entering gust nearly
-            lifted us from our feet.</fig.of.speech>
-        <fig.of.speech type="imagery">It was, indeed, a tempestuous yet sternly beautiful night, and
-            one wildly singular in its terror and its beauty.</fig.of.speech> A whirlwind had
-        apparently collected its force in our vicinity; for there were frequent and <fig.ofspeech
-            type="personification">violent alterations in the direction of the wind;</fig.ofspeech>
-        and the <fig.of.speech type="imagery">exceeding density of the clouds</fig.of.speech> (which
+            casements, and threw it freely open to the storm.</quote></p>
+    <p n="33">The <fos type="hyperbole">impetuous furyof the entering gust nearly
+            lifted us from our feet.</fos>
+        <fos type="imagery">It was, indeed, a tempestuous yet sternly beautiful night, and
+            one wildly singular in its terror and its beauty.</fos> A whirlwind had
+        apparently collected its force in our vicinity; for there were frequent and <fos
+            type="personification">violent alterations in the direction of the wind;</fos>
+        and the <fos type="imagery">exceeding density of the clouds</fos> (which
         hung so low as to press upon the turrets of the house) did not prevent our perceiving the
         life-like velocity with which they flew careering from all points against each other,
         without passing away into the distance. I say that even their exceeding density did not
         prevent our perceiving this --yet we had no glimpse of the moon or stars --nor was there any
-        flashing forth of the lightning. But the under surfaces of the huge masses of <fig.ofspeech
-            type="personification">agitated vapour,</fig.ofspeech><fig.of.speech type="hyperbole">
+        flashing forth of the lightning. But the under surfaces of the huge masses of <fos
+            type="personification">agitated vapour,</fos><fos type="hyperbole">
             as well as all terrestrial objects immediately around us, were glowing in the unnatural
             light of a faintly luminous and distinctly visible gaseous exhalation which hung about
-            and enshrouded the mansion.</fig.of.speech></para>
-    <para num="34">
-        <quote num="4">You must not --you shall not behold this!" said I, shudderingly, to
-                <character name="Usher">Usher</character>, as I led him, with a gentle violence,
+            and enshrouded the mansion.</fos></p>
+    <p n="34">
+        <quote>You must not --you shall not behold this!" said I, shudderingly, to
+                <char>Usher</char>, as I led him, with a gentle violence,
             from the window to a seat. "These appearances, which bewilder you, are merely electrical
             phenomena not uncommon --or it may be that they have their ghastly origin in the rank
             miasma of the tarn. Let us close this casement; --the air is chilling and dangerous to
             your frame. Here is one of your favourite romances. I will read, and you shall listen;
-            --and so we will pass away this terrible night together."</quote></para>
-    <para num="35">The antique volume which I had taken up was the <quote num="5">Mad Trist"</quote>
-        of Sir Launcelot Canning; but I had called it a favourite of <character name="Usher"
-            >Usher's</character> more in sad jest than in earnest; for, in truth, there is little in
+            --and so we will pass away this terrible night together."</quote></p>
+    <p n="35">The antique volume which I had taken up was the <quote>Mad Trist"</quote>
+        of Sir Launcelot Canning; but I had called it a favourite of <char
+            >Usher's</char> more in sad jest than in earnest; for, in truth, there is little in
         its uncouth and unimaginative prolixity which could have had interest for the lofty and
         spiritual ideality of my friend. It was, however, the only book immediately at hand; and I
         indulged a vague hope that the excitement which now agitated the hypochondriac, might find
         relief (for the history of mental disorder is full of similar anomalies) even in the
-        extremeness of the folly which I should read. Could I have judged, indeed, by <fig.of.speech
-            type="personification">the wild over-strained air</fig.of.speech> of vivacity with which
+        extremeness of the folly which I should read. Could I have judged, indeed, by <fos type ="personification">
+        the wild over-strained air</fos> of vivacity with which
         he hearkened, or apparently hearkened, to the words of the tale, I might well have
-        congratulated myself upon the success of my design.</para>
-    <para num="36">I had arrived at that well-known portion of the story where <character.ref
-            name="Ethelred">Ethelred,</character.ref> the hero of the Trist, having sought in vain
+        congratulated myself upon the success of my design.</p>
+    <p n="36">I had arrived at that well-known portion of the story where <char>Ethelred,</char> the hero of the Trist, having sought in vain
         for peaceable admission into the dwelling of the hermit, proceeds to make good an entrance
-        by force. Here, it will be remembered, the words of the narrative run thus:</para>
-    <para num="37">
-        <quote num="5">"And Ethelred, who was by nature of a <fig.of.speech type="metaphor">doughty
-                heart</fig.of.speech>, and who was now mighty withal, on account of the powerfulness
-            of the wine which he had drunken, waited no longer to hold <fig.of.speech
-                type="symbolism">parley with the hermit,</fig.of.speech> who, in sooth, was of an
+        by force. Here, it will be remembered, the words of the narrative run thus:</p>
+    <p n="37">
+        <quote>"And Ethelred, who was by nature of a <fos type="metaphor">doughty
+                heart</fos>, and who was now mighty withal, on account of the powerfulness
+            of the wine which he had drunken, waited no longer to hold <fos
+                type="symbolism">parley with the hermit,</fos> who, in sooth, was of an
             obstinate and maliceful turn, but, feeling the rain upon his shoulders, and fearing the
             rising of the tempest, uplifted his mace outright, and, with blows, made quickly room in
             the plankings of the door for his gauntleted hand; and now pulling there-with sturdily,
-            he so cracked, and ripped, and tore all asunder, <fig.of.speech type="imagery">that the
+            he so cracked, and ripped, and tore all asunder, <fos type="imagery">that the
                 noise of the dry and hollow-sounding wood alarumed and reverberated throughout the
-                forest."</fig.of.speech></quote></para>
-    <para num="38">At the termination of this sentence I started, and for a moment, paused; for it
+                forest."</fos></quote></p>
+    <p n="38">At the termination of this sentence I started, and for a moment, paused; for it
         appeared to me (although I at once concluded that my excited fancy had deceived me) --it
-        appeared to me that, from some very remote portion of the mansion, <fig.of.speech
+        appeared to me that, from some very remote portion of the mansion, <fos
             type="hyperbole">there came, indistinctly, to my ears, what might have
-            been,</fig.of.speech> in its exact similarity of character, the echo (but a stifled and
-        dull one certainly) of the very cracking and ripping sound which <character.ref
-            name="Sir Launcelot">Sir Launcelot</character.ref> had so particularly described. It
-        was, beyond doubt, the coincidence alone which had <fig.of.speech type="metaphor">arrested
-            my attention</fig.of.speech>; for, amid the rattling of the sashes of the casements, and
+            been,</fos> in its exact similarity of char, the echo (but a stifled and
+        dull one certainly) of the very cracking and ripping sound which <char>Sir Launcelot</char> had so particularly described. It
+        was, beyond doubt, the coincidence alone which had <fos type="metaphor">arrested
+            my attention</fos>; for, amid the rattling of the sashes of the casements, and
         the ordinary commingled noises of the still increasing storm, the sound, in itself, had
-        nothing, surely, which should have interested or disturbed me. I continued the story:</para>
-    <para num="39">
-        <quote num="6">"But the good champion <character.ref name="Ethelred"
-                >Ethelred</character.ref>, now entering within the door, was sore enraged and amazed
-            to perceive no signal of the maliceful hermit; but, in the stead thereof, <fig.of.speech
+        nothing, surely, which should have interested or disturbed me. I continued the story:</p>
+    <p n="39">
+        <quote>"But the good champion <char
+                >Ethelred</char>, now entering within the door, was sore enraged and amazed
+            to perceive no signal of the maliceful hermit; but, in the stead thereof, <fos
                 type="imagery">a dragon of a scaly and prodigious demeanour, and of a fiery tongue,
                 which sate in guard before a palace of gold, with a floor of silver; and upon the
-                wall there hung a shield of shining brass with this legend</fig.of.speech> enwritten
-            --</quote></para>
-    <para num="40">Who entereth herein, a conqueror hath bin; Who slayeth the dragon, the shield he
-        shall win.</para>
-    <para num="41"><quote num="7">And Ethelred uplifted his mace, and struck upon the head of the
+                wall there hung a shield of shining brass with this legend</fos> enwritten
+            --</quote></p>
+    <p n="40">Who entereth herein, a conqueror hath bin; Who slayeth the dragon, the shield he
+        shall win.</p>
+    <p n="41"><quote>And Ethelred uplifted his mace, and struck upon the head of the
             dragon, which fell before him, and gave up his pesty breath, with a shriek so horrid and
             harsh, and withal so piercing, that Ethelred had fain to close his ears with his hands
             against the dreadful noise of it, the like whereof was never before
-        heard."</quote></para>
-    <para num="42">Here again I paused abruptly, and now with a feeling of wild amazement --for
+        heard."</quote></p>
+    <p n="42">Here again I paused abruptly, and now with a feeling of wild amazement --for
         there could be no doubt whatever that, in this instance, I did actually hear (although from
         what direction it proceeded I found it impossible to say) a low and apparently distant, but
         harsh, protracted, and most unusual screaming or grating sound --the exact counterpart of
         what my fancy had already conjured up for the dragon's unnatural shriek as described by the
-        romancer.</para>
-    <para num="43">Oppressed, as I certainly was, upon the occurrence of the second and most
-        extraordinary coincidence, by <fig.of.speech type="hyperbole">a thousand conflicting
-            sensations,</fig.of.speech> in which wonder and extreme terror were predominant, I still
+        romancer.</p>
+    <p n="43">Oppressed, as I certainly was, upon the occurrence of the second and most
+        extraordinary coincidence, by <fos type="hyperbole">a thousand conflicting
+            sensations,</fos> in which wonder and extreme terror were predominant, I still
         retained sufficient presence of mind to avoid exciting, by any observation, the sensitive
         nervousness of my companion. I was by no means certain that he had noticed the sounds in
         question; although, assuredly, a strange alteration had, during the last few minutes, taken
@@ -535,29 +532,29 @@
         the wide and rigid opening of the eye as I caught a glance of it in profile. The motion of
         his body, too, was at variance with this idea --for he rocked from side to side with a
         gentle yet constant and uniform sway. Having rapidly taken notice of all this, I resumed the
-        narrative of <character.ref name="Sir launcelot">Sir Launcelot</character.ref>, which thus
-        proceeded:</para>
-    <para num="44">
-        <quote num="8">"And now, <fig.of.speech type="imagery">the champion, having escaped from the
+        narrative of <char>Sir Launcelot</char>, which thus
+        proceeded:</p>
+    <p n="44">
+        <quote>"And now, <fos type="imagery">the champion, having escaped from the
                 terrible fury of the dragon, bethinking himself of the brazen shield, and of the
                 breaking up of the enchantment which was upon it, removed the carcass from out of
                 the way before him, and approached valorously over the silver pavement of the castle
-                to where the shield was upon the wall</fig.of.speech>; which in sooth tarried not
+                to where the shield was upon the wall</fos>; which in sooth tarried not
             for his full coming, but fell down at his feet upon the silver floor, with a mighty
-            great and terrible ringing sound."</quote></para>
-    <para num="45">No sooner had these syllables passed my lips, than --as if a shield of brass had
-        indeed, at the moment, fallen heavily upon a floor of silver, <fig.of.speech type="imagery">
+            great and terrible ringing sound."</quote></p>
+    <p n="45">No sooner had these syllables passed my lips, than --as if a shield of brass had
+        indeed, at the moment, fallen heavily upon a floor of silver, <fos type="imagery">
             became aware of a distinct, hollow, metallic, and clangorous, yet apparently muffled
-            reverberation.</fig.of.speech> Completely unnerved, I leaped to my feet; but the
-        measured rocking movement of <character name=" Usher">Usher</character> was undisturbed. I
+            reverberation.</fos> Completely unnerved, I leaped to my feet; but the
+        measured rocking movement of <char>Usher</char> was undisturbed. I
         rushed to the chair in which he sat. His eyes were bent fixedly before him, and throughout
         his whole countenance there reigned a stony rigidity. But, as I placed my hand upon his
         shoulder, there came a strong shudder over his whole person; a sickly smile quivered about
         his lips; and I saw that he spoke in a low, hurried, and gibbering murmur, as if unconscious
         of my presence. Bending closely over him, I at length drank in the hideous import of his
-        words.</para>
-    <para num="46">
-        <quote num="9">"Not hear it? --yes, I hear it, and have heard it. Long --long --long --many
+        words.</p>
+    <p n="46">
+        <quote>"Not hear it? --yes, I hear it, and have heard it. Long --long --long --many
             minutes, many hours, many days, have I heard it --yet I dared not --oh, pity me,
             miserable wretch that I am! --I dared not --I dared not speak! We have put her living in
             the tomb! Said I not that my senses were acute? I now tell you that I heard her first
@@ -569,33 +566,33 @@
             not be here anon? Is she not hurrying to upbraid me for my haste? Have I not heard her
             footstep on the stair? Do I not distinguish that heavy and horrible beating of her
             heart? MADMAN!"</quote> here he sprang furiously to his feet, and shrieked out his
-        syllables, as if in the effort he were giving up his soul --<quote num="10">MADMAN! I TELL
-            YOU THAT SHE NOW STANDS WITHOUT THE DOOR!"</quote></para>
-    <para num="47">
-        <fig.of.speech type="hyperbole">As if in the superhuman energy of his utterance there had
-            been found the potency of a spell</fig.of.speech> --the huge antique panels to which the
+        syllables, as if in the effort he were giving up his soul --<quote>MADMAN! I TELL
+            YOU THAT SHE NOW STANDS WITHOUT THE DOOR!"</quote></p>
+    <p n="47">
+        <fos type="hyperbole">As if in the superhuman energy of his utterance there had
+            been found the potency of a spell</fos> --the huge antique panels to which the
         speaker pointed, threw slowly back, upon the instant, ponderous and ebony jaws. It was the
-            <fig.of.speech type="personification">work of the rushing gust</fig.of.speech> --but
-        then without those doors there DID stand the lofty and enshrouded figure of the <character
-            name="lady Madeline">lady Madeline</character> of Usher. <fig.of.speech type="imagery"
+            <fos type="personification">work of the rushing gust</fos> --but
+        then without those doors there DID stand the lofty and enshrouded figure of the <char
+           >lady Madeline</char> of Usher. <fos type="imagery"
             >There was blood upon her white robes, and the evidence of some bitter struggle upon
             every portion of her emaciated frame. For a moment she remained trembling and reeling to
-            and fro upon the threshold, then, with a low moaning cry,</fig.of.speech> fell heavily
+            and fro upon the threshold, then, with a low moaning cry,</fos> fell heavily
         inward upon the person of her brother, and in her violent and now final death-agonies, bore
-        him to the floor a corpse, and a victim to the terrors he had anticipated.</para>
-    <para num="48">From that chamber, and from that mansion, I fled aghast. The storm was still
+        him to the floor a corpse, and a victim to the terrors he had anticipated.</p>
+    <p n="48">From that chamber, and from that mansion, I fled aghast. The storm was still
         abroad in all its wrath as I found myself crossing the old causeway. Suddenly there shot
         along the path a wild light, and I turned to see whence a gleam so unusual could have
         issued; for the vast house and its shadows were alone behind me. The radiance was that of
         the full, setting, and blood-red moon which now shone vividly through that once
         barely-discernible fissure of which I have before spoken as extending from the roof of the
         building, in a zig-zag direction, to the base. While I gazed, this fissure rapidly widened
-        --there came a <fig.of.speech type="personification">fierce breath of the
-            whirlwind</fig.of.speech> --the entire orb of the satellite burst at once upon my sight
+        --there came a <fos type="personification">fierce breath of the
+            whirlwind</fos> --the entire orb of the satellite burst at once upon my sight
         --my brain reeled as I saw the mighty walls rushing asunder --there was a long tumultuous
-        shouting sound like the <fig.of.speech type="hyperbole"><fig.of.speech
-                type="personification">voice of a thousand waters</fig.of.speech></fig.of.speech>
+        shouting sound like the <fos type="hyperbole"><fos
+                type="personification">voice of a thousand waters</fos></fos>
         --and the deep and dank tarn at my feet closed sullenly and silently over the fragments of
-        the <quote num="9">"HOUSE OF USHER."</quote></para>
-</short-story>
+        the <quote>"HOUSE OF USHER."</quote></p>
+</story>
 
