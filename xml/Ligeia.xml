@@ -1,6 +1,7 @@
 <?xml version= "1.0"  encoding="UTF-8"?>
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?> 
 <story n="9" theme="lost_love">
+    <!-- <pov person="first"!-->
     <info>
         <title>Ligeia</title>
         <author>by Edgar Allan Poe</author>
@@ -209,53 +210,53 @@
         mingled with them a low murmur from her lips. I bent to them my ear and distinguished,
         again, the concluding words of the passage in Glanvill --<fos type="personification"><quote>"Man doth not yield him to the
         angels, nor unto death utterly, save only through the weakness of his feeble will." </quote></fos></p>
-    <p n="17"><fos>She died; --and I, crushed into the very dust with sorrow, could no longer
-        endure the lonely desolation of my dwelling in the dim and decaying city by the Rhine.</fos> <fos>I had
+    <p n="17">She died; --and I, <fos type="metaphor">crushed into the very dust with sorrow,</fos> could no longer
+        endure the lonely <fos type="alliteration">desolation of my dwelling in the <fos type="personification">dim and decaying</fos>city by the Rhine.</fos> I had
         no lack of what the world calls wealth. <char> Ligeia </char> had brought me far
-        more, very far more than ordinarily falls to the lot of mortals.</fos> After a few months,
+        more, very far more than ordinarily falls to the lot of mortals. After a few months,
         therefore, of weary and aimless wandering, I purchased, and put in some repair, an abbey,
         which I shall not name, in one of the wildest and least frequented portions of fair
             England.<fos type="imagery"> The gloomy and dreary grandeur of the building, the almost
             savage aspect of the domain, the many melancholy and time-honored memories
         connected with both, had much in unison with the feelings of utter abandonment which had
-        driven me into that remote and unsocial region of the country. </fos>Y<fos>et although the external
+        driven me into that remote and unsocial region of the country. </fos>Yet although the external
         abbey, with its verdant decay hanging about it, suffered but little alteration, I gave way,
         with a child-like perversity, and perchance with a faint hope of alleviating my sorrows, to
-        a display of more than regal magnificence within.</fos> --<fos>For such follies, even in childhood, I
-        had imbibed a taste and now they came back to me as if in the dotage of grief.</fos> <fos>Alas, I feel
+        a display of more than regal magnificence within. --<fos type="simile">For such follies, even in childhood, I
+        had imbibed a taste and now they came back to me as if in the dotage of grief.</fos> <fos type="imagery">Alas, I feel
         how much even of incipient madness might have been discovered in the gorgeous and fantastic
         draperies, in the solemn carvings of Egypt, in the wild cornices and furniture, in the
-        Bedlam patterns of the carpets of tufted gold! </fos><fos>I had become a bounden slave in the trammels
+        Bedlam patterns of the carpets of tufted gold! </fos><fos type="symbolism">I had become a bounden slave in the trammels
         of opium, and my labors and my orders had taken a coloring from my dreams. </fos>But these
-        absurdities must not pause to detail. <fos>Let me speak only of that one chamber, ever accursed,
+        absurdities must not pause to detail. <fos type="metaphor">Let me speak only of that one chamber, ever accursed,
         whither in a moment of mental alienation, I led from the altar as my bride --as the
         successor of the unforgotten <char> Ligeia </char> --the fair-haired and blue-eyed
             <char> Lady Rowena Trevanion,</char> of Tremaine.</fos></p>
-    <p n="18"> <fos>There is no individual portion of the architecture and decoration of that
+    <p n="18"> <fos type="imagery">There is no individual portion of the architecture and decoration of that
             <fos type="metaphor">bridal chamber</fos> which is not now visibly before me. Where were
         the souls of the haughty family of the bride, when, through thirst of gold, they permitted
-        to pass the threshold of an apartment so bedecked, a maiden and a daughter so beloved? </fos><fos>I
+        to pass the threshold of an apartment so bedecked, a maiden and a daughter so beloved? </fos><fos type="imagery">I
         have said that I minutely remember the details of the chamber --yet I am sadly forgetful on
         topics of deep moment --and here there was no system, no keeping, in the fantastic display,
         to take hold upon the memory.</fos> The room lay in a high turret of the castellated abbey, was
-        pentagonal in shape, and of capacious size.<fos> Occupying the whole southern face of the
+        pentagonal in shape, and of capacious size.<fos type="personification"> Occupying the whole southern face of the
         pentagon was the sole window --an immense sheet of unbroken glass from Venice --a single
         pane, and tinted of a leaden hue, so that the rays of either the sun or moon, passing
         through it, fell with a ghastly lustre on the objects within.</fos> Over the upper portion of this
         huge window, extended the trellice-work of an aged vine, which clambered up the massy walls
-        of the turret. <fos>The ceiling, of gloomy-looking oak, was excessively lofty, vaulted, and
+        of the turret. <fos type="imagery">The ceiling, of gloomy-looking oak, was excessively lofty, vaulted, and
         elaborately fretted with the wildest and most grotesque specimens of a semi-Gothic,
         semi-Druidical device. From out the most central recess of this melancholy vaulting,
         depended, by a single chain of gold with long links, a huge censer of the same metal,
         Saracenic in pattern, and with many perforations so contrived that there writhed in and out
         of them, as if endued with a serpent vitality, a continual succession of parti-colored
         fires</fos></p>
-    <p n="19">. <fos>Some few ottomans and golden candelabra, of Eastern figure, were in various
+    <p n="19">. <fos type="symbolism">Some few ottomans and golden candelabra, of Eastern figure, were in various
         stations about --and there was the couch, too --bridal couch --of an Indian model, and low,
-        and sculptured of solid ebony, with a pall-like canopy above.</fos> <fos>In each of the angles of the
+        and sculptured of solid ebony, with a pall-like canopy above.</fos> <fos type="imagery">In each of the angles of the
         chamber stood on end a gigantic sarcophagus of black granite, from the tombs of the kings
         over against Luxor, with their aged lids full of immemorial sculpture. But in the draping of
-        the apartment lay, alas! the chief phantasy of all. </fos><fos>The lofty walls, gigantic in height
+        the apartment lay, alas! the chief phantasy of all. </fos><fos type="hyperbole">The lofty walls, gigantic in height
         --even unproportionably so --were hung from summit to foot, in vast folds, with a heavy and
         massive-looking tapestry --tapestry of a material which was found alike as a carpet on the
         floor, as a covering for the ottomans and the ebony bed, as a canopy for the bed, and as the
@@ -263,7 +264,7 @@
         richest cloth of gold. </fos>It was spotted all over, at irregular intervals, with arabesque
         figures, about a foot in diameter, and wrought upon the cloth in patterns of the most jetty
         black. But these figures partook of the true char of the arabesque only when regarded
-        from a single point of view. <fos>By a contrivance now common, and indeed traceable to a very
+        from a single point of view. <fos type="personification">By a contrivance now common, and indeed traceable to a very
         remote period of antiquity, they were made changeable in aspect. To one entering the room,
         they bore the appearance of simple monstrosities; but upon a farther advance, this
         appearance gradually departed; and step by step, as the visitor moved his station in the
@@ -272,30 +273,30 @@
         phantasmagoric effect was vastly heightened by the artificial introduction of a strong
         continual current of wind behind the draperies --giving a hideous and uneasy animation to
         the whole.</fos></p>
-    <p n="20"> <fos>In halls such as these --in a <fos type="metaphor">bridal chamber</fos> such
+    <p n="20"> <fos type="imagery">In halls such as these --in a <fos type="metaphor">bridal chamber</fos> such
         as this --I passed, with the <char>Lady of Tremaine</char>, the unhallowed hours
         of the first month of our marriage --passed them with but little disquietude. That my wife
         dreaded the fierce moodiness of my temper --that she shunned me and loved me but little --I
-        could not help perceiving; but it gave me rather pleasure than otherwise. </fos><fos>I loathed her with
+        could not help perceiving; but it gave me rather pleasure than otherwise. </fos><fos type="hyperbole">I loathed her with
         a hatred belonging more to demon than to man. My memory flew back, (oh, with what intensity
         of regret!) to <char> Ligeia </char>, the beloved, the august, the beautiful, the
         entombed.</fos> I revelled in recollections of her purity, of her wisdom, of her lofty, her
-        ethereal nature, of her passionate, her idolatrous love.<fos> Now, then, did my spirit fully and
-        freely burn with more than all the fires of her own.</fos> <fos>In the excitement of my opium dreams
+        ethereal nature, of her passionate, her idolatrous love.<fos type="imagery"> Now, then, did my spirit fully and
+        freely burn with more than all the fires of her own.</fos> <fos type="personification">In the excitement of my opium dreams
         (for I was habitually fettered in the shackles of the drug) I would call aloud upon her
         name, during the silence of the night, or among the sheltered recesses of the glens by day,
         as if, through the wild eagerness, the solemn passion, the consuming ardor of my longing for
         the departed, I could restore her to the pathway she had abandoned --ah, could it be
         forever? --upon the earth</fos>.</p>
-    <p n="21"><fos> About the commencement of the second month of the marriage, the <char>
+    <p n="21"><fos type="imagery"> About the commencement of the second month of the marriage, the <char>
             Lady Rowena</char> was attacked with sudden illness, from which her recovery was
-        slow.</fos> <fos>The fever which consumed her rendered her nights uneasy; and in her perturbed state of
+        slow.</fos> <fos type="metaphor">The fever which consumed her rendered her nights uneasy; and in her perturbed state of
         half-slumber, she spoke of sounds, and of motions, in and about the chamber of the turret,
         which I concluded had no origin save in the distemper of her fancy, or perhaps in the
-        phantasmagoric influences of the chamber itself.</fos> S<fos>he became at length convalescent --finally
+        phantasmagoric influences of the chamber itself.</fos> <fos type="metaphor">She became at length convalescent --finally
         well. Yet but a brief period elapsed, ere a second more violent disorder again threw her
         upon a bed of suffering; and from this attack her frame, at all times feeble, never
-        altogether recovered.</fos> <fos>Her illnesses were, after this epoch, of alarming char, and of
+        altogether recovered.</fos> <fos type="foreshadowing">Her illnesses were, after this epoch, of alarming char, and of
         more alarming recurrence, defying alike the knowledge and the great exertions of her
         physicians. With the increase of the chronic disease which had thus, apparently, taken too
         sure hold upon her constitution to be eradicated by human means, I could not fail to observe
@@ -303,49 +304,49 @@
         trivial causes of fear. </fos>She spoke again, and now more frequently and pertinaciously, of the
         sounds --of the slight sounds --and of the unusual motions among the tapestries, to which
         she had formerly alluded. </p>
-    <p n="22"><fos>One night, near the closing in of September, she pressed this distressing
+    <p n="22"><fos type="foreshadowing">One night, near the closing in of September, she pressed this distressing
         subject with more than usual emphasis upon my attention. She had just awakened from an
         unquiet slumber, and I had been watching, with feelings half of anxiety, half of vague
         terror, the workings of her emaciated countenance. </fos>I sat by the side of her ebony bed, upon
         one of the ottomans of India. She partly arose, and spoke, in an earnest low whisper, of
         sounds which she then heard, but which I could not hear --of motions which she then saw, but
-        which I could not perceive. <fos>The wind was rushing hurriedly behind the tapestries, and I
+        which I could not perceive. <fos type="personification">The wind was rushing hurriedly behind the tapestries, and I
         wished to show her (what, let me confess it, I could not all believe) that those almost
         inarticulate breathings, and those very gentle variations of the figures upon the wall, were
-        but the natural effects of that customary rushing of the wind.</fos> <fos>But a deadly pallor,
+        but the natural effects of that customary rushing of the wind.</fos> <fos type="foreshadowing">But a deadly pallor,
         overspreading her face, had proved to me that my exertions to reassure her would be
         fruitless.</fos> She appeared to be fainting, and no attendants were within call. I remembered
         where was deposited a decanter of light wine which had been ordered by her physicians, and
-        hastened across the chamber to procure it. B<fos>ut, as I stepped beneath the light of the
-        censer, two circumstances of a startling nature attracted my attention.</fos> <fos>I had felt that some
+        hastened across the chamber to procure it. <fos type="imagery">But, as I stepped beneath the light of the
+        censer, two circumstances of a startling nature attracted my attention.</fos> <fos type="imagery">I had felt that some
         palpable although invisible object had passed lightly by my person; and I saw that there lay
         upon the golden carpet, in the very middle of the rich lustre thrown from the censer, a
         shadow --a faint, indefinite shadow of angelic aspect --such as might be fancied for the
-        shadow of a shade. </fos><fos>But I was wild with the excitement of an immoderate dose of opium, and
-        heeded these things but little, nor spoke of them to <char>Rowena</char>.</fos> <fos>Having
+        shadow of a shade. </fos><fos type="hyperbole">But I was wild with the excitement of an immoderate dose of opium, and
+        heeded these things but little, nor spoke of them to <char>Rowena</char>.</fos> Having
         found the wine, I recrossed the chamber, and poured out a gobletful, which I held to the
         lips of the fainting <char>lady</char>. She had now partially recovered, however,
         and took the vessel herself, while I sank upon an ottoman near me, with my eyes fastened
-        upon her person.</fos> <fos>It was then that I became distinctly aware of a gentle footfall upon the
+        upon her person. <fos type="foreshadowing">It was then that I became distinctly aware of a gentle footfall upon the
         carpet, and near the couch; and in a second thereafter, as <char>Rowena</char> was
         in the act of raising the wine to her lips, I saw, or may have dreamed that I saw, fall
         within the goblet, as if from some invisible spring in the atmosphere of the room, three or
         four large drops of a brilliant and ruby colored fluid.</fos> If this I saw --not so
-            <char>Rowena</char>. <fos>She swallowed the wine unhesitatingly, and I forbore to
+            <char>Rowena</char>. <fos type="imagery">She swallowed the wine unhesitatingly, and I forbore to
         speak to her of a circumstance which must, after all, I considered, have been but the
         suggestion of a vivid imagination, rendered morbidly active by the terror of the
             <char>lady</char>, by the opium, and by the hour.</fos></p>
-    <p n="23"> <fos>Yet I cannot conceal it from my own perception that, immediately subsequent
+    <p n="23"> <fos type="imagery">Yet I cannot conceal it from my own perception that, immediately subsequent
         to the fall of the ruby-drops, a rapid change for the worse took place in the disorder of my
         wife; so that, on the third subsequent night, the hands of her menials prepared her for the
         tomb, and on the fourth, I sat alone, with her shrouded body, in that fantastic chamber
-        which had received her as my bride</fos>. --<fos>Wild visions, opium-engendered, flitted, shadow-like,
+        which had received her as my bride</fos>. --<fos type="metaphor">Wild visions, opium-engendered, flitted, shadow-like,
         before me. I gazed with unquiet eye upon the sarcophagi in the angles of the room, upon the
         varying figures of the drapery, and upon the writhing of the parti-colored fires in the
-        censer overhead.</fos> <fos>My eyes then fell, as I called to mind the circumstances of a former night,
+        censer overhead.</fos> <fos type="imagery">My eyes then fell, as I called to mind the circumstances of a former night,
         to the spot beneath the glare of the censer where I had seen the faint traces of the shadow.</fos>
-       <fos> It was there, however, no longer; and breathing with greater freedom, I turned my glances to
-        the pallid and rigid figure upon the bed. </fos><fos>Then rushed upon me a thousand memories of
+       <fos type="personification"> It was there, however, no longer; and breathing with greater freedom, I turned my glances to
+        the pallid and rigid figure upon the bed. </fos><fos type="imagery">Then rushed upon me a thousand memories of
             <char> Ligeia </char> --and then came back upon my heart, with the turbulent
         violence of a flood, the whole of that unutterable wo with which I had regarded her thus
         enshrouded. The night waned; and still, with a bosom full of bitter thoughts of the one only
@@ -356,36 +357,36 @@
         superstitious terror --but there was no repetition of the sound. I strained my vision to
         detect any motion in the corpse --but there was not the slightest perceptible. Yet I could
         not have been deceived. I had heard the noise, however faint, and my soul was awakened
-        within me. I resolutely and perseveringly kept my attention riveted upon the body<fos>. Many
+        within me. I resolutely and perseveringly kept my attention riveted upon the body. <fos type="personification"> Many
         minutes elapsed before any circumstance occurred tending to throw light upon the mystery. At
         length it became evident that a slight, a very feeble, and barely noticeable tinge of color
-        had flushed up within the cheeks, and along the sunken small veins of the eyelids</fos>. <fos>Through a
+        had flushed up within the cheeks, and along the sunken small veins of the eyelids</fos>. <fos type="imagery">Through a
         species of unutterable horror and awe, for which the language of mortality has no
         sufficiently energetic expression, I felt my heart cease to beat, my limbs grow rigid where
-        I sat.</fos> <fos>Yet a sense of duty finally operated to restore my self-possession. </fos>I could no longer
+        I sat.</fos> <fos type="personification">Yet a sense of duty finally operated to restore my self-possession. </fos>I could no longer
         doubt that we had been precipitate in our preparations --that <char>Rowena</char>
         still lived. It was necessary that some immediate exertion be made; yet the turret was
         altogether apart from the portion of the abbey tenanted by the servants --there were none
         within call --I had no means of summoning them to my aid without leaving the room for many
-        minutes --and this I could not venture to do. <fos>I therefore struggled alone in my endeavors to
-        call back the spirit ill hovering.</fos> <fos>In a short period it was certain, however, that a relapse
+        minutes --and this I could not venture to do. <fos type="metaphor">I therefore struggled alone in my endeavors to
+        call back the spirit ill hovering.</fos> <fos type="simile">In a short period it was certain, however, that a relapse
         had taken place; the color disappeared from both eyelid and cheek, leaving a wanness even
         more than that of marble; the lips became doubly shrivelled and pinched up in the ghastly
         expression of death; a repulsive clamminess and coldness overspread rapidly the surface of
-        the body; and all the usual rigorous illness immediately supervened. </fos><fos>I fell back with a
+        the body; and all the usual rigorous illness immediately supervened. </fos><fos type="imagery">I fell back with a
         shudder upon the couch from which I had been so startlingly aroused, and again gave myself
         up to passionate waking visions of <char> Ligeia </char>.</fos> </p>
-    <p n="25"><fos>An hour thus elapsed when (could it be possible?) I was a second time aware of
+    <p n="25"><fos type="personification">An hour thus elapsed when (could it be possible?) I was a second time aware of
         some vague sound issuing from the region of the bed. I listened --in extremity of horror.</fos>
         The sound came again --it was a sigh. Rushing to the corpse, I saw --distinctly saw --a
-        tremor upon the lips.<fos> In a minute afterward they relaxed, disclosing a bright line of the
-        pearly teeth.</fos> <fos>Amazement now struggled in my bosom with the profound awe which had hitherto
-        reigned there alone. </fos><fos>I felt that my vision grew dim, that my reason wandered; and it was
+        tremor upon the lips.<fos type="metaphor"> In a minute afterward they relaxed, disclosing a bright line of the
+        pearly teeth.</fos> <fos type="imagery">Amazement now struggled in my bosom with the profound awe which had hitherto
+        reigned there alone. </fos><fos type="metaphor">I felt that my vision grew dim, that my reason wandered; and it was
         only by a violent effort that I at length succeeded in nerving myself to the task which duty
-        thus once more had pointed out.</fos> T<fos>here was now a partial glow upon the forehead and upon the
+        thus once more had pointed out.</fos> <fos type="alliteration">There was now a partial glow upon the forehead and upon the
         cheek and throat; a perceptible warmth pervaded the whole frame; there was even a slight
         pulsation at the heart. </fos>The <char>lady</char> lived; and with redoubled ardor I
-        betook myself to the task of restoration. <fos>I chafed and bathed the temples and the hands, and
+        betook myself to the task of restoration. <fos type="personification">I chafed and bathed the temples and the hands, and
         used every exertion which experience, and no little medical reading, could suggest. But in
         vain. Suddenly, the color fled, the pulsation ceased, the lips resumed the expression of the
         dead, and, in an instant afterward, the whole body took upon itself the icy chilliness, the
@@ -393,45 +394,45 @@
         that which has been, for many days, a tenant of the tomb.</fos> </p>
     <p n="26"> And again I sunk into visions of <char> Ligeia </char> --and again,
         (what marvel that I shudder while I write,) again there reached my ears a low sob from the
-        region of the ebony bed.<fos> But why shall I minutely detail the unspeakable horrors of that
+        region of the ebony bed.<fos type="imagery"> But why shall I minutely detail the unspeakable horrors of that
         night? Why shall I pause to relate how, time after time, until near the period of the gray
         dawn, this hideous drama of revivification was repeated; how each terrific relapse was only
         into a sterner and apparently more irredeemable death; how each agony wore the aspect of a
         struggle with some invisible foe; and how each struggle was succeeded by I know not what of
         wild change in the personal appearance of the corpse?</fos> Let me hurry to a conclusion. </p>
-    <p n="27"> T<fos>he greater part of the fearful night had worn away, and she who had been
+    <p n="27"> <fos type="hyperbole">The greater part of the fearful night had worn away, and she who had been
         dead, once again stirred --and now more vigorously than hitherto, although arousing from a
-        dissolution more appalling in its utter hopelessness than any.</fos> <fos>I had long ceased to struggle
+        dissolution more appalling in its utter hopelessness than any.</fos> <fos type="personification">I had long ceased to struggle
         or to move, and remained sitting rigidly upon the ottoman, a helpless prey to a whirl of
         violent emotions, of which extreme awe was perhaps the least terrible, the least consuming.</fos>
-        <fos>The corpse, I repeat, stirred, and now more vigorously than before. The hues of life flushed
+        <fos type="imagery">The corpse, I repeat, stirred, and now more vigorously than before. The hues of life flushed
         up with unwonted energy into the countenance --the limbs relaxed --and, save that the
         eyelids were yet pressed heavily together, and that the bandages and draperies of the grave
         still imparted their charnel char to the figure, I might have dreamed that
-            <char>Rowena</char> had indeed shaken off, utterly, the fetters of Death. </fos><fos>But
+            <char>Rowena</char> had indeed shaken off, utterly, the fetters of Death. </fos><fos type="metaphor">But
         if this idea was not, even then, altogether adopted, I could at least doubt no longer, when,
         arising from the bed, tottering, with feeble steps, with closed eyes, and with the manner of
         one bewildered in a dream, the thing that was enshrouded advanced boldly and palpably into
         the middle of the apartment.</fos> </p>
-    <p n="28"><fos>I trembled not --I stirred not --for a crowd of unutterable fancies connected
+    <p n="28"><fos type="personification">I trembled not --I stirred not --for a crowd of unutterable fancies connected
         with the air, the stature, the demeanor of the figure, rushing hurriedly through my brain,
-        had paralyzed --had chilled me into stone.</fos> <fos>I stirred not --but gazed upon the apparition.
+        had paralyzed --had chilled me into stone.</fos> <fos type="alliteration">I stirred not --but gazed upon the apparition.
         There was a mad disorder in my thoughts --a tumult unappeasable.</fos> Could it, indeed, be the
         living <char>Rowena</char> who confronted me? Could it indeed be
             <char>Rowena</char> at all --the fair-haired, the blue-eyed <char>Lady
             Rowena</char> Trevanion of Tremaine? Why, why should I doubt it? The bandage lay
         heavily about the mouth --but then might it not be the mouth of the breathing
-            <char>Lady of Tremaine?</char> A<fos>nd the cheeks-there were the roses as in her
+            <char>Lady of Tremaine?</char><fos type="imagery">And the cheeks-there were the roses as in her
         noon of life --yes, these might indeed be the fair cheeks of the living <char>Lady of
             Tremaine.</char> And the chin, with its dimples, as in health, might it not be
         hers? --but had she then grown taller since her ma<char>lady</char>? What
         inexpressible madness seized me with that thought? One bound, and I had reached her feet!</fos>
-        <fos>Shrinking from my touch, she let fall from her head, unloosened, the ghastly cerements which
+        <fos type="simile">Shrinking from my touch, she let fall from her head, unloosened, the ghastly cerements which
         had confined it, and there streamed forth, into the rushing atmosphere of the chamber, huge
-        masses of long and dishevelled hair; it was blacker than the raven wings of the midnight!
+        masses of long and dishevelled hair; it was blacker than the raven wings of the midnight!</fos>
         And now slowly opened the eyes of the figure which stood before me. <quote> "Here then, at
             least," </quote>I shrieked aloud, <quote>"can I never --can I never be mistaken --these
             are the full, and the black, and the wild eyes --of my lost love --of the
-                <char>lady</char> --of the <char>LADY LIGEIA</char>."</fos></quote>
+                <char>lady</char> --of the <char>LADY LIGEIA</char>."</quote>
     </p>
 </story>
