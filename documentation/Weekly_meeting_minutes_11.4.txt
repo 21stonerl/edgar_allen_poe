@@ -1,0 +1,18 @@
+WEEKLY MEETING MINUTES
+
+Date: 
+November 4, 2024
+Time:  
+6:00-6:25
+	 
+
+
+IN ATTENDANCE
+,Abigail,Brandon,Natalie,Michael
+WHAT WAS DISCUSSED IN THE MEETING/WHAT WE DID WITHIN THE MEETING  
+Abigal provided a description of how we could do the website which was agreed by the group which went. “An introduction to Edgar Allan Poe, his significance in literature, and a brief overview of your website's purpose. Biography: A detailed section about Poe's life, including his background, major works, and influences on literature. Short Stories: A list of Poe's short stories with links to individual pages for each story. When a figure of speech shows up in the story it will be linked to the figure of speech page Figures of Speech: An explanation of different figures of speech (ex, metaphor, simile, alliteration) with examples from his stories. We could have a bar chart showing how much of each fos he uses in all his short stories Themes: A page that analyzes recurring themes in Poe's works. We could have a matrix chart which is a grid showing how different themes are represented across multiple stories. List stories on one axis and themes on the other, marking the intersections where themes appear in each story. Character profile: Categorize characters based on types, like: Protagonists, Antagonists, Supporting Characters, narrator. Character list and profile. set of histograms (a kind of bar graph) that show the proportion of each story told or spoken by each character vs. by a third-person narrator. (Dr. Campbell’s idea)” We want to lessen the use of XSLT in the assignment we are confused about it. The theme for our website is wanting to be spooky red, black dark, mysterious, talking about adding histograms for our website not sure what info yet. Talking about pushing an  text fille index page, A basic CSS file, A Team page listing the participants in the project, and a A draft of a site menu
+
+ 
+
+NEXT MEETING 
+Next meeting on discord on November 11th, 2024
