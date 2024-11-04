@@ -1,7 +1,7 @@
 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="7" theme="fear">
-<info>
+<info pov="first_person" speaker= "un_named">
   <title>A Descent Into The Maelstrom</title>
 <author>by Edgar Allan Poe</author>
 <year>(published 1845)</year>
@@ -10,13 +10,13 @@
 
 
 <p n="1">
-  WE had now reached the summit of the loftiest crag. For some minutes the old man seemed too much exhausted to speak.</p>
+  WE had now reached the summit of the loftiest crag. For some minutes the <char>old man</char> seemed too much exhausted to speak.</p>
 
 <p n="2">  <conversation speaker="old_man"> "Not long ago,"</conversation> said he at length,<conversation speaker="old_man"> "and I could have guided you on this route as well as the youngest of my sons ; but, about three years past, there happened to me an event such as never happened to mortal man -- or at least such as no man ever survived to tell of -- and the six hours of deadly terror which I then endured have broken me up body and soul. You suppose me a very old man -- but I am not. It took less than a single day to change these hairs from a jetty black to white, to weaken my limbs, and to unstring my nerves, so that I tremble at the least exertion, and am frightened at a shadow. Do you know I can scarcely look over this little cliff without getting giddy ?"</conversation></p>
 
 <p n="3">  The "little cliff," upon whose edge he had so carelessly thrown himself down to rest that the weightier portion of his body hung over it, while he was only kept from falling by the tenure of his elbow on its extreme and slippery edge -- this "little cliff" arose, <fos type="imagery">a sheer unobstructed precipice of black shining rock, some fifteen or sixteen hundred feet from the world of crags beneath us</fos>. Nothing would have tempted me to within half a dozen yards of its brink. In truth so deeply was I excited by the perilous position of my companion, that I fell at full length upon the ground, clung to the shrubs around me, and dared not even glance upward at the sky -- while I struggled in vain to divest myself of the idea that the very foundations of the mountain were in danger from the fury of the winds. It was long before I could reason myself into sufficient courage to sit up and look out into the distance.</p>
 
-<p n="4">  <conversation speaker="old_man">"You must get over these fancies,"</conversation> said the guide, <conversation speaker="Guide">"for I have brought you here that you might have the best possible view of the scene of that event I mentioned -- and to tell you the whole story with the spot just under your eye."
+<p n="4">  <conversation speaker="old_man">"You must get over these fancies,"</conversation> said the <char>guide</char>, <conversation speaker="Guide">"for I have brought you here that you might have the best possible view of the scene of that event I mentioned -- and to tell you the whole story with the spot just under your eye."
 </conversation>
   <conversation speaker="old_man"> "We are now,"</conversation> he continued, in that particularizing manner which distinguished him -- <conversation speaker="Guide">"we are now close upon the Norwegian coast -- in the sixty-eighth degree of latitude -- in the great province of Nordland -- and in the dreary district of Lofoden. The mountain upon whose top we sit is Helseggen, the Cloudy. Now raise yourself up a little higher -- hold on to the grass if you feel giddy -- so -- and look out, beyond the belt of vapor beneath us, into the sea."</conversation></p>
 

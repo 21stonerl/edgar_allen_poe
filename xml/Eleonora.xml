@@ -1,7 +1,7 @@
 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="17" theme="lost_love">
-<info>
+<info pov="first_person" speaker="un_named">
    <title>Eleonora</title>
 
 <author>by Edgar Allan Poe</author>
@@ -13,7 +13,7 @@
 
  <p n="2">We will say, then, that I am mad. I grant, at least, that there are two distinct conditions of my mental existence -- the condition of a lucid reason, not to be disputed, and belonging to the memory of events forming the first epoch of my life -- and a condition of shadow and doubt, appertaining to the present, and to the recollection of what constitutes the second great era of my being. Therefore, what I shall tell of the earlier period, believe; and to what I may relate of the later time, give only such credit as may seem due, or doubt it altogether, or, if doubt it ye cannot, then play unto its riddle the Oedipus.</p>
 
- <p n="3">She whom I loved in youth, and of whom I now pen calmly and distinctly these remembrances, was the sole daughter of the only sister of my mother long departed. Eleonora was the name of my cousin. We had always dwelled together, beneath a tropical sun, in 
+ <p n="3">She whom I loved in youth, and of whom I now pen calmly and distinctly these remembrances, was the sole daughter of the only sister of my mother long departed. <char>Eleonora</char> was the name of my cousin. We had always dwelled together, beneath a tropical sun, in 
     <fos type="metaphor">the Valley of the Many-Colored Grass.</fos> No unguided footstep ever came upon that vale; for it lay away up among a range of giant hills that hung beetling around about it, shutting out the sunlight from its sweetest recesses. No path was trodden in its vicinity; and, to reach our happy home, there was need of putting back, with force, the foliage of many thousands of forest trees, and of crushing to death the glories of many millions of fragrant flowers. Thus it was that we lived all alone, knowing nothing of the world without the valley -- I, and my cousin, and her mother.</p>
 
  <p n="4">From the dim regions beyond the mountains at the upper end of our encircled domain, there crept out a narrow and deep river, brighter than all save the eyes of Eleonora; and, winding stealthily about in mazy courses, it passed away, at length, through a shadowy gorge, among hills still dimmer than those whence it had issued. We called it <fos type="personification">the "River of Silence"; for there seemed to be a hushing influence in its flow.</fos> No murmur arose from its bed, and so gently it wandered along, that the pearly pebbles upon which we loved to gaze, far down within its bosom, stirred not at all, but lay in a motionless content, each in its own old station, shining on gloriously forever.</p>
