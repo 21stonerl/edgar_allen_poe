@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="30" theme="terror">
-<info><title>The Premature Burial</title>
+<info pov="first_person" speaker="narrorator"><title>The Premature Burial</title>
 <author>by Edgar Allan Poe</author>
 <year>(published 1850)</year></info>
     
@@ -83,13 +83,13 @@
 
 <p n="39">As this awful conviction forced itself, thus, into the innermost chambers of my soul, I once again struggled to cry aloud. And in this second endeavor I succeeded. A long, wild, and continuous shriek, or yell of agony, resounded through the realms of the subterranean Night.</p>
 
-<p n="40"><quote>"Hillo! hillo, there!"</quote> said a gruff voice, in reply.</p>
+<p n="40"><conversation speaker="stranger 1">"Hillo! hillo, there!"</conversation> said a gruff voice, in reply.</p>
 
-<p n="41"><quote>"What the devil's the matter now!"</quote> said a second.</p>
+<p n="41"><conversation speaker="stranger 2">"What the devil's the matter now!"</conversation> said a second.</p>
 
-<p n="42"><quote>"Get out o' that!"</quote> said a third.</p>
+<p n="42"><conversation speaker="stranger 3">"Get out o' that!"</conversation> said a third.</p>
 
-<p n="43"><quote>"What do you mean by yowling in that ere kind of style, like a cattymount?"</quote> said a fourth; and hereupon I was seized and shaken without ceremony, for several minutes, by a junto of very rough-looking individuals. They did not arouse me from my slumber -- for I was wide awake when I screamed -- but they restored me to the full possession of my memory.</p>
+<p n="43"><conversation speaker="stranger 4">"What do you mean by yowling in that ere kind of style, like a cattymount?"</conversation> said a fourth; and hereupon I was seized and shaken without ceremony, for several minutes, by a junto of very rough-looking individuals. They did not arouse me from my slumber -- for I was wide awake when I screamed -- but they restored me to the full possession of my memory.</p>
 
 <p n="44">This adventure occurred near Richmond, in Virginia. Accompanied by a friend, I had proceeded, upon a gunning expedition, some miles down the banks of the James River. Night approached, and we were overtaken by a storm. The cabin of a small sloop lying at anchor in the stream, and laden with garden mould, afforded us the only available shelter. We made the best of it, and passed the night on board. I slept in one of the only two berths in the vessel -- and the berths of a sloop of sixty or twenty tons need scarcely be described. That which I occupied had no bedding of any kind. Its extreme width was eighteen inches. The distance of its bottom from the deck overhead was precisely the same. I found it a matter of exceeding difficulty to squeeze myself in. Nevertheless, I slept soundly, and the whole of my vision -- for it was no dream, and no nightmare -- arose naturally from the circumstances of my position -- from my ordinary bias of thought -- and from the difficulty, to which I have alluded, of collecting my senses, and especially of regaining my memory, for a long time after awaking from slumber. The men who shook me were the crew of the sloop, and some laborers engaged to unload it. From the load itself came the earthly smell. The bandage about the jaws was a silk handkerchief in which I had bound up my head, in default of my customary nightcap.</p>
 
