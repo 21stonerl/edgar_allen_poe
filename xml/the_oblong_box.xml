@@ -1,150 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<story>
+<?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story n="16" theme="obsession">
+    <info>
     <title>The Oblong Box</title>
     <author>by Edgar Allan Poe</author>
-    <publicationDate>1844</publicationDate>
-    <narration>
-        <paragraph>
-            Some years ago, I engaged passage from Charleston, S. C, to the city of New York, in the fine packet-ship <speech speaker="Captain Hardy">"Independence,"</speech> <person>Captain Hardy</person>. We were to sail on the fifteenth of the month (June), weather permitting; and on the fourteenth, I went on board to arrange some matters in my stateroom.
-        </paragraph>
-        <paragraph>
-            I found that we were to have a great many passengers, including a more than usual number of ladies. On the list were several of my acquaintances, and among other names, I was rejoiced to see that of <person>Mr. Cornelius Wyatt</person>, a young artist, for whom I entertained feelings of warm friendship. He had been with me a fellow-student at C—— University, where we were very much together. He had the ordinary temperament of genius, and was a compound of misanthropy, sensibility, and enthusiasm. To these qualities he united the warmest and truest heart which ever beat in a human bosom.
-        </paragraph>
-        <paragraph>
-            I observed that his name was carded upon THREE state-rooms; and, upon again referring to the list of passengers, I found that he had engaged passage for himself, wife, and two sisters—his own. The state-rooms were sufficiently roomy, and each had two berths, one above the other. These berths, to be sure, were so exceedingly narrow as to be insufficient for more than one person; still, I could not comprehend why there were THREE staterooms for these four persons. I was, just at that epoch, in one of those moody frames of mind which make a man abnormally inquisitive about trifles: and I confess, with shame, that I busied myself in a variety of ill-bred and preposterous conjectures about this matter of the supernumerary stateroom. It was no business of mine, to be sure, but with none the less pertinacity did I occupy myself in attempts to resolve the enigma. At last I reached a conclusion which wrought in me great wonder why I had not arrived at it before. <speech speaker="Narrator">"It is a servant of course,"</speech> I said; <speech speaker="Narrator">"what a fool I am, not sooner to have thought of so obvious a solution!"</speech> And then I again repaired to the list—but here I saw distinctly that NO servant was to come with the party, although, in fact, it had been the original design to bring one—for the words <speech speaker="Narrator">"and servant"</speech> had been first written and then over-scored. <speech speaker="Narrator">"Oh, extra baggage, to be sure,"</speech> I now said to myself—<speech speaker="Narrator">"something he wishes not to be put in the hold—something to be kept under his own eye—ah, I have it—a painting or so—and this is what he has been bargaining about with <person>Nicolino</person>, the Italian Jew."</speech> This idea satisfied me, and I dismissed my curiosity for the nonce.
-        </paragraph>
-        <paragraph>
-            <person>Wyatt</person>'s two sisters I knew very well, and most amiable and clever girls they were. His wife he had newly married, and I had never yet seen her. He had often talked about her in my presence, however, and in his usual style of enthusiasm. He described her as of surpassing beauty, wit, and accomplishment. I was, therefore, quite anxious to make her acquaintance.
-        </paragraph>
-        <paragraph>
-            On the day in which I visited the ship (the fourteenth), <person>Wyatt</person> and party were also to visit it—so the <person>Captain Hardy</person> informed me—and I waited on board an hour longer than I had designed, in hope of being presented to the bride, but then an apology came. <speech speaker="Captain Hardy">"Mrs. W. was a little indisposed, and would decline coming on board until to-morrow, at the hour of sailing."</speech>
-        </paragraph>
-        <paragraph>
-            The morrow having arrived, I was going from my hotel to the wharf, when <person>Captain Hardy</person> met me and said that, <speech speaker="Captain Hardy">"owing to circumstances"</speech> (a stupid but convenient phrase), <speech speaker="Captain Hardy">"he rather thought the 'Independence' would not sail for a day or two, and that when all was ready, he would send up and let me know."</speech> This I thought strange, for there was a stiff southerly breeze; but as <speech speaker="Narrator">"the circumstances"</speech> were not forthcoming, although I pumped for them with much perseverance, I had nothing to do but to return home and digest my impatience at leisure.
-        </paragraph>
-        <paragraph>
-            <person>Wyatt</person>'s party arrived in about ten minutes after myself. There were the two <person>Mrs. Wyatt</person>, the <person>bride</person>, and the artist—the latter in one of his customary fits of moody misanthropy. I was too well used to these, however, to pay them any special attention. He did not even introduce me to his wife;—this courtesy devolving, per force, upon his sister <person>Marian</person>—a very sweet and intelligent girl, who, in a few hurried words, made us acquainted.
-        </paragraph>
-        <paragraph>
-            <person>Mrs. Wyatt</person> had been closely veiled; and when she raised her veil, in acknowledging my bow, I confess that I was very profoundly astonished. I should have been much more so, however, had not long experience advised me not to trust, with too implicit a reliance, the enthusiastic descriptions of my friend, the artist, when indulging in comments upon the loveliness of woman. When beauty was the theme, I well knew with what facility he soared into the regions of the purely ideal.
-        </paragraph>
-        <paragraph>
-            The truth is, I could not help regarding <person>Mrs. Wyatt</person> as a decidedly plain-looking woman. If not positively ugly, she was not, I think, very far from it. She was dressed, however, in exquisite taste—and then I had no doubt that she had captivated my friend's heart by the more enduring graces of the intellect and soul. She said very few words, and passed at once into her state-room with <person>Mr. W.</person>
-        </paragraph>
-        <paragraph>
+    <year>1844</year>
+    </info>
+        <p n="1">
+            Some years ago, I engaged passage from Charleston, S. C, to the city of New York, in the fine packet-ship <conversation speaker="Captain Hardy">"Independence,"</conversation> <char>Captain Hardy</char>. We were to sail on the fifteenth of the month (June), weather permitting; and on the fourteenth, I went on board to arrange some matters in my stateroom.
+        </p>
+        <p n="2">
+            I found that we were to have a great many passengers, including a more than usual number of ladies. On the list were several of my acquaintances, and among other names, I was rejoiced to see that of <char>Mr. Cornelius Wyatt</char>, a young artist, for whom I entertained feelings of warm friendship. He had been with me a fellow-student at C—— University, where we were very much together. He had the ordinary temperament of genius, and was a compound of misanthropy, sensibility, and enthusiasm. To these qualities he united the warmest and truest heart which ever beat in a human bosom.
+        </p>
+        <p n="3">
+            I observed that his name was carded upon THREE state-rooms; and, upon again referring to the list of passengers, I found that he had engaged passage for himself, wife, and two sisters—his own. The state-rooms were sufficiently roomy, and each had two berths, one above the other. These berths, to be sure, were so exceedingly narrow as to be insufficient for more than one person; still, I could not comprehend why there were THREE staterooms for these four persons. I was, just at that epoch, in one of those moody frames of mind which make a man abnormally inquisitive about trifles: and I confess, with shame, that I busied myself in a variety of ill-bred and preposterous conjectures about this matter of the supernumerary stateroom. It was no business of mine, to be sure, but with none the less pertinacity did I occupy myself in attempts to resolve the enigma. At last I reached a conclusion which wrought in me great wonder why I had not arrived at it before. <conversation speaker="Narrator">"It is a servant of course,"</conversation> I said; <conversation speaker="Narrator">"what a fool I am, not sooner to have thought of so obvious a solution!"</conversation> And then I again repaired to the list—but here I saw distinctly that NO servant was to come with the party, although, in fact, it had been the original design to bring one—for the words <conversation speaker="Narrator">"and servant"</conversation> had been first written and then over-scored. <conversation speaker="Narrator">"Oh, extra baggage, to be sure,"</conversation> I now said to myself—<conversation speaker="Narrator">"something he wishes not to be put in the hold—something to be kept under his own eye—ah, I have it—a painting or so—and this is what he has been bargaining about with <char>Nicolino</char>, the Italian Jew."</conversation> This idea satisfied me, and I dismissed my curiosity for the nonce.
+        </p>
+        <p n="4">
+            <char>Wyatt</char>'s two sisters I knew very well, and most amiable and clever girls they were. His wife he had newly married, and I had never yet seen her. He had often talked about her in my presence, however, and in his usual style of enthusiasm. He described her as of surpassing beauty, wit, and accomplishment. I was, therefore, quite anxious to make her acquaintance.
+        </p>
+        <p n="5">
+            On the day in which I visited the ship (the fourteenth), <char>Wyatt</char> and party were also to visit it—so the <char>Captain Hardy</char> informed me—and I waited on board an hour longer than I had designed, in hope of being presented to the bride, but then an apology came. <conversation speaker="Captain Hardy">"Mrs. W. was a little indisposed, and would decline coming on board until to-morrow, at the hour of sailing."</conversation>
+        </p>
+        <p n="6">
+            The morrow having arrived, I was going from my hotel to the wharf, when <char>Captain Hardy</char> met me and said that, <conversation speaker="Captain Hardy">"owing to circumstances"</conversation> (a stupid but convenient phrase), <conversation speaker="Captain Hardy">"he rather thought the 'Independence' would not sail for a day or two, and that when all was ready, he would send up and let me know."</conversation> This I thought strange, for there was a stiff southerly breeze; but as <conversation speaker="Narrator">"the circumstances"</conversation> were not forthcoming, although I pumped for them with much perseverance, I had nothing to do but to return home and digest my impatience at leisure.
+        </p>
+        <p n="7">
+            <char>Wyatt</char>'s party arrived in about ten minutes after myself. There were the two <char>Mrs. Wyatt</char>, the <char>bride</char>, and the artist—the latter in one of his customary fits of moody misanthropy. I was too well used to these, however, to pay them any special attention. He did not even introduce me to his wife;—this courtesy devolving, per force, upon his sister <char>Marian</char>—a very sweet and intelligent girl, who, in a few hurried words, made us acquainted.
+        </p>
+        <p n="8">
+            <char>Mrs. Wyatt</char> had been closely veiled; and when she raised her veil, in acknowledging my bow, I confess that I was very profoundly astonished. I should have been much more so, however, had not long experience advised me not to trust, with too implicit a reliance, the enthusiastic descriptions of my friend, the artist, when indulging in comments upon the loveliness of woman. When beauty was the theme, I well knew with what facility he soared into the regions of the purely ideal.
+        </p>
+        <p n="9">
+            The truth is, I could not help regarding <char>Mrs. Wyatt</char> as a decidedly plain-looking woman. If not positively ugly, she was not, I think, very far from it. She was dressed, however, in exquisite taste—and then I had no doubt that she had captivated my friend's heart by the more enduring graces of the intellect and soul. She said very few words, and passed at once into her state-room with <char>Mr. W.</char>
+        </p>
+        <p n="10">
             My old inquisitiveness now returned. There was NO servant—THAT was a settled point. I looked, therefore, for the extra baggage. After some delay, a cart arrived at the wharf, with an oblong pine box, which was every thing that seemed to be expected. Immediately upon its arrival we made sail, and in a short time were safely over the bar and standing out to sea.
-        </paragraph>
-        <paragraph>
-            The box in question was, as I say, oblong. It was about six feet in length by two and a half in breadth; I observed it attentively, and like to be precise. Now this shape was PECULIAR; and no sooner had I seen it, than I took credit to myself for the accuracy of my guessing. I had reached the conclusion, it will be remembered, that the extra baggage of my friend, the artist, would prove to be pictures, or at least a picture; for I knew he had been for several weeks in conference with <person>Nicolino</person>:—and now here was a box, which, from its shape, COULD possibly contain nothing in the world but a copy of Leonardo's <speech speaker="Leonardo">"Last Supper;"</speech> and a copy of this very <speech speaker="Rubini">"Last Supper,"</speech> done by <person>Rubini</person> the younger, at Florence, I had known, for some time, to be in the possession of <person>Nicolino</person>. This point, therefore, I considered as sufficiently settled. I chuckled excessively when I thought of my acumen. It was the first time I had ever known <person>Wyatt</person> to keep from me any of his artistical secrets; but here he evidently intended to steal a march upon me, and smuggle a fine picture to New York, under my very nose; expecting me to know nothing of the matter. I resolved to quiz him WELL, now and hereafter.
-        </paragraph>
-        <paragraph>
-            One thing, however, annoyed me not a little. The box did NOT go into the extra stateroom. It was deposited in <person>Wyatt</person>'s own; and there, too, it remained, occupying very nearly the whole of the floor—no doubt to the exceeding discomfort of the artist and his wife;—this the more especially as the tar or paint with which it was lettered in sprawling capitals, emitted a strong, disagreeable, and, to my fancy, a peculiarly disgusting odor. On the lid were painted the words—"<person>Mrs. Adelaide Curtis</person>, Albany, New York. Charge of <person>Cornelius Wyatt</person>, Esq. This side up. To be handled with care."
-        </paragraph>
-        <paragraph>
-            Now, I was aware that <person>Mrs. Adelaide Curtis</person>, of Albany, was the artist's wife's mother,—but then I looked upon the whole address as a mystification, intended especially for myself. I made up my mind, of course, that the box and contents would never get farther north than the studio of my misanthropic friend, in Chambers Street, New York.
-        </paragraph>
-        <paragraph>
-            For the first three or four days we had fine weather, although the wind was dead ahead; having chopped round to the northward, immediately upon our losing sight of the coast. The passengers were, consequently, in high spirits and disposed to be social. I MUST except, however, <person>Wyatt</person> and his sisters, who behaved stiffly, and, I could not help thinking, uncourteously to the rest of the party. <person>Wyatt</person>'s conduct I did not so much regard. He was gloomy, even beyond his usual habit—in fact he was MOROSE—but in him I was prepared for eccentricity. For the sisters, however, I could make no excuse. They secluded themselves in their staterooms during the greater part of the passage, and absolutely refused, although I repeatedly urged them, to hold communication with any person on board.
-        </paragraph>
-        <paragraph>
-            <person>Mrs. Wyatt</person> herself was far more agreeable. That is to say, she was CHATTY; and to be chatty is no slight recommendation at sea. She became EXCESSIVELY intimate with most of the ladies; and, to my profound astonishment, evinced no equivocal disposition to coquet with the men. She amused us all very much. I say "amused"—and scarcely know how to explain myself. The truth is, I soon found that <person>Mrs. W.</person> was far oftener laughed AT than WITH. The gentlemen said little about her; but the ladies, in a little while, pronounced her "a good-hearted thing, rather indifferent looking, totally uneducated, and decidedly vulgar." The great wonder was, how <person>Wyatt</person> had been entrapped into such a match. Wealth was the general solution—but this I knew to be no solution at all; for <person>Wyatt</person> had told me that she neither brought him a dollar nor had any expectations from any source whatever. <speech speaker="Wyatt">"He had married,"</speech> he said, <speech speaker="Wyatt">"for love, and for love only; and his bride was far more than worthy of his love."</speech> When I thought of these expressions, on the part of my friend, I confess that I felt indescribably puzzled. Could it be possible that he was taking leave of his senses? What else could I think? HE, so refined, so intellectual, so fastidious, with so exquisite a perception of the faulty, and so keen an appreciation of the beautiful! To be sure, the lady seemed especially fond of HIM—particularly so in his absence—when she made herself ridiculous by frequent quotations of what had been said by her <speech speaker="Mrs. Wyatt">"beloved husband, <person>Mr. Wyatt</person>."</speech> The word <speech speaker="Mrs. Wyatt">"husband"</speech> seemed forever—to use one of her own delicate expressions—forever "on the tip of her tongue." In the meantime, it was observed by all on board, that he avoided HER in the most pointed manner, and, for the most part, shut himself up alone in his state-room, where, in fact, he might have been said to live altogether, leaving his wife at full liberty to amuse herself as she thought best, in the public society of the main cabin.
-        </paragraph>
-        <paragraph>
-            My conclusion, from what I saw and heard, was, that the <person>artist</person>, by some unaccountable freak of fate, or perhaps in some fit of enthusiastic and fanciful passion, had been induced to unite himself with a person altogether beneath him, and that the natural result, entire and speedy disgust, had ensued. I pitied him from the bottom of my heart—but could not, for that reason, quite forgive his incommunicativeness in the matter of the "Last Supper." For this I resolved to have my revenge.
-        </paragraph>
-        <paragraph>
-            One day <person>Wyatt</person> came upon deck, and, taking his arm as had been my wont, I sauntered with him backward and forward. His gloom, however (which I considered quite natural under the circumstances), seemed entirely unabated. He said little, and that moodily, and with evident effort. I ventured a jest or two, and he made a sickening attempt at a smile. Poor fellow!—as I thought of HIS WIFE, I wondered that he could have heart to put on even the semblance of mirth. At last I ventured a home thrust. I determined to commence a series of covert insinuations, or innuendoes, about the oblong box—just to let him perceive, gradually, that I was NOT altogether the butt, or victim, of his little bit of pleasant mystification. My first observation was by way of opening a masked battery. I said something about the <speech speaker="Narrator">"peculiar shape of THAT box—,"</speech> and, as I spoke the words, I smiled knowingly, winked, and touched him gently with my forefinger in the ribs.
-        </paragraph>
-        <paragraph>
-            The manner in which <person>Wyatt</person> received this harmless pleasantry convinced me, at once, that he was mad. At first he stared at me as if he found it impossible to comprehend the witticism of my remark; but as its point seemed slowly to make its way into his brain, his eyes, in the same proportion, seemed protruding from their sockets. Then he grew very red—then hideously pale—then, as if highly amused with what I had insinuated, he began a loud and boisterous laugh, which, to my astonishment, he kept up, with gradually increasing vigor, for ten minutes or more. In conclusion, he fell flat and heavily upon the deck. When I ran to uplift him, to all appearance he was DEAD.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="11">
+            The box in question was, as I say, oblong. It was about six feet in length by two and a half in breadth; I observed it attentively, and like to be precise. Now this shape was PECULIAR; and no sooner had I seen it, than I took credit to myself for the accuracy of my guessing. I had reached the conclusion, it will be remembered, that the extra baggage of my friend, the artist, would prove to be pictures, or at least a picture; for I knew he had been for several weeks in conference with <char>Nicolino</char>:—and now here was a box, which, from its shape, COULD possibly contain nothing in the world but a copy of Leonardo's <conversation speaker="Leonardo">"Last Supper;"</conversation> and a copy of this very <conversation speaker="Rubini">"Last Supper,"</conversation> done by <char>Rubini</char> the younger, at Florence, I had known, for some time, to be in the possession of <char>Nicolino</char>. This point, therefore, I considered as sufficiently settled. I chuckled excessively when I thought of my acumen. It was the first time I had ever known <char>Wyatt</char> to keep from me any of his artistical secrets; but here he evidently intended to steal a march upon me, and smuggle a fine picture to New York, under my very nose; expecting me to know nothing of the matter. I resolved to quiz him WELL, now and hereafter.
+        </p>
+        <p n="12">
+            One thing, however, annoyed me not a little. The box did NOT go into the extra stateroom. It was deposited in <char>Wyatt</char>'s own; and there, too, it remained, occupying very nearly the whole of the floor—no doubt to the exceeding discomfort of the artist and his wife;—this the more especially as the tar or paint with which it was lettered in sprawling capitals, emitted a strong, disagreeable, and, to my fancy, a peculiarly disgusting odor. On the lid were painted the words—"<char>Mrs. Adelaide Curtis</char>, Albany, New York. Charge of <char>Cornelius Wyatt</char>, Esq. This side up. To be handled with care."
+        </p>
+        <p n="13">
+            Now, I was aware that <char>Mrs. Adelaide Curtis</char>, of Albany, was the artist's wife's mother,—but then I looked upon the whole address as a mystification, intended especially for myself. I made up my mind, of course, that the box and contents would never get farther north than the studio of my misanthropic friend, in Chambers Street, New York.
+        </p>
+        <p n="14">
+            For the first three or four days we had fine weather, although the wind was dead ahead; having chopped round to the northward, immediately upon our losing sight of the coast. The passengers were, consequently, in high spirits and disposed to be social. I MUST except, however, <char>Wyatt</char> and his sisters, who behaved stiffly, and, I could not help thinking, uncourteously to the rest of the party. <char>Wyatt</char>'s conduct I did not so much regard. He was gloomy, even beyond his usual habit—in fact he was MOROSE—but in him I was prepared for eccentricity. For the sisters, however, I could make no excuse. They secluded themselves in their staterooms during the greater part of the passage, and absolutely refused, although I repeatedly urged them, to hold communication with any person on board.
+        </p>
+        <p n="15">
+            <char>Mrs. Wyatt</char> herself was far more agreeable. That is to say, she was CHATTY; and to be chatty is no slight recommendation at sea. She became EXCESSIVELY intimate with most of the ladies; and, to my profound astonishment, evinced no equivocal disposition to coquet with the men. She amused us all very much. I say "amused"—and scarcely know how to explain myself. The truth is, I soon found that <char>Mrs. W.</char> was far oftener laughed AT than WITH. The gentlemen said little about her; but the ladies, in a little while, pronounced her "a good-hearted thing, rather indifferent looking, totally uneducated, and decidedly vulgar." The great wonder was, how <char>Wyatt</char> had been entrapped into such a match. Wealth was the general solution—but this I knew to be no solution at all; for <char>Wyatt</char> had told me that she neither brought him a dollar nor had any expectations from any source whatever. <conversation speaker="Wyatt">"He had married,"</conversation> he said, <conversation speaker="Wyatt">"for love, and for love only; and his bride was far more than worthy of his love."</conversation> When I thought of these expressions, on the part of my friend, I confess that I felt indescribably puzzled. Could it be possible that he was taking leave of his senses? What else could I think? HE, so refined, so intellectual, so fastidious, with so exquisite a perception of the faulty, and so keen an appreciation of the beautiful! To be sure, the lady seemed especially fond of HIM—particularly so in his absence—when she made herself ridiculous by frequent quotations of what had been said by her <conversation speaker="Mrs. Wyatt">"beloved husband, <char>Mr. Wyatt</char>."</conversation> The word <conversation speaker="Mrs. Wyatt">"husband"</conversation> seemed forever—to use one of her own delicate expressions—forever "on the tip of her tongue." In the meantime, it was observed by all on board, that he avoided HER in the most pointed manner, and, for the most part, shut himself up alone in his state-room, where, in fact, he might have been said to live altogether, leaving his wife at full liberty to amuse herself as she thought best, in the public society of the main cabin.
+        </p>
+        <p n="16">
+            My conclusion, from what I saw and heard, was, that the <char>artist</char>, by some unaccountable freak of fate, or perhaps in some fit of enthusiastic and fanciful passion, had been induced to unite himself with a person altogether beneath him, and that the natural result, entire and speedy disgust, had ensued. I pitied him from the bottom of my heart—but could not, for that reason, quite forgive his incommunicativeness in the matter of the "Last Supper." For this I resolved to have my revenge.
+        </p>
+        <p n="17">
+            One day <char>Wyatt</char> came upon deck, and, taking his arm as had been my wont, I sauntered with him backward and forward. His gloom, however (which I considered quite natural under the circumstances), seemed entirely unabated. He said little, and that moodily, and with evident effort. I ventured a jest or two, and he made a sickening attempt at a smile. Poor fellow!—as I thought of HIS WIFE, I wondered that he could have heart to put on even the semblance of mirth. At last I ventured a home thrust. I determined to commence a series of covert insinuations, or innuendoes, about the oblong box—just to let him perceive, gradually, that I was NOT altogether the butt, or victim, of his little bit of pleasant mystification. My first observation was by way of opening a masked battery. I said something about the <conversation speaker="Narrator">"peculiar shape of THAT box—,"</conversation> and, as I spoke the words, I smiled knowingly, winked, and touched him gently with my forefinger in the ribs.
+        </p>
+        <p n="18">
+            The manner in which <char>Wyatt</char> received this harmless pleasantry convinced me, at once, that he was mad. At first he stared at me as if he found it impossible to comprehend the witticism of my remark; but as its point seemed slowly to make its way into his brain, his eyes, in the same proportion, seemed protruding from their sockets. Then he grew very red—then hideously pale—then, as if highly amused with what I had insinuated, he began a loud and boisterous laugh, which, to my astonishment, he kept up, with gradually increasing vigor, for ten minutes or more. In conclusion, he fell flat and heavily upon the deck. When I ran to uplift him, to all appearance he was DEAD.
+        </p>
+        <p n="19">
             I called assistance, and, with much difficulty, we brought him to himself. Upon reviving he spoke incoherently for some time. At length we bled him and put him to bed. The next morning he was quite recovered, so far as regarded his mere bodily health. Of his mind I say nothing, of course. I avoided him during the rest of the passage, by advice of the captain, who seemed to coincide with me altogether in my views of his insanity, but cautioned me to say nothing on this head to any person on board.
-        </paragraph>
-        <paragraph>
-            Several circumstances occurred immediately after this fit of <person>Wyatt</person> which contributed to heighten the curiosity with which I was already possessed. Among other things, this: I had been nervous—drank too much strong green tea, and slept ill at night—in fact, for two nights I could not be properly said to sleep at all. Now, my state-room opened into the main cabin, or dining-room, as did those of all the single men on board. <person>Wyatt</person>'s three rooms were in the after-cabin, which was separated from the main one by a slight sliding door, never locked even at night. As we were almost constantly on a wind, and the breeze was not a little stiff, the ship heeled to leeward very considerably; and whenever her starboard side was to leeward, the sliding door between the cabins slid open, and so remained, nobody taking the trouble to get up and shut it. But my berth was in such a position, that when my own state-room door was open, as well as the sliding door in question (and my own door was ALWAYS open on account of the heat), I could see into the after-cabin quite distinctly, and just at that portion of it, too, where were situated the state-rooms of <person>Mr. Wyatt</person>. Well, during two nights (NOT consecutive) while I lay awake, I clearly saw <person>Mrs. W.</person>, about eleven o'clock upon each night, steal cautiously from the state-room of <person>Mr. W.</person>, and enter the extra room, where she remained until daybreak, when she was called by her husband and went back. That they were virtually separated was clear. They had separate apartments—no doubt in contemplation of a more permanent divorce; and here, after all I thought was the mystery of the extra stateroom.
-        </paragraph>    
-        <paragraph>
-            There was another circumstance, too, which interested me much. During the two wakeful nights in question, and immediately after the disappearance of <person>Mrs. Wyatt</person> into the extra stateroom, I was attracted by certain singular cautious, subdued noises in that of her husband. After listening to them for some time, with thoughtful attention, I at length succeeded perfectly in translating their import. They were sounds occasioned by the artist in prying open the oblong box, by means of a chisel and mallet—the latter being apparently muffled, or deadened, by some soft woollen or cotton substance in which its head was enveloped.
-        </paragraph>
-        <paragraph>
-            In this manner I fancied I could distinguish the precise moment when he fairly disengaged the lid—also, that I could determine when he removed it altogether, and when he deposited it upon the lower berth in his room; this latter point I knew, for example, by certain slight taps which the lid made in striking against the wooden edges of the berth, as he endeavored to lay it down VERY gently—there being no room for it on the floor. After this there was a dead stillness, and I heard nothing more, upon either occasion, until nearly daybreak; unless, perhaps, I may mention a low sobbing, or murmuring sound, so very much suppressed as to be nearly inaudible—if, indeed, the whole of this latter noise were not rather produced by my own imagination. I say it seemed to RESEMBLE sobbing or sighing—but, of course, it could not have been either. I rather think it was a ringing in my own ears. <person>Mr. Wyatt</person>, no doubt, according to custom, was merely giving the rein to one of his hobbies—indulging in one of his fits of artistic enthusiasm. He had opened his oblong box, in order to feast his eyes on the pictorial treasure within. There was nothing in this, however, to make him SOB. I repeat, therefore, that it must have been simply a freak of my own fancy, distempered by good <person>Captain Hardy</person>'s green tea. Just before dawn, on each of the two nights of which I speak, I distinctly heard <person>Mr. Wyatt</person> replace the lid upon the oblong box, and force the nails into their old places by means of the muffled mallet. Having done this, he issued from his state-room, fully dressed, and proceeded to call <person>Mrs. W.</person> from hers.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="20">
+            Several circumstances occurred immediately after this fit of <char>Wyatt</char> which contributed to heighten the curiosity with which I was already possessed. Among other things, this: I had been nervous—drank too much strong green tea, and slept ill at night—in fact, for two nights I could not be properly said to sleep at all. Now, my state-room opened into the main cabin, or dining-room, as did those of all the single men on board. <char>Wyatt</char>'s three rooms were in the after-cabin, which was separated from the main one by a slight sliding door, never locked even at night. As we were almost constantly on a wind, and the breeze was not a little stiff, the ship heeled to leeward very considerably; and whenever her starboard side was to leeward, the sliding door between the cabins slid open, and so remained, nobody taking the trouble to get up and shut it. But my berth was in such a position, that when my own state-room door was open, as well as the sliding door in question (and my own door was ALWAYS open on account of the heat), I could see into the after-cabin quite distinctly, and just at that portion of it, too, where were situated the state-rooms of <char>Mr. Wyatt</char>. Well, during two nights (NOT consecutive) while I lay awake, I clearly saw <char>Mrs. W.</char>, about eleven o'clock upon each night, steal cautiously from the state-room of <char>Mr. W.</char>, and enter the extra room, where she remained until daybreak, when she was called by her husband and went back. That they were virtually separated was clear. They had separate apartments—no doubt in contemplation of a more permanent divorce; and here, after all I thought was the mystery of the extra stateroom.
+        </p>    
+        <p n="21">
+            There was another circumstance, too, which interested me much. During the two wakeful nights in question, and immediately after the disappearance of <char>Mrs. Wyatt</char> into the extra stateroom, I was attracted by certain singular cautious, subdued noises in that of her husband. After listening to them for some time, with thoughtful attention, I at length succeeded perfectly in translating their import. They were sounds occasioned by the artist in prying open the oblong box, by means of a chisel and mallet—the latter being apparently muffled, or deadened, by some soft woollen or cotton substance in which its head was enveloped.
+        </p>
+        <p n="22">
+            In this manner I fancied I could distinguish the precise moment when he fairly disengaged the lid—also, that I could determine when he removed it altogether, and when he deposited it upon the lower berth in his room; this latter point I knew, for example, by certain slight taps which the lid made in striking against the wooden edges of the berth, as he endeavored to lay it down VERY gently—there being no room for it on the floor. After this there was a dead stillness, and I heard nothing more, upon either occasion, until nearly daybreak; unless, perhaps, I may mention a low sobbing, or murmuring sound, so very much suppressed as to be nearly inaudible—if, indeed, the whole of this latter noise were not rather produced by my own imagination. I say it seemed to RESEMBLE sobbing or sighing—but, of course, it could not have been either. I rather think it was a ringing in my own ears. <char>Mr. Wyatt</char>, no doubt, according to custom, was merely giving the rein to one of his hobbies—indulging in one of his fits of artistic enthusiasm. He had opened his oblong box, in order to feast his eyes on the pictorial treasure within. There was nothing in this, however, to make him SOB. I repeat, therefore, that it must have been simply a freak of my own fancy, distempered by good <char>Captain Hardy</char>'s green tea. Just before dawn, on each of the two nights of which I speak, I distinctly heard <char>Mr. Wyatt</char> replace the lid upon the oblong box, and force the nails into their old places by means of the muffled mallet. Having done this, he issued from his state-room, fully dressed, and proceeded to call <char>Mrs. W.</char> from hers.
+        </p>
+        <p n="23">
             We had been at sea seven days, and were now off Cape Hatteras, when there came a tremendously heavy blow from the southwest. We were, in a measure, prepared for it, however, as the weather had been holding out threats for some time. Every thing was made snug, alow and aloft; and as the wind steadily freshened, we lay to, at length, under spanker and foretopsail, both double-reefed.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="24">
             In this trim we rode safely enough for forty-eight hours—the ship proving herself an excellent sea-boat in many respects, and shipping no water of any consequence. At the end of this period, however, the gale had freshened into a hurricane, and our after-sail split into ribbons, bringing us so much in the trough of the water that we shipped several prodigious seas, one immediately after the other. By this accident we lost three men overboard with the caboose, and nearly the whole of the larboard bulwarks. Scarcely had we recovered our senses, before the foretopsail went into shreds, when we got up a storm staysail and with this did pretty well for some hours, the ship heading the sea much more steadily than before.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="25">
             The gale still held on, however, and we saw no signs of its abating. The rigging was found to be ill-fitted, and greatly strained; and on the third day of the blow, about five in the afternoon, our mizzen-mast, in a heavy lurch to windward, went by the board. For an hour or more, we tried in vain to get rid of it, on account of the prodigious rolling of the ship; and, before we had succeeded, the carpenter came aft and announced four feet of water in the hold. To add to our dilemma, we found the pumps choked and nearly useless.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="26">
             All was now confusion and despair—but an effort was made to lighten the ship by throwing overboard as much of her cargo as could be reached, and by cutting away the two masts that remained. This we at last accomplished—but we were still unable to do any thing at the pumps; and, in the meantime, the leak gained on us very fast.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="27">
             At sundown, the gale had sensibly diminished in violence, and as the sea went down with it, we still entertained faint hopes of saving ourselves in the boats. At eight P. M., the clouds broke away to windward, and we had the advantage of a full moon—a piece of good fortune which served wonderfully to cheer our drooping spirits.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="28">
             After incredible labor we succeeded, at length, in getting the longboat over the side without material accident, and into this we crowded the whole of the crew and most of the passengers. This party made off immediately, and, after undergoing much suffering, finally arrived, in safety, at Ocracoke Inlet, on the third day after the wreck.
-        </paragraph>
-        <paragraph>
-            Fourteen passengers, with the <person>captain</person>, remained on board, resolving to trust their fortunes to the jolly-boat at the stern. We lowered it without difficulty, although it was only by a miracle that we prevented it from swamping as it touched the water. It contained, when afloat, the <person>captain</person> and his wife, <person>Mr. Wyatt</person> and party, a Mexican officer, wife, four children, and myself, with a negro valet.
-        </paragraph>
-        <paragraph>
-            We had no room, of course, for any thing except a few positively necessary instruments, some provisions, and the clothes upon our backs. No one had thought of even attempting to save any thing more. What must have been the astonishment of all, then, when having proceeded a few fathoms from the ship, <person>Mr. Wyatt</person> stood up in the stern-sheets, and coolly demanded of <person>Captain Hardy</person> that the boat should be put back for the purpose of taking in his oblong box!
-        </paragraph>
-        <paragraph>
-            <speech speaker="Captain Hardy">"Sit down, <person>Mr. Wyatt</person>,"</speech> replied <person>the captain</person>, somewhat sternly, <speech speaker="Captain Hardy">"you will capsize us if you do not sit quite still. Our gunwhale is almost in the water now."</speech>
-        </paragraph>
-        <paragraph>
-            <speech speaker="Mrs. Wyatt">"The box!"</speech> vociferated <person>Mr. Wyatt</person>, still standing—<speech speaker="Mrs. Wyatt">"the box, I say! <person>Captain Hardy</person>, you cannot, you will not refuse me. Its weight will be but a trifle—it is nothing—mere nothing. By the mother who bore you—for the love of Heaven—by your hope of salvation, I implore you to put back for the box!"</speech>
-        </paragraph>
-        <paragraph>
-            <person>The captain</person>, for a moment, seemed touched by the earnest appeal of the artist, but he regained his stern composure, and merely said:
-        </paragraph>
-        <paragraph>
-            <speech speaker="Captain Hardy">"<person>Mr. Wyatt</person>, you are mad. I cannot listen to you. Sit down, I say, or you will swamp the boat. Stay—hold him—seize him!—he is about to spring overboard! There—I knew it—he is over!"</speech>
-        </paragraph>
-        <paragraph>
-            As <person>the captain</person> said this, <person>Mr. Wyatt</person>, in fact, sprang from the boat, and, as we were yet in the lee of the wreck, succeeded, by almost superhuman exertion, in getting hold of a rope which hung from the fore-chains. In another moment he was on board, and rushing frantically down into the cabin.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="29">
+            Fourteen passengers, with the <char>captain</char>, remained on board, resolving to trust their fortunes to the jolly-boat at the stern. We lowered it without difficulty, although it was only by a miracle that we prevented it from swamping as it touched the water. It contained, when afloat, the <char>captain</char> and his wife, <char>Mr. Wyatt</char> and party, a Mexican officer, wife, four children, and myself, with a negro valet.
+        </p>
+        <p n="30">
+            We had no room, of course, for any thing except a few positively necessary instruments, some provisions, and the clothes upon our backs. No one had thought of even attempting to save any thing more. What must have been the astonishment of all, then, when having proceeded a few fathoms from the ship, <char>Mr. Wyatt</char> stood up in the stern-sheets, and coolly demanded of <char>Captain Hardy</char> that the boat should be put back for the purpose of taking in his oblong box!
+        </p>
+        <p n="31">
+            <conversation speaker="Captain Hardy">"Sit down, <char>Mr. Wyatt</char>,"</conversation> replied <char>the captain</char>, somewhat sternly, <conversation speaker="Captain Hardy">"you will capsize us if you do not sit quite still. Our gunwhale is almost in the water now."</conversation>
+        </p>
+        <p n="32">
+            <conversation speaker="Mrs. Wyatt">"The box!"</conversation> vociferated <char>Mr. Wyatt</char>, still standing—<conversation speaker="Mrs. Wyatt">"the box, I say! <char>Captain Hardy</char>, you cannot, you will not refuse me. Its weight will be but a trifle—it is nothing—mere nothing. By the mother who bore you—for the love of Heaven—by your hope of salvation, I implore you to put back for the box!"</conversation>
+        </p>
+        <p n="33">
+            <char>The captain</char>, for a moment, seemed touched by the earnest appeal of the artist, but he regained his stern composure, and merely said:
+        </p>
+        <p n="34">
+            <conversation speaker="Captain Hardy">"<char>Mr. Wyatt</char>, you are mad. I cannot listen to you. Sit down, I say, or you will swamp the boat. Stay—hold him—seize him!—he is about to spring overboard! There—I knew it—he is over!"</conversation>
+        </p>
+        <p n="35">
+            As <char>the captain</char> said this, <char>Mr. Wyatt</char>, in fact, sprang from the boat, and, as we were yet in the lee of the wreck, succeeded, by almost superhuman exertion, in getting hold of a rope which hung from the fore-chains. In another moment he was on board, and rushing frantically down into the cabin.
+        </p>
+        <p n="36">
             In the meantime, we had been swept astern of the ship, and being quite out of her lee, were at the mercy of the tremendous sea which was still running. We made a determined effort to put back, but our little boat was like a feather in the breath of the tempest. We saw at a glance that the doom of the unfortunate artist was sealed.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="37">
             As our distance from the wreck rapidly increased, the madman (for as such only could we regard him) was seen to emerge from the companion-way, up which by dint of strength that appeared gigantic, he dragged, bodily, the oblong box. While we gazed in the extremity of astonishment, he passed, rapidly, several turns of a three-inch rope, first around the box and then around his body. In another instant both body and box were in the sea—disappearing suddenly, at once and forever.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="38">
             We lingered awhile sadly upon our oars, with our eyes riveted upon the spot. At length we pulled away. The silence remained unbroken for an hour. Finally, I hazarded a remark.
-        </paragraph>
-        <paragraph>
-            <speech speaker="Narrator">"Did you observe, <person>captain</person>, how suddenly they sank? Was not that an exceedingly singular thing? I confess that I entertained some feeble hope of his final deliverance, when I saw him lash himself to the box, and commit himself to the sea."</speech>
-        </paragraph>
-        <paragraph>
-            <speech speaker="Captain Hardy">"They sank as a matter of course,"</speech> replied <person>the captain</person>, <speech speaker="Captain Hardy">"and that like a shot. They will soon rise again, however—BUT NOT TILL THE SALT MELTS."</speech>
-        </paragraph>
-        <paragraph>
-            <speech speaker="Narrator">"The salt!"</speech> I ejaculated.
-        </paragraph>
-        <paragraph>
-            <speech speaker="Captain Hardy">"Hush!"</speech> said <person>the captain</person>, pointing to the wife and sisters of the deceased. <speech speaker="Captain Hardy">"We must talk of these things at some more appropriate time."</speech>
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="39">
+            <conversation speaker="Narrator">"Did you observe, <char>captain</char>, how suddenly they sank? Was not that an exceedingly singular thing? I confess that I entertained some feeble hope of his final deliverance, when I saw him lash himself to the box, and commit himself to the sea."</conversation>
+        </p>
+        <p n="40">
+            <conversation speaker="Captain Hardy">"They sank as a matter of course,"</conversation> replied <char>the captain</char>, <conversation speaker="Captain Hardy">"and that like a shot. They will soon rise again, however—BUT NOT TILL THE SALT MELTS."</conversation>
+        </p>
+        <p n="41">
+            <conversation speaker="Narrator">"The salt!"</conversation> I ejaculated.
+        </p>
+        <p n="42">
+            <conversation speaker="Captain Hardy">"Hush!"</conversation> said <char>the captain</char>, pointing to the wife and sisters of the deceased. <conversation speaker="Captain Hardy">"We must talk of these things at some more appropriate time."</conversation>
+        </p>
+        <p n="43">
             We suffered much, and made a narrow escape, but fortune befriended us, as well as our mates in the long-boat. We landed, in fine, more dead than alive, after four days of intense distress, upon the beach opposite Roanoke Island. We remained here a week, were not ill-treated by the wreckers, and at length obtained a passage to New York.
-        </paragraph>
-        <paragraph>
-            About a month after the loss of the <speech speaker="Narrator">"Independence,"</speech> I happened to meet <person>Captain Hardy</person> in Broadway. Our conversation turned, naturally, upon the disaster, and especially upon the sad fate of poor <person>Wyatt</person>. I thus learned the following particulars.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="44">
+            About a month after the loss of the <conversation speaker="Narrator">"Independence,"</conversation> I happened to meet <char>Captain Hardy</char> in Broadway. Our conversation turned, naturally, upon the disaster, and especially upon the sad fate of poor <char>Wyatt</char>. I thus learned the following particulars.
+        </p>
+        <p n="45">
             The artist had engaged passage for himself, wife, two sisters and a servant. His wife was, indeed, as she had been represented, a most lovely, and most accomplished woman. On the morning of the fourteenth of June (the day in which I first visited the ship), the lady suddenly sickened and died. The young husband was frantic with grief—but circumstances imperatively forbade the deferring his voyage to New York. It was necessary to take to her mother the corpse of his adored wife, and, on the other hand, the universal prejudice which would prevent his doing so openly was well known. Nine-tenths of the passengers would have abandoned the ship rather than take passage with a dead body.
-        </paragraph>
-        <paragraph>
-            In this dilemma, <person>Captain Hardy</person> arranged that the corpse, being first partially embalmed, and packed, with a large quantity of salt, in a box of suitable dimensions, should be conveyed on board as merchandise. Nothing was to be said of the lady's decease; and, as it was well understood that <person>Mr. Wyatt</person> had engaged passage for his wife, it became necessary that some person should personate her during the voyage. This the deceased lady's-maid was easily prevailed on to do. The extra state-room, originally engaged for this girl during her mistress' life, was now merely retained. In this state-room the pseudo-wife slept, of course, every night. In the daytime she performed, to the best of her ability, the part of her mistress—whose person, it had been carefully ascertained, was unknown to any of the passengers on board.
-        </paragraph>
-        <paragraph>
+        </p>
+        <p n="46">
+            In this dilemma, <char>Captain Hardy</char> arranged that the corpse, being first partially embalmed, and packed, with a large quantity of salt, in a box of suitable dimensions, should be conveyed on board as merchandise. Nothing was to be said of the lady's decease; and, as it was well understood that <char>Mr. Wyatt</char> had engaged passage for his wife, it became necessary that some person should personate her during the voyage. This the deceased lady's-maid was easily prevailed on to do. The extra state-room, originally engaged for this girl during her mistress' life, was now merely retained. In this state-room the pseudo-wife slept, of course, every night. In the daytime she performed, to the best of her ability, the part of her mistress—whose person, it had been carefully ascertained, was unknown to any of the passengers on board.
+        </p>
+        <p n="47">
             My own mistake arose, naturally enough, through too careless, too inquisitive, and too impulsive a temperament. But of late, it is a rare thing that I sleep soundly at night. There is a countenance which haunts me, turn as I will. There is an hysterical laugh which will forever ring within my ears.
-        </paragraph>
-    </narration>
+        </p>
 </story>
