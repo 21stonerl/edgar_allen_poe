@@ -1,0 +1,48 @@
+  <nav>
+        <div class="dropDown">
+            <a href="index.html">HOME</a>
+        </div>
+        
+        <div class="dropDown">
+            <a href="../docs">Story Info</a>
+            <div class="menu">
+                <a href="../docs/story.html"> Story</a>
+                <div class="section-divider"></div>
+                <a href="../docs/themes.html">theme</a>
+                <div class="section-divider"></div>
+                <a href="../docs/fos.html">fos</a>
+            </div>
+        </div>
+        
+        <div class="dropDown">
+            <a href="nvr.html">NONVIOLENT RESISTANCE</a>
+            <div class="menu">
+                <a href="mlk.html">DR. MARTIN LUTHER KING JR.</a>
+                <div class="section-divider"></div>
+                <a href="josephjackson.html">JOSEPH JACKSON</a>
+                <div class="section-divider"></div>
+                <a href="stokelycarmichael.html">STOKELY CARMICHAEL</a>
+            </div>
+        </div>
+        
+        <div class="dropDown">
+            <a href="bpp.html">BLACK PANTHER PARTY</a>
+            <div class="menu">
+                <a href="fredhampton.html">FRED HAMPTON</a>
+                <div class="section-divider"></div>
+                <a href="hueypnewton.html">HUEY P. NEWTON</a>
+                <div class="section-divider"></div>
+                <a href="bobbyseale.html">BOBBY SEALE</a>
+            </div>
+        </div>
+        
+        <div class="dropDown">
+            <a href="timeline.html">TIMELINE</a>
+        </div>
+        
+        <div class="dropDown">
+            <a href="about.html">ABOUT</a>
+            <div class="menu">
+                <a href="https://github.com/A-Zauce/civil-rights-speeches">VISIT OUR REPO!</a></div>
+        </div>
+    </nav>

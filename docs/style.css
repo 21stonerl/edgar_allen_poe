@@ -1,64 +1,69 @@
 html {
-    margin: 9px;
-    padding: 9px;
+    font-family: "Copperplate Gothic", Georgia, serif;
+    font-weight: bold;
+    background-color: pink;
+    color: hsl(210, 50%, 20%)
 }
-body {
-    
-    background-color: darkgreen;
-     margin:50px;
-}
-.navbar {
+
+ /*LS This is menu */
+nav{
+	  position: sticky;
+    top: 0;
+    left: 0;
+ 	width: 100%;
     display: flex;
-    width: 100%;
-    overflow: hidden;
-    background-color: #1F0F5F;
-    z-index: 500;
+    justify-content: space-evenly;
+    background: #252525;
 }
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: White;
-    text-align: center;
-    padding: 14px 16px;
+
+a{
+    color: #fffcfd;
     text-decoration: none;
-    z-index: 501;
 }
-.dropdown {
-    float: left;
-    overflow: hidden;
+
+.dropDown {
+    padding: 12px 0px;
+    position: relative;
+    cursor: pointer;
 }
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: White;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+
+.dropDown > a{
+    padding: 0px 30px;
+    gap: 2px;
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #6699ff;
+/*LS If we need to add a drop down later */
+.dropDown:hover .menu{
+    opacity: 1;
+    visibility: visible;
 }
-.dropdown-content {
-    display: none;
+/*LS If we need to add a drop down later */
+.menu{
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    top: 45px;
+    display: grid;
+    background: #252525;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s;
 }
-.dropdown-content a {
-    float: none;
-    color: hsl(210, 50%, 20%);
-    padding: 12px 16px;
-    text-decoration: none;
+/*LS If we need to add a drop down later */
+.menu > a {
+    font-size: 14px;
+    padding: 12px 20px;
+}
+/*LS If we need to add a drop down later */
+.menu > a:hover, .dropDown:hover{
+    color: #fffcfd;
+    background:black;
+}
+/*LS If we need to add a drop down later */
+.section-divider{
     display: block;
-    text-align: left;
+    height: 1px;
+    margin: 0;
+    border: none;
+    background-color: #252525;
+    width: 85%;
+    margin: auto;
 }
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+/*LS This is menu */
