@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
     exclude-result-prefixes="xs math"
     xmlns="http://www.w3.org/1999/xhtml"
@@ -12,7 +11,7 @@
   
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     <!--<xsl:key name="fos-by-type" match="fos" use="@type"/> -->
-    <xsl:template match="$edgar_allen_poe">
+    <xsl:template match="/">
         <html>
             <head>
                 <title>Figures of Speech Table</title>
@@ -33,7 +32,7 @@
                     </thead>
                     <tbody>
                         <!-- Apply templates to all <figSpeech> elements in the collection -->
-                        <xsl:apply-templates select="descendant::fos"/>
+                        <xsl:apply-templates select="$edgar_allen_poe//fos"/>
                     </tbody>
                 </table>
             </body>
