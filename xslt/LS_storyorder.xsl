@@ -28,7 +28,7 @@
     
     <xsl:template match="story" mode="toc">
         <li><strong><xsl:apply-templates select="descendant::title">
-        </xsl:apply-templates></strong>: 
+        </xsl:apply-templates></strong>
             <xsl:apply-templates select="story[1]/n[1]"/>
             
         </li>
