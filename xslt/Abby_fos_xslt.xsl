@@ -25,7 +25,7 @@
                     </thead>
                     <tbody>
                         <!-- Iterate through each unique 'fos' type -->
-                        <xsl:for-each select="//fos[generate-id() = generate-id(key('fos-by-type', @type)[1])]">
+                        <xsl:for-each select="$edgar_allen_poe//fos[generate-id() = generate-id(key('fos-by-type', @type)[1])]">
                             <tr>
                                 <td><strong><xsl:value-of select="@type"/></strong></td>
                                 

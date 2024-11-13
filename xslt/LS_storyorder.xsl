@@ -7,9 +7,7 @@
     
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     
-    <!-- key because the fos were repeating which we do nont want -->
     <xsl:key name="story_order" match="story" use="@n"/>
-    <!-- this makes the actually chart. I am adding comments so I don't confuse myself-->
     <xsl:template match="/">
         <html>
             <head><title>stories by title</title></head>
@@ -38,13 +36,13 @@
     
    
     
-    <xsl:template match="story">
-        <h2 id="story{preceding::n}">
+    <xsl:template match="n">
+        <h2 id="story{n}">
             
             <xsl:apply-templates select="descendant::title"/>
         </h2>
        
-        <xsl:apply-templates select="descendant::story"/>
+        <xsl:apply-templates select="descendant::n"/>
         
     </xsl:template>
     
