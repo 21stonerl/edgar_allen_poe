@@ -2,7 +2,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?> 
 <story n="9" theme="lost_love">
     
-    <info pov="firstperson">
+    <info pov="first_person">
         <title>Ligeia</title>
         <author>by Edgar Allan Poe</author>
         <year>(published 1838)</year>

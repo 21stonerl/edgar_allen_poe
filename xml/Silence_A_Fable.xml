@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="13" theme="alienation">
+<<<<<<< HEAD
     <info pov="first_person">
+=======
+    <info pov="">
+>>>>>>> ddb8b52dd7c6805ab4b270a4e818e49e5a8c10f2
         <title>Silence - A Fable</title>
         <author>by Edgar Allan Poe</author>
         <year>(published 1838)</year>

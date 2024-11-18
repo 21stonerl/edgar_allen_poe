@@ -2,7 +2,7 @@
 
 <?xml-model href="../../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="15" theme="revenge">
-    <info>
+    <info pov="">
     <title>The Cask of Amontillado</title>
     <author>by Edgar Allan Poe</author>
     <year>1846</year>
@@ -274,5 +274,9 @@
         <p n="89">
             No answer still. I thrust a torch through the remaining aperture and let it fall within. There came forth in return only a jingling of the bells. My heart grew sick; it was the dampness of the catacombs that made it so. I hastened to make an end of my labour. I forced the last stone into its position; I plastered it up. Against the new masonry I re-erected the old rampart of bones. For the half of a century no mortal has disturbed them. In pace requiescat!
         </p>
+<<<<<<< HEAD
     
 </story>
+=======
+    </story>
+>>>>>>> ddb8b52dd7c6805ab4b270a4e818e49e5a8c10f2

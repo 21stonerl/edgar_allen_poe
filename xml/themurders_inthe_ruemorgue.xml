@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="27" theme="terror">
-<info pov="first_person" speaker="narrorator"><title>The Murders in the Rue Morgue</title>
+<info pov="first_person" speaker="unknown"><title>The Murders in the Rue Morgue</title>
 <author>by Edgar Allan Poe</author>
 <year>(published 1841)</year>
 </info>

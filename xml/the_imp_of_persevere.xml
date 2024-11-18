@@ -2,7 +2,11 @@
 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="26" theme ="ignorance">
+<<<<<<< HEAD
     <info pov="first_person"><title>The Imp of the Perverse</title>
+=======
+    <info pov ="first_person" speaker ="unnamed"><title>The Imp of the Perverse</title>
+>>>>>>> ddb8b52dd7c6805ab4b270a4e818e49e5a8c10f2
 
 <author>Edgar Allan Poe</author>
     <year>(published 1850)</year></info>

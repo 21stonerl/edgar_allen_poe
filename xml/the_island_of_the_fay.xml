@@ -2,7 +2,11 @@
 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="27" theme ="loneliness">
+<<<<<<< HEAD
 <info pov="firsty_person"><title>The Island of the Fay</title>
+=======
+<info pov ="first_person" speaker ="unnamed"><title>The Island of the Fay</title>
+>>>>>>> ddb8b52dd7c6805ab4b270a4e818e49e5a8c10f2
 
  <author>Edgar Allan Poe</author>
     <year>(published 1850)</year></info>
