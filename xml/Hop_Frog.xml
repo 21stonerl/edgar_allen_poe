@@ -3,7 +3,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="8" theme="paranoia">
  
-    <info>
+    <info pov="first_person">
         <title>Hop-Frog</title>
         <author>by Edgar Allan Poe</author>
         <year>(published 1849)</year>
