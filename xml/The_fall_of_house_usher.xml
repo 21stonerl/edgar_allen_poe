@@ -2,7 +2,7 @@
 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="20" theme="insanity">
-    <info><title>The Fall of the House of Usher </title>  <author>Edgar Allan Poe</author>
+    <info pov ="first_person" speaker ="unnamed"><title>The Fall of the House of Usher </title>  <author>Edgar Allan Poe</author>
         <year>(published 1839)</year></info>
 
     <p n="1">DURING the whole of a <fos type="alliteration">dull, dark, and
