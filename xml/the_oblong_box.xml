@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="16" theme="obsession">
-    <info>
+    <info pov="">
     <title>The Oblong Box</title>
     <author>by Edgar Allan Poe</author>
     <year>1844</year>

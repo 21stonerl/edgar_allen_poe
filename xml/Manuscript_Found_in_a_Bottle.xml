@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="10" theme="death">
-    <info>
+    <info pov="">
         <title>Manuscript Found in a Bottle</title>
         <author>by Edgar Allan Poe</author>
         <year>(published 1833)</year>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="21" theme="insanity">
-    <info>
+    <info pov="">
     <title>The Black Cat</title>
     <author>by Edgar Allan Poe</author>
     <year>1843</year>
