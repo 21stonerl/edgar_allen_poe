@@ -2,11 +2,9 @@
 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="34" theme = "isolation" >
-<<<<<<< HEAD
+
 <info pov="first_person"><title>The Man of the Crowd</title>
-=======
-    <info  pov ="first_person" speaker ="unnamed"><title>The Man of the Crowd</title>
->>>>>>> ddb8b52dd7c6805ab4b270a4e818e49e5a8c10f2
+
 
  <author>Edgar Allan Poe</author>
 <year>(published 1845)</year></info>
