@@ -16,6 +16,47 @@
                 <link type="text/css" href="style.css" rel="stylesheet"/>
             </head>
             <body>
+                <nav>
+                    <div class="dropDown">
+                        <a href="index.html">HOME</a>
+                    </div>
+                    <div class="dropDown">
+                        <a href="../docs/story.html">Short Stories</a>
+                    </div>
+                    <div class="dropDown">
+                        <a href="../docs/char.html">Characters</a>
+                    </div>
+                    <div class="dropDown">
+                        <a href="../docs/themes.html">Themes</a>
+                    </div>
+                    <div class="dropDown">
+                        <a href="../docs/fos.html">Figures of Speech</a>
+                        <div class="menu">
+                            <a href="../docs/alliteration.html">ALLITERATION</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/hyperbole.html">HYPERBOLE</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/irony.html">IRONY</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/onomatopoeia.html">ONOMATOPOEIA</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/personification.html">PERSONIFICATION</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/simile.html">SIMILE</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/metaphor.html">METAPHOR</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/imagery.html">IMAGERY</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/symbolism.html">SYMBOLISM</a>
+                            <div class="section-divider"></div>
+                            <a href="../docs/foreshadowing.html">FORSHADOWING</a>
+                        </div>
+                    </div>
+                    <div class="dropDown">
+                        <a href="../docs/about.html">About</a>
+                    </div>
+                </nav>
                 <h1>Collection of Stories</h1>
                 <h2>Table of Contents</h2>
                 <ul>
@@ -52,7 +93,7 @@
     
     <!-- Template for generating individual story pages -->
     <xsl:template match="story" mode="storyPage">
-        <xsl:result-document href="{translate(descendant::title, ' ', '-')}.html" method="html">
+        <xsl:result-document href="docs/{translate(descendant::title, ' ', '-')}.html" method="html">
             <html>
                 <head>
                     <title>
@@ -61,16 +102,57 @@
                     <link type="text/css" href="style.css" rel="stylesheet"/>
                 </head>
                 <body>
+                    <nav>
+                        <div class="dropDown">
+                            <a href="index.html">HOME</a>
+                        </div>
+                        <div class="dropDown">
+                            <a href="../docs/story.html">Short Stories</a>
+                        </div>
+                        <div class="dropDown">
+                            <a href="../docs/char.html">Characters</a>
+                        </div>
+                        <div class="dropDown">
+                            <a href="../docs/themes.html">Themes</a>
+                        </div>
+                        <div class="dropDown">
+                            <a href="../docs/fos.html">Figures of Speech</a>
+                            <div class="menu">
+                                <a href="../docs/alliteration.html">ALLITERATION</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/hyperbole.html">HYPERBOLE</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/irony.html">IRONY</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/onomatopoeia.html">ONOMATOPOEIA</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/personification.html">PERSONIFICATION</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/simile.html">SIMILE</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/metaphor.html">METAPHOR</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/imagery.html">IMAGERY</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/symbolism.html">SYMBOLISM</a>
+                                <div class="section-divider"></div>
+                                <a href="../docs/foreshadowing.html">FORSHADOWING</a>
+                            </div>
+                        </div>
+                        <div class="dropDown">
+                            <a href="../docs/about.html">About</a>
+                        </div>
+                    </nav>
                     <h1><xsl:value-of select="descendant::title"/></h1>
                     <h2><xsl:value-of select="descendant::year"/></h2>
                     <p><xsl:value-of select="descendant::content"/></p>
-                    <a href="toc.html">Back to Table of Contents</a>
+                    <a href="story.html">Back to Stories</a>
                     <hr/>
                     <h3>Collection of Stories</h3>
                     <ul>
                         <xsl:for-each select="../story">
                             <li>
-                                <a href="{translate(title, ' ', '-')}.html">
+                                <a href="docs/{translate(title, ' ', '-')}.html">
                                     <xsl:value-of select="title"/>
                                 </a>
                             </li>
