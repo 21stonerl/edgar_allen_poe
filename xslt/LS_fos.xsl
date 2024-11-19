@@ -29,7 +29,9 @@
                     
                     <xsl:if test="$count > 0">
                         <xsl:variable name="barIndex" select="position()"/>
-                        <xsl:variable name="xPos" select="($barIndex - 1) * 80"/>
+                        
+                        <!-- Calculate the x-position for spacing between the bars -->
+                        <xsl:variable name="xPos" select="($barIndex - 1) * 100"/> <!-- Increased space to 100px between bars -->
                         
                         <!-- Draw the bar -->
                         <rect x="{$xPos}" y="{-(($count * 6))}" width="50" height="{$count * 6}" fill="green" stroke="black"/>
