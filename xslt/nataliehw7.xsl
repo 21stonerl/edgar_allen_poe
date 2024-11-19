@@ -9,26 +9,24 @@
     
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     
-    <xsl:key name="theme" match="story" use="@theme"/>
     
     <xsl:template match="/">
         <html>
             <head><title>Theme</title></head>
             <body>
                 <h1>Theme</h1> 
-                <xsl:apply-templates select="$edgar_allen_poe//story[@theme]">
-                    <xsl:sort select='story [@theme]'/> 
+               <ul> <xsl:apply-templates select="$edgar_allen_poe//story/@theme" mode="theme">
+                   <xsl:sort select='//story/@theme'/> 
                     
                 </xsl:apply-templates>
-                
+                </ul>
             </body>
         </html>
     </xsl:template>
     
-    <xsl:template match="story">
-    <li><xsl:apply-templates select="story[@theme]">
+    <xsl:template match="//story/@theme" mode="theme">
+        <li><xsl:apply-templates select="distinct-values(//story/@theme)">
     </xsl:apply-templates> 
-        <xsl:apply-templates select="story[@theme]"/>
     </li>
    
     </xsl:template>
