@@ -18,7 +18,7 @@
         <svg width="200%" height="500%">
             <g transform="translate(60, 1000)">
                 <!-- Title -->
-                <text x="375" y="-800" text-anchor="middle">Theme usage in Edgar Allan Poe Short Stories</text>
+                <text x="400" y="-750" text-anchor="middle" font-size="30">Theme usage in Edgar Allan Poe Short Stories</text>
                 <line x1="20" x2="20" y1="0" y2="-650" stroke="black" stroke-width="1"/>
                 <line x1="20" x2="1200" y1="0" y2="0" stroke="black" stroke-width="1"/>
                 
@@ -54,7 +54,7 @@
                     <rect x="{$xPos}" y="{- $barHeight}" width="40" height="{$barHeight}" fill="red"/>
                     
                     <!-- Create text for theme name above the bar -->
-                    <text x="{$xPos}" y="30" text-anchor="middle">
+                    <text x="{$xPos}" y="30" text-anchor="right">
                         <xsl:value-of select="$theme"/>
                     </text>
                 </xsl:for-each>
