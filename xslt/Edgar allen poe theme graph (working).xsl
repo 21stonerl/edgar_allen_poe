@@ -20,7 +20,7 @@
                 <!-- Title -->
                 <text x="375" y="-800" text-anchor="middle">Theme usage in Edgar Allan Poe Short Stories</text>
                 <line x1="20" x2="20" y1="0" y2="-650" stroke="black" stroke-width="1"/>
-                <line x1="20" x2="1000" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                <line x1="20" x2="1200" y1="0" y2="0" stroke="black" stroke-width="1"/>
                 
                 <!-- Y-axis labels -->
                 <text x="5" y="0" text-anchor="middle">0</text>
@@ -45,7 +45,7 @@
                     <xsl:variable name="count" select="count($edgar_allen_poe//story[@theme=$theme])"/>
                     
                     <!-- Calculate X position (evenly spaced) -->
-                    <xsl:variable name="xPos" select="(position() - .5) * (900 div $totalThemes) + 40"/>
+                    <xsl:variable name="xPos" select="(position() - .5) * (1100 div $totalThemes) + 40"/>
                     
                     <!-- Calculate bar height based on the theme count -->
                     <xsl:variable name="barHeight" select="$count * 60"/>
