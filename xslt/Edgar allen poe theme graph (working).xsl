@@ -5,33 +5,22 @@
     xmlns="http://www.w3.org/2000/svg">
     
     <xsl:output method="xml" indent="yes"/>
+    
     <xsl:variable name="Interval" select="60"/>
+    
+    <!-- Variable for all stories collection -->
+    <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
+    
+    <!-- Key to group stories by theme -->
     <xsl:key name="Theme" match="story" use="@theme"/>
     
-    <!-- Template to process multiple documents -->
-    <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     <xsl:template match="/">
-    <!--    <xsl:variable name="documents" select="collection('Berenice.xml', 'Eleonora.xml', 'The_Angel_of_the_Odd.xml', 'The_Masque_of_the_Red_Death.xml', 
-            'The_Narratives_of_Arthur_Gordon.xml', 'Thefacts_inthe_caseof_Mvaldemar.xml', 
-            'adescent_intothe_maelstrom.xml', 'hopfrog.xml', 'ligeia.xml', 
-            'manuscript_foundina_bottle.xml', 'mesmeric_revelation.xml', 
-            'neverbet_thedevil_yourhead.xml', 'silenceafable.xml', 
-            'somewordswithamummy.xml', 'the_caskof_amontillado.xml', 'the_oblong_box.xml', 
-            'the_purloined_letter.xml', 'the_spectacles.xml', 'the_telltale_heart.xml', 
-            'theballoonhoax.xml', 'theblackcat.xml', 'theffall_ofthe_houseofusher.xml' 
-            , 'the_imp_of_perverse.xml', 'the_island_of_the_fay.xml', 
-            'the_man_of_the_crowd.xml', 'themurders_inthe_ruemorgue.xml', 'theovalportrait.xml', 
-            'thepit_andthe_pendulum.xml', 'thepremature_burial.xml', 'thesystemsof_drtarrandproffether.xml', 
-            'theymysteryof_marieroget.xml', 'williamwilson.xml') 
-            "/>   -->
-        
-        <!-- Start the SVGy -->
-        <svg width="100%" height="100%">
-            <g transform="translate(60, 575)">
+        <svg width="200%" height="500%">
+            <g transform="translate(60, 1000)">
                 <!-- Title -->
-                <text x="375" y="-550" text-anchor="middle">Theme usage in Edgar Allan Poe Short Stories</text>
-                <line x1="20" x2="20" y1="0" y2="-450" stroke="black" stroke-width="1"/>
-                <line x1="20" x2="750" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                <text x="375" y="-800" text-anchor="middle">Theme usage in Edgar Allan Poe Short Stories</text>
+                <line x1="20" x2="20" y1="0" y2="-650" stroke="black" stroke-width="1"/>
+                <line x1="20" x2="1000" y1="0" y2="0" stroke="black" stroke-width="1"/>
                 
                 <!-- Y-axis labels -->
                 <text x="5" y="0" text-anchor="middle">0</text>
@@ -42,45 +31,36 @@
                 <text x="5" y="-300" text-anchor="middle">5</text>
                 <text x="5" y="-360" text-anchor="middle">6</text>
                 <text x="5" y="-420" text-anchor="middle">7</text>
+                <text x="5" y="-480" text-anchor="middle">8</text>
+                <text x="5" y="-540" text-anchor="middle">9</text>
+                <text x="5" y="-600" text-anchor="middle">10</text>
                 
-                <!-- Process each document -->
-                <xsl:for-each select="$edgar_allen_poe/story">
-                    <!-- Template to match each story and count its themes -->
+                <!-- Process each unique theme -->
+                <xsl:variable name="totalThemes" select="count(distinct-values($edgar_allen_poe//story/@theme))"/>
+                
+                <xsl:for-each select="distinct-values($edgar_allen_poe//story/@theme)">
+                    <xsl:variable name="theme" select="."/>
                     
+                    <!-- Count how many times this theme appears across all stories -->
+                    <xsl:variable name="count" select="count($edgar_allen_poe//story[@theme=$theme])"/>
                     
+                    <!-- Calculate X position (evenly spaced) -->
+                    <xsl:variable name="xPos" select="(position() - .5) * (900 div $totalThemes) + 40"/>
                     
-                        <xsl:variable name="theme" select=".//@theme"/>
-                        
-                        <xsl:if test="not(preceding::story[@theme = $theme])"> <!-- did this to try to stop the repeating but is not working -->
-                            <!-- Count how many times this theme appears across all stories -->
-                            <xsl:variable name="count" select="count(//story[.//@theme=$theme])"/>
-                            
-                            <!-- Calculate X position (intervals between bars) -->
-                            <xsl:variable name="xPos" select="position() * $Interval"/>
-                            
-                            <!-- Calculate bar height based on the theme count -->
-                            <xsl:variable name="barHeight" select="$count * 60"/>
-                            
-                            <!-- Create the bar for the theme -->
-                            <rect x="{$xPos}" y="{-$barHeight}" width="40" height="{$barHeight}" fill="blue"/>
-                            
-                            <!-- Create text for theme name above the bar -->
-                            <text x="{$xPos}" y="30" text-anchor="middle">
-                                <xsl:value-of select=".//@theme"/>
-                            </text>
-                            
-                        </xsl:if>
-                   <!--whc: move the template rule material from below up to here-->
-                    <!-- MN linked the filed together -->
-                    <!-- Apply templates for stories in each document -->
+                    <!-- Calculate bar height based on the theme count -->
+                    <xsl:variable name="barHeight" select="$count * 60"/>
                     
+                    <!-- Create the bar for the theme -->
+                    <rect x="{$xPos}" y="{- $barHeight}" width="40" height="{$barHeight}" fill="red"/>
+                    
+                    <!-- Create text for theme name above the bar -->
+                    <text x="{$xPos}" y="30" text-anchor="middle">
+                        <xsl:value-of select="$theme"/>
+                    </text>
                 </xsl:for-each>
                 
             </g>
         </svg>
     </xsl:template>
-    
- 
-
     
 </xsl:stylesheet>
