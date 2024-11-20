@@ -5,7 +5,6 @@
     xmlns="http://www.w3.org/2000/svg">
     
     <xsl:output method="xml" indent="yes"/>
-    
     <xsl:variable name="Interval" select="60"/>
     
     <!-- Template to process multiple documents -->
@@ -18,9 +17,9 @@
             'neverbet_thedevil_yourhead.xml', 'silenceafable.xml', 
             'somewordswithamummy.xml', 'the_caskof_amontillado.xml', 'the_oblong_box.xml', 
             'the_purloined_letter.xml', 'the_spectacles.xml', 'the_telltale_heart.xml', 
-            'theballoonhoax.xml', 'theblackcat.xml', 'theffall_ofthe_houseofusher.xml', 
-            'thegoldbug.xml', 'theimpoftheperverse.xml', 'theisland_ofthefay.xml', 
-            'theman_ofthe_crowd.xml', 'themurders_inthe_ruemorgue.xml', 'theovalportrait.xml', 
+            'theballoonhoax.xml', 'theblackcat.xml', 'theffall_ofthe_houseofusher.xml' 
+            , 'the_imp_of_perverse.xml', 'the_island_of_the_fay.xml', 
+            'the_man_of_the_crowd.xml', 'themurders_inthe_ruemorgue.xml', 'theovalportrait.xml', 
             'thepit_andthe_pendulum.xml', 'thepremature_burial.xml', 'thesystemsof_drtarrandproffether.xml', 
             'theymysteryof_marieroget.xml', 'williamwilson.xml') 
             "/>
@@ -45,10 +44,10 @@
                 
                 <!-- Process each document -->
                 <xsl:for-each select="$documents">
-                    <xsl:variable name="doc" select="document(.)"/>
-                    
+                    <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
+                    <!-- MN linked the filed together -->
                     <!-- Apply templates for stories in each document -->
-                    <xsl:apply-templates select="$doc//story"/>
+                    <xsl:apply-templates select="$edgar_allen_poe//story"/>
                 </xsl:for-each>
             </g>
         </svg>
@@ -57,7 +56,7 @@
     <!-- Template to match each story and count its themes -->
     <xsl:template match="story">
         <xsl:variable name="theme" select="@theme"/>
-        
+        <xsl:if test="not(preceding::story[@theme = $theme])"> <!-- did this to try to stop the repeating but is not working -->
         <!-- Count how many times this theme appears across all stories -->
         <xsl:variable name="count" select="count(//story[@theme=$theme])"/>
         
@@ -74,6 +73,7 @@
         <text x="{$xPos}" y="30" text-anchor="middle">
             <xsl:value-of select="@theme"/>
         </text>
+        </xsl:if>
     </xsl:template>
     
 </xsl:stylesheet>
