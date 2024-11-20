@@ -6,6 +6,7 @@
     
     <xsl:output method="xml" indent="yes"/>
     <xsl:variable name="Interval" select="60"/>
+    <xsl:key name="Theme" match="story" use="@theme"/>
     
     <!-- Template to process multiple documents -->
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
@@ -46,13 +47,13 @@
                 <xsl:for-each select="$edgar_allen_poe/story">
                     <!-- Template to match each story and count its themes -->
                     
-                    <xsl:template match="story">
-                        
-                        <xsl:variable name="theme" select="@theme"/>
+                    
+                    
+                        <xsl:variable name="theme" select=".//@theme"/>
                         
                         <xsl:if test="not(preceding::story[@theme = $theme])"> <!-- did this to try to stop the repeating but is not working -->
                             <!-- Count how many times this theme appears across all stories -->
-                            <xsl:variable name="count" select="count(//story[@theme=$theme])"/>
+                            <xsl:variable name="count" select="count(//story[.//@theme=$theme])"/>
                             
                             <!-- Calculate X position (intervals between bars) -->
                             <xsl:variable name="xPos" select="position() * $Interval"/>
@@ -61,18 +62,18 @@
                             <xsl:variable name="barHeight" select="$count * 60"/>
                             
                             <!-- Create the bar for the theme -->
-                            <rect x="{$xPos}" y="{-$barHeight}" width="40" height="{$barHeight}" fill="red"/>
+                            <rect x="{$xPos}" y="{-$barHeight}" width="40" height="{$barHeight}" fill="blue"/>
                             
                             <!-- Create text for theme name above the bar -->
                             <text x="{$xPos}" y="30" text-anchor="middle">
-                                <xsl:value-of select="@theme"/>
+                                <xsl:value-of select=".//@theme"/>
                             </text>
                             
                         </xsl:if>
                    <!--whc: move the template rule material from below up to here-->
                     <!-- MN linked the filed together -->
                     <!-- Apply templates for stories in each document -->
-
+                    
                 </xsl:for-each>
                 
             </g>
@@ -80,6 +81,6 @@
     </xsl:template>
     
  
-    </xsl:template>
+
     
 </xsl:stylesheet>
