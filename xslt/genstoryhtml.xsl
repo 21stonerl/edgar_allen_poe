@@ -3,9 +3,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
     exclude-result-prefixes="xs math" version="3.0">
-    
+   
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-    
+    <!-- <xsl:var name="filename" select="base-uri(.)!replace(.,'xml','html')"/> -----result doc -->
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     
     <!-- Main template for the TOC page -->
@@ -93,7 +93,7 @@
     
     <!-- Template for generating individual story pages -->
     <xsl:template match="story" mode="storyPage">
-        <xsl:result-document href="docs/{translate(descendant::title, ' ', '-')}.html" method="html">
+        <xsl:result-document href="../docs/{translate(descendant::title, ' ', '-')}.html" method="html">
             <html>
                 <head>
                     <title>

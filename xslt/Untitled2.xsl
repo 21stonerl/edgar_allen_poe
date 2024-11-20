@@ -16,7 +16,7 @@
     
     <xsl:template match="/">
         <svg width="800" height="1000" viewbox=" 0 0 1700 1000">
-            <g transform="translate(50, 750)">
+            <g transform="translate(50, 1000)">
                 <!-- Title -->
                 <text x="375" y="-800" text-anchor="middle">FOS used in edgar allen poe stories</text>
                 <line x1="20" x2="20" y1="0" y2="-650" stroke="black" stroke-width="1"/>
@@ -48,7 +48,7 @@
                     <xsl:variable name="xPos" select="(position() - .5) * (1100 div $totalFos) + 40"/>
                     
                     <!-- Calculate bar height based on the fos count -->
-                    <xsl:variable name="barHeight" select="$count * 60"/>
+                    <xsl:variable name="barHeight" select="$count * 1"/>
                     
                     <!-- Create the bar for the fos -->
                     <rect x="{$xPos}" y="{- $barHeight}" width="40" height="{$barHeight}" fill="red"/>
@@ -57,7 +57,7 @@
                     <text x="{$xPos}" y="30" text-anchor="middle">
                         <xsl:value-of select="$type"/>
                     </text>
-                    <text x="{$xPos + 25}" y="{-(($count * 6))-10}" text-anchor="middle">
+                    <text x="{$xPos + 25}" y="{-(($count * 1))-10}" text-anchor="middle">
                         <xsl:value-of select="$count"/>
                     </text>
                 </xsl:for-each>
