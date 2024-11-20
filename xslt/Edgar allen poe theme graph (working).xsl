@@ -8,9 +8,9 @@
     <xsl:variable name="Interval" select="60"/>
     
     <!-- Template to process multiple documents -->
+    <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     <xsl:template match="/">
-        <xsl:variable name="documents" select="
-            ('Berenice.xml', 'Eleonora.xml', 'The_Angel_of_the_Odd.xml', 'The_Masque_of_the_Red_Death.xml', 
+    <!--    <xsl:variable name="documents" select="collection('Berenice.xml', 'Eleonora.xml', 'The_Angel_of_the_Odd.xml', 'The_Masque_of_the_Red_Death.xml', 
             'The_Narratives_of_Arthur_Gordon.xml', 'Thefacts_inthe_caseof_Mvaldemar.xml', 
             'adescent_intothe_maelstrom.xml', 'hopfrog.xml', 'ligeia.xml', 
             'manuscript_foundina_bottle.xml', 'mesmeric_revelation.xml', 
@@ -22,7 +22,7 @@
             'the_man_of_the_crowd.xml', 'themurders_inthe_ruemorgue.xml', 'theovalportrait.xml', 
             'thepit_andthe_pendulum.xml', 'thepremature_burial.xml', 'thesystemsof_drtarrandproffether.xml', 
             'theymysteryof_marieroget.xml', 'williamwilson.xml') 
-            "/>
+            "/>   -->
         
         <!-- Start the SVGy -->
         <svg width="100%" height="100%">
@@ -43,11 +43,11 @@
                 <text x="5" y="-420" text-anchor="middle">7</text>
                 
                 <!-- Process each document -->
-                <xsl:for-each select="$documents">
-                    <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
+                <xsl:for-each select="$edgar_allen_poe/story">
+                   <!--whc: move the template rule material from below up to here-->
                     <!-- MN linked the filed together -->
                     <!-- Apply templates for stories in each document -->
-                    <xsl:apply-templates select="$edgar_allen_poe//story"/>
+                    <xsl:apply-templates select=""/>
                 </xsl:for-each>
             </g>
         </svg>
