@@ -16,7 +16,7 @@
             <body>
                 <h1>Theme</h1> 
                <ul> <xsl:apply-templates select="$edgar_allen_poe//story/@theme" mode="theme">
-                   <xsl:sort select='//story/@theme'/> 
+                   <xsl:sort select='.//@theme'/> 
                     
                 </xsl:apply-templates>
                 </ul>

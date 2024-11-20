@@ -45,8 +45,11 @@
                 <!-- Process each document -->
                 <xsl:for-each select="$edgar_allen_poe/story">
                     <!-- Template to match each story and count its themes -->
+                    
                     <xsl:template match="story">
+                        
                         <xsl:variable name="theme" select="@theme"/>
+                        
                         <xsl:if test="not(preceding::story[@theme = $theme])"> <!-- did this to try to stop the repeating but is not working -->
                             <!-- Count how many times this theme appears across all stories -->
                             <xsl:variable name="count" select="count(//story[@theme=$theme])"/>
@@ -64,6 +67,7 @@
                             <text x="{$xPos}" y="30" text-anchor="middle">
                                 <xsl:value-of select="@theme"/>
                             </text>
+                            
                         </xsl:if>
                    <!--whc: move the template rule material from below up to here-->
                     <!-- MN linked the filed together -->
