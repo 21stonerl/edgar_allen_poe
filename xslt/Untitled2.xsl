@@ -15,16 +15,16 @@
     <xsl:key name="Type" match="story" use="@type"/>
     
     <xsl:template match="/">
-        <svg width="800" height="1000" viewbox=" 0 0 1700 1000">
-            <g transform="translate(50, 1000)">
+        <svg width="1500" height="400" viewbox=" 0 0 1000 1000">
+            <g transform="translate(-1000, 1000)">
                 <!-- Title -->
-                <text x="375" y="-800" text-anchor="middle">FOS used in edgar allen poe stories</text>
+                <text x="375" y="-700" text-anchor="middle">FOS used in edgar allen poe stories</text>
                 <line x1="20" x2="20" y1="0" y2="-650" stroke="black" stroke-width="1"/>
                 <line x1="20" x2="1200" y1="0" y2="0" stroke="black" stroke-width="1"/>
                 
                 <!-- Y-axis labels -->
                 <text x="5" y="0" text-anchor="middle">0</text>
-                <text x="5" y="-60" text-anchor="middle">50</text>
+                <text x="5" y="-60" text-anchor="middle">30</text>
                 <text x="5" y="-120" text-anchor="middle">100</text>
                 <text x="5" y="-180" text-anchor="middle">150</text>
                 <text x="5" y="-240" text-anchor="middle">200</text>
@@ -48,16 +48,16 @@
                     <xsl:variable name="xPos" select="(position() - .5) * (1100 div $totalFos) + 40"/>
                     
                     <!-- Calculate bar height based on the fos count -->
-                    <xsl:variable name="barHeight" select="$count * 1"/>
+                    <xsl:variable name="barHeight" select="$count * 3"/>
                     
                     <!-- Create the bar for the fos -->
-                    <rect x="{$xPos}" y="{- $barHeight}" width="40" height="{$barHeight}" fill="red"/>
+                    <rect x="{$xPos}" y="{- $barHeight}" width="40" height="{$barHeight}" fill="blue"/>
                     
                     <!-- Create text for fos name above the bar -->
                     <text x="{$xPos}" y="30" text-anchor="middle">
                         <xsl:value-of select="$type"/>
                     </text>
-                    <text x="{$xPos + 25}" y="{-(($count * 1))-10}" text-anchor="middle">
+                    <text x="{$xPos + 25}" y="{-(($count * 3))-10}" text-anchor="middle">
                         <xsl:value-of select="$count"/>
                     </text>
                 </xsl:for-each>
