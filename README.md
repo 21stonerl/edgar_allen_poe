@@ -1,6 +1,6 @@
 # edgar_allen_poe
 Project for Digital Humanities Class 
-
+https://21stonerl.github.io/edgar_allen_poe/ 
 **Team co-ordinator: 21stonerl**
    Responsibilities: This person is responsible for calling and chairing team meetings and making sure everyone has something to work on and knows what that something is. The coordinator must also keep track of what tasks must be finished before other tasks can be done and communicate that to the team in writing. The team coordinator is not the boss. Their job is to help everyone else do their best work.
    
