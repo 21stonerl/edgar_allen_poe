@@ -5,7 +5,7 @@
     exclude-result-prefixes="xs math" version="3.0">
    
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-    <!-- <xsl:var name="filename" select="base-uri(.)!replace(.,'xml','html')"/> -----result doc -->
+    <!-- <xsl:var name="filename" select="base-uri(.)!replace(.,'xml','html')"/> result doc -->
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     
     <!-- Main template for the TOC page -->
