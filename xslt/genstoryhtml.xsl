@@ -104,7 +104,7 @@
                     </nav>
                     <h1><xsl:value-of select="descendant::title"/></h1>
                     <h2><xsl:value-of select="descendant::year"/></h2>
-                    <p><xsl:value-of select="descendant::content"/></p>
+                    <p><xsl:value-of select="descendant::story"/></p>
                     <a href="story.html">Back to Stories</a>
                     <hr/>
                     <h3>Collection of Stories</h3>
