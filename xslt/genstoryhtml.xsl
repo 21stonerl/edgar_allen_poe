@@ -28,7 +28,7 @@
     </xsl:template>
     
     <!-- Template for generating TOC links for stories -->
-    <xsl:template match="story">
+    <xsl:template match="/docs/story">
         <li>
             <strong>
                 <a href="{translate(descendant::title, ' ', '-')}.html">
