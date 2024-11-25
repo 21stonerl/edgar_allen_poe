@@ -29,7 +29,7 @@
     <xsl:template match="//story">
         <li>
             <strong>
-                <a href="../docs/{translate(descendant::title, ' ', '-')}.html">
+                <a href="../{translate(descendant::title, ' ', '-')}.html">
                     <xsl:value-of select="descendant::title"/>
                 </a>
             </strong>
