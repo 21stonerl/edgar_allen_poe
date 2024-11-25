@@ -79,7 +79,7 @@
                         </xsl:choose>
                     </h2>
                     <p><xsl:value-of select="../story"/></p>
-                    <a href="../storyoutput.html">Back to Stories</a>
+                    <a href="../docs/storyoutput.html">Back to Stories</a>
                     <hr/>
                 </body>
             </html>
