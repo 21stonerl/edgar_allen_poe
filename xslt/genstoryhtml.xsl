@@ -84,7 +84,7 @@
                         <!-- Output only the narrative content of the story -->
                         <xsl:value-of select="$content"/>
                     </div>
-                    <a href="storyoutput.html">Back to Stories</a>
+                    <a href="../storyoutput.html">Back to Stories</a>
                     <hr/>
                 </body>
             </html>
