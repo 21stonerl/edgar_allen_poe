@@ -1,9 +1,10 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start= story
-story = element story {n,theme,info,(p)*,rhapsodie?,(p)*}
+story = element story {n,theme,info,content}
 n=attribute n {xsd:integer}
 info = element info {pov,(title|author|year|speaker)*}
+content =element content {(rhapsodie? | p)*}
 pov= attribute pov {text}
 p= element p {n,(char|quote |text|fos|conversation?|note?|rhapsodie?)*} #LS add any extra elements here use a ? if it does not appear in each story
 note=element note {(from|text|char)*}#LS not every story has this

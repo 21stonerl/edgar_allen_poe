@@ -7,6 +7,7 @@
 <author>by Edgar Allan Poe</author>
 <year>(published 1850)</year>
     </info>
+    <content>
 <p n="1">    
 <fos type="metaphor">I AM come of a race noted for vigor of fancy and ardor of passion.</fos> Men have called me mad; but the question is not yet settled, whether madness is or is not the loftiest intelligence -- whether much that is glorious- whether all that is profound -- does not spring from disease of thought -- from moods of mind exalted at the expense of the general intellect. They who dream by day are cognizant of many things which escape those who dream only by night. In their gray visions they obtain glimpses of eternity, and thrill, in awakening, to find that they have been upon the verge of the great secret. In snatches, they learn something of the wisdom which is of good, and more of the mere knowledge which is of evil. They penetrate, however, 
     <fos type="simile">rudderless or compassless into the vast ocean of the "light ineffable," and again, like the adventures of the Nubian geographer,</fos> <quote> "agressi sunt mare tenebrarum, quid in eo esset exploraturi."</quote></p>
@@ -50,4 +51,4 @@ But the void within my heart refused, even thus, to be filled. I longed for the 
 
  <p n="14">I wedded; -- nor dreaded the curse I had invoked; and its bitterness was not visited upon me. And once -- but once again in the silence of the night; there came through my lattice the soft sighs which had forsaken me; and they modelled themselves into familiar and sweet voice, saying:
     <conversation speaker="Narrator">"Sleep in peace! -- for the Spirit of Love reigneth and ruleth, and, in taking to thy passionate heart her who is Ermengarde, thou art absolved, for reasons which shall be made known to thee in Heaven, of thy vows unto Eleonora."</conversation> </p>
-</story>
+    </content></story>

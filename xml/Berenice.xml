@@ -1,6 +1,6 @@
 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/xsl" href="../xslt/genstoryhtml.xsl"?>
+
 <story n="1" theme="lost_love">
     <info pov="first_person" speaker="Egaeus">
 <title>Berenice</title>
@@ -8,7 +8,7 @@
 <author>by Edgar Allan Poe</author>
 <year>(published 1835)</year>
 </info>
-
+<content>
 <p n="1">
     <fos type="metaphor">MISERY is manifold.</fos> <fos type="metaphor">The wretchedness of earth is multiform.</fos> 
     <fos type="simile">Overreaching the wide horizon as the rainbow, its hues are as various as the hues of that arch,
@@ -71,4 +71,4 @@
     <fos type="simile">pale as the tenant of a tomb,</fos> a menial entered upon tiptoe. His looks were wild with terror, and he spoke to me in a voice tremulous, husky, and very low. What said he? --some broken sentences I heard. He told of a wild cry disturbing the silence of the night --of the gathering together of the household-of a search in the direction of the sound; --and then his tones grew thrillingly distinct as he whispered me of a violated grave --of a disfigured body enshrouded, yet still breathing, still palpitating, still alive!</p>
 
 <p n="21">He pointed to garments;-they were muddy and clotted with gore. I spoke not, and he took me gently by the hand; --it was indented with the impress of human nails. He directed my attention to some object against the wall; --I looked at it for some minutes; --it was a spade. With a shriek I bounded to the table, and grasped the box that lay upon it. But I could not force it open; and in my tremor <fos type="imagery">it slipped from my hands, and fell heavily, and burst into pieces; and from it, with a rattling sound, there rolled out some instruments of dental surgery, intermingled with thirty-two small, white and ivory-looking substances that were scattered to and fro about the floor.</fos></p>
-</story>
+</content></story>

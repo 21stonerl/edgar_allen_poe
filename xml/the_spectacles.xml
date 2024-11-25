@@ -9,6 +9,7 @@
     <author>by Edgar Allan Poe</author>
     <year>1850</year>
     </info>
+    <content>
         <p n="1">
             MANY years ago, it was the fashion to ridicule the idea of <quote>"love at first sight;"</quote> but those who think, not less than those who feel deeply, have always advocated its existence. Modern discoveries, indeed, in what may be termed ethical magnetism or magnetoesthetics, render it probable that the most natural, and, consequently, the truest and most intense of the human affections are those which arise in the heart as if by electric sympathy -- in a word, that the brightest and most enduring of the psychal fetters are those which are riveted by a glance. The confession I am about to make will add another to the already almost innumerable instances of the truth of the position.
         </p>
@@ -381,4 +382,5 @@
         <p n="124">
             Nevertheless, I am not the husband of my great, great, grandmother; and this is a reflection which affords me infinite relief, -- but I am the husband of <char>Madame Lalande</char> -- of <char>Madame Stephanie Lalande</char> -- with whom my good old relative, besides making me her sole heir when she dies -- if she ever does -- has been at the trouble of concocting me a match. In conclusion: I am done forever with billets doux and am never to be met without SPECTACLES.
         </p>
+    </content>
 </story>

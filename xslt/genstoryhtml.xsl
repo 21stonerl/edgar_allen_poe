@@ -58,6 +58,7 @@
     <xsl:template name="generate-story-page">
         <xsl:param name="title"/>
         <xsl:param name="year"/>
+        <xsl:param name="content"/>
         <xsl:result-document href="../docs/{translate($title, ' ', '-')}.html" method="html">
             <html>
                 <head>
@@ -78,7 +79,7 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </h2>
-                    <p><xsl:value-of select="../story"/></p>
+                    <p><xsl:value-of select="$content"/></p>
                     <a href="../docs/storyoutput.html">Back to Stories</a>
                     <hr/>
                 </body>

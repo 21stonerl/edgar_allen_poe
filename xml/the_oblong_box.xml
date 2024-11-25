@@ -8,6 +8,7 @@
     <author>by Edgar Allan Poe</author>
     <year>(published 1844)</year>
     </info>
+    <content>
         <p n="1">
             Some years ago, I engaged passage from Charleston, S. C, to the city of New York, in the fine packet-ship <conversation speaker="Captain Hardy">"Independence,"</conversation> <char>Captain Hardy</char>. We were to sail on the fifteenth of the month (June), weather permitting; and on the fourteenth, I went on board to arrange some matters in my stateroom.
         </p>
@@ -149,4 +150,5 @@
         <p n="47">
             My own mistake arose, naturally enough, through too careless, too inquisitive, and too impulsive a temperament. But of late, it is a rare thing that I sleep soundly at night. There is a countenance which haunts me, turn as I will. There is an hysterical laugh which will forever ring within my ears.
         </p>
+    </content>
 </story>

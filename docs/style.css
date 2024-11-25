@@ -5,29 +5,6 @@ html {
     background-color: #b30017;
     color: hsl(210, 50%, 20%)
 }
-/* fos types */
-.alliteration
-{
-    color: orange }
-.hyperbole {
-    color: yellow}
-.irony { 
-    color:green} 
-.onomatopoeia {
-    color: lime}
-.personification {
-    color: blue}
-.simile {
-    color: aqua}
-.metaphor {
-    color:violet}
-.imagery {
-    color: pink}
-.symbolism {
-    color:purple}
-.foreshadowing {   
-    color: gold}
-/* fos types */ 
 
 /*LS This is menu */
 nav{

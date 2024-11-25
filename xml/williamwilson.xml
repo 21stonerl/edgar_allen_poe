@@ -8,7 +8,7 @@
 <!-- 
 <quote>"What say of it? what say of CONSCIENCE grim,
 That spectre in my path?" -Chamberlaine's Pharronida.</quote>
- -->
+ --> <content>
 <p n="1">LET me call myself, for the present, <char>William Wilson</char>. The fair page now lying before me need not be sullied with my real appellation. This has been already too much an object for the scorn, for the horror, for the detestation of my race. To the uttermost regions of the globe have not the indignant winds bruited its unparalleled infamy?<fos type="alliteration"> Oh, outcast of all outcasts most abandoned!</fos> To the earth art thou not forever dead? to its honors, to its flowers, to its golden aspirations? and a cloud, dense, dismal, and limitless, does it not hang eternally between thy hopes and heaven?</p>
 
 <p n="2">I would not, if I could, here or to-day, embody a record of my later years of unspeakable misery, and unpardonable crime. This epoch -- these later years -- took unto themselves a sudden elevation in turpitude, whose origin alone it is my present purpose to assign. Men usually grow base by degrees. <fos type="simile">From me, in an instant, all virtue dropped bodily as a mantle.</fos> I shrouded my nakedness in triple guilt. From comparatively trivial wickedness I passed, with the stride of a giant, into more than the enormities of an Elah-Gabalus. What chance -- what one event brought this evil thing to pass, bear with me while I relate. Death approaches; and the shadow which foreruns him has thrown a softening influence over my spirit. I long, in passing through the dim valley, for the sympathy -- I had nearly said for the pity -- of my fellow-men. I would fain have them believe that I have been, in some measure, the slave of circumstances beyond human control. I would wish them to seek out for me, in the details I am about to give, some little oasis of fatality amid a wilderness of error. I would have them allow -- what they cannot refrain from allowing -- that, although temptation may have erewhile existed as great, man was never thus, at least, tempted before -- certainly, never thus fell. And it is therefore that he has never thus suffered. Have I not indeed been living in a dream? And am I not now dying a victim to the horror and the mystery of the wildest of all sublunary visions?</p>
@@ -116,4 +116,5 @@ That spectre in my path?" -Chamberlaine's Pharronida.</quote>
 <p n="53">It was <char>Wilson</char>; but he spoke no longer in a whisper; and I could have fancied that I myself was speaking while he said --</p>
 
 <p n="54"><conversation speaker="narrorator">"You have conquered, and I yield. Yet henceforward art thou also dead -- dead to the world and its hopes. In me didst thou exist -- and, in my death, see by this image, which is thine own, how utterly thou hast murdered thyself."</conversation></p>
+    </content>
 </story>

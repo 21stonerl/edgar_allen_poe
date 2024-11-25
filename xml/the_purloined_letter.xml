@@ -8,6 +8,7 @@
     <author>by Edgar Allan Poe</author>
     <year>(publishes 1845)</year>
     </info>
+    <content>
         <p n="1">
             Nil sapientiae odiosius acumine nimio.  
             - Seneca.
@@ -384,5 +385,5 @@
         <p n="125">
             They are to be found in Crebillon's 'Atree.'
         </p>
-      
+    </content>
 </story>

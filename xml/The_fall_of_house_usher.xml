@@ -6,7 +6,7 @@
     <info pov="first person"><title>The Fall of the House of Usher </title>  <author>Edgar Allan Poe</author>
 
         <year>(published 1839)</year></info>
-
+<content>
     <p n="1">DURING the whole of a <fos type="alliteration">dull, dark, and
             soundless</fos> day in the autumn of the year, <fos
             type="personification">when the clouds hung oppressively </fos> low in the
@@ -596,5 +596,6 @@
                 type="personification">voice of a thousand waters</fos></fos>
         --and the deep and dank tarn at my feet closed sullenly and silently over the fragments of
         the <quote>"HOUSE OF USHER."</quote></p>
+</content>
 </story>
 
