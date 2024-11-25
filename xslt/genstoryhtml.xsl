@@ -51,6 +51,7 @@
         <xsl:call-template name="generate-story-page">
             <xsl:with-param name="title" select="descendant::title"/>
             <xsl:with-param name="year" select="descendant::year"/>
+            <xsl:with-param name="content" select="descendant::content"/>
         </xsl:call-template>
     </xsl:template>
     
@@ -72,15 +73,18 @@
                     <h2>
                         <xsl:choose>
                             <xsl:when test="$year">
-                                <xsl:value-of select="$year"/>
+                                <xsl:value-of select="( $year)"/>
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:text>(Not Recorded)</xsl:text>
                             </xsl:otherwise>
                         </xsl:choose>
                     </h2>
-                    <p><xsl:value-of select="$content"/></p>
-                    <a href="../docs/storyoutput.html">Back to Stories</a>
+                    <div>
+                        <!-- Output only the narrative content of the story -->
+                        <xsl:value-of select="$content"/>
+                    </div>
+                    <a href="storyoutput.html">Back to Stories</a>
                     <hr/>
                 </body>
             </html>
