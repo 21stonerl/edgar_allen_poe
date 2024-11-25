@@ -1,5 +1,6 @@
 
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/genstoryhtml.xsl"?>
 <story n="1" theme="lost_love">
     <info pov="first_person" speaker="Egaeus">
 <title>Berenice</title>
