@@ -26,88 +26,88 @@
       <text x="5" y="-540" text-anchor="middle">9</text>
       <text x="5" y="-600" text-anchor="middle">10</text>
       <rect x="79.2857142857142857145"
-            y="-120"
+            y="-60"
             width="40"
-            height="120"
-            fill="red"/>
+            height="60"
+            fill="grey"/>
       <text x="79.2857142857142857145" y="30" text-anchor="right">fear</text>
       <rect x="157.8571428571428571435"
-            y="-360"
+            y="-180"
             width="40"
-            height="360"
-            fill="red"/>
+            height="180"
+            fill="grey"/>
       <text x="157.8571428571428571435" y="30" text-anchor="right">lost_love</text>
       <rect x="236.4285714285714285725"
-            y="-120"
+            y="-60"
             width="40"
-            height="120"
-            fill="red"/>
+            height="60"
+            fill="grey"/>
       <text x="236.4285714285714285725" y="30" text-anchor="right">paranoia</text>
       <rect x="315.0000000000000000015"
-            y="-360"
+            y="-180"
             width="40"
-            height="360"
-            fill="red"/>
+            height="180"
+            fill="grey"/>
       <text x="315.0000000000000000015" y="30" text-anchor="right">death</text>
       <rect x="393.5714285714285714305"
-            y="-240"
+            y="-120"
             width="40"
-            height="240"
-            fill="red"/>
+            height="120"
+            fill="grey"/>
       <text x="393.5714285714285714305" y="30" text-anchor="right">regret</text>
       <rect x="472.1428571428571428595"
-            y="-360"
+            y="-180"
             width="40"
-            height="360"
-            fill="red"/>
+            height="180"
+            fill="grey"/>
       <text x="472.1428571428571428595" y="30" text-anchor="right">obsession</text>
       <rect x="550.7142857142857142885"
-            y="-120"
+            y="-60"
             width="40"
-            height="120"
-            fill="red"/>
+            height="60"
+            fill="grey"/>
       <text x="550.7142857142857142885" y="30" text-anchor="right">alienation</text>
       <rect x="629.2857142857142857175"
-            y="-360"
+            y="-180"
             width="40"
-            height="360"
-            fill="red"/>
+            height="180"
+            fill="grey"/>
       <text x="629.2857142857142857175" y="30" text-anchor="right">insanity</text>
       <rect x="707.8571428571428571465"
-            y="-120"
+            y="-300"
             width="40"
-            height="120"
-            fill="red"/>
-      <text x="707.8571428571428571465" y="30" text-anchor="right">isolation</text>
+            height="300"
+            fill="grey"/>
+      <text x="707.8571428571428571465" y="30" text-anchor="right">terror</text>
       <rect x="786.4285714285714285755"
-            y="-120"
+            y="-60"
             width="40"
-            height="120"
-            fill="red"/>
+            height="60"
+            fill="grey"/>
       <text x="786.4285714285714285755" y="30" text-anchor="right">ignorance</text>
       <rect x="865.0000000000000000045"
-            y="-120"
+            y="-60"
             width="40"
-            height="120"
-            fill="red"/>
+            height="60"
+            fill="grey"/>
       <text x="865.0000000000000000045" y="30" text-anchor="right">loneliness</text>
       <rect x="943.5714285714285714335"
-            y="-120"
+            y="-60"
             width="40"
-            height="120"
-            fill="red"/>
-      <text x="943.5714285714285714335" y="30" text-anchor="right">power</text>
+            height="60"
+            fill="grey"/>
+      <text x="943.5714285714285714335" y="30" text-anchor="right">isolation</text>
       <rect x="1022.1428571428571428625"
-            y="-120"
+            y="-60"
             width="40"
-            height="120"
-            fill="red"/>
-      <text x="1022.1428571428571428625" y="30" text-anchor="right">perception</text>
+            height="60"
+            fill="grey"/>
+      <text x="1022.1428571428571428625" y="30" text-anchor="right">power</text>
       <rect x="1100.7142857142857142915"
-            y="-600"
+            y="-60"
             width="40"
-            height="600"
-            fill="red"/>
-      <text x="1100.7142857142857142915" y="30" text-anchor="right">terror</text>
+            height="60"
+            fill="grey"/>
+      <text x="1100.7142857142857142915" y="30" text-anchor="right">perception</text>
    </g>
 </svg>
