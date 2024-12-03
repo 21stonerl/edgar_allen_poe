@@ -29,7 +29,8 @@
         demonstration; to-day. My purpose at present is a very different one indeed. I am impelled,
         even in the teeth of a world of prejudice, to detail without comment the very remarkable
         substance of a colloquy, occurring between a sleep-waker and myself. </p>
-    <p n="3">I had been long in the habit of mesmerizing the person in question, (<char>Mr.
+        <p n="3">I had been long in the habit of mesmerizing the person in question, (<char ref="Mr.
+            Vankirk">Mr.
         Vankirk</char>,) and the usual acute susceptibility and exaltation of the mesmeric perception had
         supervened. For many months he had been laboring under confirmed phthisis, the more
         distressing effects of which had been relieved by my manipulations; and on the night of
@@ -171,7 +172,7 @@
                 ourselves that we have formed its conception, we have merely deceived our
                 understanding by the consideration of infinitely rarified matter.</conversation>
             <conversation speaker="P">
-                <char> P.</char>  There seems to me an insurmountable objection to the idea of
+                <char ref="P."> P.</char>  There seems to me an insurmountable objection to the idea of
                 absolute coalescence; -- and that is the very slight resistance experienced by the
                 heavenly bodies in their revolutions through space -- a resistance now ascertained,
                 it is true, to exist in some degree, but which is, nevertheless, so slight as to
@@ -292,7 +293,7 @@
             <conversation speaker="P"> P.  You speak of rudimental  "beings." 
                 Are there other rudimental thinking beings than man?</conversation>
             <conversation speaker="V">
-                <char> V. </char> The multitudinous conglomeration of rare matter into nebul ,
+                <char ref="V."> V. </char> The multitudinous conglomeration of rare matter into nebul ,
                 planets, suns, and other bodies which are neither nebul , suns, nor planets, is for
                 the sole purpose of supplying pabulum for the idiosyncrasy of the organs of an
                 infinity of rudimental beings. But for the necessity of the rudimental, prior to the

@@ -11,7 +11,7 @@
         
     </info>
     <content>
-    <p n="1">"Listen to me," said <char>the Demon</char>, as he placed his hand upon my head. "There is a spot
+        <p n="1">"Listen to me," said the <char ref="Demon">Demon</char>, as he placed his hand upon my head. "There is a spot
         upon this accursed earth which thou hast never yet beheld <fos type="simile">And if by any chance thou hast
         beheld it, it must have been in one of those vigorous dreams which come like the Simoon upon
         the brain of the sleeper who hath lain down to sleep among the forbidden sunbeams --among
@@ -50,8 +50,8 @@
         into the morass, when the moon shone with a fuller red, and I turned and looked again upon
         the rock, and upon the chars --and the chars were DESOLATION.</p>
 
-    <p n="6">"And I looked upwards, and there stood a <char>man </char>upon the summit of the rock, and I hid
-        myself among the water-lilies that I might discover the actions of the man. And the <char>man </char>was
+    <p n="6">"And I looked upwards, and there stood a <char ref="man">man </char>upon the summit of the rock, and I hid
+        myself among the water-lilies that I might discover the actions of the man. And the <char ref="man">man </char>was
         tall and stately in form, and was wrapped up from his shoulders to his feet in the toga of
         old Rome. <fos type="metaphor">And the outlines of his figure were indistinct --but his features were the
         features of a Deity; for the mantle of the night, and of the mist, and of the moon, and of
@@ -61,33 +61,33 @@
         shone upon his face, and upon the features of his face, and oh! they were more beautiful
         than the airy dreams which hovered about the souls of the daughters of Delos!</p>
 
-    <p n="7">"And the <char>man </char>sat down upon the rock, and leaned his head upon his hand, and looked
+        <p n="7">"And the <char ref="man">man </char>sat down upon the rock, and leaned his head upon his hand, and looked
         out upon the desolation. He looked down into the low unquiet shrubbery, and up into the tall
         primeval trees, and up higher at the rustling heaven, and into the crimson moon. And I lay
-        close within shelter of the lilies, and observed the actions of the man. And the <char>man
+        close within shelter of the lilies, and observed the actions of the man. And the <char ref="man">man
 </char>        trembled in the solitude --but the night waned and he sat upon the rock.</p>
 
-    <p n="8">"And the <char>man </char>turned his attention from the heaven, and looked out upon the dreary
+    <p n="8">"And the <char ref="man">man </char>turned his attention from the heaven, and looked out upon the dreary
         river Zaire, and upon the yellow ghastly waters, and upon the pale legions of the
-        water-lilies. And the <char>man </char>listened to the sighs of the water-lilies, and of the murmur that
+        water-lilies. And the <char ref="man">man </char>listened to the sighs of the water-lilies, and of the murmur that
         came up from among them. And I lay close within my covert and observed the actions of the
-        man. And the <char>man </char>trembled in the solitude --but the night waned and he sat upon the
+        man. And the <char ref="man">man </char>trembled in the solitude --but the night waned and he sat upon the
         rock.</p>
 
     <p n="9">"Then I went down into the recesses of the morass, and waded afar in among the
         wilderness of the lilies, and called unto the hippopotami which dwelt among the fens in the
         recesses of the morass. And the hippopotami heard my call, and came, with the behemoth, unto
         the foot of the rock, and roared loudly and fearfully beneath the moon. And I lay close
-        within my covert and observed the actions of the man. And the <char>man </char>trembled in the solitude
+        within my covert and observed the actions of the man. And the <char ref="man">man </char>trembled in the solitude
         --but the night waned and he sat upon the rock.</p>
 
     <p n="10">"Then I cursed the elements with the curse of tumult; and a frightful tempest
         gathered in the heaven where before there had been no wind. And the heaven became livid with
-        the violence of the tempest --and the rain beat upon the head of the <char>man </char>--and the floods of
+        the violence of the tempest --and the rain beat upon the head of the <char ref="man">man </char>--and the floods of
         the river came down --and the river was tormented into foam --and the water-lilies shrieked
         within their beds --and the forest crumbled before the wind --and the thunder rolled, --and
         the lightning fell --and the rock rocked to its foundation. And I lay close within my covert
-        and observed the actions of the man. And the <char>man </char>trembled in the solitude -- but the night
+        and observed the actions of the man. And the <char ref="man">man </char>trembled in the solitude -- but the night
         waned and he sat upon the rock.</p>
 
     <p n="11">"Then I grew angry and cursed, with the curse of silence, the river, and the lilies,
@@ -103,7 +103,7 @@
     <p n="12"><quote>"And mine eyes fell upon the countenance of the man, and his countenance was wan with
         terror. And, hurriedly, he raised his head from his hand, and stood forth upon the rock, and
         listened. But there was no voice throughout the vast illimitable desert, and the chars
-        upon the rock were SILENCE. And the <char>man </char>shuddered, and turned his face away, and fled afar
+        upon the rock were SILENCE. And the <char ref="man">man </char>shuddered, and turned his face away, and fled afar
         off, and I beheld him no more."</quote></p>
     </content>
 

@@ -446,7 +446,7 @@
             distinguish what was said. The shrill voice was that of an Englishman --is sure of this.
             Does not understand the English language, but judges by the intonation.</p>
 
-        <p n="48"><char>Alberto Montani</char>, confectioner, deposes that he was among the first to
+        <p n="48"><char ref="Alberto Montani">Alberto Montani</char>, confectioner, deposes that he was among the first to
             ascend the stairs. Heard the voices in question. The gruff voice was that of a
             Frenchman. Distinguished several words. The speaker appeared to be expostulating. Could
             not make out the words of the shrill voice. Spoke quick and unevenly. Thinks it the
@@ -461,7 +461,7 @@
             Mademoiselle L'Espanaye was so firmly wedged in the chimney that it could not be got
             down until four or five of the party united their strength.</p>
 
-        <p n="50"><char>Paul Dumas</char>, physician, deposes that he was called to view the bodies
+        <p n="50"><char ref="Paul Dumas">Paul Dumas</char>, physician, deposes that he was called to view the bodies
             about day-break. They were both then lying on the sacking of the bedstead in the chamber
             where Mademoiselle L. was found. The corpse of the young lady was much bruised and
             excoriated. The fact that it had been thrust up the chimney would sufficiently account
@@ -481,7 +481,7 @@
             from the body, and was also greatly shattered. The throat had evidently been cut with
             some very sharp instrument --probably with a razor.</p>
 
-        <p n="51"><char>Alexandre Etienne</char>, surgeon, was called with M. Dumas to view the
+        <p n="51"><char ref="Alexandre Etienne">Alexandre Etienne</char>, surgeon, was called with M. Dumas to view the
             bodies. Corroborated the testimony, and the opinions of M. Dumas.</p>
 
         <p n="52">Nothing farther of importance was elicited, although several other persons were
@@ -493,11 +493,13 @@
         <p n="53">The evening edition of the paper stated that the greatest excitement still
             continued in the Quartier St. Roch --that the premises in question had been carefully
             re-searched, and fresh examinations of witnesses instituted, but all to no purpose. A
-            postscript, however, mentioned that <char>Adolphe Le Bon</char> had been arrested and
+            postscript, however, mentioned that <char ref="Adolphe Le Bon
+                ">Adolphe Le Bon</char> had been arrested and
             imprisoned --although nothing appeared to criminate him, beyond the facts already
             detailed.</p>
 
-        <p n="54"><char>Dupin</char> seemed singularly interested in the progress of this affair
+        <p n="54"><char ref="Monsieur C. Auguste Dupin
+            ">Dupin</char> seemed singularly interested in the progress of this affair
             --at least so I judged from his manner, for he made no comments. It was only after the
             announcement that Le Bon had been imprisoned, that he asked me my opinion respecting the
             murders.</p>
@@ -506,7 +508,8 @@
             saw no means by which it would be possible to trace the murderer.</p>
 
         <p n="56"><conversation speaker="dupin">"We must not judge of the means,"</conversation>
-            said <char>Dupin</char>, by this shell of an examination. The Parisian police, so much
+            said <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>, by this shell of an examination. The Parisian police, so much
             extolled for acumen, are cunning, but no more. There is no method in their proceedings,
             beyond the method of the moment. They make a vast parade of measures; but, not
             unfrequently, these are so ill adapted to the objects proposed, as to put us in mind of
@@ -548,7 +551,8 @@
             from the opposite side of the way. It was an ordinary Parisian house, with a gateway, on
             one side of which was a glazed watch-box, with a sliding panel in the window, indicating
             a loge de concierge. Before going in we walked up the street, turned down an alley, and
-            then, again turning, passed in the rear of the building --<char>Dupin</char>, meanwhile,
+            then, again turning, passed in the rear of the building --<char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>, meanwhile,
             examining the whole neighborhood, as well as the house, with a minuteness of attention
             for which I could see no possible object.</p>
 
@@ -557,7 +561,8 @@
             the chamber where the body of Mademoiselle L'Espanaye had been found, and where both the
             deceased still lay. The disorders of the room had, as usual, been suffered to exist. I
             saw nothing beyond what had been stated in the <quote>"Gazette des Tribunaux."</quote>
-            <char>Dupin</char> scrutinized every thing --not excepting the bodies of the victims. We
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char> scrutinized every thing --not excepting the bodies of the victims. We
             then went into the other rooms, and into the yard; a gendarme accompanying us
             throughout. The examination occupied us until dark, when we took our departure. On our
             way home my companion stepped in for a moment at the office of one of the daily
@@ -610,7 +615,8 @@
                 both know how to use them when occasion demands their use."</conversation></p>
 
         <p n="66">I took the pistols, scarcely knowing what I did, or believing what I heard, while
-                <char>Dupin</char> went on,<fos type="simile"> very much as if in a soliloquy.</fos>
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char> went on,<fos type="simile"> very much as if in a soliloquy.</fos>
             I have already spoken of his abstract manner at such times. His discourse was addressed
             to myself; but his voice, although by no means loud, had that intonation which is
             commonly employed in speaking to some one at a great distance. His eyes,<fos
@@ -621,7 +627,8 @@
                 upon the stairs, were not the voices of the women themselves, was fully proved by
                 the evidence. This relieves us of all doubt upon the question whether the old lady
                 could have first destroyed the daughter, and afterward have committed suicide. I
-                speak of this point chiefly for the sake of method; for the strength of <char>Madame
+                speak of this point chiefly for the sake of method; for the strength of <char ref="Madame L'Espanaye
+                    ">Madame
                     L'Espanaye</char> would have been utterly unequal to the task of thrusting her
                 daughter's corpse up the chimney as it was found; and the nature of the wounds upon
                 her own person entirely preclude the idea of self-destruction. Murder, then, has
@@ -635,7 +642,8 @@
             individual termed it, the harsh voice.</p>
 
         <p n="69"><conversation speaker="dupin">"That was the evidence itself,"</conversation> said
-                <char>Dupin</char>, <conversation speaker="dupin">"but it was not the peculiarity of
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>, <conversation speaker="dupin">"but it was not the peculiarity of
                 the evidence. You have observed nothing distinctive. Yet there was something to be
                 observed. The witnesses, as you remark, agreed about the gruff voice; they were here
                 unanimous. But in regard to the shrill voice, the peculiarity is --not that they
@@ -664,7 +672,8 @@
                 --were by any witness mentioned as distinguishable.</conversation></p>
 
         <p n="70"><conversation speaker="dupin">"I know not,"</conversation> continued
-                <char>Dupin</char>, "<conversation speaker="dupin">what impression I may have made,
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>, "<conversation speaker="dupin">what impression I may have made,
                 so far, upon your own understanding; but I do not hesitate to say that legitimate
                 deductions even from this portion of the testimony --the portion respecting the
                 gruff and shrill voices --are in themselves sufficient to engender a suspicion which
@@ -808,7 +817,8 @@
             detected.</p>
 
         <p n="81">At these words a vague and half-formed conception of the meaning of
-                <char>Dupin</char> flitted over my mind. I seemed to be upon the verge of
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char> flitted over my mind. I seemed to be upon the verge of
             comprehension, without power to comprehend --as men, at times, find themselves upon the
             brink of remembrance, without being able, in the end, to remember. My friend went on
             with his discourse.</p>
@@ -821,7 +831,8 @@
                 had been rifled, although many articles of apparel still remained within them. The
                 conclusion here is absurd. It is a mere guess --a very silly one --and no more. How
                 are we to know that the articles found in the drawers were not all these drawers had
-                originally contained? <char>Madame L'Espanaye</char> and her daughter lived an
+                originally contained? <char ref="Madame L'Espanaye
+                    ">Madame L'Espanaye</char> and her daughter lived an
                 exceedingly retired life --saw no company --seldom went out --had little use for
                 numerous changes of habiliment. Those found were at least of as good quality as any
                 likely to be possessed by these ladies. If a thief had taken any, why did he not
@@ -866,7 +877,8 @@
             half a million of hairs at a time. The throat of the old lady was not merely cut, but
             the head absolutely severed from the body: the instrument was a mere razor. I wish you
             also to look at the brutal ferocity of these deeds. Of the bruises upon the body of
-                <char>Madame L'Espanaye</char> I do not speak. Monsieur Dumas, and his worthy
+            <char ref="Madame L'Espanaye
+                ">Madame L'Espanaye</char> I do not speak. Monsieur Dumas, and his worthy
             coadjutor Monsieur Etienne, have pronounced that they were inflicted by some obtuse
             instrument; and so far these gentlemen are very correct. The obtuse instrument was
             clearly the stone pavement in the yard, upon which the victim had fallen from the window
@@ -883,7 +895,8 @@
                 of all distinct or intelligible syllabification. What result, then, has ensued? What
                 impression have I made upon your fancy?"</conversation></p>
 
-        <p n="86">I felt a creeping of the flesh as <char>Dupin</char> asked me the question.
+        <p n="86">I felt a creeping of the flesh as <char ref="Monsieur C. Auguste Dupin
+            ">Dupin</char> asked me the question.
                 <conversation speaker="narrorator">"A madman,"</conversation> I said, <conversation
                 speaker="narrorator">"has done this deed --some raving maniac, escaped from a
                 neighboring Maison de Santé."</conversation></p>
@@ -894,10 +907,12 @@
                 voice heard upon the stairs. Madmen are of some nation, and their language, however
                 incoherent in its words, has always the coherence of syllabification. Besides, the
                 hair of a madman is not such as I now hold in my hand. I disentangled this little
-                tuft from the rigidly clutched fingers of <char>Madame L'Espanaye</char>. Tell me
+                tuft from the rigidly clutched fingers of <char ref="Madame L'Espanaye
+                    ">Madame L'Espanaye</char>. Tell me
                 what you can make of it."</conversation></p>
 
-        <p n="88"><conversation speaker="narrorator">"<char>Dupin</char>!"</conversation> I said,
+        <p n="88"><conversation speaker="narrorator">"<char ref="Monsieur C. Auguste Dupin
+            ">Dupin</char>!"</conversation> I said,
             completely unnerved; <conversation speaker="dupin">"this hair is most unusual --this is
                 no human hair."</conversation></p>
 
@@ -930,7 +945,8 @@
             hand."</conversation></p>
 
         <p n="94"><conversation speaker="dupin">"Read now,"</conversation> replied
-                <char>Dupin</char>, <conversation speaker="dupin">"this passage from
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>, <conversation speaker="dupin">"this passage from
                 Cuvier."</conversation></p>
 
         <p n="95">It was a minute anatomical and generally descriptive account of the large fulvous
@@ -980,7 +996,8 @@
                 <conversation speaker="narrorator">"that you should know the man to be a sailor, and
                 belonging to a Maltese vessel?"</conversation></p>
 
-        <p n="101"><conversation speaker="dupin">"I do not know it," said <char>Dupin</char>. "I am
+        <p n="101"><conversation speaker="dupin">"I do not know it," said <char ref="Monsieur C. Auguste Dupin
+            ">Dupin</char>. "I am
                 not sure of it. Here, however, is a small piece of ribbon, which from its form, and
                 from its greasy appearance, has evidently been used in tying the hair in one of
                 those long queues of which sailors are so fond. Moreover, this knot is one which few
@@ -1010,17 +1027,20 @@
 
         <p n="102">At this moment we heard a step upon the stairs.</p>
 
-        <p n="103"><conversation speaker="dupin">"Be ready,"</conversation> said <char>Dupin</char>,
+        <p n="103"><conversation speaker="dupin">"Be ready,"</conversation> said <char ref="Monsieur C. Auguste Dupin
+            ">Dupin</char>,
                 <conversation speaker="dupin">"with your pistols, but neither use them nor show them
                 until at a signal from myself."</conversation></p>
 
         <p n="104">The front door of the house had been left open, and the visiter had entered,
             without ringing, and advanced several steps upon the staircase. Now, however, he seemed
-            to hesitate. Presently we heard him descending. <char>Dupin</char> was moving quickly to
+            to hesitate. Presently we heard him descending. <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char> was moving quickly to
             the door, when we again heard him coming up. He did not turn back a second time, but
             stepped up with decision, and rapped at the door of our chamber.</p>
 
-        <p n="105"><conversation speaker="dupin">"Come in,"</conversation> said <char>Dupin</char>,
+        <p n="105"><conversation speaker="dupin">"Come in,"</conversation> said <char ref="Monsieur C. Auguste Dupin
+            ">Dupin</char>,
             in a cheerful and hearty tone.</p>
 
         <p n="106">A man entered. He was a sailor, evidently, --a tall, stout, and muscular-looking
@@ -1032,12 +1052,13 @@
             origin.</p>
 
         <p n="107"><conversation speaker="dupin">"Sit down, my friend,"</conversation> said
-                <char>Dupin</char>. <conversation speaker="dupin">"I suppose you have called about
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>. <conversation speaker="dupin">"I suppose you have called about
                 the Ourang-Outang. Upon my word, I almost envy you the possession of him; a
                 remarkably fine, and no doubt a very valuable animal. How old do you suppose him to
                 be?"</conversation></p>
 
-        <p n="108">The <char>sailor</char> drew a long breath, with the air of a man relieved of
+        <p n="108">The <char ref="sailor">sailor</char> drew a long breath, with the air of a man relieved of
             some intolerable burden, and then replied, in an assured tone:</p>
 
         <p n="109"><conversation speaker="sailor">"I have no way of telling --but he can't be more
@@ -1050,7 +1071,8 @@
         <p n="111"><conversation speaker="sailor">"To be sure I am, sir."</conversation></p>
 
         <p n="112"><conversation speaker="dupin">"I shall be sorry to part with him,"</conversation>
-            said <char>Dupin</char>.</p>
+            said <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>.</p>
 
         <p n="113"><conversation speaker="sailor">"I don't mean that you should be at all this
                 trouble for nothing, sir,"</conversation> said the man. <conversation
@@ -1063,7 +1085,8 @@
                 me all the information in your power about these murders in the Rue
                 Morgue."</conversation></p>
 
-        <p n="115"><char>Dupin</char> said the last words in a very low tone, and very quietly. Just
+        <p n="115"><char ref="Monsieur C. Auguste Dupin
+            ">Dupin</char> said the last words in a very low tone, and very quietly. Just
             as quietly, too, he walked toward the door, locked it, and put the key in his pocket. He
             then drew a pistol from his bosom and placed it, without the least flurry, upon the
             table.</p>
@@ -1074,7 +1097,8 @@
             word. I pitied him from the bottom of my heart.</p>
 
         <p n="117"><conversation speaker="dupin">"My friend,"</conversation> said
-            <char>Dupin</char>, in a kind tone, <conversation speaker="dupin">"you are alarming
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>, in a kind tone, <conversation speaker="dupin">"you are alarming
                 yourself unnecessarily --you are indeed. We mean you no harm whatever. I pledge you
                 the honor of a gentleman, and of a Frenchman, that we intend you no injury. I
                 perfectly well know that you are innocent of the atrocities in the Rue Morgue. It
@@ -1089,7 +1113,8 @@
                 you can point out the perpetrator."</conversation></p>
 
         <p n="118">The sailor had recovered his presence of mind,<fos type="metaphor"> in a great
-                measure,</fos> while <char>Dupin</char> uttered these words; but his original
+            measure,</fos> while <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char> uttered these words; but his original
             boldness of bearing was all gone.</p>
 
         <p n="119"><conversation speaker="sailor">"So help me God,"</conversation> said he, after a
@@ -1125,7 +1150,8 @@
             up with it. It then again made off. In this manner the chase continued for a long time.
             The streets were profoundly quiet, as it was nearly three o'clock in the morning. In
             passing down an alley in the rear of the Rue Morgue, the fugitive's attention was
-            arrested by a light gleaming from the open window of <char>Madame L'Espanaye</char>'s
+            arrested by a light gleaming from the open window of <char ref="Madame L'Espanaye
+                ">Madame L'Espanaye</char>'s
             chamber, in the fourth story of her house. Rushing to the building, it perceived the
             lightning-rod, clambered up with inconceivable agility, grasped the shutter, which was
             thrown fully back against the wall, and, by its means, swung itself directly upon the
@@ -1142,7 +1168,8 @@
             accomplish was to reach over so as to obtain a glimpse of the interior of the room. At
             this glimpse he nearly fell from his hold through excess of horror. Now it was that
             those hideous shrieks arose upon the night, which had startled from slumber the inmates
-            of the Rue Morgue. <char>Madame L'Espanaye</char> and her daughter, habited in their
+            of the Rue Morgue. <char ref="Madame L'Espanaye
+                ">Madame L'Espanaye</char> and her daughter, habited in their
             night clothes, had apparently been occupied in arranging some papers in the iron chest
             already mentioned, which had been wheeled into the middle of the room. It was open, and
             its contents lay beside it on the floor. The victims must have been sitting with their
@@ -1150,7 +1177,8 @@
             and the screams, it seems probable that it was not immediately perceived. The
             flapping-to of the shutter would naturally have been attributed to the wind.</p>
 
-        <p n="124">As the sailor looked in, the gigantic animal had seized <char>Madame
+        <p n="124">As the sailor looked in, the gigantic animal had seized <char ref="Madame L'Espanaye
+            ">Madame
                 L'Espanaye</char> by the hair, (which was loose, as she had been combing it,) and
             was flourishing the razor about her face, in imitation of the motions of a barber. The
             daughter lay prostrate and motionless; she had swooned. The screams and struggles of the
@@ -1181,13 +1209,15 @@
             window as it passed through it. It was subsequently caught by the owner himself, who
             obtained for it a very large sum at the Jardin des Plantes. Le Bon was instantly
             released, upon our narration of the circumstances (with some comments from
-                <char>Dupin</char>) at the bureau of the Prefect of Police. This functionary,
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>) at the bureau of the Prefect of Police. This functionary,
             however well disposed to my friend, could not altogether conceal his chagrin at the turn
             which affairs had taken, and was fain to indulge in a sarcasm or two, about the
             propriety of every person minding his own business.</p>
 
         <p n="127"><conversation speaker="dupin">"Let him talk,"</conversation> said
-                <char>Dupin</char>, who had not thought it necessary to reply. <conversation
+            <char ref="Monsieur C. Auguste Dupin
+                ">Dupin</char>, who had not thought it necessary to reply. <conversation
                 speaker="dupin">"Let him discourse; it will ease his conscience. I am satisfied with
                 having defeated him in his own castle. Nevertheless, that he failed in the solution
                 of this mystery, is by no means that matter for wonder which he supposes it; for, in
