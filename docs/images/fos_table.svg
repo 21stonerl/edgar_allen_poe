@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Figures of Speech Table</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        svg {
+            width: 90%;  
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+    </head>
+    <body>
+        
+        <h2>Figures of Speech</h2>
+        
+        <!-- SVG Table -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="200%" height="600px" viewBox="0 0 2900 2900">
+            <g>
+                <rect x="0" y="0" width="33%" height="50" fill="#f2f2f2" stroke="black" stroke-width="1"/>
+                <text x="10" y="30" font-size="16" font-weight="bold">Figure of Speech</text>
+                
+                <rect x="33%" y="0" width="34%" height="50" fill="#f2f2f2" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="30" font-size="16" font-weight="bold">Definition</text>
+                
+                <rect x="67%" y="0" width="30%" height="50" fill="#f2f2f2" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="30" font-size="16" font-weight="bold">Example</text>
+            </g>
+            
+            <!-- Onomatopoeia Row -->
+            <g>
+                <rect x="0" y="50" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="85" font-size="16">Onomatopoeia</text>
+                <rect x="33%" y="50" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="85" font-size="16">Words that imitate sounds.</text>
+                <rect x="67%" y="50" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="85" font-size="16">"rattled as I strode"- Fall Of House Usher</text>
+            </g>
+            
+            <!-- Foreshadowing Row -->
+            <g>
+                <rect x="0" y="120" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="155" font-size="16">Foreshadowing</text>
+                <rect x="33%" y="120" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="155" font-size="16">Hints or clues about what will happen later in the story.</text>
+                <rect x="67%" y="120" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="155" font-size="16">"It was then that I became distinctly aware of a gentle footfall upon the carpet..."- Ligeia</text>
+            </g>
+            
+            <!-- Symbolism Row -->
+            <g>
+                <rect x="0" y="190" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="225" font-size="16">Symbolism</text>
+                <rect x="33%" y="190" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="225" font-size="16">The use of symbols to represent ideas or concepts.</text>
+                <rect x="67%" y="190" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="225" font-size="16">"I had become a bounden slave in the trammels of opium..."- Ligeia</text>
+            </g>
+            
+            <!-- Irony Row -->
+            <g>
+                <rect x="0" y="260" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="295" font-size="16">Irony</text>
+                <rect x="33%" y="260" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="295" font-size="16">A contrast between expectation and reality.</text>
+                <rect x="67%" y="260" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="295" font-size="16">"The painter had grown wild with the ardor of his work..."- The Oval Portrait</text>
+            </g>
+            
+            <!-- Alliteration Row -->
+            <g>
+                <rect x="0" y="330" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="365" font-size="16">Alliteration</text>
+                <rect x="33%" y="330" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="365" font-size="16">Repetition of the same consonant sound at the beginning of nearby words.</text>
+                <rect x="67%" y="330" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="365" font-size="16">"commingled gloom and grandeur"- The Oval Portrait</text>
+            </g>
+            
+            <!-- Hyperbole Row -->
+            <g>
+                <rect x="0" y="400" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="435" font-size="16">Hyperbole</text>
+                <rect x="33%" y="400" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="435" font-size="16">Exaggeration for emphasis or effect.</text>
+                <rect x="67%" y="400" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="435" font-size="16">"the magnificent turn of the short upper lip"- Ligeia</text>
+            </g>
+            
+            <!-- Metaphor Row -->
+            <g>
+                <rect x="0" y="470" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="505" font-size="16">Metaphor</text>
+                <rect x="33%" y="470" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="505" font-size="16">A direct comparison between two unrelated things.</text>
+                <rect x="67%" y="470" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="505" font-size="16">"The wretchedness of earth is multiform."- Berenice</text>
+            </g>
+            
+            <!-- Simile Row -->
+            <g>
+                <rect x="0" y="540" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="575" font-size="16">Simile</text>
+                <rect x="33%" y="540" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="575" font-size="16">A comparison using "like" or "as".</text>
+                <rect x="67%" y="540" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="575" font-size="16">"I was awakened from a slumber, like the slumber of death"- Eleonora</text>
+            </g>
+            
+            <!-- Personification Row -->
+            <g>
+                <rect x="0" y="610" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="645" font-size="16">Personification</text>
+                <rect x="33%" y="610" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="645" font-size="16">Giving human qualities to non-human things.</text>
+                <rect x="67%" y="610" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="645" font-size="16">"the hairs of my head erect themselves on end"- Berenice</text>
+            </g>
+            
+            <!-- Imagery Row -->
+            <g>
+                <rect x="0" y="680" width="33%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="10" y="715" font-size="16">Imagery</text>
+                <rect x="33%" y="680" width="34%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="33.5%" y="715" font-size="16">Language that appeals to the senses and creates a mental image.</text>
+                <rect x="67%" y="680" width="30%" height="70" fill="white" stroke="black" stroke-width="1"/>
+                <text x="67.5%" y="715" font-size="16">"To the right and left, in the middle of each wall, a tall and narrow Gothic window..."- The Masque of the Red Death</text>
+            </g>
+            
+        </svg>
+        
+    </body>
+</html>
