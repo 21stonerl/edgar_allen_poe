@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
-<html xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes">
+<html>
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>Character Story Links</title>
+      <title>Character and Story Links</title>
       <style>
                     table {
                     width: 100%;
@@ -31,11 +31,11 @@
          </thead>
          <tbody>
             <tr>
-               <td>Old Man</td>
+               <td>old man</td>
                <td><a href="A Descent Into The Maelstrom.html">A Descent Into The Maelstrom</a></td>
             </tr>
             <tr>
-               <td>Guide</td>
+               <td>guide</td>
                <td><a href="A Descent Into The Maelstrom.html">A Descent Into The Maelstrom</a></td>
             </tr>
             <tr>
@@ -51,59 +51,11 @@
                <td><a href="Eleonora.html">Eleonora</a></td>
             </tr>
             <tr>
-               <td> King </td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
-               <td>Hop-frog</td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
-               <td> Hop-frog</td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
                <td>Trippetta</td>
                <td><a href="Hop-Frog.html">Hop-Frog</a></td>
             </tr>
             <tr>
-               <td>Hop-frog </td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
-               <td> Trippetta's</td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
-               <td> King </td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
-               <td> King's </td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
-               <td>King</td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
-               <td>Trippetta's</td>
-               <td><a href="Hop-Frog.html">Hop-Frog</a></td>
-            </tr>
-            <tr>
-               <td>Lady Ligeia</td>
-               <td><a href="Ligeia.html">Ligeia</a></td>
-            </tr>
-            <tr>
-               <td> Ligeia </td>
-               <td><a href="Ligeia.html">Ligeia</a></td>
-            </tr>
-            <tr>
-               <td> Ligeia </td>
-               <td><a href="Ligeia.html">Ligeia</a></td>
-            </tr>
-            <tr>
-               <td> Ligeia </td>
+               <td>lady Ligeia</td>
                <td><a href="Ligeia.html">Ligeia</a></td>
             </tr>
             <tr>
@@ -111,31 +63,19 @@
                <td><a href="Ligeia.html">Ligeia</a></td>
             </tr>
             <tr>
-               <td>Lady</td>
-               <td><a href="Ligeia.html">Ligeia</a></td>
-            </tr>
-            <tr>
-               <td>Lady Rowena</td>
-               <td><a href="Ligeia.html">Ligeia</a></td>
-            </tr>
-            <tr>
-               <td>Lady Of Tremaine</td>
-               <td><a href="Ligeia.html">Ligeia</a></td>
-            </tr>
-            <tr>
-               <td>Captain</td>
+               <td>captain</td>
                <td><a href="Manuscript Found in a Bottle.html">Manuscript Found in a Bottle</a></td>
             </tr>
             <tr>
-               <td>Crew</td>
+               <td>crew</td>
                <td><a href="Manuscript Found in a Bottle.html">Manuscript Found in a Bottle</a></td>
             </tr>
             <tr>
-               <td>Old Swede</td>
+               <td>old Swede</td>
                <td><a href="Manuscript Found in a Bottle.html">Manuscript Found in a Bottle</a></td>
             </tr>
             <tr>
-               <td>Mr Vankirk</td>
+               <td>Mr. Vankirk</td>
                <td><a href="Mesmeric Revelation.html">Mesmeric Revelation</a></td>
             </tr>
             <tr>
@@ -147,71 +87,31 @@
                <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
             </tr>
             <tr>
-               <td>Dammit's Mother</td>
+               <td>Mr. Coleridge</td>
                <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
             </tr>
             <tr>
-               <td>Dammit</td>
+               <td>Mr. Kan</td>
                <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
             </tr>
             <tr>
-               <td> Mr Coleridge</td>
+               <td>Mr. Carlyle</td>
                <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
             </tr>
             <tr>
-               <td>Mr Kant</td>
+               <td>Mr. Emerson</td>
                <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
             </tr>
             <tr>
-               <td> Mr Carlyle</td>
-               <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
-            </tr>
-            <tr>
-               <td> Mr Emerson</td>
-               <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
-            </tr>
-            <tr>
-               <td>Mr Dammit</td>
-               <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
-            </tr>
-            <tr>
-               <td>Mr Dammit's</td>
-               <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
-            </tr>
-            <tr>
-               <td>Mr D</td>
-               <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
-            </tr>
-            <tr>
-               <td> Dammit </td>
-               <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
-            </tr>
-            <tr>
-               <td>Toby </td>
-               <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
-            </tr>
-            <tr>
-               <td> Mr Dammit</td>
-               <td><a href="Never Bet the Devil Your Head.html">Never Bet the Devil Your Head</a></td>
-            </tr>
-            <tr>
-               <td>The Demon</td>
+               <td>Demon</td>
                <td><a href="Silence - A Fable.html">Silence - A Fable</a></td>
             </tr>
             <tr>
-               <td>Man </td>
+               <td>man</td>
                <td><a href="Silence - A Fable.html">Silence - A Fable</a></td>
             </tr>
             <tr>
-               <td>Man </td>
-               <td><a href="Silence - A Fable.html">Silence - A Fable</a></td>
-            </tr>
-            <tr>
-               <td>Ponnonner</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td>Doctor's</td>
+               <td>Doctor Ponnonner</td>
                <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
             </tr>
             <tr>
@@ -219,63 +119,23 @@
                <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
             </tr>
             <tr>
-               <td>Ponnonner's</td>
+               <td>Mr. Gliddon</td>
                <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
             </tr>
             <tr>
-               <td> Captain Sabretash </td>
+               <td>Allamistakeo</td>
                <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
             </tr>
             <tr>
-               <td> Mr Gliddon</td>
+               <td>Mr. Silk Buckingham</td>
                <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
             </tr>
             <tr>
-               <td> Allamistakeo</td>
+               <td>Gliddon</td>
                <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
             </tr>
             <tr>
-               <td>Doctor Ponnonner</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td>Mr Silk Buckingham</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td>Doctor</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td>Mummy's</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td> Mr Buckingham</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td> Mr Gliddon </td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td>Allamistakeo's</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td> Mr B</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td> Traveller</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td> Doctor Ponnonner</td>
-               <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
-            </tr>
-            <tr>
-               <td> Mr Silk Buckingham</td>
+               <td>traveller</td>
                <td><a href="Some Words With a Mummy.html">Some Words With a Mummy</a></td>
             </tr>
             <tr>
@@ -283,39 +143,27 @@
                <td><a href="The Black Cat.html">The Black Cat</a></td>
             </tr>
             <tr>
-               <td>M Valdemar</td>
+               <td>M. Valdemar</td>
                <td><a href="The Facts in the Case of M. Valdemar.html">The Facts in the Case of M. Valdemar</a></td>
             </tr>
             <tr>
-               <td>Mr Theodore L___l</td>
+               <td>Mr. Theodore L___l</td>
                <td><a href="The Facts in the Case of M. Valdemar.html">The Facts in the Case of M. Valdemar</a></td>
             </tr>
             <tr>
-               <td>Mr L___l</td>
+               <td>Dr. D___</td>
                <td><a href="The Facts in the Case of M. Valdemar.html">The Facts in the Case of M. Valdemar</a></td>
             </tr>
             <tr>
-               <td>M Valdemar's</td>
-               <td><a href="The Facts in the Case of M. Valdemar.html">The Facts in the Case of M. Valdemar</a></td>
-            </tr>
-            <tr>
-               <td>Dr D___</td>
-               <td><a href="The Facts in the Case of M. Valdemar.html">The Facts in the Case of M. Valdemar</a></td>
-            </tr>
-            <tr>
-               <td>C Auguste Dupin</td>
+               <td>Monsieur C. Auguste Dupin</td>
                <td><a href="The Murders in the Rue Morgue.html">The Murders in the Rue Morgue</a></td>
             </tr>
             <tr>
-               <td>Dupin</td>
+               <td>Madame L'Espanaye</td>
                <td><a href="The Murders in the Rue Morgue.html">The Murders in the Rue Morgue</a></td>
             </tr>
             <tr>
-               <td>Madame L'espanaye</td>
-               <td><a href="The Murders in the Rue Morgue.html">The Murders in the Rue Morgue</a></td>
-            </tr>
-            <tr>
-               <td>Mademoiselle Camille L'espanaye</td>
+               <td>Mademoiselle Camille L'Espanaye</td>
                <td><a href="The Murders in the Rue Morgue.html">The Murders in the Rue Morgue</a></td>
             </tr>
             <tr>
@@ -367,7 +215,7 @@
                <td><a href="The Murders in the Rue Morgue.html">The Murders in the Rue Morgue</a></td>
             </tr>
             <tr>
-               <td>Sailor</td>
+               <td>sailor</td>
                <td><a href="The Murders in the Rue Morgue.html">The Murders in the Rue Morgue</a></td>
             </tr>
             <tr>
@@ -375,11 +223,11 @@
                <td><a href="The Oval Portrait.html">The Oval Portrait</a></td>
             </tr>
             <tr>
-               <td>Young Girl</td>
+               <td>young girl</td>
                <td><a href="The Oval Portrait.html">The Oval Portrait</a></td>
             </tr>
             <tr>
-               <td>Painter</td>
+               <td>painter</td>
                <td><a href="The Oval Portrait.html">The Oval Portrait</a></td>
             </tr>
             <tr>
@@ -391,7 +239,7 @@
                <td><a href="The Premature Burial.html">The Premature Burial</a></td>
             </tr>
             <tr>
-               <td>Mr Edward Stapleton</td>
+               <td>Mr. Edward Stapleton</td>
                <td><a href="The Premature Burial.html">The Premature Burial</a></td>
             </tr>
             <tr>
@@ -399,11 +247,7 @@
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
-               <td>Chevalier C Auguste Dupin</td>
-               <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
-            </tr>
-            <tr>
-               <td>Dupin</td>
+               <td>Chevalier C. Auguste Dupin</td>
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
@@ -427,11 +271,7 @@
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
-               <td>Monsieur Jacques St Eustache</td>
-               <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
-            </tr>
-            <tr>
-               <td>St Eustache</td>
+               <td>Monsieur Jacques St. Eustache</td>
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
@@ -439,15 +279,11 @@
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
-               <td>Beauvais</td>
+               <td>Monsieur G</td>
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
-               <td>Monsieur G----</td>
-               <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
-            </tr>
-            <tr>
-               <td>L'etoile</td>
+               <td>L'Etoile</td>
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
@@ -463,19 +299,15 @@
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
-               <td>Madame D</td>
-               <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
-            </tr>
-            <tr>
                <td>Valence</td>
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
-               <td> St Eustache</td>
+               <td>Madame L'Espanaye</td>
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
-               <td>Madame L'espanaye</td>
+               <td>Marie Roget</td>
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
@@ -483,27 +315,15 @@
                <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
             </tr>
             <tr>
-               <td>Madame Deluc</td>
-               <td><a href="The Mystery of Marie Roget.html">The Mystery of Marie Roget</a></td>
-            </tr>
-            <tr>
                <td>Roderick Usher</td>
                <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
             </tr>
             <tr>
-               <td>Usher</td>
+               <td>sister</td>
                <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
             </tr>
             <tr>
-               <td>Sister</td>
-               <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
-            </tr>
-            <tr>
-               <td>Lady Madeline</td>
-               <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
-            </tr>
-            <tr>
-               <td>Lady Madeline</td>
+               <td>lady Madeline</td>
                <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
             </tr>
             <tr>
@@ -511,19 +331,7 @@
                <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
             </tr>
             <tr>
-               <td>Roderick Usher</td>
-               <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
-            </tr>
-            <tr>
-               <td>The Sufferer</td>
-               <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
-            </tr>
-            <tr>
-               <td>Usher's</td>
-               <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
-            </tr>
-            <tr>
-               <td>Usher</td>
+               <td>the sufferer</td>
                <td><a href="The Fall of the House of Usher .html">The Fall of the House of Usher </a></td>
             </tr>
             <tr>
@@ -543,11 +351,7 @@
                <td><a href="The Imp of the Perverse.html">The Imp of the Perverse</a></td>
             </tr>
             <tr>
-               <td>God's</td>
-               <td><a href="The Imp of the Perverse.html">The Imp of the Perverse</a></td>
-            </tr>
-            <tr>
-               <td>Chanticleer</td>
+               <td>chanticleer</td>
                <td><a href="The Imp of the Perverse.html">The Imp of the Perverse</a></td>
             </tr>
             <tr>
@@ -555,7 +359,7 @@
                <td><a href="The Imp of the Perverse.html">The Imp of the Perverse</a></td>
             </tr>
             <tr>
-               <td>La Musique"</td>
+               <td>LA MUSIQUE</td>
                <td><a href="The Island of the Fay.html">The Island of the Fay</a></td>
             </tr>
             <tr>
@@ -563,7 +367,7 @@
                <td><a href="The Island of the Fay.html">The Island of the Fay</a></td>
             </tr>
             <tr>
-               <td>Flippant Frenchman</td>
+               <td>flippant Frenchman</td>
                <td><a href="The Island of the Fay.html">The Island of the Fay</a></td>
             </tr>
             <tr>
@@ -571,15 +375,15 @@
                <td><a href="The Island of the Fay.html">The Island of the Fay</a></td>
             </tr>
             <tr>
-               <td>P Commire</td>
+               <td>P. Commire</td>
                <td><a href="The Island of the Fay.html">The Island of the Fay</a></td>
             </tr>
             <tr>
-               <td>Fays</td>
+               <td>Fay</td>
                <td><a href="The Island of the Fay.html">The Island of the Fay</a></td>
             </tr>
             <tr>
-               <td>&gt;god</td>
+               <td>God</td>
                <td><a href="The Island of the Fay.html">The Island of the Fay</a></td>
             </tr>
             <tr>
@@ -591,19 +395,15 @@
                <td><a href="The Oblong Box.html">The Oblong Box</a></td>
             </tr>
             <tr>
-               <td>Mr Cornelius Wyatt</td>
+               <td>Mr. Cornelius Wyatt</td>
                <td><a href="The Oblong Box.html">The Oblong Box</a></td>
             </tr>
             <tr>
-               <td>Wyatt</td>
+               <td>Mrs. Wyatt</td>
                <td><a href="The Oblong Box.html">The Oblong Box</a></td>
             </tr>
             <tr>
-               <td>Mrs Wyatt</td>
-               <td><a href="The Oblong Box.html">The Oblong Box</a></td>
-            </tr>
-            <tr>
-               <td>Bride</td>
+               <td>bride</td>
                <td><a href="The Oblong Box.html">The Oblong Box</a></td>
             </tr>
             <tr>
@@ -611,39 +411,19 @@
                <td><a href="The Oblong Box.html">The Oblong Box</a></td>
             </tr>
             <tr>
-               <td>Mr W</td>
-               <td><a href="The Oblong Box.html">The Oblong Box</a></td>
-            </tr>
-            <tr>
                <td>Rubini</td>
                <td><a href="The Oblong Box.html">The Oblong Box</a></td>
             </tr>
             <tr>
-               <td>Mrs Adelaide Curtis</td>
+               <td>Mrs. Adelaide Curtis</td>
                <td><a href="The Oblong Box.html">The Oblong Box</a></td>
             </tr>
             <tr>
-               <td>Cornelius Wyatt</td>
+               <td>artist</td>
                <td><a href="The Oblong Box.html">The Oblong Box</a></td>
             </tr>
             <tr>
-               <td>Mrs W</td>
-               <td><a href="The Oblong Box.html">The Oblong Box</a></td>
-            </tr>
-            <tr>
-               <td>Artist</td>
-               <td><a href="The Oblong Box.html">The Oblong Box</a></td>
-            </tr>
-            <tr>
-               <td>Captain</td>
-               <td><a href="The Oblong Box.html">The Oblong Box</a></td>
-            </tr>
-            <tr>
-               <td>The Captain</td>
-               <td><a href="The Oblong Box.html">The Oblong Box</a></td>
-            </tr>
-            <tr>
-               <td>C Auguste Dupin</td>
+               <td>C. Auguste Dupin</td>
                <td><a href="The Purloined Letter.html">The Purloined Letter</a></td>
             </tr>
             <tr>
@@ -655,19 +435,7 @@
                <td><a href="The Purloined Letter.html">The Purloined Letter</a></td>
             </tr>
             <tr>
-               <td>Dupin</td>
-               <td><a href="The Purloined Letter.html">The Purloined Letter</a></td>
-            </tr>
-            <tr>
-               <td>G</td>
-               <td><a href="The Purloined Letter.html">The Purloined Letter</a></td>
-            </tr>
-            <tr>
                <td>Prefect</td>
-               <td><a href="The Purloined Letter.html">The Purloined Letter</a></td>
-            </tr>
-            <tr>
-               <td>G--</td>
                <td><a href="The Purloined Letter.html">The Purloined Letter</a></td>
             </tr>
             <tr>
@@ -675,7 +443,7 @@
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
-               <td>Adolphus Simpson Esq</td>
+               <td>Adolphus Simpson, Esq.</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
@@ -683,11 +451,11 @@
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
-               <td>Froissart</td>
+               <td>Froissar</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
-               <td>Monsieur Froissart</td>
+               <td>Monsieur Froissar</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
@@ -700,10 +468,6 @@
             </tr>
             <tr>
                <td>Victor Voissart</td>
-               <td><a href="The Spectacles.html">The Spectacles</a></td>
-            </tr>
-            <tr>
-               <td>Monsieur Voissart</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
@@ -723,7 +487,7 @@
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
-               <td>Mr Talbot</td>
+               <td>Mr. Talbot</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
@@ -735,11 +499,7 @@
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
-               <td>Footman</td>
-               <td><a href="The Spectacles.html">The Spectacles</a></td>
-            </tr>
-            <tr>
-               <td>Talbots</td>
+               <td>footman</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
@@ -747,19 +507,11 @@
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
-               <td>Eugenie</td>
+               <td>Madame Eugenie Laland</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
-               <td>Mrs Simpson</td>
-               <td><a href="The Spectacles.html">The Spectacles</a></td>
-            </tr>
-            <tr>
-               <td>Madame Simpson</td>
-               <td><a href="The Spectacles.html">The Spectacles</a></td>
-            </tr>
-            <tr>
-               <td>Eugenie Lalande</td>
+               <td>Mrs. Simpson</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
@@ -767,7 +519,7 @@
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
-               <td>Ninon De L'enclos</td>
+               <td>Ninon De L'Enclos</td>
                <td><a href="The Spectacles.html">The Spectacles</a></td>
             </tr>
             <tr>
@@ -779,11 +531,7 @@
                <td><a href="William Wilson.html">William Wilson</a></td>
             </tr>
             <tr>
-               <td>Dr Bransby</td>
-               <td><a href="William Wilson.html">William Wilson</a></td>
-            </tr>
-            <tr>
-               <td>Wilson</td>
+               <td>Dr. Bransby</td>
                <td><a href="William Wilson.html">William Wilson</a></td>
             </tr>
             <tr>
@@ -791,7 +539,15 @@
                <td><a href="William Wilson.html">William Wilson</a></td>
             </tr>
             <tr>
-               <td>Mr Preston</td>
+               <td>Mr. Preston</td>
+               <td><a href="William Wilson.html">William Wilson</a></td>
+            </tr>
+            <tr>
+               <td>Preston</td>
+               <td><a href="William Wilson.html">William Wilson</a></td>
+            </tr>
+            <tr>
+               <td></td>
                <td><a href="William Wilson.html">William Wilson</a></td>
             </tr>
          </tbody>
