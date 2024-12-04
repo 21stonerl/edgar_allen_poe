@@ -41,7 +41,7 @@
         the vacant and eye-like windows.</p>
     <p n="2">Nevertheless, in this <fos type="imagery">mansion of
             gloom</fos> I now proposed to myself a sojourn of some weeks. Its proprietor,
-            <char>Roderick Usher</char>, had been one of my boon
+        <char ref="Roderick Usher">Roderick Usher</char>, had been one of my boon
         companions in boyhood; but many years had elapsed since our last meeting. A letter, however,
         had lately reached me in a distant part of the country --a letter from him --which, in its
         wildly importunate nature, had admitted of no other than a personal reply. The MS. gave
@@ -105,7 +105,7 @@
             some neglected vault</fos>, with no disturbance from the breath of the
         external air. Beyond this indication of extensive decay, however, <fos
             type="personification">the fabric gave little token of instability.</fos>
-        Perhaps <fos type="metaphor">the eye of a scrutinising <char
+        Perhaps <fos type="metaphor">the eye of a scrutinising <char ref="observer"
                 >observer</char></fos> might have discovered a barely perceptible
         fissure, which, extending from the roof of the building in front, made its way down the wall
         in a zigzag direction, until it became lost in the <fos type="onomatopoeia">sullen
@@ -139,7 +139,8 @@
         <fos type="personification">I felt that I breathed an atmosphere of sorrow.</fos>
         <fos type="symbolism">An air of stern, deep, and irredeemable gloom hung over and
             pervaded all.</fos></p>
-    <p n="8">Upon my entrance, <char>Usher</char> arose from a sofa on
+    <p n="8">Upon my entrance, <char ref="Roderick Usher
+        ">Usher</char> arose from a sofa on
         which he had been lying at full length, and greeted me with a <fos
             type="hyperbole">vivacious warmth</fos> which had much in it, I at first
         thought, of an <fos type="irony">overdone cordiality</fos> --of the
@@ -210,10 +211,10 @@
         which thus afflicted him could be traced to a more <fos type ="hyperbole">natural and far more palpable
             origin</fos> -- to the severe and long-continued illness -- indeed to the
         evidently approaching <fos type ="hyperbole">dissolution</fos> of a tenderly beloved <char
-            >sister</char> -- his sole companion for long years -- his
+            ref="sister">sister</char> -- his sole companion for long years -- his
         last and only relative on earth. <quote>"Her decease,"</quote> he said, with a
         bitterness which I can never forget, "would leave him (him the hopeless and the frail) the
-        last of the ancient race of the Ushers." While he spoke, the <char
+        last of the ancient race of the Ushers." While he spoke, the <char ref="lady Madeline"
             >lady Madeline</char> (for so was she called) passed slowly through a remote
         portion of the apartment, and, without having noticed my presence, disappeared. I regarded
         her with an utter <fos type ="imagery">astonishment not unmingled with dread</fos> --and yet I found
@@ -223,7 +224,7 @@
         had buried his face in his hands, and I could only perceive that a far more than ordinary
         wanness had overspread the emaciated fingers through which trickled many passionate
         tears.</p>
-    <p n="18">The disease of the <char>lady
+    <p n="18">The disease of the <char ref="lady Madeline">lady
             Madeline</char> had long baffled the skill of her physicians. A settled apathy,
         a gradual wasting away of the person, and frequent although transient affections of a
         partially cataleptical char, were the unusual diagnosis. Hitherto she had steadily
@@ -234,7 +235,8 @@
             <fos type="symbolism">prostrating power of the destroyer</fos>; and
         I learned that the glimpse I had obtained of her person would thus probably be the last I
         should obtain -- that the lady, at least while living, would be seen by me no more.</p>
-    <p n="19">For several days ensuing, her name was unmentioned by either<char
+    <p n="19">For several days ensuing, her name was unmentioned by either<char ref="Roderick Usher
+        "
            >Usher</char> or myself: and during this period I was busied in earnest
             <fos type="imagery">endeavours to alleviate the melancholy of my
             friend</fos>. We painted and read together; or I listened, as if in a dream,
@@ -254,14 +256,15 @@
             lustre</fos> over all. His <fos type="imagery">long improvised
             dirges</fos> will <fos type="hyperbole">ring forever in my
             ears</fos>. Among other things, I hold painfully in mind a certain singular
-        perversion and amplification of the wild air of the last waltz of <char
-            >Von Weber.</char> From the paintings over which his elaborate
+        perversion and amplification of the wild air of the last waltz of <char ref="Von Weber"
+            >Von Weber</char> .From the paintings over which his elaborate
         fancy brooded, and which grew, touch by touch, into vaguenesses at which I shuddered the
         more thrillingly, because I shuddered knowing not why; --from these paintings (vivid as
         their images now are before me) I would in vain endeavour to educe more than a small portion
         which should lie within the compass of merely written words. By the utter simplicity, by the
         nakedness of his designs, he arrested and overawed attention. If ever mortal painted an
-        idea, that mortal was <char>Roderick Usher.</char> For me at
+        idea, that mortal was <char ref="Roderick Usher
+            ">Roderick Usher</char>. For me at
         least --in the circumstances then surrounding me --there arose out of the pure abstractions
         which the hypochondriac contrived to throw upon his canvas, an intensity of intolerable awe,
         no shadow of which felt I ever yet in the contemplation of the certainly glowing yet too
@@ -278,7 +281,7 @@
             splendour.</fos></p>
     <p n="23">I have just spoken of that <fos type="hyperbole">morbid
             condition</fos> of the auditory nerve which rendered all music intolerable to
-            <char>the sufferer,</char> with the exception of certain
+        <char ref="the sufferer">the sufferer</char> ,with the exception of certain
         effects of stringed instruments. It was, perhaps, the narrow limits to which he thus
         confined himself upon the guitar, which gave birth, in great measure, to the <fos
             type="symbolism">fantastic char of his performances</fos>. But the fervid
@@ -313,7 +316,8 @@
         throng rush out forever, And laugh --but smile no more. </rhapsodie>
     <p n="24"> I well remember that suggestions arising from this ballad led us into a train of
         thought wherein there became manifest an opinion of <char
-            >Usher's</char> which I mention not so much on account of its novelty, (for
+            ref="Roderick Usher
+            " >Usher's</char> which I mention not so much on account of its novelty, (for
         other men have thought thus,) as on account of the pertinacity with which he maintained it.
         This opinion, in its general form, was that of the sentience of all vegetable things. But,
         in his disordered fancy, the idea had assumed a more daring char, and trespassed, under
@@ -348,7 +352,8 @@
         Ecclesiae Maguntinae.</p>
     <p n="26">I could not help thinking of the wild ritual of this work, and of its probable
         influence upon the hypochondriac, when, one evening, having informed me abruptly that the
-            <char>lady Madeline</char> was no more, he stated
+        <char ref="lady Madeline
+            ">lady Madeline</char> was no more, he stated
         his intention of preserving her corpse for a fortnight, (previously to its final interment,)
         in one of the numerous vaults within the main walls of the building. The worldly reason,
         however, assigned for this singular proceeding, was one which I did not feel at liberty to
@@ -359,7 +364,8 @@
         person whom I met upon the stair case, on the day of my arrival at the house, <fos
             type="irony">I had no desire to oppose what I regarded as at best but a harmless, and by
             no means an unnatural, precaution.</fos></p>
-    <p n="27">At the request of <char>Usher</char>, I personally aided
+    <p n="27">At the request of <char ref="Roderick Usher
+        ">Usher</char>, I personally aided
         him in the arrangements for the temporary entombment. The body having been encoffined, we
         two alone bore it to its rest. The vault in which we placed it (and which had been so long
         unopened that our torches, half smothered in its <fos type="personification"
@@ -429,8 +435,9 @@
         condition into which I had fallen, by pacing rapidly to and fro through the
         apartment.</p>
     <p n="31">I had taken but few turns in this manner, when a light step on an adjoining
-        staircase arrested my attention. I presently recognised it as that of <char
-           >Usher.</char><fos type="imagery"> In an instant afterward he
+        staircase arrested my attention. I presently recognised it as that of <char ref="Roderick Usher
+            "
+           >Usher</char>.<fos type="imagery"> In an instant afterward he
             rapped, with a gentle touch, at my door, and entered, bearing a lamp.</fos>
         His countenance was, as usual, cadaverously wan --but, moreover, <fos
             type="hyperbole">there was a species of mad hilarity in his eyes --an evidently
@@ -459,14 +466,16 @@
             and enshrouded the mansion.</fos></p>
     <p n="34">
         <quote>You must not --you shall not behold this!" said I, shudderingly, to
-                <char>Usher</char>, as I led him, with a gentle violence,
+            <char ref="Roderick Usher
+                ">Usher</char>, as I led him, with a gentle violence,
             from the window to a seat. "These appearances, which bewilder you, are merely electrical
             phenomena not uncommon --or it may be that they have their ghastly origin in the rank
             miasma of the tarn. Let us close this casement; --the air is chilling and dangerous to
             your frame. Here is one of your favourite romances. I will read, and you shall listen;
             --and so we will pass away this terrible night together."</quote></p>
     <p n="35">The antique volume which I had taken up was the <quote>Mad Trist"</quote>
-        of Sir Launcelot Canning; but I had called it a favourite of <char
+        of Sir Launcelot Canning; but I had called it a favourite of <char ref="Roderick Usher
+            "
             >Usher's</char> more in sad jest than in earnest; for, in truth, there is little in
         its uncouth and unimaginative prolixity which could have had interest for the lofty and
         spiritual ideality of my friend. It was, however, the only book immediately at hand; and I
@@ -476,7 +485,7 @@
         the wild over-strained air</fos> of vivacity with which
         he hearkened, or apparently hearkened, to the words of the tale, I might well have
         congratulated myself upon the success of my design.</p>
-    <p n="36">I had arrived at that well-known portion of the story where <char>Ethelred,</char> the hero of the Trist, having sought in vain
+    <p n="36">I had arrived at that well-known portion of the story where <char ref="Ethelred">Ethelred</char> ,the hero of the Trist, having sought in vain
         for peaceable admission into the dwelling of the hermit, proceeds to make good an entrance
         by force. Here, it will be remembered, the words of the narrative run thus:</p>
     <p n="37">
@@ -495,13 +504,14 @@
         appeared to me that, from some very remote portion of the mansion, <fos
             type="hyperbole">there came, indistinctly, to my ears, what might have
             been,</fos> in its exact similarity of char, the echo (but a stifled and
-        dull one certainly) of the very cracking and ripping sound which <char>Sir Launcelot</char> had so particularly described. It
+        dull one certainly) of the very cracking and ripping sound which <char ref="Sir Launcelot
+            ">Sir Launcelot</char> had so particularly described. It
         was, beyond doubt, the coincidence alone which had <fos type="metaphor">arrested
             my attention</fos>; for, amid the rattling of the sashes of the casements, and
         the ordinary commingled noises of the still increasing storm, the sound, in itself, had
         nothing, surely, which should have interested or disturbed me. I continued the story:</p>
     <p n="39">
-        <quote>"But the good champion <char
+        <quote>"But the good champion <char ref="Ethelred"
                 >Ethelred</char>, now entering within the door, was sore enraged and amazed
             to perceive no signal of the maliceful hermit; but, in the stead thereof, <fos
                 type="imagery">a dragon of a scaly and prodigious demeanour, and of a fiery tongue,
@@ -534,7 +544,8 @@
         the wide and rigid opening of the eye as I caught a glance of it in profile. The motion of
         his body, too, was at variance with this idea --for he rocked from side to side with a
         gentle yet constant and uniform sway. Having rapidly taken notice of all this, I resumed the
-        narrative of <char>Sir Launcelot</char>, which thus
+        narrative of <char ref="Sir Launcelot
+            ">Sir Launcelot</char>, which thus
         proceeded:</p>
     <p n="44">
         <quote>"And now, <fos type="imagery">the champion, having escaped from the
@@ -548,7 +559,8 @@
         indeed, at the moment, fallen heavily upon a floor of silver, <fos type="imagery">
             became aware of a distinct, hollow, metallic, and clangorous, yet apparently muffled
             reverberation.</fos> Completely unnerved, I leaped to my feet; but the
-        measured rocking movement of <char>Usher</char> was undisturbed. I
+        measured rocking movement of <char ref="Roderick Usher
+            ">Usher</char> was undisturbed. I
         rushed to the chair in which he sat. His eyes were bent fixedly before him, and throughout
         his whole countenance there reigned a stony rigidity. But, as I placed my hand upon his
         shoulder, there came a strong shudder over his whole person; a sickly smile quivered about
@@ -575,7 +587,8 @@
             been found the potency of a spell</fos> --the huge antique panels to which the
         speaker pointed, threw slowly back, upon the instant, ponderous and ebony jaws. It was the
             <fos type="personification">work of the rushing gust</fos> --but
-        then without those doors there DID stand the lofty and enshrouded figure of the <char
+        then without those doors there DID stand the lofty and enshrouded figure of the <char ref="lady Madeline
+            "
            >lady Madeline</char> of Usher. <fos type="imagery"
             >There was blood upon her white robes, and the evidence of some bitter struggle upon
             every portion of her emaciated frame. For a moment she remained trembling and reeling to

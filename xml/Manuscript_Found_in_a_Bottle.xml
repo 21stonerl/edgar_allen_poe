@@ -53,12 +53,12 @@
         entire calm it is impossible to conceive</fos>. The flame of a candle burned upon the poop without
         the least perceptible motion, and a long hair, held between the finger and thumb, hung
         without the possibility of detecting a vibration. However, as the
-            <char>captain</char> said he could perceive no indication of danger, and as we
+        <char ref="captain">captain</char> said he could perceive no indication of danger, and as we
         were drifting in bodily to shore, he ordered the sails to be furled, and the anchor let go.
-        No watch was set, and the <char>crew</char>, consisting principally of Malays,
+        No watch was set, and the <char ref="crew">crew</char>, consisting principally of Malays,
         stretched themselves deliberately upon deck. <fos type="foreshadowing">I went below --not without a full presentiment
         of evil. </fos>Indeed every appearance warranted me in apprehending a Simoom. I told the
-            <char>captain</char> my fears --but he paid no attention to what I said, and
+        <char ref="captain">captain</char> my fears --but he paid no attention to what I said, and
         left me without deigning to give a reply. My uneasiness, however, prevented me from
         sleeping, and about midnight I went upon deck.<fos type="personification"> As I placed my foot upon the upper step of
         the companion-ladder, I was startled with a loud, humming noise, like that occasioned by the
@@ -77,11 +77,11 @@
         <fos type="imagery">With great difficulty I gained my feet, and looking dizzily around, was, at first, struck
         with the idea of our being among breakers, so terrific beyond the wildest imagination was
         the whirlpool of mountainous and foaming ocean within which we were engulfed</fos>. After a while,
-        I heard the voice of an <char>old Swede</char>, who had shipped with us at the
+        I heard the voice of an <char ref="old Swede">old Swede</char>, who had shipped with us at the
         moment of our leaving port. I hallooed to him with all my strength, and presently he came
         reeling aft. We soon discovered that we were the sole survivors of the accident. All on
         deck, with the exception of ourselves, had been swept overboard, and the
-            <char>captain</char> and mates must have perished as they slept, for the
+        <char ref="captain">captain</char> and mates must have perished as they slept, for the
         cabins were deluged with water. Without assistance, we could expect to do little for the
         security of the ship, and our exertions were at first paralyzed by the momentary expectation
         of going down. <fos type="metaphor">Our cable had, of course, parted like pack-thread, at the first breath of the
@@ -117,7 +117,7 @@
         with unabated violence, there was no longer to be discovered the usual appearance of surf,
         or foam, which had hitherto attended us. All around was horror, and thick gloom, and a black
         sweltering desert of ebony.<fos type="personification"> Superstitious terror crept by degrees into the spirit of
-            <char> the old Swede </char>, and my own soul was wrapped up in silent wonder.</fos>
+            <char ref="old Swede"> the old Swede </char>, and my own soul was wrapped up in silent wonder.</fos>
         We neglected all care of the ship, as worse than useless, and securing ourselves as well as
         possible to the stump of the mizen-mast, looked out bitterly into the world of ocean. We had
         no means of calculating time, nor could we form any guess of our situation. We were,
@@ -161,7 +161,7 @@
         violence upon the rigging of the stranger.</fos></p>
 
     <p n="10">As I fell, the ship hove in stays, and went about, and to the confusion ensuing I
-        attributed my escape from the notice of the <char>crew</char>. With little
+        attributed my escape from the notice of the <char ref="crew">crew</char>. With little
         difficulty I made my way unperceived to the main hatchway, which was partially open, and
         soon found an opportunity of secreting myself in the hold. Why I did so I can hardly tell. <fos type="metaphor">A
         nameless and indefinite sense of awe, which at first sight of the navigators of the ship had
@@ -196,7 +196,7 @@
         destiny are, I think, gathering to a focus.</fos> Incomprehensible men! Wrapped up in meditations
         of a kind which I cannot divine, they pass me by unnoticed. Concealment is utter folly on my
         part, for the people will not see. It was but just now that <fos type="imagery">I passed directly before the
-        eyes of the mate, -- it was no long while ago that I ventured into the <char>captain's
+            eyes of the mate, -- it was no long while ago that I ventured into the <char ref="captain">captain's
         </char>own private cabin, and took thence the materials with which I write, and have
         written.</fos> I shall from time to time continue this journal. It is true that I may not find an
         opportunity of transmitting it to the world, but I will not fail to make the endeavor. At
@@ -234,7 +234,7 @@
         seaman."</quote></p>
 
     <p n="18">About an hour ago, I made bold to thrust myself among a group of the
-            <char>crew</char>. They paid me no manner of attention, and, although I stood
+        <char ref="crew">crew</char>. They paid me no manner of attention, and, although I stood
         in the very midst of them all, seemed utterly unconscious of my presence.<fos type="metaphor"> Like the one I had
         at first seen in the hold, they all bore about them the marks of a hoary old age.</fos> <fos type="personification">Their
         knees trembled with infirmity, their shoulders were bent double with decrepitude, their
@@ -248,7 +248,7 @@
         canvass packed upon her from her trucks to her lower-studding-sail booms, and rolling every
         moment her top-gallant yard-arms into the most appalling hell of water which it can enter
         into the mind of man to imagine. I have just left the deck, where I find it impossible to
-        maintain a footing, although the <char>crew</char> seem to experience little
+        maintain a footing, although the <char ref="crew">crew</char> seem to experience little
         inconvenience. It appears to me a miracle of miracles that our enormous bulk is not buried
         up at once and forever. <fos type="metaphor">We are surely doomed to hover continually upon the brink of
         Eternity, without taking a final plunge into the abyss.</fos> <fos type="personification">From billows a thousand times more
@@ -259,7 +259,7 @@
         the ship to be within the influence of some strong current, or impetuous
         under-tow.</p>
 
-    <p n="20">I have seen the <char>captain</char> face to face, and in his own cabin --
+        <p n="20">I have seen the <char ref="captain">captain</char> face to face, and in his own cabin --
         but, as I expected, he paid me no attention. Although in his appearance there is, to a
         casual observer, nothing which might bespeak him more or less than man --still a feeling of
         irrepressible reverence and awe mingled with the sensation of wonder with which I regarded
@@ -278,7 +278,7 @@
         his voice seemed to reach my ears from the distance of a mile.</p>
 
     <p n="21"><fos type="metaphor">The ship and all in it are imbued with the spirit of Eld. </fos><fos type="simile">The
-            <char>crew</char> glide to and fro like the ghosts of buried centuries, their
+        <char ref="crew">crew</char> glide to and fro like the ghosts of buried centuries, their
         eyes have an eager and uneasy meaning, and when their figures fall athwart my path in the
         wild glare of the battle-latterns, I feel as I have never felt before, although I have been
         all my life a dealer in antiquities, and have imbibed the shadows of fallen columns at
@@ -304,7 +304,7 @@
         must be confessed that a supposition apparently so wild has every probability in its
         favor.</p>
 
-    <p n="25"><fos type="imagery">The <char>crew</char> pace the deck with unquiet and tremulous step, but
+        <p n="25"><fos type="imagery">The <char ref="crew">crew</char> pace the deck with unquiet and tremulous step, but
         there is upon their countenances an expression more of the eagerness of hope than of the
         apathy of despair.</fos></p>
 
