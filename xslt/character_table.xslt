@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
-    <!-- Define a key for unique character names, normalizing case and removing special characters -->
-    <xsl:key name="uniqueCharacters" match="char" use="translate(translate(., '’‘', ''), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')" />
+    <!-- Key to uniquely identify characters based on their ref attribute -->
+    <xsl:key name="uniqueCharacters" match="char" use="normalize-space(translate(@ref, '.,;?!:', ''))" />
     
-    <!-- Match the root element (story collection) -->
+    <!-- Root template match -->
     <xsl:template match="/">
         <html>
             <head>
-                <title>Character Story Links</title>
+                <title>Character and Story Links</title>
                 <style>
                     table {
                     width: 100%;
@@ -37,46 +36,23 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Load all the XML files from the 'edgar_allen_poe' collection -->
-                        <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
-                        
-                        <!-- Iterate through all the XML files in the collection -->
-                        <xsl:for-each select="$edgar_allen_poe/story">
+                        <!-- Loop through all stories -->
+                        <xsl:for-each select="collection('../xml/?select=*.xml')/story">
                             <xsl:variable name="storyTitle" select="info/title/text()" />
                             
-                            <!-- Iterate through each character in the story -->
-                            <xsl:for-each select="content/p/char">
-                                <!-- Normalize the character's name (remove apostrophes, spaces, and make lowercase) -->
-                                <xsl:variable name="normalizedCharacter" select="translate(translate(., '’‘', ''), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')" />
+                            <!-- Loop through all characters in this story, ensuring uniqueness by their 'ref' attribute -->
+                            <xsl:for-each select="content/p/char[generate-id() = generate-id(key('uniqueCharacters', normalize-space(translate(@ref, '.,;?!:', '')))[1])]">
+                                <xsl:variable name="finalCharacter" select="normalize-space(@ref)" />
                                 
-                                <!-- Remove punctuation at the end of the name (e.g., apostrophes) -->
-                                <xsl:variable name="cleanedCharacter" select="translate($normalizedCharacter, '.,;?!:’‘', '')" />
-                                
-                                <!-- Capitalize the first letter of each word in the character's name -->
-                                <xsl:variable name="finalCharacter">
-                                    <xsl:call-template name="capitalizeWords">
-                                        <xsl:with-param name="inputString" select="$cleanedCharacter"/>
-                                    </xsl:call-template>
-                                </xsl:variable>
-                                
-                                <!-- Use key to retrieve all occurrences of the normalized character -->
-                                <xsl:variable name="characterNode" select="key('uniqueCharacters', $normalizedCharacter)" />
-                                
-                                <!-- Only display this character if it's the first occurrence (unique) -->
-                                <xsl:if test="generate-id(.) = generate-id($characterNode[1])">
-                                    <tr>
-                                        <td>
-                                            <!-- Display the final character's name -->
-                                            <xsl:value-of select="$finalCharacter" />
-                                        </td>
-                                        <td>
-                                            <!-- Create a link to the story -->
-                                            <a href="{concat($storyTitle, '.html')}">
-                                                <xsl:value-of select="$storyTitle" />
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </xsl:if>
+                                <!-- Output each unique character and story -->
+                                <tr>
+                                    <td><xsl:value-of select="$finalCharacter" /></td>
+                                    <td>
+                                        <a href="{concat($storyTitle, '.html')}">
+                                            <xsl:value-of select="$storyTitle" />
+                                        </a>
+                                    </td>
+                                </tr>
                             </xsl:for-each>
                         </xsl:for-each>
                     </tbody>
@@ -85,15 +61,4 @@
         </html>
     </xsl:template>
     
-    <!-- Template to capitalize the first letter of each word -->
-    <xsl:template name="capitalizeWords">
-        <xsl:param name="inputString"/>
-        <xsl:variable name="words" select="tokenize($inputString, '\s+')" />
-        <xsl:for-each select="$words">
-            <xsl:value-of select="concat(upper-case(substring(., 1, 1)), substring(., 2))" />
-            <xsl:if test="position() != last()">
-                <xsl:text> </xsl:text> <!-- Add a space between words -->
-            </xsl:if>
-        </xsl:for-each>
-    </xsl:template>
 </xsl:stylesheet>
