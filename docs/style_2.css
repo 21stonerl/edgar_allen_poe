@@ -1,7 +1,6 @@
 /* Global Styles */
 html {
-    font-family: "Copperplate Gothic", Georgia, serif;
-    font-weight: bold;
+    font-family: Georgia, serif;
     font-size: 20px;
     background-color: #b30017;
     color: hsl(210, 50%, 20%);
@@ -71,22 +70,8 @@ a {
 }
 
 /* Image Styling */
-img {
-    position: relative;
-    width: 100%;  
-    max-width: 100%;  
-    height: auto;  
-    margin: 0;  
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
 
-img[src*="graph"], img[src*="fos_table"] {
-    width: 100%;  
-    height: auto; 
-    margin-top: 20px; 
-    margin-bottom: 20px;  
-}
+
 
 /* Main Content */
 main {
