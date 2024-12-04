@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="200%" height="500%">
-   <g transform="translate(60, 1000)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+   <g transform="translate(100,800)">
       <text x="400" y="-750" text-anchor="middle" font-size="30">Theme usage in Edgar Allan Poe Short Stories</text>
       <line x1="20"
             x2="20"
