@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Figures of Speech Table</title>
-        <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        svg {
-            width: 90%;  
-            height: auto;
-            margin-top: 20px;
-        }
-    </style>
-    </head>
-    <body>
-        
-        <h2>Figures of Speech</h2>
-        
+
         <!-- SVG Table -->
         <svg xmlns="http://www.w3.org/2000/svg" width="200%" height="600px" viewBox="0 0 2900 2900">
             <g>
+                <text x="400" y="-750" text-anchor="middle" font-size="30">Figures of Speech</text>
                 <rect x="0" y="0" width="33%" height="50" fill="#f2f2f2" stroke="black" stroke-width="1"/>
                 <text x="10" y="30" font-size="16" font-weight="bold">Figure of Speech</text>
                 
@@ -135,6 +114,4 @@
             </g>
             
         </svg>
-        
-    </body>
-</html>
+
