@@ -1,0 +1,151 @@
+/* Global Styles */
+html {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    background-color: #b30017;
+    color: hsl(210, 50%, 20%);
+}
+
+/* Menu Bar */
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: #252525;
+}
+img {
+    position: relative;
+    width: 100%;  
+    max-width: 100%;  
+    height: auto;  
+    margin: 0;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+a {
+    color: #fffcfd;
+    text-decoration: none;
+}
+
+.dropDown {
+    padding: 12px 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropDown > a {
+    padding: 0px 30px;
+    gap: 2px;
+}
+
+/* Dropdown Menu */
+.dropDown:hover .menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu {
+    position: absolute;
+    top: 45px;
+    display: grid;
+    background: #252525;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s;
+}
+
+.menu > a {
+    font-size: 14px;
+    padding: 12px 20px;
+}
+
+.menu > a:hover, .dropDown:hover {
+    color: #fffcfd;
+    background: black;
+}
+
+.section-divider {
+    display: block;
+    height: 1px;
+    margin: 0;
+    border: none;
+    background-color: #252525;
+    width: 85%;
+    margin: auto;
+}
+
+/* Image Styling */
+
+
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Intro Section */
+.intro p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Highlights Section */
+.highlights ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.highlights li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.highlights li strong {
+    color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .dropDown {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        position: relative;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        background-color: #444;
+    }
+
+    nav .menu a {
+        padding: 15px;
+        text-align: center;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
