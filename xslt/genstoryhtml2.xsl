@@ -2,39 +2,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs" version="3.0">
-    
+    <xsl:import href="menubar.xsl"/>
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     
-    <!-- Template for the menu bar -->
-    <xsl:template name="menu-bar">
-        <nav>
-            <div class="dropDown">
-                <a href="index.html">HOME</a>
-            </div>
-            <div class="dropDown">
-                <a href="genstory2.html">Short Stories</a>
-            </div>
-            <div class="dropDown">
-                <a href="testchar.html">Characters</a>
-            </div>
-            <div class="dropDown">
-                <a href="themes.html">Themes</a>
-            </div>
-            <div class="dropDown">
-                <a href="fos.html">Figures of Speech</a>
-                <div class="menu"></div>
-            </div>
-            <div class="dropDown">
-                <a href="about.html">About</a>
-                <div class="menu">
-                    <a href="team.html">Team</a>
-                    <div class="section-divider"></div>
-                </div>
-            </div>
-        </nav>
-    </xsl:template>
+    
     
     <!-- Main template for the Collection of Stories page -->
     <xsl:template match="/">
