@@ -17,7 +17,7 @@
                 <a href="genstory2.html">Short Stories</a>
             </div>
             <div class="dropDown">
-                <a href="char.html">Characters</a>
+                <a href="testchar.html">Characters</a>
             </div>
             <div class="dropDown">
                 <a href="themes.html">Themes</a>
@@ -140,11 +140,75 @@
                             </p>
                         </xsl:for-each>
                     </div>
+                    <!-- Process and display the narrative content with FoS color coding -->
+                    <div>
+                        <xsl:for-each select="$p">
+                            <p>
+                                <!-- Apply templates for FoS elements within paragraphs -->
+                                <xsl:apply-templates select="node()"/>
+                            </p>
+                        </xsl:for-each>
+                    </div>
                     <a href="genstory2.html">Back to Stories</a>
                     <hr/>
                 </body>
             </html>
         </xsl:result-document>
     </xsl:template>
+    <!-- Template to process FoS elements within the story -->
+    <xsl:template match="fos">
+        <span>
+            <!-- Apply color coding based on the FoS type -->
+            <xsl:choose>
+                <xsl:when test="@type='alliteration'">
+                    <xsl:attribute name="style">color: blue;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='hyperbole'">
+                    <xsl:attribute name="style">color: red;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='irony'">
+                    <xsl:attribute name="style">color: green;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='onomatopoeia'">
+                    <xsl:attribute name="style">color: purple;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='personification'">
+                    <xsl:attribute name="style">color: orange;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='simile'">
+                    <xsl:attribute name="style">color: pink;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='metaphor'">
+                    <xsl:attribute name="style">color: brown;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='imagery'">
+                    <xsl:attribute name="style">color: teal;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='symbolism'">
+                    <xsl:attribute name="style">color: gray;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:when test="@type='foreshadowing'">
+                    <xsl:attribute name="style">color: yellow;</xsl:attribute>
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </span>
+    </xsl:template>
     
+    <!-- Template for text nodes to be rendered as normal -->
+    <xsl:template match="text()">
+        <xsl:value-of select="."/>
+    </xsl:template>
 </xsl:stylesheet>

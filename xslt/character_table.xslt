@@ -4,11 +4,41 @@
     <!-- Key to uniquely identify characters based on their ref attribute -->
     <xsl:key name="uniqueCharacters" match="char" use="normalize-space(translate(@ref, '.,;?!:', ''))" />
     
+    <!-- Template for the menu bar -->
+    <xsl:template name="menu-bar">
+        <nav>
+            <div class="dropDown">
+                <a href="index.html">HOME</a>
+            </div>
+            <div class="dropDown">
+                <a href="genstory2.html">Short Stories</a>
+            </div>
+            <div class="dropDown">
+                <a href="testchar.html">Characters</a>
+            </div>
+            <div class="dropDown">
+                <a href="themes.html">Themes</a>
+            </div>
+            <div class="dropDown">
+                <a href="fos.html">Figures of Speech</a>
+                <div class="menu"></div>
+            </div>
+            <div class="dropDown">
+                <a href="about.html">About</a>
+                <div class="menu">
+                    <a href="team.html">Team</a>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+        </nav>
+    </xsl:template>
+    
     <!-- Root template match -->
     <xsl:template match="/">
         <html>
             <head>
                 <title>Character and Story Links</title>
+                <link type="text/css" href="style.css" rel="stylesheet"/>
                 <style>
                     table {
                     width: 100%;
@@ -27,6 +57,8 @@
                 </style>
             </head>
             <body>
+                <!-- Include the menu bar only on the main page -->
+                <xsl:call-template name="menu-bar"/>
                 <h1>Character and Story Links</h1>
                 <table>
                     <thead>
@@ -36,19 +68,23 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Loop through all stories -->
+                        <!-- Loop through all story documents -->
                         <xsl:for-each select="collection('../xml/?select=*.xml')/story">
                             <xsl:variable name="storyTitle" select="info/title/text()" />
                             
-                            <!-- Loop through all characters in this story, ensuring uniqueness by their 'ref' attribute -->
+                            <!-- Loop through all characters in the current story, ensuring uniqueness by their 'ref' attribute -->
                             <xsl:for-each select="content/p/char[generate-id() = generate-id(key('uniqueCharacters', normalize-space(translate(@ref, '.,;?!:', '')))[1])]">
                                 <xsl:variable name="finalCharacter" select="normalize-space(@ref)" />
                                 
-                                <!-- Output each unique character and story -->
+                                <!-- Output each unique character and story, capitalize only the first letter -->
                                 <tr>
-                                    <td><xsl:value-of select="$finalCharacter" /></td>
+                                    <!-- Capitalize only the first letter of the character name -->
                                     <td>
-                                        <a href="{concat($storyTitle, '.html')}">
+                                        <xsl:value-of select="concat(upper-case(substring($finalCharacter, 1, 1)), substring($finalCharacter, 2))" />
+                                    </td>
+                                    <td>
+                                        <!-- Generate story link with hyphenated format -->
+                                        <a href="{concat(translate($storyTitle, ' ', '-'), '.html')}">
                                             <xsl:value-of select="$storyTitle" />
                                         </a>
                                     </td>
