@@ -2,7 +2,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="28" theme="obsession">
     <info pov="first_person" speaker="unknown">
-        <title>The Oval Portrait</title>
+        <title>The Oval Portrait</title> <img src="images/oval_portrait_pic.jfif" alt= "picture of a oval potrait"/>
         <author>by Edgar Allan Poe</author>
         <year>(published 1850)</year>
     </info>

@@ -2,7 +2,7 @@
 <story n="36" theme="death">
 <info pov="third_person" speaker="narrator">
     <title>The Masque of the Red Death</title>
-    
+    <img src="images/red_death_pic.jpg" alt= "picture of red death "/> 
 <author>by Edgar Allan Poe</author>
 </info>
     <content>

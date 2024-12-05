@@ -2,7 +2,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="12" theme="obsession">
     <info pov="first_person" speaker="un_named">
-        <title>Never Bet the Devil Your Head</title>
+        <title>Never Bet the Devil Your Head</title> <img src="images/never_bet_devil_your_head_pic.jfif" alt= "Picture of an evil deal"/>
         <author>by Edgar Allan Poe</author>
         <year>(published 1850)</year>
 

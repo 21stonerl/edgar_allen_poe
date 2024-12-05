@@ -3,7 +3,7 @@
 <?xml-model href="../../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="15" theme="revenge">
     <info pov="first_person">
-    <title>The Cask of Amontillado</title>
+        <title>The Cask of Amontillado</title> <img src="images/cask_of_amontillado_pic.jpg" alt= "picture of the Cask of amontillado"/> 
     <author>by Edgar Allan Poe</author>
     <year>1846</year>
     </info>

@@ -2,7 +2,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="27" theme="terror">
     <info pov="first_person" speaker="unknown">
-        <title>The Murders in the Rue Morgue</title>
+        <title>The Murders in the Rue Morgue</title> <img src="images/murders_in_rue_morgue_pic.jfif" alt= "picture of murders "/>
         <author>by Edgar Allan Poe</author>
         <year>(published 1841)</year>
     </info>
