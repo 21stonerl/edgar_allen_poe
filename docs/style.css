@@ -19,7 +19,7 @@ nav {
 }
 
 a {
-    color: #fffcfd;
+    color: blue;
     text-decoration: none;
 }
 
@@ -49,10 +49,13 @@ a {
     visibility: hidden;
     transition: .25s;
 }
-
+nav a {
+    color: #ffffff; /* Color for links in the menu bar (white) */
+}
 .menu > a {
     font-size: 14px;
     padding: 12px 20px;
+    color:white;
 }
 
 .menu > a:hover, .dropDown:hover {
@@ -156,6 +159,53 @@ h1, h2 {
 
     main {
         padding: 15px;
+        
     }
+    /* Restrict the width of story content */
+.story-content {
+    max-width: 1000px; /* Maximum width of the story */
+    margin: 20px auto; /* Center the content */
+    padding: 20px; /* Optional padding for space around content */
+}
+/* FoS Color Classes */
+.alliteration {
+    color: aqua;
+}
+
+.hyperbole {
+    color: red;
+}
+
+.irony {
+    color: orange;
+}
+
+.onomatopoeia {
+    color: yellow;
+}
+
+.personification {
+    color: green;
+}
+
+.simile {
+    color: indigo;
+}
+
+.metaphor {
+    color: blue;
+}
+
+.imagery {
+    color: teal;
+}
+
+.symbolism {
+    color: violet;
+}
+
+.foreshadowing {
+    color: yellow;
+}
 }
 

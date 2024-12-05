@@ -6,9 +6,11 @@
     version="3.0">
     <!-- layout.xsl -->
     <xsl:template name="menu-bar">
+        
+        <!-- -LS This is the menu bar!-->
         <nav>
             <div class="dropDown">
-                <a href="index.html">HOME</a>
+                <a href="index.html">Home</a>
             </div>
             <div class="dropDown">
                 <a href="genstory2.html">Short Stories</a>
@@ -18,10 +20,14 @@
             </div>
             <div class="dropDown">
                 <a href="themes.html">Themes</a>
+                
             </div>
             <div class="dropDown">
                 <a href="fos.html">Figures of Speech</a>
-                <div class="menu"></div>
+                <!--LS Drop down menu options!-->
+                <div class="menu">
+                    
+                </div>
             </div>
             <div class="dropDown">
                 <a href="about.html">About</a>
@@ -31,6 +37,7 @@
                 </div>
             </div>
         </nav>
+        <!-- -LS This is the menu bar!-->
     </xsl:template>
     
     <!-- Global layout template -->
