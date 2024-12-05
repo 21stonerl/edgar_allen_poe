@@ -14,7 +14,7 @@
                 <a href="index.html">HOME</a>
             </div>
             <div class="dropDown">
-                <a href="story.html">Short Stories</a>
+                <a href="genstory2.html">Short Stories</a>
             </div>
             <div class="dropDown">
                 <a href="char.html">Characters</a>
@@ -44,7 +44,7 @@
                 <link type="text/css" href="style.css" rel="stylesheet"/>
             </head>
             <body>
-                <!-- Include the menu bar on the Collection of Stories page -->
+                <!-- Include the menu bar only on the main page -->
                 <xsl:call-template name="menu-bar"/>
                 
                 <h1>Collection of Stories</h1>
@@ -105,7 +105,7 @@
                     <link type="text/css" href="style.css" rel="stylesheet"/>
                 </head>
                 <body>
-                    <!-- Include the menu bar on all pages -->
+                    <!-- Include the menu bar on each story page -->
                     <xsl:call-template name="menu-bar"/>
                     
                     <h1><xsl:value-of select="$title"/></h1>
@@ -140,7 +140,7 @@
                             </p>
                         </xsl:for-each>
                     </div>
-                    <a href="storyoutput.html">Back to Stories</a>
+                    <a href="genstory2.html">Back to Stories</a>
                     <hr/>
                 </body>
             </html>
