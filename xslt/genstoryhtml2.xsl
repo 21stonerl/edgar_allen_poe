@@ -7,7 +7,36 @@
     
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
     
-    <!-- Main template for the TOC page -->
+    <!-- Template for the menu bar -->
+    <xsl:template name="menu-bar">
+        <nav>
+            <div class="dropDown">
+                <a href="index.html">HOME</a>
+            </div>
+            <div class="dropDown">
+                <a href="story.html">Short Stories</a>
+            </div>
+            <div class="dropDown">
+                <a href="char.html">Characters</a>
+            </div>
+            <div class="dropDown">
+                <a href="themes.html">Themes</a>
+            </div>
+            <div class="dropDown">
+                <a href="fos.html">Figures of Speech</a>
+                <div class="menu"></div>
+            </div>
+            <div class="dropDown">
+                <a href="about.html">About</a>
+                <div class="menu">
+                    <a href="team.html">Team</a>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+        </nav>
+    </xsl:template>
+    
+    <!-- Main template for the Collection of Stories page -->
     <xsl:template match="/">
         <html>
             <head>
@@ -15,6 +44,9 @@
                 <link type="text/css" href="style.css" rel="stylesheet"/>
             </head>
             <body>
+                <!-- Include the menu bar on the Collection of Stories page -->
+                <xsl:call-template name="menu-bar"/>
+                
                 <h1>Collection of Stories</h1>
                 <ul>
                     <xsl:apply-templates select="$edgar_allen_poe//story">
@@ -52,8 +84,8 @@
             <xsl:with-param name="title" select="descendant::title"/>
             <xsl:with-param name="year" select="descendant::year"/>
             <xsl:with-param name="content" select="descendant::content"/>
-            <xsl:with-param name="p" select="descendant::p"/>
-            <xsl:with-param name="img" select="descendant::img"/>
+            <xsl:with-param name="p" select="descendant::content/p"/>
+            <xsl:with-param name="img" select="descendant::info/img"/>
         </xsl:call-template>
     </xsl:template>
     
@@ -73,20 +105,40 @@
                     <link type="text/css" href="style.css" rel="stylesheet"/>
                 </head>
                 <body>
+                    <!-- Include the menu bar on all pages -->
+                    <xsl:call-template name="menu-bar"/>
+                    
                     <h1><xsl:value-of select="$title"/></h1>
                     <h2>
                         <xsl:choose>
                             <xsl:when test="$year">
-                                <xsl:value-of select="( $year)"/>
+                                <xsl:value-of select="$year"/>
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:text>(Not Recorded)</xsl:text>
                             </xsl:otherwise>
                         </xsl:choose>
                     </h2>
+                    
+                    <!-- Display the images first (before the paragraphs/content) -->
+                    <xsl:for-each select="$img">
+                        <img>
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="@src"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="alt">
+                                <xsl:value-of select="@alt"/>
+                            </xsl:attribute>
+                        </img>
+                    </xsl:for-each>
+                    
+                    <!-- Display the narrative content of the story -->
                     <div>
-                        <!-- Output only the narrative content of the story -->
-                        <xsl:value-of select="$content"/>
+                        <xsl:for-each select="$p">
+                            <p>
+                                <xsl:value-of select="."/>
+                            </p>
+                        </xsl:for-each>
                     </div>
                     <a href="storyoutput.html">Back to Stories</a>
                     <hr/>
