@@ -12,6 +12,7 @@ ul {
     list-style-type: none;  /* No bullets */
     padding-left: 0;        /* Remove padding */
 }
+
 /* Content columns layout */
 .content-columns {
     display: flex;
