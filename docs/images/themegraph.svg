@@ -1,113 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
-   <g transform="translate(100,800)">
-      <text x="400" y="-750" text-anchor="middle" font-size="30">Theme usage in Edgar Allan Poe Short Stories</text>
-      <line x1="20"
-            x2="20"
-            y1="0"
-            y2="-650"
-            stroke="black"
-            stroke-width="1"/>
-      <line x1="20"
-            x2="1200"
-            y1="0"
-            y2="0"
-            stroke="black"
-            stroke-width="1"/>
-      <text x="5" y="0" text-anchor="middle">0</text>
-      <text x="5" y="-60" text-anchor="middle">1</text>
-      <text x="5" y="-120" text-anchor="middle">2</text>
-      <text x="5" y="-180" text-anchor="middle">3</text>
-      <text x="5" y="-240" text-anchor="middle">4</text>
-      <text x="5" y="-300" text-anchor="middle">5</text>
-      <text x="5" y="-360" text-anchor="middle">6</text>
-      <text x="5" y="-420" text-anchor="middle">7</text>
-      <text x="5" y="-480" text-anchor="middle">8</text>
-      <text x="5" y="-540" text-anchor="middle">9</text>
-      <text x="5" y="-600" text-anchor="middle">10</text>
-      <rect x="79.2857142857142857145"
-            y="-60"
-            width="40"
-            height="60"
-            fill="grey"/>
-      <text x="79.2857142857142857145" y="30" text-anchor="right">fear</text>
-      <rect x="157.8571428571428571435"
-            y="-180"
-            width="40"
-            height="180"
-            fill="grey"/>
-      <text x="157.8571428571428571435" y="30" text-anchor="right">lost_love</text>
-      <rect x="236.4285714285714285725"
-            y="-60"
-            width="40"
-            height="60"
-            fill="grey"/>
-      <text x="236.4285714285714285725" y="30" text-anchor="right">paranoia</text>
-      <rect x="315.0000000000000000015"
-            y="-180"
-            width="40"
-            height="180"
-            fill="grey"/>
-      <text x="315.0000000000000000015" y="30" text-anchor="right">death</text>
-      <rect x="393.5714285714285714305"
-            y="-120"
-            width="40"
-            height="120"
-            fill="grey"/>
-      <text x="393.5714285714285714305" y="30" text-anchor="right">regret</text>
-      <rect x="472.1428571428571428595"
-            y="-180"
-            width="40"
-            height="180"
-            fill="grey"/>
-      <text x="472.1428571428571428595" y="30" text-anchor="right">obsession</text>
-      <rect x="550.7142857142857142885"
-            y="-60"
-            width="40"
-            height="60"
-            fill="grey"/>
-      <text x="550.7142857142857142885" y="30" text-anchor="right">alienation</text>
-      <rect x="629.2857142857142857175"
-            y="-180"
-            width="40"
-            height="180"
-            fill="grey"/>
-      <text x="629.2857142857142857175" y="30" text-anchor="right">insanity</text>
-      <rect x="707.8571428571428571465"
-            y="-300"
-            width="40"
-            height="300"
-            fill="grey"/>
-      <text x="707.8571428571428571465" y="30" text-anchor="right">terror</text>
-      <rect x="786.4285714285714285755"
-            y="-60"
-            width="40"
-            height="60"
-            fill="grey"/>
-      <text x="786.4285714285714285755" y="30" text-anchor="right">ignorance</text>
-      <rect x="865.0000000000000000045"
-            y="-60"
-            width="40"
-            height="60"
-            fill="grey"/>
-      <text x="865.0000000000000000045" y="30" text-anchor="right">loneliness</text>
-      <rect x="943.5714285714285714335"
-            y="-60"
-            width="40"
-            height="60"
-            fill="grey"/>
-      <text x="943.5714285714285714335" y="30" text-anchor="right">isolation</text>
-      <rect x="1022.1428571428571428625"
-            y="-60"
-            width="40"
-            height="60"
-            fill="grey"/>
-      <text x="1022.1428571428571428625" y="30" text-anchor="right">power</text>
-      <rect x="1100.7142857142857142915"
-            y="-60"
-            width="40"
-            height="60"
-            fill="grey"/>
-      <text x="1100.7142857142857142915" y="30" text-anchor="right">perception</text>
-   </g>
+      <g transform="translate(100,1000)">
+            <text x="650" y="-700" text-anchor="middle" font-size="30" font-weight="bold">Theme usage in Edgar Allan Poe Short Stories</text>
+            <line x1="20"
+                  x2="20"
+                  y1="0"
+                  y2="-650"
+                  stroke="black"
+                  stroke-width="1"/>
+            <line x1="20"
+                  x2="1200"
+                  y1="0"
+                  y2="0"
+                  stroke="black"
+                  stroke-width="1"/>
+            <text x="5" y="0" text-anchor="middle">0</text>
+            <text x="5" y="-60" text-anchor="middle">1</text>
+            <text x="5" y="-120" text-anchor="middle">2</text>
+            <text x="5" y="-180" text-anchor="middle">3</text>
+            <text x="5" y="-240" text-anchor="middle">4</text>
+            <text x="5" y="-300" text-anchor="middle">5</text>
+            <text x="5" y="-360" text-anchor="middle">6</text>
+            <text x="5" y="-420" text-anchor="middle">7</text>
+            <text x="5" y="-480" text-anchor="middle">8</text>
+            <text x="5" y="-540" text-anchor="middle">9</text>
+            <text x="5" y="-600" text-anchor="middle">10</text>
+            
+            <!-- Y-axis title -->
+            <text x="-40" y="-320" text-anchor="middle" font-size="25" transform="rotate(-90 -40,-320)" font-weight="bold">Amount of Times Used</text>
+            <!-- X-axis title -->
+            <text x="650" y="70" text-anchor="middle" font-size="25" font-weight="bold">Theme</text>
+            
+            <rect x="79.2857142857142857145"
+                  y="-60"
+                  width="40"
+                  height="60"
+                  fill="grey"/>
+            <text x="79.2857142857142857145" y="30" text-anchor="right">Fear</text>
+            <rect x="157.8571428571428571435"
+                  y="-180"
+                  width="40"
+                  height="180"
+                  fill="grey"/>
+            <text x="157.8571428571428571435" y="30" text-anchor="right">Lost Love</text>
+            <rect x="236.4285714285714285725"
+                  y="-60"
+                  width="40"
+                  height="60"
+                  fill="grey"/>
+            <text x="236.4285714285714285725" y="30" text-anchor="right">Paranoia</text>
+            <rect x="315.0000000000000000015"
+                  y="-180"
+                  width="40"
+                  height="180"
+                  fill="grey"/>
+            <text x="315.0000000000000000015" y="30" text-anchor="right">Death</text>
+            <rect x="393.5714285714285714305"
+                  y="-120"
+                  width="40"
+                  height="120"
+                  fill="grey"/>
+            <text x="393.5714285714285714305" y="30" text-anchor="right">Regret</text>
+            <rect x="472.1428571428571428595"
+                  y="-180"
+                  width="40"
+                  height="180"
+                  fill="grey"/>
+            <text x="472.1428571428571428595" y="30" text-anchor="right">Obsession</text>
+            <rect x="550.7142857142857142885"
+                  y="-60"
+                  width="40"
+                  height="60"
+                  fill="grey"/>
+            <text x="550.7142857142857142885" y="30" text-anchor="right">Alienation</text>
+            <rect x="629.2857142857142857175"
+                  y="-180"
+                  width="40"
+                  height="180"
+                  fill="grey"/>
+            <text x="629.2857142857142857175" y="30" text-anchor="right">Insanity</text>
+            <rect x="707.8571428571428571465"
+                  y="-300"
+                  width="40"
+                  height="300"
+                  fill="grey"/>
+            <text x="707.8571428571428571465" y="30" text-anchor="right">Terror</text>
+            <rect x="786.4285714285714285755"
+                  y="-60"
+                  width="40"
+                  height="60"
+                  fill="grey"/>
+            <text x="786.4285714285714285755" y="30" text-anchor="right">Ignorance</text>
+            <rect x="865.0000000000000000045"
+                  y="-60"
+                  width="40"
+                  height="60"
+                  fill="grey"/>
+            <text x="865.0000000000000000045" y="30" text-anchor="right">Loneliness</text>
+            <rect x="943.5714285714285714335"
+                  y="-60"
+                  width="40"
+                  height="60"
+                  fill="grey"/>
+            <text x="943.5714285714285714335" y="30" text-anchor="right">Isolation</text>
+            <rect x="1022.1428571428571428625"
+                  y="-60"
+                  width="40"
+                  height="60"
+                  fill="grey"/>
+            <text x="1022.1428571428571428625" y="30" text-anchor="right">Power</text>
+            <rect x="1100.7142857142857142915"
+                  y="-60"
+                  width="40"
+                  height="60"
+                  fill="grey"/>
+            <text x="1100.7142857142857142915" y="30" text-anchor="right">Perception</text>
+      </g>
+      
 </svg>
