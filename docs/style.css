@@ -5,7 +5,33 @@ html {
     font-size: 20px;
     background-color: #b30017;
     color: hsl(210, 50%, 20%);
+    text-align:center;
 }
+/* Remove bullets from unordered lists */
+ul {
+    list-style-type: none;  /* No bullets */
+    padding-left: 0;        /* Remove padding */
+}
+/* Content columns layout */
+.content-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the columns */
+}
+
+/* Left column for story content */
+.left-column {
+    width: 60%; /* Adjust the width of the left column */
+}
+
+/* Right column for the key */
+.right-column {
+    width: 30%; /* Adjust the width of the right column */
+    background-color: #f4f4f4; /* Light background for the key */
+    padding: 10px;
+    border-radius: 10px;
+}
+
 
 /* Menu Bar */
 nav {

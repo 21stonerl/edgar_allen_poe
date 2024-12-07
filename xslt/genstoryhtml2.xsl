@@ -62,6 +62,8 @@
             <xsl:with-param name="content" select="descendant::content"/>
             <xsl:with-param name="p" select="descendant::content/p"/>
             <xsl:with-param name="img" select="descendant::info/img"/>
+            <!-- Pass the full <char> elements, not just the @ref attributes -->
+            <xsl:with-param name="characters" select="descendant::characters/char"/>
         </xsl:call-template>
     </xsl:template>
     
@@ -72,6 +74,7 @@
         <xsl:param name="content"/>
         <xsl:param name="p"/>
         <xsl:param name="img"/>
+        <xsl:param name="characters"/>
         <xsl:result-document href="../docs/{translate($title, ' ', '-')}.html" method="html">
             <html>
                 <head>
@@ -98,7 +101,7 @@
                             </xsl:choose>
                         </h2>
                         
-                        <!-- Display images first (before the paragraphs/content) -->
+                        <!-- Image section -->
                         <xsl:for-each select="$img">
                             <img>
                                 <xsl:attribute name="src">
@@ -110,25 +113,25 @@
                             </img>
                         </xsl:for-each>
                         
-                        <!-- Display the narrative content of the story -->
-                        <div>
-                            <xsl:for-each select="$p">
-                                <p>
-                                    <xsl:value-of select="."/>
-                                </p>
-                            </xsl:for-each>
+                        <!-- Content and Columns Section -->
+                        <div class="content-columns">
+                            <!-- Left column for text -->
+                            <div class="left-column">
+                                <xsl:for-each select="$p">
+                                    <p><xsl:value-of select="."/></p>
+                                </xsl:for-each>
+                            </div>
+                            
+                            <!-- Right column for Key -->
+                            <div class="right-column">
+                                <h3>Key: Figures of Speech</h3>
+                                <!-- Iterate through all FoS elements and display them with their descriptions -->
+                                <xsl:apply-templates select="$content//fos"/>
+                           
+                            </div>
                         </div>
                         
-                        <!-- Process and display the narrative content with FoS color coding -->
-                        <div>
-                            <xsl:for-each select="$p">
-                                <p>
-                                    <!-- Apply templates for FoS elements within paragraphs -->
-                                    <xsl:apply-templates select="node()"/>
-                                </p>
-                            </xsl:for-each>
-                        </div>
-                        
+                        <!-- Back link -->
                         <a href="genstory2.html">Back to Stories</a>
                         <hr/>
                     </main>
@@ -137,60 +140,45 @@
         </xsl:result-document>
     </xsl:template>
     
+    <!-- Template for Figures of Speech (FoS) -->
     <xsl:template match="fos">
-        <span>
-            <!-- Add link to the fos page -->
-            <a href="fos.html">
-                <!-- Apply color coding based on the FoS type -->
-                <xsl:choose>
-                    <xsl:when test="@type='alliteration'">
-                        <xsl:attribute name="style">color: aqua;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='hyperbole'">
-                        <xsl:attribute name="style">color: red;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='irony'">
-                        <xsl:attribute name="style">color: orange;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='onomatopoeia'">
-                        <xsl:attribute name="style">color: yellow;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='personification'">
-                        <xsl:attribute name="style">color: green;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='simile'">
-                        <xsl:attribute name="style">color: indigo;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='metaphor'">
-                        <xsl:attribute name="style">color: blue;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='imagery'">
-                        <xsl:attribute name="style">color: teal;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='symbolism'">
-                        <xsl:attribute name="style">color: violet;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:when test="@type='foreshadowing'">
-                        <xsl:attribute name="style">color: yellow;</xsl:attribute>
-                        <xsl:value-of select="."/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="."/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </a>
-        </span>
-        
+        <p>
+            <xsl:choose>
+                <xsl:when test="@type='alliteration'">
+                    <span style="color: aqua;">Alliteration</span>: Repetition of consonant sounds.
+                </xsl:when>
+                <xsl:when test="@type='hyperbole'">
+                    <span style="color: red;">Hyperbole</span>: Exaggeration for emphasis or effect.
+                </xsl:when>
+                <xsl:when test="@type='irony'">
+                    <span style="color: orange;">Irony</span>: A contrast between expectation and reality.
+                </xsl:when>
+                <xsl:when test="@type='onomatopoeia'">
+                    <span style="color: yellow;">Onomatopoeia</span>: Words that imitate sounds.
+                </xsl:when>
+                <xsl:when test="@type='personification'">
+                    <span style="color: green;">Personification</span>: Giving human qualities to inanimate objects.
+                </xsl:when>
+                <xsl:when test="@type='simile'">
+                    <span style="color: indigo;">Simile</span>: A comparison using "like" or "as".
+                </xsl:when>
+                <xsl:when test="@type='metaphor'">
+                    <span style="color: blue;">Metaphor</span>: A direct comparison without using "like" or "as".
+                </xsl:when>
+                <xsl:when test="@type='imagery'">
+                    <span style="color: teal;">Imagery</span>: Language that creates a vivid picture in the mind.
+                </xsl:when>
+                <xsl:when test="@type='symbolism'">
+                    <span style="color: violet;">Symbolism</span>: Using symbols to represent ideas or qualities.
+                </xsl:when>
+                <xsl:when test="@type='foreshadowing'">
+                    <span style="color: yellow;">Foreshadowing</span>: A hint or clue about what will happen later.
+                </xsl:when>
+                <xsl:otherwise>
+                    <span>Unknown FoS</span>: No description available.
+                </xsl:otherwise>
+            </xsl:choose>
+        </p>
     </xsl:template>
-    
     
 </xsl:stylesheet>
