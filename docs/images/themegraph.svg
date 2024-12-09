@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
-      <g transform="translate(100,1000)">
-            <text x="650" y="-700" text-anchor="middle" font-size="30" font-weight="bold">Theme usage in Edgar Allan Poe Short Stories</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1150">
+      <g transform="translate(5,1000)">
+            <text x="600" y="-700" text-anchor="middle" font-size="30" font-weight="bold">Theme usage in Edgar Allan Poe Short Stories</text>
             <line x1="20"
                   x2="20"
                   y1="0"
