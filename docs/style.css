@@ -144,8 +144,11 @@ main {
       
 h1, h2 {
     font-family: 'Georgia', serif;
-    color: #333;
-    margin-bottom: 10px;   
+    color: black;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
 }
 
 
