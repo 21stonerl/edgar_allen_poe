@@ -145,34 +145,34 @@
         <p>
             <xsl:choose>
                 <xsl:when test="@type='alliteration'">
-                    <span style="color: aqua;">Alliteration</span>: Repetition of consonant sounds.
+                    <span style="color: #e880c4;">Alliteration</span>: Repetition of consonant sounds.
                 </xsl:when>
                 <xsl:when test="@type='hyperbole'">
-                    <span style="color: red;">Hyperbole</span>: Exaggeration for emphasis or effect.
+                    <span style="color: #de6f6f;">Hyperbole</span>: Exaggeration for emphasis or effect.
                 </xsl:when>
                 <xsl:when test="@type='irony'">
                     <span style="color: orange;">Irony</span>: A contrast between expectation and reality.
                 </xsl:when>
                 <xsl:when test="@type='onomatopoeia'">
-                    <span style="color: yellow;">Onomatopoeia</span>: Words that imitate sounds.
+                    <span style="color: #f78d40;">Onomatopoeia</span>: Words that imitate sounds.
                 </xsl:when>
                 <xsl:when test="@type='personification'">
-                    <span style="color: green;">Personification</span>: Giving human qualities to inanimate objects.
+                    <span style="color: #99c29c;">Personification</span>: Giving human qualities to inanimate objects.
                 </xsl:when>
                 <xsl:when test="@type='simile'">
-                    <span style="color: indigo;">Simile</span>: A comparison using "like" or "as".
+                    <span style="color: #69bacf;">Simile</span>: A comparison using "like" or "as".
                 </xsl:when>
                 <xsl:when test="@type='metaphor'">
-                    <span style="color: blue;">Metaphor</span>: A direct comparison without using "like" or "as".
+                    <span style="color: #6389c2;">Metaphor</span>: A direct comparison without using "like" or "as".
                 </xsl:when>
                 <xsl:when test="@type='imagery'">
-                    <span style="color: teal;">Imagery</span>: Language that creates a vivid picture in the mind.
+                    <span style="color: #c69ede;">Imagery</span>: Language that creates a vivid picture in the mind.
                 </xsl:when>
                 <xsl:when test="@type='symbolism'">
                     <span style="color: violet;">Symbolism</span>: Using symbols to represent ideas or qualities.
                 </xsl:when>
                 <xsl:when test="@type='foreshadowing'">
-                    <span style="color: yellow;">Foreshadowing</span>: A hint or clue about what will happen later.
+                    <span style="color: #a99ede;">Foreshadowing</span>: A hint or clue about what will happen later.
                 </xsl:when>
                 <xsl:otherwise>
                     <span>Unknown FoS</span>: No description available.
