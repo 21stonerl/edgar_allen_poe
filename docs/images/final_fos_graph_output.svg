@@ -33,34 +33,34 @@
             <!-- X-axis title -->
             <text x="650" y="80" text-anchor="middle" font-size="25" font-weight="bold">Figure of Speech</text>
             
-            <rect x="95" y="-594" width="40" height="594" fill="blue"/>
+            <rect x="95" y="-594" width="40" height="594" fill="#"/>
             <text x="115" y="-604" text-anchor="middle">198</text>
             <text x="115" y="40" text-anchor="middle">imagery</text>
-            <rect x="205" y="-393" width="40" height="393" fill="blue"/>
+            <rect x="205" y="-393" width="40" height="393" fill="#"/>
             <text x="225" y="-403" text-anchor="middle">131</text>
             <text x="225" y="40" text-anchor="middle">personification</text>
-            <rect x="315" y="-192" width="40" height="192" fill="blue"/>
+            <rect x="315" y="-192" width="40" height="192" fill="#"/>
             <text x="335" y="-202" text-anchor="middle">64</text>
             <text x="335" y="40" text-anchor="middle">simile</text>
-            <rect x="425" y="-483" width="40" height="483" fill="blue"/>
+            <rect x="425" y="-483" width="40" height="483" fill="#"/>
             <text x="445" y="-493" text-anchor="middle">161</text>
             <text x="445" y="40" text-anchor="middle">metaphor</text>
-            <rect x="535" y="-261" width="40" height="261" fill="blue"/>
+            <rect x="535" y="-261" width="40" height="261" fill="#"/>
             <text x="555" y="-271" text-anchor="middle">87</text>
             <text x="555" y="40" text-anchor="middle">hyperbole</text>
-            <rect x="645" y="-81" width="40" height="81" fill="blue"/>
+            <rect x="645" y="-81" width="40" height="81" fill="#"/>
             <text x="665" y="-91" text-anchor="middle">27</text>
             <text x="665" y="40" text-anchor="middle">alliteration</text>
-            <rect x="755" y="-36" width="40" height="36" fill="blue"/>
+            <rect x="755" y="-36" width="40" height="36" fill="#"/>
             <text x="775" y="-46" text-anchor="middle">12</text>
             <text x="775" y="40" text-anchor="middle">irony</text>
-            <rect x="865" y="-87" width="40" height="87" fill="blue"/>
+            <rect x="865" y="-87" width="40" height="87" fill="#"/>
             <text x="885" y="-97" text-anchor="middle">29</text>
             <text x="885" y="40" text-anchor="middle">symbolism</text>
-            <rect x="975" y="-15" width="40" height="15" fill="blue"/>
+            <rect x="975" y="-15" width="40" height="15" fill="#"/>
             <text x="995" y="-25" text-anchor="middle">5</text>
             <text x="995" y="40" text-anchor="middle">foreshadowing</text>
-            <rect x="1085" y="-9" width="40" height="9" fill="blue"/>
+            <rect x="1085" y="-9" width="40" height="9" fill="#"/>
             <text x="1105" y="-19" text-anchor="middle">3</text>
             <text x="1105" y="40" text-anchor="middle">onomatopoeia</text>
       </g>

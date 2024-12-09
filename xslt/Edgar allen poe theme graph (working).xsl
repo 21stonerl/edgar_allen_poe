@@ -51,7 +51,7 @@
                     <xsl:variable name="barHeight" select="$count * 60"/>
                     
                     <!-- Create the bar for the theme -->
-                    <rect x="{$xPos}" y="{- $barHeight}" width="40" height="{$barHeight}" fill="grey"/>
+                    <rect x="{$xPos}" y="{- $barHeight}" width="40" height="{$barHeight}" fill="#663399"/>
                     
                     <!-- Create text for theme name above the bar -->
                     <text x="{$xPos}" y="30" text-anchor="right">
