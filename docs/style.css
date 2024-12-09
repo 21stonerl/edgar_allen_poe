@@ -144,8 +144,11 @@ main {
       
 h1, h2 {
     font-family: 'Georgia', serif;
-    color: #333;
-    margin-bottom: 10px;   
+    color: black;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
 }
 
 
@@ -206,45 +209,9 @@ h1, h2 {
     margin: 20px auto; /* Center the content */
     padding: 20px; /* Optional padding for space around content */
 }
-/* FoS Color Classes */
-.alliteration {
-    color: aqua;
-}
-
-.hyperbole {
-    color: red;
-}
-
-.irony {
-    color: orange;
-}
-
-.onomatopoeia {
-    color: yellow;
-}
-
-.personification {
-    color: green;
-}
-
-.simile {
-    color: indigo;
-}
-
-.metaphor {
-    color: blue;
-}
-
-.imagery {
-    color: teal;
-}
-
-.symbolism {
-    color: violet;
-}
-
-.foreshadowing {
-    color: yellow;
+.copy {
+     margin-bottom: 20px;
+    font-size: 5px;
 }
 }
 
