@@ -35,85 +35,85 @@
                   y="-60"
                   width="40"
                   height="60"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="79.2857142857142857145" y="30" text-anchor="right">Fear</text>
             <rect x="157.8571428571428571435"
                   y="-180"
                   width="40"
                   height="180"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="157.8571428571428571435" y="30" text-anchor="right">Lost Love</text>
             <rect x="236.4285714285714285725"
                   y="-60"
                   width="40"
                   height="60"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="236.4285714285714285725" y="30" text-anchor="right">Paranoia</text>
             <rect x="315.0000000000000000015"
                   y="-180"
                   width="40"
                   height="180"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="315.0000000000000000015" y="30" text-anchor="right">Death</text>
             <rect x="393.5714285714285714305"
                   y="-120"
                   width="40"
                   height="120"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="393.5714285714285714305" y="30" text-anchor="right">Regret</text>
             <rect x="472.1428571428571428595"
                   y="-180"
                   width="40"
                   height="180"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="472.1428571428571428595" y="30" text-anchor="right">Obsession</text>
             <rect x="550.7142857142857142885"
                   y="-60"
                   width="40"
                   height="60"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="550.7142857142857142885" y="30" text-anchor="right">Alienation</text>
             <rect x="629.2857142857142857175"
                   y="-180"
                   width="40"
                   height="180"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="629.2857142857142857175" y="30" text-anchor="right">Insanity</text>
             <rect x="707.8571428571428571465"
                   y="-300"
                   width="40"
                   height="300"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="707.8571428571428571465" y="30" text-anchor="right">Terror</text>
             <rect x="786.4285714285714285755"
                   y="-60"
                   width="40"
                   height="60"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="786.4285714285714285755" y="30" text-anchor="right">Ignorance</text>
             <rect x="865.0000000000000000045"
                   y="-60"
                   width="40"
                   height="60"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="865.0000000000000000045" y="30" text-anchor="right">Loneliness</text>
             <rect x="943.5714285714285714335"
                   y="-60"
                   width="40"
                   height="60"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="943.5714285714285714335" y="30" text-anchor="right">Isolation</text>
             <rect x="1022.1428571428571428625"
                   y="-60"
                   width="40"
                   height="60"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="1022.1428571428571428625" y="30" text-anchor="right">Power</text>
             <rect x="1100.7142857142857142915"
                   y="-60"
                   width="40"
                   height="60"
-                  fill="grey"/>
+                  fill="#663399"/>
             <text x="1100.7142857142857142915" y="30" text-anchor="right">Perception</text>
       </g>
       
