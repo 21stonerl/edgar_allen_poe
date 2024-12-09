@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="33" theme="terror">
-<info pov="first_person" speaker="William Wilson"><title>William Wilson</title>
+        <info pov="first_person" speaker="William Wilson"><title>William Wilson</title> <img src="images/william_wilson_pic.jfif" alt= "Picture of william wilson"/> 
 <author>by Edgar Allan Poe</author>
 <year>(published 1842)</year></info>
     

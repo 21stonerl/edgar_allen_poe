@@ -3,7 +3,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="20" theme="insanity">
 
-    <info pov="first person"><title>The Fall of the House of Usher </title>  <author>Edgar Allan Poe</author>
+    <info pov="first person"><title>The Fall of the House of Usher </title> <img src="images/fall_of_house_usher_pic.jfif" alt= "fall of house usher picture"/> <author>Edgar Allan Poe</author>
 
         <year>(published 1839)</year></info>
 <content>

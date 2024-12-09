@@ -2,7 +2,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="19" theme="death">
   <info pov="first_person" speaker="un_named">
-    <title>The Facts in the Case of M. Valdemar</title>
+    <title>The Facts in the Case of M. Valdemar</title> <img src="images/m_valdemar_pic.jpg" alt= "picture of skeleton in a bed people looking in shock "/>
     <author>by Edgar Allan Poe</author>
     <year>(published 1845)</year>
   </info>

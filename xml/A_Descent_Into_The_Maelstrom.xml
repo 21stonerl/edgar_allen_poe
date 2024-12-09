@@ -2,7 +2,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="7" theme="fear">
 <info pov="first_person" speaker= "un_named">
-  <title>A Descent Into The Maelstrom</title>
+  <title>A Descent Into The Maelstrom</title>  <img src="images/malestorm_pic.jpg" alt= "Picture of Malestorm"/>
 <author>by Edgar Allan Poe</author>
 <year>(published 1845)</year>
 </info>

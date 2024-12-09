@@ -5,7 +5,7 @@
 
     <info pov="firsty_person">
         <title>The Island of the Fay</title>
-
+        <img src="images/island_of_fay_pic.jfif" alt= "picture of island of fay"/> 
 
         <author>Edgar Allan Poe</author>
         <year>(published 1850)</year>

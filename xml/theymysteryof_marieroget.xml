@@ -2,7 +2,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="32" theme="terror">
     <info pov="first_person" speaker="narrorator">
-        <title>The Mystery of Marie Roget</title>
+        <title>The Mystery of Marie Roget</title>  <img src="images/mystery_marie_roget_pic.jfif" alt= "picture of the mystery of Marie Roget"/> 
         <author>by Edgar Allan Poe</author>
         <year>(published 1845)</year>
     </info>

@@ -1,11 +1,38 @@
 /* Global Styles */
 html {
-    font-family: "Copperplate Gothic", Georgia, serif;
+    font-family: "Coperplate Gothic", serif;
     font-weight: bold;
     font-size: 20px;
     background-color: #b30017;
     color: hsl(210, 50%, 20%);
+    text-align:center;
 }
+/* Remove bullets from unordered lists */
+ul {
+    list-style-type: none;  /* No bullets */
+    padding-left: 0;        /* Remove padding */
+}
+
+/* Content columns layout */
+.content-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the columns */
+}
+
+/* Left column for story content */
+.left-column {
+    width: 60%; /* Adjust the width of the left column */
+}
+
+/* Right column for the key */
+.right-column {
+    width: 30%; /* Adjust the width of the right column */
+    background-color: #f4f4f4; /* Light background for the key */
+    padding: 10px;
+    border-radius: 10px;
+}
+
 
 /* Menu Bar */
 nav {
@@ -19,7 +46,7 @@ nav {
 }
 
 a {
-    color: #fffcfd;
+    color: blue;
     text-decoration: none;
 }
 
@@ -49,10 +76,13 @@ a {
     visibility: hidden;
     transition: .25s;
 }
-
+nav a {
+    color: #ffffff; /* Color for links in the menu bar (white) */
+}
 .menu > a {
     font-size: 14px;
     padding: 12px 20px;
+    color:white;
 }
 
 .menu > a:hover, .dropDown:hover {
@@ -72,7 +102,7 @@ a {
 
 /* Image */
 img {
-    position: relative;
+   
     width: 80%;         
     max-width: 1000px;  
     height: 300px;     
@@ -156,5 +186,53 @@ h1, h2 {
 
     main {
         padding: 15px;
+        
     }
+    /* Restrict the width of story content */
+.story-content {
+    max-width: 1000px; /* Maximum width of the story */
+    margin: 20px auto; /* Center the content */
+    padding: 20px; /* Optional padding for space around content */
 }
+/* FoS Color Classes */
+.alliteration {
+    color: aqua;
+}
+
+.hyperbole {
+    color: red;
+}
+
+.irony {
+    color: orange;
+}
+
+.onomatopoeia {
+    color: yellow;
+}
+
+.personification {
+    color: green;
+}
+
+.simile {
+    color: indigo;
+}
+
+.metaphor {
+    color: blue;
+}
+
+.imagery {
+    color: teal;
+}
+
+.symbolism {
+    color: violet;
+}
+
+.foreshadowing {
+    color: yellow;
+}
+}
+

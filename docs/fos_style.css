@@ -16,15 +16,6 @@ nav {
     justify-content: space-evenly;
     background: #252525;
 }
-img {
-    position: relative;
-    width: 100%;  
-    max-width: 100%;  
-    height: auto;  
-    margin: 0;  
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
 
 a {
     color: #fffcfd;
@@ -148,4 +139,6 @@ h1, h2 {
     main {
         padding: 15px;
     }
-}
+
+    }
+

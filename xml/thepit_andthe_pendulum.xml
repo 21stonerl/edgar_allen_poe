@@ -2,7 +2,7 @@
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="29" theme="terror">
     <info pov="first_person" speaker="unknown">
-        <title>The Pit and the Pendulum</title>
+        <title>The Pit and the Pendulum</title> <img src="images/pit_and_pendulum_pic.jfif" alt= "picture of the pit and pendulum"/>
         <author>by Edgar Allan Poe</author>
         <year>(published 1850)</year>
     </info>

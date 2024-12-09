@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../documentation/finalschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story n="30" theme="terror">
-<info pov="first_person" speaker="unknown"><title>The Premature Burial</title>
+  <info pov="first_person" speaker="unknown"><title>The Premature Burial</title> <img src="images/premature_burial_pic.jfif" alt= "picture of the premature burial"/>
 <author>by Edgar Allan Poe</author>
 <year>(published 1850)</year></info>
   <content>

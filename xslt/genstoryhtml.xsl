@@ -52,6 +52,8 @@
             <xsl:with-param name="title" select="descendant::title"/>
             <xsl:with-param name="year" select="descendant::year"/>
             <xsl:with-param name="content" select="descendant::content"/>
+            <xsl:with-param name="p" select="descendant::p"/>
+            <xsl:with-param name="img" select="descendant::img"/>
         </xsl:call-template>
     </xsl:template>
     
@@ -60,6 +62,8 @@
         <xsl:param name="title"/>
         <xsl:param name="year"/>
         <xsl:param name="content"/>
+        <xsl:param name="p"/>
+        <xsl:param name="img"/>
         <xsl:result-document href="../docs/{translate($title, ' ', '-')}.html" method="html">
             <html>
                 <head>

@@ -4,7 +4,7 @@
 <story n="1" theme="lost_love">
     <info pov="first_person" speaker="Egaeus">
 <title>Berenice</title>
-
+        <img src="images/berenice_pic.jpg" alt= "Picture of Berenice"/>
 <author>by Edgar Allan Poe</author>
 <year>(published 1835)</year>
 </info>
