@@ -124,7 +124,9 @@
                             <!-- Left column for text -->
                             <div class="left-column">
                                 <xsl:for-each select="$p">
-                                    <p><xsl:value-of select="."/></p>
+                                    <p>
+                                        <xsl:apply-templates select="."/>
+                                    </p>
                                 </xsl:for-each>
                             </div>
                             
@@ -136,37 +138,37 @@
                                     <p>
                                         <xsl:choose>
                                             <xsl:when test="@type='alliteration'">
-                                                <span style="color: #e880c4;">Alliteration</span>: Repetition of consonant sounds.
+                                                <span class="alliteration">Alliteration</span>: Repetition of consonant sounds.
                                             </xsl:when>
                                             <xsl:when test="@type='hyperbole'">
-                                                <span style="color: #de6f6f;">Hyperbole</span>: Exaggeration for emphasis or effect.
+                                                <span class="hyperbole">Hyperbole</span>: Exaggeration for emphasis or effect.
                                             </xsl:when>
                                             <xsl:when test="@type='irony'">
-                                                <span style="color: orange;">Irony</span>: A contrast between expectation and reality.
+                                                <span class="irony">Irony</span>: A contrast between expectation and reality.
                                             </xsl:when>
                                             <xsl:when test="@type='onomatopoeia'">
-                                                <span style="color: #f78d40;">Onomatopoeia</span>: Words that imitate sounds.
+                                                <span class="onomatopoeia">Onomatopoeia</span>: Words that imitate sounds.
                                             </xsl:when>
                                             <xsl:when test="@type='personification'">
-                                                <span style="color: #99c29c;">Personification</span>: Giving human qualities to inanimate objects.
+                                                <span class="personification">Personification</span>: Giving human qualities to inanimate objects.
                                             </xsl:when>
                                             <xsl:when test="@type='simile'">
-                                                <span style="color: #69bacf;">Simile</span>: A comparison using "like" or "as".
+                                                <span class="simile">Simile</span>: A comparison using "like" or "as".
                                             </xsl:when>
                                             <xsl:when test="@type='metaphor'">
-                                                <span style="color: #6389c2;">Metaphor</span>: A direct comparison without using "like" or "as".
+                                                <span class="metaphor">Metaphor</span>: A direct comparison without using "like" or "as".
                                             </xsl:when>
                                             <xsl:when test="@type='imagery'">
-                                                <span style="color: #c69ede;">Imagery</span>: Language that creates a vivid picture in the mind.
+                                                <span class="imagery">Imagery</span>: Language that creates a vivid picture in the mind.
                                             </xsl:when>
                                             <xsl:when test="@type='symbolism'">
-                                                <span style="color: violet;">Symbolism</span>: Using symbols to represent ideas or qualities.
+                                                <span class="symbolism">Symbolism</span>: Using symbols to represent ideas or qualities.
                                             </xsl:when>
                                             <xsl:when test="@type='foreshadowing'">
-                                                <span style="color: #a99ede;">Foreshadowing</span>: A hint or clue about what will happen later.
+                                                <span class="foreshadowing">Foreshadowing</span>: A hint or clue about what will happen later.
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <span>Unknown FoS</span>: No description available.
+                                                <span class="unknown">Unknown FoS</span>: No description available.
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </p>
@@ -187,4 +189,75 @@
             </html>
         </xsl:result-document>
     </xsl:template>
+    
+    <!-- Template to wrap each FoS in a span tag for the main content -->
+    <xsl:template match="p">
+        <p>
+            <xsl:apply-templates select="text()"/>
+            <!-- Wrap fos elements in span tags for styling -->
+            <xsl:apply-templates select="fos"/>
+        </p>
+    </xsl:template>
+    
+    <!-- Template to wrap FoS elements with a span and class for styling -->
+    <xsl:template match="fos">
+        <xsl:choose>
+            <xsl:when test="@type='alliteration'">
+                <span class="alliteration">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='hyperbole'">
+                <span class="hyperbole">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='irony'">
+                <span class="irony">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='onomatopoeia'">
+                <span class="onomatopoeia">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='personification'">
+                <span class="personification">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='simile'">
+                <span class="simile">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='metaphor'">
+                <span class="metaphor">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='imagery'">
+                <span class="imagery">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='symbolism'">
+                <span class="symbolism">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type='foreshadowing'">
+                <span class="foreshadowing">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="unknown">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
 </xsl:stylesheet>
