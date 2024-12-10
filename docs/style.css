@@ -22,12 +22,12 @@ ul {
 
 /* Left column for story content */
 .left-column {
-    width: 60%; /* Adjust the width of the left column */
+    width: 70%; /* Adjust the width of the left column */
 }
 
 /* Right column for the key */
 .right-column {
-    width: 30%; /* Adjust the width of the right column */
+    width: 20%; /* Adjust the width of the right column */
     background-color: #f4f4f4; /* Light background for the key */
     padding: 10px;
     border-radius: 10px;
@@ -112,6 +112,14 @@ img {
     align-items: center;    
     overflow: hidden;
     border-radius: 10px;  
+}
+/* This targets the paragraph with the class "copyright" */
+.copyright {
+    font-family: "Coperplate Gothic", serif;
+    font-size: 15px;                   /* Adjust the font size */
+    color: black;                   /* Change the font color */
+    text-align: center;               /* Center the text (optional) */
+    margin-top: 20px;                 /* Add some space at the top */
 }
 
 img {
@@ -209,9 +217,6 @@ h1, h2 {
     margin: 20px auto; /* Center the content */
     padding: 20px; /* Optional padding for space around content */
 }
-.copy {
-     margin-bottom: 20px;
-    font-size: 5px;
-}
+
 }
 

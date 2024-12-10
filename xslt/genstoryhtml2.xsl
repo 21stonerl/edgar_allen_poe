@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs" version="3.0">
@@ -8,6 +7,9 @@
     
     <!-- Variable to store the collection of XML data -->
     <xsl:variable name="edgar_allen_poe" select="collection('../xml/?select=*.xml')"/>
+    
+    <!-- Create a key for Figures of Speech -->
+    <xsl:key name="fosKey" match="fos" use="@type"/>
     
     <!-- Main template for the Collection of Stories page -->
     <xsl:template match="/">
@@ -29,6 +31,11 @@
                         </xsl:apply-templates>
                     </ul>
                 </main>
+                
+                <!-- Copyright Footer -->
+                <footer class="copyright">
+                    <p>Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky, Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0</p>
+                </footer>
             </body>
         </html>
     </xsl:template>
@@ -62,7 +69,6 @@
             <xsl:with-param name="content" select="descendant::content"/>
             <xsl:with-param name="p" select="descendant::content/p"/>
             <xsl:with-param name="img" select="descendant::info/img"/>
-            <!-- Pass the full <char> elements, not just the @ref attributes -->
             <xsl:with-param name="characters" select="descendant::characters/char"/>
         </xsl:call-template>
     </xsl:template>
@@ -125,9 +131,46 @@
                             <!-- Right column for Key -->
                             <div class="right-column">
                                 <h3>Key: Figures of Speech</h3>
-                                <!-- Iterate through all FoS elements and display them with their descriptions -->
-                                <xsl:apply-templates select="$content//fos"/>
-                           
+                                <!-- Iterate through unique FoS types -->
+                                <xsl:for-each select="$content//fos[generate-id() = generate-id(key('fosKey', @type)[1])]">
+                                    <p>
+                                        <xsl:choose>
+                                            <xsl:when test="@type='alliteration'">
+                                                <span style="color: #e880c4;">Alliteration</span>: Repetition of consonant sounds.
+                                            </xsl:when>
+                                            <xsl:when test="@type='hyperbole'">
+                                                <span style="color: #de6f6f;">Hyperbole</span>: Exaggeration for emphasis or effect.
+                                            </xsl:when>
+                                            <xsl:when test="@type='irony'">
+                                                <span style="color: orange;">Irony</span>: A contrast between expectation and reality.
+                                            </xsl:when>
+                                            <xsl:when test="@type='onomatopoeia'">
+                                                <span style="color: #f78d40;">Onomatopoeia</span>: Words that imitate sounds.
+                                            </xsl:when>
+                                            <xsl:when test="@type='personification'">
+                                                <span style="color: #99c29c;">Personification</span>: Giving human qualities to inanimate objects.
+                                            </xsl:when>
+                                            <xsl:when test="@type='simile'">
+                                                <span style="color: #69bacf;">Simile</span>: A comparison using "like" or "as".
+                                            </xsl:when>
+                                            <xsl:when test="@type='metaphor'">
+                                                <span style="color: #6389c2;">Metaphor</span>: A direct comparison without using "like" or "as".
+                                            </xsl:when>
+                                            <xsl:when test="@type='imagery'">
+                                                <span style="color: #c69ede;">Imagery</span>: Language that creates a vivid picture in the mind.
+                                            </xsl:when>
+                                            <xsl:when test="@type='symbolism'">
+                                                <span style="color: violet;">Symbolism</span>: Using symbols to represent ideas or qualities.
+                                            </xsl:when>
+                                            <xsl:when test="@type='foreshadowing'">
+                                                <span style="color: #a99ede;">Foreshadowing</span>: A hint or clue about what will happen later.
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <span>Unknown FoS</span>: No description available.
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </p>
+                                </xsl:for-each>
                             </div>
                         </div>
                         
@@ -135,50 +178,13 @@
                         <a href="genstory2.html">Back to Stories</a>
                         <hr/>
                     </main>
+                    
+                    <!-- Copyright Footer -->
+                    <footer class="copyright">
+                        <p>Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky, Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0</p>
+                    </footer>
                 </body>
             </html>
         </xsl:result-document>
     </xsl:template>
-    
-    <!-- Template for Figures of Speech (FoS) -->
-    <xsl:template match="fos">
-        <p>
-            <xsl:choose>
-                <xsl:when test="@type='alliteration'">
-                    <span style="color: #e880c4;">Alliteration</span>: Repetition of consonant sounds.
-                </xsl:when>
-                <xsl:when test="@type='hyperbole'">
-                    <span style="color: #de6f6f;">Hyperbole</span>: Exaggeration for emphasis or effect.
-                </xsl:when>
-                <xsl:when test="@type='irony'">
-                    <span style="color: orange;">Irony</span>: A contrast between expectation and reality.
-                </xsl:when>
-                <xsl:when test="@type='onomatopoeia'">
-                    <span style="color: #f78d40;">Onomatopoeia</span>: Words that imitate sounds.
-                </xsl:when>
-                <xsl:when test="@type='personification'">
-                    <span style="color: #99c29c;">Personification</span>: Giving human qualities to inanimate objects.
-                </xsl:when>
-                <xsl:when test="@type='simile'">
-                    <span style="color: #69bacf;">Simile</span>: A comparison using "like" or "as".
-                </xsl:when>
-                <xsl:when test="@type='metaphor'">
-                    <span style="color: #6389c2;">Metaphor</span>: A direct comparison without using "like" or "as".
-                </xsl:when>
-                <xsl:when test="@type='imagery'">
-                    <span style="color: #c69ede;">Imagery</span>: Language that creates a vivid picture in the mind.
-                </xsl:when>
-                <xsl:when test="@type='symbolism'">
-                    <span style="color: violet;">Symbolism</span>: Using symbols to represent ideas or qualities.
-                </xsl:when>
-                <xsl:when test="@type='foreshadowing'">
-                    <span style="color: #a99ede;">Foreshadowing</span>: A hint or clue about what will happen later.
-                </xsl:when>
-                <xsl:otherwise>
-                    <span>Unknown FoS</span>: No description available.
-                </xsl:otherwise>
-            </xsl:choose>
-        </p>
-    </xsl:template>
-    
 </xsl:stylesheet>
