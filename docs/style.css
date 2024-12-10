@@ -12,7 +12,46 @@ ul {
     list-style-type: none;  /* No bullets */
     padding-left: 0;        /* Remove padding */
 }
+/* Styling for the individual Figures of Speech types */
+.alliteration {
+    color: #e880c4;
+}
 
+.hyperbole {
+    color: #de6f6f;
+}
+
+.irony {
+    color: orange;
+}
+
+.onomatopoeia {
+    color: #f78d40;
+}
+
+.personification {
+    color: #99c29c;
+}
+
+.simile {
+    color: #69bacf;
+}
+
+.metaphor {
+    color: #6389c2;
+}
+
+.imagery {
+    color: #c69ede;
+}
+
+.symbolism {
+    color: violet;
+}
+
+.foreshadowing {
+    color: #a99ede;
+}
 /* Content columns layout */
 .content-columns {
     display: flex;
