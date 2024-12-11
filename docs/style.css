@@ -18,11 +18,11 @@ ul {
 }
 /* Styling for the individual Figures of Speech types */
 .alliteration {
-    color: #e880c4;
+    color: #db5caf;
 }
 
 .hyperbole {
-    color: #de6f6f;
+    color: #d65454;
 }
 
 .irony {
@@ -34,27 +34,27 @@ ul {
 }
 
 .personification {
-    color: #99c29c;
+    color: #578c5b;
 }
 
 .simile {
-    color: #69bacf;
+    color: #499db3;
 }
 
 .metaphor {
-    color: #6389c2;
+    color: #446ba6;
 }
 
 .imagery {
-    color: #c69ede;
+    color: #a776c4;
 }
 
 .symbolism {
-    color: violet;
+    color: purple;
 }
 
 .foreshadowing {
-    color: #a99ede;
+    color: #7b6bc7;
 }
 /* Content columns layout */
 .content-columns {
@@ -84,9 +84,7 @@ li span {
     margin-left: 5px; /* Space between title and year */
 }
 
-p {
-    margin-top: 5px; /* Space between the story details and the theme */
-}
+
 
 /* Menu Bar */
 nav {

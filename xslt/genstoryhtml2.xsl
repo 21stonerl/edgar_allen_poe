@@ -40,7 +40,6 @@
         </html>
     </xsl:template>
     
-    <!-- Template for generating TOC links for stories -->
     <xsl:template match="//story">
         <li>
             <!-- Title and Year in the same line with a space and colon between them -->
@@ -49,7 +48,8 @@
                     <xsl:value-of select="descendant::title"/>
                 </a>
             </strong>
-            <span>: </span> <!-- Add colon and space between title and year -->
+            <span> </span> <!-- Add colon and space between title and year -->
+            
             <xsl:choose>
                 <xsl:when test="descendant::year">
                     <xsl:value-of select="descendant::year"/>
@@ -59,11 +59,16 @@
                 </xsl:otherwise>
             </xsl:choose>
             
-            <!-- Theme displayed below the title and year -->
-            <p><strong>Theme: </strong>
-                <!-- Capitalize the first letter of the theme and replace underscores with spaces -->
-                <xsl:value-of select="concat(upper-case(substring(@theme, 1, 1)), translate(substring(@theme, 2), '_', ' '))"/>
-            </p>
+            <!-- Add a space and a colon between year and theme -->
+            <xsl:choose>
+                <xsl:when test="@theme">
+                    <span>- Theme: </span> <!-- Colon and space between year and theme -->
+                    <xsl:value-of select="concat(upper-case(substring(@theme, 1, 1)), translate(substring(@theme, 2), '_', ' '))"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text> (Theme: Not Recorded)</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
         </li>
         
         <!-- Generate individual story pages -->
@@ -76,6 +81,7 @@
             <xsl:with-param name="characters" select="descendant::characters/char"/>
         </xsl:call-template>
     </xsl:template>
+    
     
     <!-- Template to generate individual story pages -->
     <xsl:template name="generate-story-page">
@@ -225,51 +231,81 @@
             <xsl:when test="@type='alliteration'">
                 <span class="alliteration">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="alliteration"> </span> <!-- Add space if no space after period -->
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='hyperbole'">
                 <span class="hyperbole">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="hyperbole"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='irony'">
                 <span class="irony">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="irony"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='onomatopoeia'">
                 <span class="onomatopoeia">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="onomatopoeia"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='personification'">
                 <span class="personification">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="personification"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='simile'">
                 <span class="simile">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="simile"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='metaphor'">
                 <span class="metaphor">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="metaphor"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='imagery'">
                 <span class="imagery">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="imagery"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='symbolism'">
                 <span class="symbolism">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="symbolism"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='foreshadowing'">
                 <span class="foreshadowing">
                     <xsl:value-of select="."/>
+                    <xsl:if test="not(contains(., '. '))">
+                        <span class="foreshadowing"> </span>
+                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:otherwise>
