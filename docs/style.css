@@ -72,6 +72,17 @@ ul {
     border-radius: 10px;
 }
 
+li {
+    margin-bottom: 15px; /* Space between each story */
+}
+
+li span {
+    margin-left: 5px; /* Space between title and year */
+}
+
+p {
+    margin-top: 5px; /* Space between the story details and the theme */
+}
 
 /* Menu Bar */
 nav {

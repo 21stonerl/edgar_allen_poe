@@ -43,23 +43,27 @@
     <!-- Template for generating TOC links for stories -->
     <xsl:template match="//story">
         <li>
+            <!-- Title and Year in the same line with a space and colon between them -->
             <strong>
                 <a href="{translate(descendant::title, ' ', '-')}.html">
                     <xsl:value-of select="descendant::title"/>
                 </a>
             </strong>
-            <ul>
-                <li>
-                    <xsl:choose>
-                        <xsl:when test="descendant::year">
-                            <xsl:value-of select="descendant::year"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:text>(Not Recorded)</xsl:text>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </li>
-            </ul>
+            <span>: </span> <!-- Add colon and space between title and year -->
+            <xsl:choose>
+                <xsl:when test="descendant::year">
+                    <xsl:value-of select="descendant::year"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>(Not Recorded)</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+            <!-- Theme displayed below the title and year -->
+            <p><strong>Theme: </strong>
+                <!-- Capitalize the first letter of the theme and replace underscores with spaces -->
+                <xsl:value-of select="concat(upper-case(substring(@theme, 1, 1)), translate(substring(@theme, 2), '_', ' '))"/>
+            </p>
         </li>
         
         <!-- Generate individual story pages -->
@@ -81,6 +85,7 @@
         <xsl:param name="p"/>
         <xsl:param name="img"/>
         <xsl:param name="characters"/>
+        <xsl:param name="theme"/>
         <xsl:result-document href="../docs/{translate($title, ' ', '-')}.html" method="html">
             <html>
                 <head>
@@ -107,6 +112,21 @@
                             </xsl:choose>
                         </h2>
                         
+                        <!-- Display the theme with space between label and value -->
+                        <p>
+                            <xsl:choose>
+                                <xsl:when test="$theme">
+                                    <strong>Theme: </strong> 
+                                    <!-- Capitalize the first letter and replace underscores with spaces -->
+                                    <xsl:value-of select="concat(upper-case(substring($theme, 1, 1)), lower-case(substring($theme, 2)))"/>
+                                    <xsl:value-of select="translate(substring($theme, 2), '_', ' ')"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>(No theme recorded)</xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </p>
+                        
                         <!-- Image section -->
                         <xsl:for-each select="$img">
                             <img>
@@ -126,7 +146,7 @@
                                 <xsl:for-each select="$p">
                                     <p>
                                         <xsl:apply-templates select="."/>
-                                    </p>
+                                    </p> <!-- Ensuring closing of the <p> tag -->
                                 </xsl:for-each>
                             </div>
                             
@@ -171,7 +191,7 @@
                                                 <span class="unknown">Unknown FoS</span>: No description available.
                                             </xsl:otherwise>
                                         </xsl:choose>
-                                    </p>
+                                    </p> <!-- Ensuring closing of <p> here as well -->
                                 </xsl:for-each>
                             </div>
                         </div>
@@ -259,5 +279,4 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
 </xsl:stylesheet>

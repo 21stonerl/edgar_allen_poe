@@ -21,6 +21,26 @@
             td {
                 background-color: white;
             }
+
+            /* Container for both graph and textbox */
+            .graph-container {
+                position: relative;
+                display: inline-block;
+                width: 100%; /* Set to the size of the SVG */
+            }
+
+            /* The textbox */
+            .textbox {
+                position: absolute;
+                top: 300px; /* Adjust the position of the textbox over the graph */
+                left: 600px; /* Adjust the position horizontally */
+                background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+                padding: 20px;
+                width: 30%; /* Adjust the width of the textbox */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow */
+                border-radius: 10px; /* Optional rounded corners */
+                font-size: 16px;
+            }
         </style>
     </head>
     <body>
@@ -37,95 +57,90 @@
             </div>
             <div class="dropDown">
                 <a href="themes.html">Themes</a>
-                
             </div>
             <div class="dropDown">
                 <a href="fos.html">Figures of Speech</a>
-                <!--LS Drop down menu options!-->
-                <div class="menu">
-                    
-                </div>
             </div>
             <div class="dropDown">
                 <a href="about.html">About</a>
-                <div class="menu">
-                    <a href="team.html">Team</a>
-                    <div class="section-divider"></div>
-                </div>
             </div>
         </nav>
-        <!-- -LS This is the menu bar!-->
-
         
         <main>
-        <h1>Figures of Speech</h1>
-            <p>Figures of speech are literary devices that enhance language by conveying meaning in more imaginative or vivid ways, often beyond the literal interpretation of words. Edgar Allan Poe uses them in his stories to create intense atmospheres, deepen the emotional impact, and reveal the psychological states of his characters. By using these devices, Poe amplifies the themes of horror, madness, and guilt, drawing readers into the eerie worlds he constructs. These figures also help evoke strong emotional responses and add a lyrical, rhythmic quality to his writing. This table defines all of the figures of speech used in his short stories, and an example taken from his works.
-        <table>
-            <thead>
-                <tr>
-                    <th>Figure of Speech</th>
-                    <th>Definition</th>
-                    <th>Example</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><span class="onomatopeia">Onomatopoeia</span></td>
-                    <td>Words that imitate sounds.</td>
-                    <td>"rattled as I strode" -Fall Of House Usher</td>
-                </tr>
-                <tr>
-                    <td> <span class="foreshadowing">Foreshadowing</span></td>
-                    <td>Hints or clues about what will happen later in the story.</td>
-                    <td>"It was then that I became distinctly aware of a gentle footfall upon the carpet..." - Ligeia</td>
-                </tr>
-                <tr>
-                    <td> <span class="symbolism">Symbolism</span></td>
-                    <td>The use of symbols to represent ideas or concepts.</td>
-                    <td>"I had become a bounden slave in the trammels of opium..." - Ligeia</td>
-                </tr>
-                <tr>
-                    <td> <span class="irony">Irony</span></td>
-                    <td>A contrast between expectation and reality.</td>
-                    <td>"The painter had grown wild with the ardor of his work..." - The Oval Portrait</td>
-                </tr>
-                <tr>
-                    <td><span class="alliteration">Alliteration</span></td>
-                    <td>Repetition of the same consonant sound at the beginning of nearby words.</td>
-                    <td>"commingled gloom and grandeur" - The Oval Portrait</td>
-                </tr>
-                <tr>
-                    <td><span class="hyperbole">Hyperbole</span></td>
-                    <td>Exaggeration for emphasis or effect.</td>
-                    <td>"the magnificent turn of the short upper lip" - Ligeia</td>
-                </tr>
-                <tr>
-                    <td><span class="metaphor">Metaphor</span></td>
-                    <td>A direct comparison between two unrelated things.</td>
-                    <td>"The wretchedness of earth is multiform." - Berenice</td>
-                </tr>
-                <tr>
-                    <td><span class="simile">Simile</span></td>
-                    <td>A comparison using "like" or "as".</td>
-                    <td>"I was awakened from a slumber, like the slumber of death" - Eleonora</td>
-                </tr>
-                <tr>
-                    <td><span class="personification">Personification</span></td>
-                    <td>Giving human qualities to non-human things.</td>
-                    <td>"the hairs of my head erect themselves on end" - Berenice</td>
-                </tr>
-                <tr>
-                    <td><span class="imagery">Imagery</span></td>
-                    <td>Language that appeals to the senses and creates a mental image.</td>
-                    <td>"To the right and left, in the middle of each wall, a tall and narrow Gothic window..." - The Masque of the Red Death</td>
-                </tr>
-            </tbody>
-        </table>   
+            <h1>Figures of Speech</h1>
+            <p>Figures of speech are literary devices that enhance language by conveying meaning in more imaginative or vivid ways, often beyond the literal interpretation of words. Edgar Allan Poe uses them in his stories to create intense atmospheres, deepen the emotional impact, and reveal the psychological states of his characters. By using these devices, Poe amplifies the themes of horror, madness, and guilt, drawing readers into the eerie worlds he constructs. These figures also help evoke strong emotional responses and add a lyrical, rhythmic quality to his writing. This table defines all of the figures of speech used in his short stories, and an example taken from his works.</p>
             
-            <img src="images/final_fos_graph_output.svg" alt="graph of fos used" width="1200" height="800"/>
-            <p> This graph shows how much of each figure of speech Poe uses in all of his short stories. As shown in the graph, Poe uses imagery the most out of all the figures of speech. </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Figure of Speech</th>
+                        <th>Definition</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="onomatopeia">Onomatopoeia</span></td>
+                        <td>Words that imitate sounds.</td>
+                        <td>"rattled as I strode" -Fall Of House Usher</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="foreshadowing">Foreshadowing</span></td>
+                        <td>Hints or clues about what will happen later in the story.</td>
+                        <td>"It was then that I became distinctly aware of a gentle footfall upon the carpet..." - Ligeia</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="symbolism">Symbolism</span></td>
+                        <td>The use of symbols to represent ideas or concepts.</td>
+                        <td>"I had become a bounden slave in the trammels of opium..." - Ligeia</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="irony">Irony</span></td>
+                        <td>A contrast between expectation and reality.</td>
+                        <td>"The painter had grown wild with the ardor of his work..." - The Oval Portrait</td>
+                    </tr>
+                    <tr>
+                        <td><span class="alliteration">Alliteration</span></td>
+                        <td>Repetition of the same consonant sound at the beginning of nearby words.</td>
+                        <td>"commingled gloom and grandeur" - The Oval Portrait</td>
+                    </tr>
+                    <tr>
+                        <td><span class="hyperbole">Hyperbole</span></td>
+                        <td>Exaggeration for emphasis or effect.</td>
+                        <td>"the magnificent turn of the short upper lip" - Ligeia</td>
+                    </tr>
+                    <tr>
+                        <td><span class="metaphor">Metaphor</span></td>
+                        <td>A direct comparison between two unrelated things.</td>
+                        <td>"The wretchedness of earth is multiform." - Berenice</td>
+                    </tr>
+                    <tr>
+                        <td><span class="simile">Simile</span></td>
+                        <td>A comparison using "like" or "as".</td>
+                        <td>"I was awakened from a slumber, like the slumber of death" - Eleonora</td>
+                    </tr>
+                    <tr>
+                        <td><span class="personification">Personification</span></td>
+                        <td>Giving human qualities to non-human things.</td>
+                        <td>"the hairs of my head erect themselves on end" - Berenice</td>
+                    </tr>
+                    <tr>
+                        <td><span class="imagery">Imagery</span></td>
+                        <td>Language that appeals to the senses and creates a mental image.</td>
+                        <td>"To the right and left, in the middle of each wall, a tall and narrow Gothic window..." - The Masque of the Red Death</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="graph-container">
+                <!-- Textbox over the graph -->
+                <div class="textbox">
+                    <p>This graph shows how much of each figure of speech Poe uses in all of his short stories. As shown in the graph, Poe uses imagery the most out of all the figures of speech.</p>
+                </div>
+                <img src="images/final_fos_graph_output.svg" alt="graph of fos used" width="1200" height="800"/>
+            </div>
         </main>
-        <p class="copyright">Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky, Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0 </p>
         
+        <p class="copyright">Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky, Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0 </p>
     </body>
 </html>

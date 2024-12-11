@@ -17,6 +17,27 @@
             th {
                 background-color: #f2f2f2; /* Light background for table headers */
             }
+
+            /* Container to hold both the graph and the textbox */
+            .graph-container {
+                position: relative;
+                display: inline-block;
+                width: 100%; /* Set to the size of the SVG */
+                margin-top: -100px; /* Move the graph container higher up */
+            }
+
+            /* The textbox */
+            .textbox {
+                position: absolute;
+                top: 300px; /* Adjust as necessary, this keeps the textbox below the graph */
+                left: 700px; /* Adjust as necessary */
+                background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+                padding: 20px;
+                width: 20%; /* Adjust width as needed */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow */
+                border-radius: 10px; /* Optional rounded corners */
+                font-size: 16px;
+            }
         </style>
     </head>
     <body>  
@@ -123,11 +144,17 @@
                 </tbody>
             </table>
             
-            <img src="images/themegraph.svg" alt="Graph of theme usage in Edgar Allen Poe short stories" width="1000" height="800"/>
-            <p>This graph illustrates the frequency of each theme across Edgar Allan Poe's stories. As shown in the graph, Poe uses many different themes across his large collection of stories. However, terror is the most used theme in Poe's stories.</p>
+            <!-- Graph container with the textbox on top -->
+            <div class="graph-container">
+                <!-- Textbox -->
+                <div class="textbox">
+                    <p>This graph illustrates the frequency of each theme across Edgar Allan Poe's stories. As shown in the graph, Poe uses many different themes across his large collection of stories. However, terror is the most used theme in Poe's stories.</p>
+                </div>
+                
+                <!-- Graph -->
+                <img src="images/themegraph.svg" alt="Graph of theme usage in Edgar Allan Poe short stories" width="1000" height="800"/>
+            </div>
         </main>
         <p class="copyright">Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky, Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0 </p>
-        
-        
     </body>
 </html>
