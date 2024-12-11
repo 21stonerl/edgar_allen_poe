@@ -1,11 +1,15 @@
 /* Global Styles */
 html {
-    font-family: "Coperplate Gothic", serif;
-    font-weight: bold;
-    font-size: 20px;
+    font-family: Georgia, serif;
+    font-size: 18px;
     background-color: #b30017;
     color: hsl(210, 50%, 20%);
     text-align:center;
+}
+h1 {
+     font-family: "Coperplate Gothic", serif;
+     font-weight: bold;
+  
 }
 /* Remove bullets from unordered lists */
 ul {
