@@ -23,7 +23,7 @@
                 <xsl:call-template name="menu-bar"/>
                 
                 <!-- Start main content section -->
-                <main>
+                <main class="background-container">
                     <h1>Collection of Stories</h1>
                     <ul>
                         <xsl:apply-templates select="$edgar_allen_poe//story">

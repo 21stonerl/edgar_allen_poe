@@ -77,11 +77,15 @@ ul {
 }
 
 li {
-    margin-bottom: 15px; /* Space between each story */
+   margin-right:60px;
+   margin-bottom: 15px; /* Space between each story */
+    color:black;
 }
 
 li span {
-    margin-left: 5px; /* Space between title and year */
+    margin-left: 5px;
+
+    /* Space between title and year */
 }
 
 
