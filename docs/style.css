@@ -77,11 +77,15 @@ ul {
 }
 
 li {
-    margin-bottom: 15px; /* Space between each story */
+   margin-right:60px;
+   margin-bottom: 15px; /* Space between each story */
+    color:black;
 }
 
 li span {
-    margin-left: 5px; /* Space between title and year */
+    margin-left: 5px;
+
+    /* Space between title and year */
 }
 
 
@@ -169,10 +173,15 @@ img {
 .copyright {
     font-family: "Coperplate Gothic", serif;
     font-size: 15px;                   /* Adjust the font size */
-    color: black;                   /* Change the font color */
+    color: white;                   /* Change the font color */
     text-align: center;               /* Center the text (optional) */
     margin-top: 20px;                 /* Add some space at the top */
 }
+.copyright a {
+    color: lightgray;                     /* Make the links white */
+    text-decoration: none;             /* Remove underline from links (optional) */
+}
+
 
 img {
   max-width: 100%;   
@@ -197,10 +206,11 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white; /* Adjust text color for better visibility */
-    padding: 20px; /* Adjust padding as needed */
-    min-height: 100vh; /* Ensure it covers the viewport height */
+    color: white; 
+    padding: 20px; 
+    min-height: 100vh; 
 }
+
       
 h1, h2 {
     font-family: 'Georgia', serif;
