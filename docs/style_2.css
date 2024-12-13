@@ -15,6 +15,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background: #252525;
+    z-index: 2;
 }
 
 a {
