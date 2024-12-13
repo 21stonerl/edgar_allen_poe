@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1900"
-     height="920">
+     height="900">
       <g transform="translate(200, 800)">
             <text x="600" y="-700" text-anchor="middle" font-size="30" font-weight="bold">Figures of Speech Used in Edgar Allan Poe Stories</text>
             <line x1="20"
