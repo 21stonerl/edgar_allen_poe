@@ -173,10 +173,15 @@ img {
 .copyright {
     font-family: "Coperplate Gothic", serif;
     font-size: 15px;                   /* Adjust the font size */
-    color: black;                   /* Change the font color */
+    color: white;                   /* Change the font color */
     text-align: center;               /* Center the text (optional) */
     margin-top: 20px;                 /* Add some space at the top */
 }
+.copyright a {
+    color: lightgray;                     /* Make the links white */
+    text-decoration: none;             /* Remove underline from links (optional) */
+}
+
 
 img {
   max-width: 100%;   

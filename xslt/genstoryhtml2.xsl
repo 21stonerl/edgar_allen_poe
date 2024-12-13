@@ -34,7 +34,9 @@
                 
                 <!-- Copyright Footer -->
                 <footer class="copyright">
-                    <p>Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky, Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0</p>
+                    <p>Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky,
+                        Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0</p>
+                    <p class="copyright"> Check us out on <a href="https://github.com/21stonerl/edgar_allen_poe">Github</a></p>
                 </footer>
             </body>
         </html>
@@ -209,7 +211,9 @@
                     
                     <!-- Copyright Footer -->
                     <footer class="copyright">
-                        <p>Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky, Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0</p>
+                        <p>Edgar Allan Poe Short Stories Website © 2024 by Lillian Stoner, Abigail Dopkosky,
+                            Michael Noah, Natalie Wright, Brandon Evans is licensed under CC BY-NC 4.0</p>
+                        <p class="copyright"> Check us out on <a href="https://github.com/21stonerl/edgar_allen_poe">Github</a></p>
                     </footer>
                 </body>
             </html>
@@ -219,9 +223,7 @@
     <!-- Template to wrap each FoS in a span tag for the main content -->
     <xsl:template match="p">
         <p>
-            <xsl:apply-templates select="text()"/>
-            <!-- Wrap fos elements in span tags for styling -->
-            <xsl:apply-templates select="fos"/>
+            <xsl:apply-templates select="text() | fos"/>  <!-- Apply templates to text and fos elements inline -->
         </p>
     </xsl:template>
     
@@ -231,81 +233,51 @@
             <xsl:when test="@type='alliteration'">
                 <span class="alliteration">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="alliteration"> </span> <!-- Add space if no space after period -->
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='hyperbole'">
                 <span class="hyperbole">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="hyperbole"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='irony'">
                 <span class="irony">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="irony"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='onomatopoeia'">
                 <span class="onomatopoeia">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="onomatopoeia"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='personification'">
                 <span class="personification">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="personification"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='simile'">
                 <span class="simile">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="simile"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='metaphor'">
                 <span class="metaphor">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="metaphor"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='imagery'">
                 <span class="imagery">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="imagery"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='symbolism'">
                 <span class="symbolism">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="symbolism"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:when test="@type='foreshadowing'">
                 <span class="foreshadowing">
                     <xsl:value-of select="."/>
-                    <xsl:if test="not(contains(., '. '))">
-                        <span class="foreshadowing"> </span>
-                    </xsl:if>
                 </span>
             </xsl:when>
             <xsl:otherwise>
