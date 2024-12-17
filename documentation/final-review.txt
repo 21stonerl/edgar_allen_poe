@@ -6,7 +6,16 @@ The project sought to study the majority of Poe's short and short-ish stories in
 
 Some of the XSLT work also broke new ground for this class in experimentation. Not only did the main stylesheet generate all the parallel output reading views (as a few have done before), but it was also written to generate at the same time a completely different <xsl:result-document> in the form of the table of contents page. This had the advantage that as each story XML was judged to be finished, only a single XSLT had to be run to incorporate it both into the corpus of the reading views and into the table of contents page.
 
-There are a few remaining glitches: some text appears to be missing from The Oblong Box (and possibly other reading-view pages) and several stories do not have any Figures of Speech tagged in the HTML output. In the case of The Oblong Box, at least, the missing text appears to be that contained in the <char> and <conversation> elements, which were not used in the XSLT in the end and appear to have gotten in the way of it. This suggests that the XML markup was not all completed, or at least not all to the same standard.
+There are a few remaining glitches: some text appears to be missing from The Oblong Box (and possibly other reading-view pages). In the case of The Oblong Box, at least, the missing text appears to be that contained in the <char> and <conversation> elements, which were not used in the XSLT in the end and appear to have gotten in the way of it. This suggests that the XML markup was not all completed, or at least not all to the same standard.
+
+Several stories also do not have any Figures of Speech tagged in the HTML output: 
+
+Cask of Amontillado
+Oblong Box
+Purloined Letter
+Spectacles
+Telltale Heart
+Black Cat
 
 The HTML also indicates "No theme recorded" on many story pages; but the themes are given in the XML, suggesting a lapse in the XSLT that should have pushed that attribute value over (as it successfully does for the table of contents page). 
 
